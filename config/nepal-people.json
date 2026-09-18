@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "country": "尼泊尔",
+    "name": "Arjun Ghimire · NTA 主席",
+    "nameEn": "Arjun Ghimire · NTA chair",
+    "role": "电信许可、频谱与行业监管决策；姓名由NTA官网任职说明核验。",
+    "roleEn": "Telecom licensing, spectrum and regulation; identity checked against NTA's official appointment display.",
+    "source": "https://www.nta.gov.np/",
+    "status": "官方名录核验 · 2026-09-18",
+    "statusEn": "Official directory checked · 18 Sep 2026"
+  },
+  {
+    "id": 2,
+    "country": "尼泊尔",
+    "name": "Bikram Timilsina · 通信部长",
+    "nameEn": "Bikram Timilsina · communications minister",
+    "role": "通信与数字化政策；个人社媒尚未确认，不凭同名账号自动绑定。",
+    "roleEn": "Communications and digital policy; personal social accounts remain unverified.",
+    "source": "https://digital.parliament.gov.np/members/bikram-timilsina",
+    "status": "议会官方名录核验 · 2026-09-18",
+    "statusEn": "Official parliament directory checked · 18 Sep 2026"
+  },
+  {
+    "id": 3,
+    "country": "尼泊尔",
+    "name": "总理及部长会议办公室",
+    "nameEn": "Office of the Prime Minister and Council of Ministers",
+    "role": "机构决策岗位 · 现任姓名待官方核验",
+    "roleEn": "Decision-making office; incumbent pending official verification",
+    "source": "https://www.opmcm.gov.np/",
+    "status": "岗位监控已建立",
+    "statusEn": "Office monitoring configured"
+  },
+  {
+    "id": 4,
+    "country": "尼泊尔",
+    "name": "Biswo Nath Poudel · 央行行长",
+    "nameEn": "Biswo Nath Poudel · NRB governor",
+    "role": "数字支付、银行监管与金融稳定；官方董事会名录所列现任。",
+    "roleEn": "Digital payments, banking oversight and financial stability; listed by the official board directory.",
+    "source": "https://www.nrb.org.np/bod/",
+    "status": "官方名录核验 · 2026-09-18",
+    "statusEn": "Official directory checked · 18 Sep 2026"
+  },
+  {
+    "id": 5,
+    "country": "尼泊尔",
+    "name": "公共采购监督办公室",
+    "nameEn": "Public Procurement Monitoring Office",
+    "role": "机构决策岗位 · 现任姓名待官方核验",
+    "roleEn": "Decision-making office; incumbent pending official verification",
+    "source": "https://ppmo.gov.np/",
+    "status": "岗位监控已建立",
+    "statusEn": "Office monitoring configured"
+  },
+  {
+    "id": 6,
+    "country": "尼泊尔",
+    "name": "尼泊尔投资委员会",
+    "nameEn": "Investment Board Nepal",
+    "role": "机构决策岗位 · 现任姓名待官方核验",
+    "roleEn": "Decision-making office; incumbent pending official verification",
+    "source": "https://ibn.gov.np/",
+    "status": "岗位监控已建立",
+    "statusEn": "Office monitoring configured"
+  }
+]

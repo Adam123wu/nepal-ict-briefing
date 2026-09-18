@@ -1,0 +1,47 @@
+{
+  "issue": "W37-38",
+  "generated": "2026-09-18",
+  "method": [
+    {
+      "id": "stability",
+      "label": "政治与监管稳定性",
+      "weight": 20,
+      "description": "政府连续性、监管政策可预期性及执法一致性"
+    },
+    {
+      "id": "market",
+      "label": "市场准入与营商便利",
+      "weight": 20,
+      "description": "牌照、注册、进口、支付和日常经营摩擦"
+    },
+    {
+      "id": "integrity",
+      "label": "廉洁与透明度",
+      "weight": 15,
+      "description": "采购透明度、利益冲突与反贿赂控制环境"
+    },
+    {
+      "id": "sanctions",
+      "label": "制裁与交易合规",
+      "weight": 20,
+      "description": "制裁暴露、最终受益人、银行与付款路径风险"
+    },
+    {
+      "id": "ict",
+      "label": "ICT 监管成熟度",
+      "weight": 15,
+      "description": "频谱、型式核准、数据、网络安全和监管能力"
+    },
+    {
+      "id": "procurement",
+      "label": "采购与决策清晰度",
+      "weight": 10,
+      "description": "预算来源、决策权、招标机制和回款可见度"
+    }
+  ],
+  "countries": [],
+  "status": "本期重点：牌照连续性、资产权属与频谱投标准备",
+  "statusEn": "Focus: licence continuity, asset title and spectrum bid readiness",
+  "disclaimer": "不发布缺少足够证据的国家综合分。六维框架保留，以下给出有本期公告支撑的具体风险和动作；未评分不表示低风险。",
+  "disclaimerEn": "No aggregate country score is published without sufficient evidence across all dimensions. The six-dimension framework remains, with actionable analysis of current notices below. Unscored does not mean low risk."
+}
