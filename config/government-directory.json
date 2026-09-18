@@ -1,0 +1,27 @@
+{
+  "reviewedAt":"2026-09-19",
+  "scope":"Federal ministries and the Prime Minister's Office; provincial ministries are not included.",
+  "rosterEvidence":"https://opmcm.gov.np/pages/ministers-pages-23/",
+  "note":"按现行联邦职责覆盖17个部委及总理办公室；部分官网仍保留旧英文名称。网站登记不等于采集成功。",
+  "noteEn":"Covers 17 federal ministry portfolios and the Prime Minister's Office. Some sites retain legacy English names. Registration is not proof of successful collection.",
+  "entries":[
+    {"id":"np-pmo","name":"总理及部长会议办公室","nameEn":"Office of the Prime Minister and Council of Ministers","url":"https://www.opmcm.gov.np/"},
+    {"id":"np-mof","name":"财政部","nameEn":"Ministry of Finance","url":"https://www.mof.gov.np/"},
+    {"id":"np-moha","name":"内政部","nameEn":"Ministry of Home Affairs","url":"https://www.moha.gov.np/"},
+    {"id":"np-mofa","name":"外交部","nameEn":"Ministry of Foreign Affairs","url":"https://www.mofa.gov.np/"},
+    {"id":"np-mod","name":"国防部","nameEn":"Ministry of Defence","url":"https://mod.gov.np/"},
+    {"id":"np-moljpa","name":"法律、司法与议会事务部","nameEn":"Ministry of Law, Justice and Parliamentary Affairs","url":"https://www.moljpa.gov.np/"},
+    {"id":"np-mohp","name":"卫生与食品安全部","nameEn":"Ministry of Health and Food Safety","url":"https://www.mohp.gov.np/"},
+    {"id":"np-moest","name":"教育与体育部","nameEn":"Ministry of Education and Sports","url":"https://moest.gov.np/"},
+    {"id":"np-mosti","name":"科学、技术与创新部","nameEn":"Ministry of Science, Technology and Innovation","url":"https://www.mosti.gov.np/"},
+    {"id":"np-mocit","name":"通信与信息技术部","nameEn":"Ministry of Communication and Information Technology","url":"https://mocit.gov.np/"},
+    {"id":"np-moald","name":"农业、森林与环境部","nameEn":"Ministry of Agriculture, Forest and Environment","url":"https://moald.gov.np/"},
+    {"id":"np-moid","name":"基础设施发展部","nameEn":"Ministry of Infrastructure Development","url":"https://moid.gov.np/"},
+    {"id":"np-moewri","name":"能源、水资源与灌溉部","nameEn":"Ministry of Energy, Water Resources and Irrigation","url":"https://www.moewri.gov.np/"},
+    {"id":"np-moics","name":"工业、商业与供应部","nameEn":"Ministry of Industry, Commerce and Supplies","url":"https://www.moics.gov.np/"},
+    {"id":"np-molcpa","name":"土地管理、合作社、联邦事务与一般行政部","nameEn":"Ministry of Land Management, Cooperatives, Federal Affairs and General Administration","url":"https://www.molcpa.gov.np/"},
+    {"id":"np-tourism","name":"文化、旅游与民航部","nameEn":"Ministry of Culture, Tourism and Civil Aviation","url":"https://tourism.gov.np/"},
+    {"id":"np-moless","name":"青年、劳动与就业部","nameEn":"Ministry of Youth, Labour and Employment","url":"https://www.moless.gov.np/"},
+    {"id":"np-mowcsc","name":"妇女、儿童、性别与性少数群体及社会保障部","nameEn":"Ministry of Women, Children, Gender and Sexual Minorities, and Social Security","url":"https://www.mowcsc.gov.np/"}
+  ]
+}

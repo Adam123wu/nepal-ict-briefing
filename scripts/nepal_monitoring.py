@@ -10,6 +10,7 @@ VENDORS = ['Nokia', 'ZTE', 'Ericsson', 'Cisco', 'Juniper', 'Extreme Networks', '
 RANK = {'CRITICAL': 0, 'HIGH': 1, 'MEDIUM': 2, 'LOW': 3}
 VENDORS += ['中兴', '思科', 'Whale Cloud', 'WhaleCloud', 'iWhaleCloud', '浩鲸', 'AsiaInfo', '亚信', 'H3C', '新华三', 'FiberHome', '烽火']
 ALIASES = {
+    'politics': ['ambassador', 'ambassadors', 'envoy', 'envoys', 'appointment', 'nomination', 'credentials', 'cabinet decision', 'national policy', 'राजदूत', 'नियुक्ति', 'सिफारिस', 'नीति', 'मन्त्रिपरिषद्'],
     'huawei': ['huawei', 'ह्वावे', 'हुवावे'],
     'operators': ['ncell', 'ntc', 'nepal telecom', 'worldlink', 'vianet', 'subisu', 'classic tech', 'cgnet', 'एनसेल', 'टेलिकम'],
     'regulation': ['nta', 'spectrum', 'licensing', 'दूरसञ्चार', 'प्राधिकरण'],
@@ -39,6 +40,7 @@ def classify(text):
         if keywords:
             matches.append({'focusId': area['id'], 'keywords': list(dict.fromkeys(keywords))[:8]})
     priorities = [a['priority'] for a in FOCUS if any(m['focusId'] == a['id'] for m in matches)]
+    if any(m['focusId']=='politics' for m in matches): priorities.append('HIGH')
     vendors = [v for v in VENDORS if contains(text, v)]
     if vendors:
         matches.append({'focusId': 'competitors', 'keywords': vendors})

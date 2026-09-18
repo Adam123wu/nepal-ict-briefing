@@ -2,6 +2,8 @@
 
 ## Scope and outputs
 
+Major national policies, Cabinet decisions and diplomatic/senior appointments are now explicitly in scope even without an ICT link. Use `config/government-directory.json` for the federal portfolio roster, including the Prime Minister's Office; review reorganization and legacy domain names. New Business Age joins the national-business media review. Do not equate ambassador nomination with appointment or Cabinet endorsement with legal commencement.
+
 Only Nepal. This is a standalone repository and site. Keep eleven topic sections, Chinese and English summaries, a unified social feed, source registry, verified decision-making offices, a separate compliance/legal section and Nepal-only archives. Never import another market's news or personnel to fill a gap.
 
 ## Research cycle
@@ -42,4 +44,4 @@ Daily GitHub collection: 01:30 Nepal time. Daily Codex editorial update: 02:00 A
 
 The 18 September monitoring workbook contributes Huawei, operators/competition, regulation, ministries, 5G/ICT, market metrics, CSR, digital economy, solar/green data centres, politics/geopolitics and disaster recovery. User-defined hot topics remain empty until specified. Read all twelve groups in config/monitoring-focus.json, search both English and Nepali, and integrate results into the existing eleven sections. Disaster keywords alone are not a verified CRITICAL outage.
 
-Seventeen supplied domains map to the registry, preserving the original reference and correcting the ministry endpoint to mocit.gov.np. Prioritize TechPana, NepalKhabar and TechnologyKhabar for discovery. Sharing frequency is not an evidence tier; selectors and RSS claims must be checked against live pages. Use alternative public sources when access is blocked, without bypassing login or access controls. Keep broad energy/political stories only when Nepal ICT or business-environment relevance is concrete.
+Seventeen supplied domains map to the registry, preserving the original reference and correcting the ministry endpoint to mocit.gov.np. Prioritize TechPana, NepalKhabar, New Business Age and TechnologyKhabar for discovery. Sharing frequency is not an evidence tier; selectors and RSS claims must be checked against live pages. Use alternative public sources when access is blocked, without bypassing login or access controls. Major national policies and diplomatic/senior appointments are independently in scope; other broad energy/economic stories require concrete Nepal ICT or business-environment relevance.

@@ -16,4 +16,6 @@ Existing MoCIT, Prime Minister's Office, NTA, PPMO, Investment Board and tax/leg
 
 ## Verification run
 
+Scope update: the user's subsequent request explicitly adds major national policies and ambassador/senior appointments even without an ICT implication. Use `config/government-directory.json` for the current federal coverage; it supersedes the earlier five-ministry expansion described above. Old media/department English labels may lag portfolio changes. Read official pages and date changes before relabeling an office. Do not treat nominee names as incumbent ambassadors.
+
 The revised run found 134 unique NepalKhabar candidates across the homepage, politics and science/technology pages; the economy category returned HTTP 403. This is not 134 new or current-period verified news items. Finance, Energy and MoCIT timed out in a subsequent direct check. Industry, Home Affairs, Foreign Affairs and the Prime Minister's Office returned candidates. Industry and Foreign Affairs reached the 60-candidate per-page limit; coverage is explicitly incomplete and requires targeted editorial follow-up. Public search may supplement inaccessible official pages, but snippets alone do not verify an announcement.

@@ -25,6 +25,10 @@ assert(count>0,'Do not publish an empty migration edition');
 const events=new Set();
 for(const s of d.report.countries.np.sections)for(const i of s.items){assert(!events.has(i.id));events.add(i.id);assert(i.date>=d.report.windowStart&&i.date<=d.report.windowEnd);assert(i.links.length>=1);assert(i.titleEn&&i.textEn);}
 const competition=read('config/competitor-monitoring.json');
+const government=read('config/government-directory.json');
+assert.equal(new Set(government.entries.map(e=>e.id)).size,government.entries.length);
+for(const office of government.entries){assert(ids.has(office.id),'Missing federal ministry source '+office.id);assert(office.name&&office.nameEn);assert(new URL(office.url).hostname.endsWith('.gov.np'));}
+assert(ids.has('np-newbusinessage'));assert(ids.has('np-president'));
 assert.equal(competition.country,'尼泊尔');
 assert.equal(new Set(competition.vendors.map(v=>v.id)).size,competition.vendors.length);
 for(const v of competition.vendors){

@@ -18,7 +18,7 @@ export function IssueDigest({en}:{en:boolean}) {
   </nav>
   <details style={{marginTop:16}}><summary>{t('内容覆盖与采集缺口','Coverage & collection gaps')}</summary>
    <p>{t(`Facebook 已登记 ${facebook.length} 个信源，其中 ${pending} 个尚无帖子扫描完成记录。登记账号不等于读取帖子；当前网站采集器不自动采集 Facebook。`,`${facebook.length} Facebook sources are registered; ${pending} have no completed post-scan record. Registering an account does not mean reading its posts. The website collector does not automatically collect Facebook.`)}</p>
-   <p>{t('本次调整是重新编排已有内容，并未新增已核验新闻。没有独立新闻的专题暂不展示，竞争监控名单单独折叠。','This revision reorganizes existing coverage; it does not add verified events. Empty topics are omitted and the competitor watchlist is collapsed separately.')}</p>
+   <p>{t('国家政策与外交人事要闻独立纳入；提名不等于任命，内阁批准不等于法规已生效。没有独立新闻的专题暂不展示，竞争监控名单单独折叠。','National policy and diplomatic appointments are included in their own topic. Nomination is not appointment; Cabinet approval is not proof that a rule is in force. Empty topics are omitted and the competitor watchlist is collapsed separately.')}</p>
   </details>
  </Card>;
 }

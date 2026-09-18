@@ -2,6 +2,12 @@ import unittest
 from nepal_monitoring import canonical_url, classify
 
 class MonitoringTests(unittest.TestCase):
+    def test_national_affairs_without_ict_keyword(self):
+        for headline in ['Cabinet recommends ambassadors for 13 countries', 'राजदूत नियुक्ति सिफारिस', 'New national policy announced']:
+            item=classify(headline)
+            self.assertEqual(item['priority'],'HIGH')
+            self.assertIn('politics',[m['focusId'] for m in item['focusMatches']])
+            self.assertTrue(item['requiresEditorialReview'])
     def test_priority_vendors(self):
         for vendor in ['中兴', '思科', 'Whale Cloud', '浩鲸', 'AsiaInfo', '亚信', 'H3C', '新华三', 'FiberHome', '烽火']:
             with self.subTest(vendor=vendor):

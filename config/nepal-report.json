@@ -1,14 +1,15 @@
 {
   "issue": "W37-38",
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "windowStart": "2026-09-05",
   "windowEnd": "2026-09-18",
   "period": "2026年9月5日—9月18日 · 尼泊尔独立版",
   "periodEn": "5–18 September 2026 · Nepal edition",
   "sourceFile": "nepal-w37-38.html",
-  "status": "已完成9条本期事件编辑核验；新增9月17日官方资费公告。社媒线索不重复计入新闻，附件关键词命中仍需核验。",
-  "statusEn": "Nine current-period events reviewed, including the 17 September official tariff announcement. Social observations are not counted again; attachment keyword matches remain unverified candidates.",
+  "status": "本期10条事件，补入9月18日内阁大使提名及政策决定。提名不等于正式任命；候选采集不等于新闻已核验。",
+  "statusEn": "Ten events in this issue, including the 18 September Cabinet nominations and policy decisions. Nomination is not formal appointment; collected candidates are not verified news.",
   "summary": [
+    "9月18日内阁推荐13国大使人选，包括驻华、驻印及驻美人选；仍须跟进听证、驻在国同意与正式任命。",
     "NTA 公布800MHz竞价说明会安排；这是竞价流程推进，尚非频谱或设备授标。",
     "UTL牌照取消公告进入本期监管视野，相关资产和应收交易需加强尽调。",
     "Ncell在灾区引入Eutelsat低轨卫星连接，韧性回传和备电需求值得跟进。",
@@ -17,6 +18,7 @@
     "新增每日监控关注点后，核验了 Nepal Telecom 宪法日套餐；促销与采购机会明确区分。"
   ],
   "summaryEn": [
+    "The Cabinet recommended envoys to 13 countries on 18 September, including China, India and the US; hearings, receiving-state consent and formal appointments remain follow-up steps.",
     "NTA schedules an 800 MHz pre-bid conference; no spectrum or equipment award is established.",
     "UTL's cancellation notice highlights asset and receivables due-diligence needs.",
     "Ncell deploys Eutelsat satellite connectivity for disaster relief, highlighting backhaul resilience.",
@@ -165,9 +167,24 @@
         {
           "category": "本国政治与大选进展及内幕",
           "categoryEn": "Politics and elections",
-          "items": [],
-          "displayCategory": "政治与政策动向",
-          "displayCategoryEn": "Politics & policy"
+          "items": [{
+            "id":"np-cabinet-20260918",
+            "date":"2026-09-18",
+            "title":"国家要闻：内阁推荐13国大使人选，并通过相关政策决定",
+            "titleEn":"National affairs: Cabinet proposes envoys to 13 countries and endorses policy decisions",
+            "badge":"多源报道核验 · 提名阶段",
+            "text":"据公共广播 Radio Nepal 引述政府发言人及《加德满都邮报》报道，9月18日内阁推荐13国大使人选：驻华 Kalyan Raj Sharma、驻印 Nischal Nath Pandey、驻美 Chiran Jung Thapa。推荐不等于正式任命，仍需跟进议会听证、驻在国同意及总统任命。同次会议据报道通过公民身份条例第五次修订及政府职责分工调整，包括水文气象部门转归能源部；条例正文与生效日期尚待核对，不据报道推定已经生效。",
+            "textEn":"Radio Nepal, citing the government spokesperson, and The Kathmandu Post report that the Cabinet recommended envoys to 13 countries on 18 September, including Kalyan Raj Sharma for China, Nischal Nath Pandey for India and Chiran Jung Thapa for the US. These are nominations, not completed appointments; hearings, receiving-state consent and presidential appointments require follow-up. Radio Nepal also reports approval of a fifth amendment to citizenship regulations and a work-allocation change moving hydrology and meteorology to the Energy Ministry. The legal text and effective dates remain unverified.",
+            "opportunity":"",
+            "opportunityEn":"",
+            "links":[
+              {"label":"Radio Nepal · 内阁决定","url":"https://radionepalonline.com/en/2026/09/18/436246.html"},
+              {"label":"The Kathmandu Post · 大使提名","url":"https://kathmandupost.com/national/2026/09/18/nepal-recommends-ambassadors-to-india-us-china-and-10-other-countries"},
+              {"label":"New Business Age · 同题报道","url":"https://newbusinessage.com/news/50179/cabinet-recommends-ambassadors-for-13-countries-after-prolonged-delay/"}
+            ]
+          }],
+          "displayCategory": "国家政策与外交人事要闻",
+          "displayCategoryEn": "National policy & diplomatic appointments"
         },
         {
           "category": "本国 ISP/DSP 和互联网运营商的投资动态",

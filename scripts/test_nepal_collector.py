@@ -31,5 +31,12 @@ class CollectorTests(unittest.TestCase):
     def test_social_not_claimed_as_scanned(self):
         source={**self.source,'platform':'Facebook'}
         self.assertEqual(scan(source),(source,[],[]))
+    def test_newbiz_article_without_ict_is_retained(self):
+        source={**self.source,'id':'np-newbusinessage','url':'https://www.newbusinessage.com/'}
+        html='<a href="/news/50179/a-new-diplomatic-development/">A new diplomatic development</a>'
+        with patch('collect_nepal_sources.urlopen',return_value=Response(source['url'],html)):
+            _,items,_=scan_page(source)
+        self.assertEqual(len(items),1)
+        self.assertTrue(items[0]['requiresEditorialReview'])
 
 if __name__=='__main__': unittest.main()

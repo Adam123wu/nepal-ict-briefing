@@ -26,8 +26,9 @@ const server=http.createServer((req,res)=>{
   assert((await page.locator('h1').innerText()).match(/尼泊尔|历史/));
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
- await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),5);
- assert.equal(await page.locator('.news-card').count(),9);
+ const sections=JSON.parse(fs.readFileSync('config/nepal-report.json','utf8')).countries.np.sections;
+ await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),sections.filter(s=>s.items.length||s.category==='ICT 竞争对手最新动态').length);
+ assert.equal(await page.locator('.news-card').count(),sections.reduce((n,s)=>n+s.items.length,0));
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
  for(const title of ['运营商集团战略','对外关系与市场影响','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
@@ -52,10 +53,13 @@ const server=http.createServer((req,res)=>{
  }
  await page.goto(base+'/compliance/');assert((await page.locator('main').innerText()).includes('UTL'));
  await page.goto(base+'/sources/');assert((await page.locator('main').innerText()).includes('监控关注点与附件'));
+ await page.getByRole('textbox').fill('New Business Age');assert.equal(await page.locator('tbody tr').count(),1);
+ await page.getByRole('textbox').fill('');
  const attachment=await page.request.get(base+'/resources/Nepal_Media_Monitoring_with_News_Sources.xlsx');assert(attachment.ok());assert.equal((await attachment.body()).subarray(0,2).toString(),'PK');
  await page.getByRole('textbox').fill('TechnologyKhabar');assert.equal(await page.locator('tbody tr').count(),1);
  await page.getByRole('textbox').fill('Ncell');assert.equal(await page.locator('tbody tr').count(),3);
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
+ await page.goto(base+'/people/');assert.equal(await page.locator('tbody tr').count(),18);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
  if(process.env.NEPAL_SCREENSHOT){await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/sources/');await page.screenshot({path:process.env.NEPAL_SCREENSHOT,fullPage:false});}
  assert.deepEqual(errors,[]);console.log('Six routes, Chinese/English, Nepal isolation, 11 sections, new source filtering, original attachment download and mobile width passed.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}

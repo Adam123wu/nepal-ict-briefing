@@ -43,7 +43,7 @@ def scan_page(source):
             triage=classify(title+' '+url)
             # NepalKhabar article URLs are numeric/date-bearing. Preserve articles
             # for editorial review even when a Nepali headline misses keywords.
-            publisher_article = source['id']=='np-nepalkhabar' and bool(re.search(r'/\d+-\d{4}-\d{1,2}-\d{1,2}-',parsed.path))
+            publisher_article = (source['id']=='np-nepalkhabar' and bool(re.search(r'/\d+-\d{4}-\d{1,2}-\d{1,2}-',parsed.path))) or (source['id']=='np-newbusinessage' and bool(re.search(r'/news/\d+/',parsed.path)))
             if not publisher_article and not triage['focusMatches'] and not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
             seen.add(url)
             candidates.append({'id':hashlib.sha256(url.encode()).hexdigest()[:20],'sourceId':source['id'],'country':'尼泊尔','url':url,'titleOriginal':title[:240],'observedAt':now,'publishedAt':None,'status':'date-and-content-unverified',**triage})
@@ -51,7 +51,7 @@ def scan_page(source):
         source.pop('scanError',None)
         source.update(status='官网可读取·内容待核验',statusEn='Website readable; content pending review',lastCollectedAt=now)
         source['candidateCountBeforeLimit']=len(candidates)
-        limit=200 if source['id']=='np-nepalkhabar' else 60
+        limit=200 if source['id'] in ['np-nepalkhabar','np-newbusinessage'] or source.get('category') in ['联邦部委','关键部委'] else 60
         source['candidateLimitReached']=len(candidates)>limit
         return source,candidates[:limit],social[:30]
     except Exception as error:

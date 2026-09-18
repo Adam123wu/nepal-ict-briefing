@@ -5,6 +5,12 @@ description: Research, verify, translate and refresh the Nepal ICT biweekly brie
 
 # Nepal ICT briefing
 
+## National affairs and federal coverage
+
+The user's scope includes major Nepal national policies, Cabinet decisions, senior appointments and diplomatic appointments even without a direct ICT implication. Give these stories a distinct national-affairs section; do not invent a procurement opportunity. Track New Business Age as well as NepalKhabar and national media. Read `../../config/government-directory.json` and verify every federal portfolio against the official cabinet roster when ministries are reorganized. Preserve legacy-domain caveats; source registration and collection success are different states. "All ministries" means federal portfolios, not every provincial or local agency.
+
+For ambassadors, distinguish Nepal's outbound envoys from foreign envoys accredited to Nepal, and nomination/recommendation, parliamentary hearing, receiving-state consent, presidential appointment and presentation of credentials. A proposed ambassador is not an incumbent. For policies distinguish Cabinet endorsement, gazette publication and legal commencement. Use exact event dates, link source reporting and avoid counting several decisions from the same Cabinet story as multiple independent events without editorial justification.
+
 Read `../../NEPAL-WORKFLOW.md` and `../../config/monitoring-focus.json` before research. Paths are relative to this skill directory. Run commands from the repository root. Only Nepal is in scope.
 
 ## Daily editorial cycle
@@ -37,7 +43,7 @@ For frontend changes, inspect actual computed heading/body/source-link sizes, sp
 
 ### Candidate priority
 
-CRITICAL requires a confirmed Nepal ICT/service-continuity disaster impact. A disaster keyword alone is HIGH pending review. Huawei, regulator and government matches are HIGH candidates; other relevant focus matches are MEDIUM. ZTE belongs to equipment vendors, not operators. Broad economic and political news needs a concrete Nepal ICT or business-environment implication. A low priority never means false; a high priority never means verified.
+CRITICAL requires a confirmed Nepal ICT/service-continuity disaster impact. A disaster keyword alone is HIGH pending review. Huawei, regulator, government and major national-affairs matches are HIGH candidates. ZTE belongs to equipment vendors, not operators. Major national policy and diplomatic appointments do not require an ICT link; other broad economic stories need a business-environment implication. A low priority never means false; a high priority never means verified.
 
 ## Scheduling boundaries
 
