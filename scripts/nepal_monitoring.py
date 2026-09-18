@@ -8,6 +8,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 FOCUS = json.loads((Path(__file__).resolve().parents[1] / 'config/monitoring-focus.json').read_text())['focusAreas']
 VENDORS = ['Nokia', 'ZTE', 'Ericsson', 'Cisco', 'Juniper', 'Extreme Networks', 'Eutelsat', 'OneWeb', 'नोकिया', 'जेडटीई', 'एरिक्सन', 'सिस्को', 'जुनिपर', 'युटेलस्याट', 'वनवेब']
 RANK = {'CRITICAL': 0, 'HIGH': 1, 'MEDIUM': 2, 'LOW': 3}
+VENDORS += ['中兴', '思科', 'Whale Cloud', 'WhaleCloud', 'iWhaleCloud', '浩鲸', 'AsiaInfo', '亚信', 'H3C', '新华三', 'FiberHome', '烽火']
 ALIASES = {
     'huawei': ['huawei', 'ह्वावे', 'हुवावे'],
     'operators': ['ncell', 'ntc', 'nepal telecom', 'worldlink', 'vianet', 'subisu', 'classic tech', 'cgnet', 'एनसेल', 'टेलिकम'],

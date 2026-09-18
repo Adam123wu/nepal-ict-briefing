@@ -26,7 +26,8 @@ const server=http.createServer((req,res)=>{
   assert((await page.locator('h1').innerText()).match(/尼泊尔|历史/));
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
- await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),11);assert((await page.locator('main').innerText()).includes('Eutelsat'));
+ await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),8);
+ for(const title of ['运营商集团战略','对外关系与市场影响','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
  for(const language of ['English','中文']){
   await page.getByRole('button',{name:language,exact:true}).click();
   const typography=await page.locator('.social-story').first().evaluate(el=>{
@@ -35,9 +36,11 @@ const server=http.createServer((req,res)=>{
   });
   assert(typography.title>typography.body&&typography.body>typography.link);
   assert(typography.body>=15&&typography.line/typography.body>=1.7);
-  assert.equal(await page.locator('.competitor-card').count(),7);
+  assert.equal(await page.locator('[data-primary-competitors] .competitor-card').count(),6);
+  assert.equal(await page.locator('.competitor-card').count(),11);
+  for(const name of ['ZTE','Cisco','Whale Cloud','AsiaInfo','H3C','FiberHome']) assert((await page.locator('[data-primary-competitors]').innerText()).includes(name));
   assert.equal(await page.locator('[data-evidence-kind="current"]').count(),1);
-  assert.equal(await page.locator('[data-evidence-kind="watch"]').count(),1);
+  assert.equal(await page.locator('[data-evidence-kind="watch"]').count(),5);
   for(const width of [1440,390]){
    await page.setViewportSize({width,height:1000});
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));

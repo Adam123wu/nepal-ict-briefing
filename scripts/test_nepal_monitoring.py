@@ -2,6 +2,12 @@ import unittest
 from nepal_monitoring import canonical_url, classify
 
 class MonitoringTests(unittest.TestCase):
+    def test_priority_vendors(self):
+        for vendor in ['中兴', '思科', 'Whale Cloud', '浩鲸', 'AsiaInfo', '亚信', 'H3C', '新华三', 'FiberHome', '烽火']:
+            with self.subTest(vendor=vendor):
+                item=classify(vendor+' Nepal Telecom')
+                self.assertIn('competitors',[m['focusId'] for m in item['focusMatches']])
+                self.assertTrue(item['requiresEditorialReview'])
     def test_keywords_do_not_verify_news(self):
         item=classify('Huawei Nepal solar project')
         self.assertEqual(item['priority'],'HIGH')

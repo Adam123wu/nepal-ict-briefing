@@ -39,7 +39,7 @@ def scan(source):
                 social.append({'sourceId':source['id'],'url':url,'evidenceUrl':source['url'],'status':'needs-ownership-review'})
             allowed_hosts={urlparse(source['url']).hostname,urlparse(final_url).hostname}
             if len(title)<15 or url in seen or parsed.hostname not in allowed_hosts: continue
-            if source.get('scope')=='Nepal-only' and not re.search(r'nepal|nepali|नेपाल|kathmandu|worldlink|ncell',title+' '+url,re.I): continue
+            if source.get('scope')=='Nepal-only' and not re.search(r'nepal|nepali|नेपाल|尼泊尔|kathmandu|worldlink|ncell',title+' '+url,re.I): continue
             triage=classify(title+' '+url)
             if not triage['focusMatches'] and not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
             seen.add(url)

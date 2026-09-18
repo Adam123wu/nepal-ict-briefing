@@ -5,6 +5,38 @@
   "noteEn": "The watchlist is not a list of new awards. Review dates are not project dates.",
   "vendors": [
     {
+      "id":"whale-cloud", "name":"浩鲸科技 · Whale Cloud", "nameEn":"Whale Cloud", "kind":"watch", "sourceIds":["np-whale-cloud"], "relatedEventIds":[],
+      "status":"重点监控 · 尼泊尔项目待核实", "statusEn":"Priority watch · Nepal projects unverified",
+      "scope":"运营商业务与网络平台、云服务", "scopeEn":"Operator business/network platforms and cloud services",
+      "summary":"官网展示运营商与云服务能力；尚无已核实的本期尼泊尔项目证据。", "summaryEn":"The official site presents operator platforms and cloud services; no verified current-period Nepal project evidence is attached.",
+      "action":"核对 Nepal Telecom、Ncell 的 BSS/OSS、计费、CRM 招标和伙伴公告。", "actionEn":"Check Nepal Telecom and Ncell BSS/OSS, billing and CRM tenders and partner announcements.",
+      "evidenceUrl":"https://www.iwhalecloud.com/"
+    },
+    {
+      "id":"asiainfo", "name":"亚信科技 · AsiaInfo", "nameEn":"AsiaInfo Technologies", "kind":"watch", "sourceIds":["np-asiainfo"], "relatedEventIds":[],
+      "status":"重点监控 · 尼泊尔项目待核实", "statusEn":"Priority watch · Nepal projects unverified",
+      "scope":"BSS/OSS、CRM、计费与网络管理", "scopeEn":"BSS/OSS, CRM, billing and network management",
+      "summary":"官方产品范围覆盖电信支撑软件；不能据此推断尼泊尔客户或订单。", "summaryEn":"Official telecom offerings cover support software; they do not establish Nepal customers or awards.",
+      "action":"跟踪软件升级、系统集成与本地合作伙伴，区分亚信科技与其他亚信主体。", "actionEn":"Track software upgrades, integration and local partners; distinguish AsiaInfo Technologies from other similarly named entities.",
+      "evidenceUrl":"https://www.asiainfo.com/en_us/telecomIndustry.html"
+    },
+    {
+      "id":"h3c", "name":"新华三 · H3C", "nameEn":"H3C", "kind":"watch", "sourceIds":["np-h3c"], "relatedEventIds":[],
+      "status":"重点监控 · 尼泊尔项目待核实", "statusEn":"Priority watch · Nepal projects unverified",
+      "scope":"企业网络、服务器、存储与云平台", "scopeEn":"Enterprise networking, servers, storage and cloud",
+      "summary":"官网列出相关产品能力；本期尼泊尔客户与合同尚待验证。", "summaryEn":"The official site lists relevant products; current-period Nepal customers and contracts remain unverified.",
+      "action":"核查尼泊尔政企、数据中心及 ISP 采购和渠道合作。", "actionEn":"Check Nepal enterprise, public-sector, data-centre and ISP procurement and channel partnerships.",
+      "evidenceUrl":"https://www.h3c.com/en/"
+    },
+    {
+      "id":"fiberhome", "name":"烽火通信 · FiberHome", "nameEn":"FiberHome", "kind":"watch", "sourceIds":["np-fiberhome"], "relatedEventIds":[],
+      "status":"重点监控 · 官网访问受限", "statusEn":"Priority watch · website access restricted",
+      "scope":"光通信、传输与宽带接入采购线索", "scopeEn":"Optical transport and broadband-access procurement leads",
+      "summary":"官网本轮返回验证页面，未据此提取项目新闻；尼泊尔项目仍待核实。", "summaryEn":"The website returned a verification page; no project news was extracted. Nepal projects remain unverified.",
+      "action":"通过客户采购文件、正式公告及可验证伙伴信息交叉核查。", "actionEn":"Cross-check customer tenders, formal announcements and verifiable partner information.",
+      "evidenceUrl":"https://en.fiberhome.com/"
+    },
+    {
       "id": "eutelsat",
       "name": "Eutelsat",
       "kind": "current",
@@ -65,7 +97,8 @@
     },
     {
       "id": "cisco",
-      "name": "Cisco",
+      "name": "思科 · Cisco",
+      "nameEn": "Cisco",
       "kind": "baseline",
       "sourceIds": [
         "np-cisco",
@@ -103,7 +136,8 @@
     },
     {
       "id": "zte",
-      "name": "ZTE",
+      "name": "中兴通讯 · ZTE",
+      "nameEn": "ZTE",
       "kind": "baseline",
       "sourceIds": [
         "np-zte"

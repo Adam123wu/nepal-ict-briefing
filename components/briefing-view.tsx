@@ -46,11 +46,12 @@ export function BriefingView({ countries, language }: {countries: Record<string,
     </div>
     <div className="accordion" key={country}>
       {current.sections.map((section, index) => {
+        if (!section.items.length && ['运营商集团战略', '对外关系与市场影响', '华为在尼泊尔'].includes(section.displayCategory || '')) return null;
         const active = !!open[index];
         const competitor = section.category === 'ICT 竞争对手最新动态';
         return <Card className="accordion-section" key={`${country}-${index}-${section.category}`}>
           <button className="accordion-trigger" aria-expanded={active} aria-controls={`section-${index}`} onClick={() => setOpen((value) => ({...value, [index]: !value[index]}))}>
-            <span className="accordion-title">{isEnglish ? (section.displayCategoryEn||section.categoryEn) : (section.displayCategory||section.category)}</span>
+            <span className="accordion-title">{competitor ? (isEnglish ? 'Competitor intelligence' : '竞争对手情报') : isEnglish ? (section.displayCategoryEn||section.categoryEn) : (section.displayCategory||section.category)}</span>
             <span style={{display: "flex", alignItems: "center", gap: 8}}><Badge>{competitor ? `${monitoring.vendors.length} ${isEnglish?'vendors watched':'家监控'}` : `${section.items.length} ${isEnglish?'items':'条'}`}</Badge><ChevronDown size={15} style={{transform: active ? "rotate(180deg)" : "none", transition: ".18s"}}/></span>
           </button>
           {active && <div className="accordion-body" id={`section-${index}`}>
