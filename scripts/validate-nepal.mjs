@@ -24,6 +24,17 @@ const count=d.report.countries.np.sections.reduce((n,s)=>n+s.items.length,0);ass
 assert(count>0,'Do not publish an empty migration edition');
 const events=new Set();
 for(const s of d.report.countries.np.sections)for(const i of s.items){assert(!events.has(i.id));events.add(i.id);assert(i.date>=d.report.windowStart&&i.date<=d.report.windowEnd);assert(i.links.length>=1);assert(i.titleEn&&i.textEn);}
+const competition=read('config/competitor-monitoring.json');
+assert.equal(competition.country,'尼泊尔');
+assert.equal(new Set(competition.vendors.map(v=>v.id)).size,competition.vendors.length);
+for(const v of competition.vendors){
+ assert(['current','baseline','watch'].includes(v.kind));
+ for(const id of v.sourceIds)assert(ids.has(id),'Missing competitor source '+id);
+ for(const id of v.relatedEventIds)assert(events.has(id),'Missing related news '+id);
+ if(v.kind==='current')assert(v.relatedEventIds.length>0);
+ for(const field of ['status','statusEn','scope','scopeEn','summary','summaryEn','action','actionEn'])assert(v[field]&&!/[\u0900-\u097f\u0600-\u06ff]/.test(v[field]));
+ assert.equal(new URL(v.evidenceUrl).protocol,'https:');
+}
 assert(d.archive.every(i=>/^nepal-/.test(i.file)),'Foreign archive blocked');
 for(const file of fs.readdirSync('public/archive'))assert(/^nepal-/.test(file),'Foreign archive asset blocked: '+file);
 assert.equal(d.telegram.messageCount,d.telegram.items.length);

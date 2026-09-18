@@ -97,7 +97,9 @@
                 }
               ]
             }
-          ]
+          ],
+          "displayCategory": "运营商与网络建设",
+          "displayCategoryEn": "Operators & network infrastructure"
         },
         {
           "category": "本国部委最新动态",
@@ -149,17 +151,23 @@
                 }
               ]
             }
-          ]
+          ],
+          "displayCategory": "政府与监管动态",
+          "displayCategoryEn": "Government & regulation"
         },
         {
           "category": "本国财团投资动态",
           "categoryEn": "Consortium investment",
-          "items": []
+          "items": [],
+          "displayCategory": "投资与产业资本",
+          "displayCategoryEn": "Investment & industry capital"
         },
         {
           "category": "本国政治与大选进展及内幕",
           "categoryEn": "Politics and elections",
-          "items": []
+          "items": [],
+          "displayCategory": "政治与政策动向",
+          "displayCategoryEn": "Politics & policy"
         },
         {
           "category": "本国 ISP/DSP 和互联网运营商的投资动态",
@@ -228,27 +236,37 @@
                 }
               ]
             }
-          ]
+          ],
+          "displayCategory": "宽带与企业连接",
+          "displayCategoryEn": "Broadband & enterprise connectivity"
         },
         {
           "category": "ICT 竞争对手最新动态",
           "categoryEn": "ICT equipment vendors and competitors",
-          "items": []
+          "items": [],
+          "displayCategory": "竞争格局与设备商动态",
+          "displayCategoryEn": "Competition & equipment vendors"
         },
         {
           "category": "运营商在集团侧相关信息",
           "categoryEn": "Operator group developments",
-          "items": []
+          "items": [],
+          "displayCategory": "运营商集团战略",
+          "displayCategoryEn": "Operator group strategy"
         },
         {
           "category": "外部关系与地缘政治",
           "categoryEn": "External relations and geopolitics",
-          "items": []
+          "items": [],
+          "displayCategory": "对外关系与市场影响",
+          "displayCategoryEn": "External relations & market impact"
         },
         {
           "category": "本国主流媒体对华为的报道与评价",
           "categoryEn": "Huawei media coverage",
-          "items": []
+          "items": [],
+          "displayCategory": "华为在尼泊尔",
+          "displayCategoryEn": "Huawei in Nepal"
         },
         {
           "category": "本国头部客户的新机会点",
@@ -279,12 +297,16 @@
                 }
               ]
             }
-          ]
+          ],
+          "displayCategory": "重点客户与商机",
+          "displayCategoryEn": "Key accounts & opportunities"
         },
         {
           "category": "社交媒体新闻追踪",
           "categoryEn": "Important social-media updates",
-          "items": []
+          "items": [],
+          "displayCategory": "社媒传播追踪",
+          "displayCategoryEn": "Social coverage"
         }
       ]
     }

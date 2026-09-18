@@ -27,6 +27,23 @@ const server=http.createServer((req,res)=>{
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
  await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),11);assert((await page.locator('main').innerText()).includes('Eutelsat'));
+ for(const language of ['English','中文']){
+  await page.getByRole('button',{name:language,exact:true}).click();
+  const typography=await page.locator('.social-story').first().evaluate(el=>{
+   const style=s=>getComputedStyle(el.querySelector(s));
+   return {title:parseFloat(style('h3').fontSize),body:parseFloat(style('.story-summary').fontSize),link:parseFloat(style('.story-source').fontSize),line:parseFloat(style('.story-summary').lineHeight)};
+  });
+  assert(typography.title>typography.body&&typography.body>typography.link);
+  assert(typography.body>=15&&typography.line/typography.body>=1.7);
+  assert.equal(await page.locator('.competitor-card').count(),7);
+  assert.equal(await page.locator('[data-evidence-kind="current"]').count(),1);
+  assert.equal(await page.locator('[data-evidence-kind="watch"]').count(),1);
+  for(const width of [1440,390]){
+   await page.setViewportSize({width,height:1000});
+   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
+   if(process.env.NEPAL_READING_SHOTS)await page.screenshot({path:`${process.env.NEPAL_READING_SHOTS}-${language==='English'?'en':'zh'}-${width}.png`,fullPage:false});
+  }
+ }
  await page.goto(base+'/compliance/');assert((await page.locator('main').innerText()).includes('UTL'));
  await page.goto(base+'/sources/');assert((await page.locator('main').innerText()).includes('监控关注点与附件'));
  const attachment=await page.request.get(base+'/resources/Nepal_Media_Monitoring_with_News_Sources.xlsx');assert(attachment.ok());assert.equal((await attachment.body()).subarray(0,2).toString(),'PK');

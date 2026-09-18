@@ -25,7 +25,15 @@ Read `../../NEPAL-WORKFLOW.md` and `../../config/monitoring-focus.json` before r
 - `references/attachment-skill.md`: original attachment, retained as reference only. Its selectors, sharing counts and example news are unverified planning material. Do not execute its incomplete sample pipeline or publish its example event.
 - `../../public/resources/Nepal_Media_Monitoring_with_News_Sources.xlsx`: original planning workbook, not event evidence.
 
-## Priority rules
+## Competitor coverage
+
+Read `../../config/competitor-monitoring.json` on every refresh. Search Nokia, ZTE, Ericsson, Cisco, Juniper, Extreme Networks and Eutelsat in English and Nepali, pairing each with Nepal, Ncell, Nepal Telecom, WorldLink and other actual local customers. Check vendor pressrooms, customer announcements, NTA notices, procurement records and verified public social posts. Maintain source IDs and bilingual evidence, implications and next checks. Distinguish direct equipment competition from adjacent alternatives such as satellite backhaul.
+
+Keep current dated events, historical/undated customer footprints, and unresolved watchlist entries separate. A newly reviewed old customer page is not a new win. Link an existing report event by ID rather than duplicating its news count. Do not infer current installed base from an outdated profile, contracts from office presence, or Nepal awards from regional/global launches. Record an honest evidence gap where current-period Nepal news is not established.
+
+For frontend changes, inspect actual computed heading/body/source-link sizes, spacing and readability in both languages and on mobile. Preserve readable source caveats without turning headlines into internal verification notes.
+
+### Candidate priority
 
 CRITICAL requires a confirmed Nepal ICT/service-continuity disaster impact. A disaster keyword alone is HIGH pending review. Huawei, regulator and government matches are HIGH candidates; other relevant focus matches are MEDIUM. ZTE belongs to equipment vendors, not operators. Broad economic and political news needs a concrete Nepal ICT or business-environment implication. A low priority never means false; a high priority never means verified.
 

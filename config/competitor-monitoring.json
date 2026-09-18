@@ -1,0 +1,141 @@
+{
+  "reviewedAt": "2026-09-18",
+  "country": "尼泊尔",
+  "note": "监控名单不等于本期新中标名单；核验日期不是项目发生日期。",
+  "noteEn": "The watchlist is not a list of new awards. Review dates are not project dates.",
+  "vendors": [
+    {
+      "id": "eutelsat",
+      "name": "Eutelsat",
+      "kind": "current",
+      "sourceIds": [
+        "np-eutelsat",
+        "np-ncell"
+      ],
+      "relatedEventIds": [
+        "np-leo"
+      ],
+      "status": "本期已核验 · 同一事件不重复计数",
+      "statusEn": "Current issue · existing event, not counted twice",
+      "scope": "卫星连接与应急回传",
+      "scopeEn": "Satellite access and emergency backhaul",
+      "summary": "Ncell 官方公告确认采用 Eutelsat 低轨卫星方案，为灾区提供本地 Wi-Fi 连接。",
+      "summaryEn": "Ncell identifies Eutelsat as the LEO connectivity provider for disaster-relief Wi-Fi.",
+      "action": "跟进地面回传与卫星备份组合；不推断全国商用授权或合同金额。",
+      "actionEn": "Assess terrestrial/satellite resilience. Nationwide authorization and contract value are not established.",
+      "evidenceUrl": "https://www.ncell.com.np/en/about/media-room/press-release/ncell-brings-satellite-powered-connectivity-in-flood-affected-region"
+    },
+    {
+      "id": "nokia",
+      "name": "Nokia",
+      "kind": "baseline",
+      "sourceIds": [
+        "np-nokia",
+        "np-worldlink"
+      ],
+      "relatedEventIds": [],
+      "status": "历史竞争格局 · 非本期新项目",
+      "statusEn": "Historical footprint · not a new award",
+      "scope": "光传输、接入与家庭 Wi-Fi",
+      "scopeEn": "Optical transport, access and home Wi-Fi",
+      "summary": "WorldLink 的机构介绍列出 Nokia 参与 DWDM 和接入网络；页面有旧资料，现网范围须另核实。",
+      "summaryEn": "WorldLink's undated profile lists Nokia for DWDM and access. The profile contains old information; the current footprint needs confirmation.",
+      "action": "核实在网设备、扩容计划与替换周期，不以旧介绍推断新增采购。",
+      "actionEn": "Verify installed equipment, expansion plans and replacement cycles.",
+      "evidenceUrl": "https://worldlink.com.np/organization/"
+    },
+    {
+      "id": "juniper",
+      "name": "Juniper Networks",
+      "kind": "baseline",
+      "sourceIds": [
+        "np-juniper",
+        "np-worldlink"
+      ],
+      "relatedEventIds": [],
+      "status": "历史竞争格局 · 非本期新项目",
+      "statusEn": "Historical footprint · not a new award",
+      "scope": "IP/MPLS 核心与汇聚",
+      "scopeEn": "IP/MPLS core and aggregation",
+      "summary": "WorldLink 历史介绍列出 Juniper 核心和汇聚设备；这不是本期订单依据。",
+      "summaryEn": "WorldLink's historical profile lists Juniper for core and aggregation, not a current-period order.",
+      "action": "关注骨干网升级和自动化运维招标。",
+      "actionEn": "Watch backbone upgrades and network-automation tenders.",
+      "evidenceUrl": "https://worldlink.com.np/organization/"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "kind": "baseline",
+      "sourceIds": [
+        "np-cisco",
+        "np-worldlink"
+      ],
+      "relatedEventIds": [],
+      "status": "历史竞争格局 · 非本期新项目",
+      "statusEn": "Historical footprint · not a new award",
+      "scope": "IP/MPLS 核心与汇聚",
+      "scopeEn": "IP/MPLS core and aggregation",
+      "summary": "WorldLink 历史介绍同时列出 Cisco；现网规模与最新合同未披露。",
+      "summaryEn": "WorldLink's historical profile also names Cisco; current scale and contract terms are undisclosed.",
+      "action": "核查客户现网与企业网络采购。",
+      "actionEn": "Check installed networks and enterprise procurement.",
+      "evidenceUrl": "https://worldlink.com.np/organization/"
+    },
+    {
+      "id": "extreme",
+      "name": "Extreme Networks",
+      "kind": "baseline",
+      "sourceIds": [
+        "np-extreme",
+        "np-worldlink"
+      ],
+      "relatedEventIds": [],
+      "status": "历史竞争格局 · 非本期新项目",
+      "statusEn": "Historical footprint · not a new award",
+      "scope": "交换网络",
+      "scopeEn": "Switching",
+      "summary": "WorldLink 历史介绍列出 Extreme 交换设备；不能据此认定其获得 Biz24 新订单。",
+      "summaryEn": "WorldLink's historical profile names Extreme switching. It does not establish a new Biz24 award.",
+      "action": "核验托管网络项目的实际设备清单。",
+      "actionEn": "Verify equipment lists for managed-network projects.",
+      "evidenceUrl": "https://worldlink.com.np/organization/"
+    },
+    {
+      "id": "zte",
+      "name": "ZTE",
+      "kind": "baseline",
+      "sourceIds": [
+        "np-zte"
+      ],
+      "relatedEventIds": [],
+      "status": "本地机构已核实 · 本期订单未确认",
+      "statusEn": "Local office verified · no current award confirmed",
+      "scope": "通信设备与本地市场活动",
+      "scopeEn": "Telecom equipment and local market activity",
+      "summary": "ZTE 官方机构名录列出尼泊尔办公室。本轮未核实到当期尼泊尔新订单；区域大会不能当作本地采购。",
+      "summaryEn": "ZTE's official directory lists a Nepal office. This review found no verified current-period Nepal award; a regional summit is not local procurement.",
+      "action": "结合运营商、监管和采购公告核对项目。",
+      "actionEn": "Cross-check operator, regulator and procurement notices.",
+      "evidenceUrl": "https://www.zte.com.cn/global/about/corporate_information.html"
+    },
+    {
+      "id": "ericsson",
+      "name": "Ericsson",
+      "kind": "watch",
+      "sourceIds": [
+        "np-ericsson"
+      ],
+      "relatedEventIds": [],
+      "status": "持续监控 · 本期尼泊尔进展未确认",
+      "statusEn": "Watchlist · no verified Nepal update this period",
+      "scope": "无线网络与核心网",
+      "scopeEn": "Radio access and core networks",
+      "summary": "本轮公开检索未获得符合本期日期、且明确关联尼泊尔客户的进展，不以其他国家新闻填充。",
+      "summaryEn": "This public-source review found no dated current-period development tied to a Nepal customer. Other markets' news is excluded.",
+      "action": "继续检查官方新闻、客户公告和采购文件。",
+      "actionEn": "Continue checking official news, customer releases and tenders.",
+      "evidenceUrl": "https://www.ericsson.com/en/newsroom"
+    }
+  ]
+}

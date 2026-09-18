@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 FOCUS = json.loads((Path(__file__).resolve().parents[1] / 'config/monitoring-focus.json').read_text())['focusAreas']
+VENDORS = ['Nokia', 'ZTE', 'Ericsson', 'Cisco', 'Juniper', 'Extreme Networks', 'Eutelsat', 'OneWeb', 'नोकिया', 'जेडटीई', 'एरिक्सन', 'सिस्को', 'जुनिपर', 'युटेलस्याट', 'वनवेब']
 RANK = {'CRITICAL': 0, 'HIGH': 1, 'MEDIUM': 2, 'LOW': 3}
 ALIASES = {
     'huawei': ['huawei', 'ह्वावे', 'हुवावे'],
@@ -37,6 +38,10 @@ def classify(text):
         if keywords:
             matches.append({'focusId': area['id'], 'keywords': list(dict.fromkeys(keywords))[:8]})
     priorities = [a['priority'] for a in FOCUS if any(m['focusId'] == a['id'] for m in matches)]
+    vendors = [v for v in VENDORS if contains(text, v)]
+    if vendors:
+        matches.append({'focusId': 'competitors', 'keywords': vendors})
+        priorities.append('HIGH')
     priority = min(priorities, key=RANK.get) if priorities else 'LOW'
     # Headlines cannot establish that a disaster actually affected an ICT asset.
     if priority == 'CRITICAL':

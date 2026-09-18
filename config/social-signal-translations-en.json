@@ -1,19 +1,19 @@
 {
   "np-social-vianet": {
     "account": "Vianet Communication",
-    "title": "Vianet social update confirms PMGO partnership",
+    "title": "Vianet backs PMGO esports connectivity",
     "summary": "The public account carries a partnership announcement corroborating the 15 September report. The account exposes relative timing only. 18 September is the review date, not an asserted post date; this links to the account page.",
     "impact": "Analysis: follow event latency, redundancy and monitoring needs. This is the same event as the ISP story, not an additional news count."
   },
   "np-social-worldlink": {
     "account": "WorldLink Communications",
-    "title": "WorldLink promotes Biz24 managed business networking",
+    "title": "WorldLink promotes Biz24 managed Wi-Fi",
     "summary": "A public update lists Rise, Grow and Pro tiers and invites connectivity assessments; the official website confirms the product. 18 September is the review date, with exact posting time unconfirmed. Link: account page.",
     "impact": "Analysis: enterprise selling is moving toward site surveys and managed operations. Compare coverage, support and SLA, not headline speed alone."
   },
   "np-social-ictframe": {
     "account": "ICT Frame",
-    "title": "ICT Frame's Biz24 post provides a cross-platform trace",
+    "title": "Biz24 draws coverage from ICT Frame",
     "summary": "The publisher's post points to its Biz24 coverage, which can be compared with the 10 September article and WorldLink's website. This is media distribution, not independent procurement evidence. 18 September is the review date.",
     "impact": "Analysis: merge cross-platform mentions of the same product. Do not inflate opportunity heat or news counts with reposts."
   }
