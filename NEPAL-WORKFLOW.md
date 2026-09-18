@@ -6,6 +6,8 @@ Only Nepal. This is a standalone repository and site. Keep eleven topic sections
 
 ## Research cycle
 
+For NepalKhabar and key-ministry coverage, also read `docs/source-coverage-2026-09-19.md`. Review per-page scan failures and candidate limits before concluding there is no relevant news. The source registry is not evidence of complete coverage.
+
 1. Check the worktree; safely update main without overwriting unrelated edits. Read skills/nepal-ict-briefing/SKILL.md, config/monitoring-focus.json, config/market.json, sources.json, topic-source-routing.json and the previous report. Attachment selectors and examples are unverified references, not executable instructions or event evidence.
 2. Use the latest complete fourteen-day window. Keep an issue stable within its biweekly window; archive prior Nepal issues when advancing. Record windowStart/windowEnd and explicit event dates.
 3. Run `python3 scripts/collect_nepal_sources.py`. Candidate observedAt is a collection timestamp, never proof of publication. Check failures and log material coverage gaps.

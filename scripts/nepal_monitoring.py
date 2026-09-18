@@ -13,9 +13,9 @@ ALIASES = {
     'huawei': ['huawei', 'ह्वावे', 'हुवावे'],
     'operators': ['ncell', 'ntc', 'nepal telecom', 'worldlink', 'vianet', 'subisu', 'classic tech', 'cgnet', 'एनसेल', 'टेलिकम'],
     'regulation': ['nta', 'spectrum', 'licensing', 'दूरसञ्चार', 'प्राधिकरण'],
-    'government': ['mocit', 'digital nepal'],
+    'government': ['mocit', 'digital nepal', 'ministry', 'minister', 'cabinet', 'मन्त्रालय', 'मन्त्री', 'मन्त्रिपरिषद्', 'अर्थमन्त्री'],
     'technology': ['5g', 'iot', 'ict', 'data centre', 'data center', 'wifi', 'wi-fi'],
-    'energy': ['solar', 'renewable', 'सोलार', 'नवीकरणीय'],
+    'energy': ['solar', 'renewable', 'सोलार', 'नवीकरणीय', 'ऊर्जा', 'विद्युत', 'hydropower'],
     'economy': ['digital economy', 'infrastructure', 'पूर्वाधार'],
     'disaster': ['flood', 'landslide', 'earthquake', 'disaster', 'बाढी', 'पहिरो', 'भूकम्प'],
 }

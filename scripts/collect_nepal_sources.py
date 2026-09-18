@@ -21,7 +21,7 @@ class Links(HTMLParser):
         if tag=='a' and self.href:
             self.links.append((self.href,' '.join(' '.join(self.text).split()))); self.href=None
 
-def scan(source):
+def scan_page(source):
     if source['platform']!='Website' or not source.get('enabled',True): return source,[],[]
     now=datetime.now(timezone.utc).isoformat()
     source={**source,'lastAttemptAt':now}
@@ -41,17 +41,40 @@ def scan(source):
             if len(title)<15 or url in seen or parsed.hostname not in allowed_hosts: continue
             if source.get('scope')=='Nepal-only' and not re.search(r'nepal|nepali|नेपाल|尼泊尔|kathmandu|worldlink|ncell',title+' '+url,re.I): continue
             triage=classify(title+' '+url)
-            if not triage['focusMatches'] and not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
+            # NepalKhabar article URLs are numeric/date-bearing. Preserve articles
+            # for editorial review even when a Nepali headline misses keywords.
+            publisher_article = source['id']=='np-nepalkhabar' and bool(re.search(r'/\d+-\d{4}-\d{1,2}-\d{1,2}-',parsed.path))
+            if not publisher_article and not triage['focusMatches'] and not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
             seen.add(url)
             candidates.append({'id':hashlib.sha256(url.encode()).hexdigest()[:20],'sourceId':source['id'],'country':'尼泊尔','url':url,'titleOriginal':title[:240],'observedAt':now,'publishedAt':None,'status':'date-and-content-unverified',**triage})
         candidates.sort(key=lambda item:RANK[item['priority']])
         source.pop('scanError',None)
         source.update(status='官网可读取·内容待核验',statusEn='Website readable; content pending review',lastCollectedAt=now)
-        return source,candidates[:60],social[:30]
+        source['candidateCountBeforeLimit']=len(candidates)
+        limit=200 if source['id']=='np-nepalkhabar' else 60
+        source['candidateLimitReached']=len(candidates)>limit
+        return source,candidates[:limit],social[:30]
     except Exception as error:
         # No response bodies, contact details, credentials or private sessions are persisted.
         source.update(status='扫描失败·待重试',statusEn='Scan failed; retry needed',scanError=type(error).__name__)
         return source,[],[]
+
+def scan(source):
+    if source['platform']!='Website' or not source.get('enabled',True): return source,[],[]
+    paths=['/','/category/economy','/category/politics','/category/science-tech'] if source['id']=='np-nepalkhabar' else [None]
+    results=[scan_page({**source,'url':urljoin(source['url'],path) if path else source['url']}) for path in paths]
+    successful=[r for r in results if not r[0].get('scanError')]
+    state={**source,**results[0][0],'url':source['url']}
+    state['scanPages']=[{'url':r[0]['url'],'success':not bool(r[0].get('scanError')),'candidateCount':len(r[1]),'limitReached':r[0].get('candidateLimitReached',False)} for r in results]
+    if successful:
+        state.pop('scanError',None)
+        state['lastCollectedAt']=successful[-1][0]['lastCollectedAt']
+        state['status']='部分栏目扫描失败·内容待核验' if len(successful)<len(results) else '官网可读取·内容待核验'
+        state['statusEn']='Partial scan failure; content pending review' if len(successful)<len(results) else 'Website readable; content pending review'
+    candidates={i['url']:i for r in results for i in r[1]}
+    social={i['url']:i for r in results for i in r[2]}
+    state['candidateCount']=len(candidates)
+    return state,sorted(candidates.values(),key=lambda i:RANK[i['priority']]),list(social.values())
 
 def main():
     market=json.loads(Path('config/market.json').read_text())
