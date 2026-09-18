@@ -34,23 +34,23 @@ function englishBadge(badge: string) {
 
 export function BriefingView({ countries, language }: {countries: Record<string, Country>; language: "zh" | "en"}) {
   const [country, setCountry] = useState(Object.keys(countries)[0]);
-  const [open, setOpen] = useState<Record<string, boolean>>({"0": true,"5":true});
+  const [open, setOpen] = useState<Record<string, boolean>>({});
   const current = countries[country];
   const isEnglish = language === "en";
 
   return <>
     <div className="tabs">
-      {Object.entries(countries).map(([key, item]) => <button key={key} data-country={key} aria-pressed={country === key} className={`tab ${country === key ? "active" : ""}`} onClick={() => { setCountry(key); setOpen({"0": true,"5":true}); }}>
+      {Object.entries(countries).map(([key, item]) => <button key={key} data-country={key} aria-pressed={country === key} className={`tab ${country === key ? "active" : ""}`} onClick={() => { setCountry(key); setOpen({}); }}>
         {item.flag} {isEnglish ? item.nameEn : item.name}
       </button>)}
     </div>
     <div className="accordion" key={country}>
-      {current.sections.map((section, index) => {
-        if (!section.items.length && ['运营商集团战略', '对外关系与市场影响', '华为在尼泊尔'].includes(section.displayCategory || '')) return null;
-        const active = !!open[index];
+      {[...current.sections].sort((a,b)=>Number(a.category==='ICT 竞争对手最新动态')-Number(b.category==='ICT 竞争对手最新动态')).map((section, index) => {
         const competitor = section.category === 'ICT 竞争对手最新动态';
+        if (!section.items.length && !competitor) return null;
+        const active = open[index] ?? !competitor;
         return <Card className="accordion-section" key={`${country}-${index}-${section.category}`}>
-          <button className="accordion-trigger" aria-expanded={active} aria-controls={`section-${index}`} onClick={() => setOpen((value) => ({...value, [index]: !value[index]}))}>
+          <button className="accordion-trigger" aria-expanded={active} aria-controls={`section-${index}`} onClick={() => setOpen((value) => ({...value, [index]: !active}))}>
             <span className="accordion-title">{competitor ? (isEnglish ? 'Competitor intelligence' : '竞争对手情报') : isEnglish ? (section.displayCategoryEn||section.categoryEn) : (section.displayCategory||section.category)}</span>
             <span style={{display: "flex", alignItems: "center", gap: 8}}><Badge>{competitor ? `${monitoring.vendors.length} ${isEnglish?'vendors watched':'家监控'}` : `${section.items.length} ${isEnglish?'items':'条'}`}</Badge><ChevronDown size={15} style={{transform: active ? "rotate(180deg)" : "none", transition: ".18s"}}/></span>
           </button>

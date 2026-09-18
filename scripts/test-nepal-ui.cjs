@@ -26,7 +26,10 @@ const server=http.createServer((req,res)=>{
   assert((await page.locator('h1').innerText()).match(/尼泊尔|历史/));
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
- await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),8);
+ await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),5);
+ assert.equal(await page.locator('.news-card').count(),9);
+ assert.equal(await page.locator('.competitor-card').count(),0);
+ await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
  for(const title of ['运营商集团战略','对外关系与市场影响','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
  for(const language of ['English','中文']){
   await page.getByRole('button',{name:language,exact:true}).click();
