@@ -6,21 +6,23 @@
   "period": "2026年9月5日—9月18日 · 尼泊尔独立版",
   "periodEn": "5–18 September 2026 · Nepal edition",
   "sourceFile": "nepal-w37-38.html",
-  "status": "已完成8条本期事件编辑核验；社媒线索单列，不重复计入新闻。尚未取得足够证据的栏目不填充旧闻。",
-  "statusEn": "Eight current-period events reviewed. Social observations are shown separately and not counted again. Unverified sections are not padded with old news.",
+  "status": "已完成9条本期事件编辑核验；新增9月17日官方资费公告。社媒线索不重复计入新闻，附件关键词命中仍需核验。",
+  "statusEn": "Nine current-period events reviewed, including the 17 September official tariff announcement. Social observations are not counted again; attachment keyword matches remain unverified candidates.",
   "summary": [
     "NTA 公布800MHz竞价说明会安排；这是竞价流程推进，尚非频谱或设备授标。",
     "UTL牌照取消公告进入本期监管视野，相关资产和应收交易需加强尽调。",
     "Ncell在灾区引入Eutelsat低轨卫星连接，韧性回传和备电需求值得跟进。",
     "WorldLink、Classic Tech和Vianet分别推进企业托管Wi-Fi、千兆套餐和电竞场景。",
-    "数字议会公开测试带来公共部门运维、安全及数据治理的潜在线索，尚无新招标依据。"
+    "数字议会公开测试带来公共部门运维、安全及数据治理的潜在线索，尚无新招标依据。",
+    "新增每日监控关注点后，核验了 Nepal Telecom 宪法日套餐；促销与采购机会明确区分。"
   ],
   "summaryEn": [
     "NTA schedules an 800 MHz pre-bid conference; no spectrum or equipment award is established.",
     "UTL's cancellation notice highlights asset and receivables due-diligence needs.",
     "Ncell deploys Eutelsat satellite connectivity for disaster relief, highlighting backhaul resilience.",
     "WorldLink, Classic Tech and Vianet advance managed Wi-Fi, gigabit SME access and esports connectivity.",
-    "Digital Parliament testing suggests operations and security needs, but no new tender is confirmed."
+    "Digital Parliament testing suggests operations and security needs, but no new tender is confirmed.",
+    "Expanded daily monitoring verified Nepal Telecom's Constitution Day plans; a promotion is not a procurement opportunity."
   ],
   "countries": {
     "np": {
@@ -32,6 +34,27 @@
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
           "items": [
+            {
+              "id": "np-constitution-offer",
+              "date": "2026-09-17",
+              "title": "Nepal Telecom 发布宪法日套餐：大流量促销仍设每日高速限额",
+              "titleEn": "Nepal Telecom announces Constitution Day plans with daily high-speed limits",
+              "text": "事实：运营商9月17日（尼历2083年6月1日）公告面向预付费与后付费客户推出两款30天套餐：含税499尼泊尔卢比，每日5GB后限速2Mbps；含税699尼泊尔卢比，每日10GB后限速3Mbps。办理窗口为9月18—20日。已核对官方扫描公告；“无限”不等于全程不限速，也不是网络扩容或设备采购公告。",
+              "textEn": "The operator's 17 September release announces two 30-day plans: NPR 499 including tax for 5 GB/day, then 2 Mbps; NPR 699 for 10 GB/day, then 3 Mbps. Subscription is available 18–20 September for prepaid and postpaid customers. The scanned official release was checked. Unlimited usage does not mean unlimited high-speed data, and the offer does not establish a network expansion or equipment purchase.",
+              "opportunity": "研判：客户 Nepal Telecom；跟进促销期忙时容量、策略计费及用户体验，但先取得实际流量和投诉数据。当前是零售套餐活动，没有披露建设规模、采购预算或设备供应商，不列为已确认招标。",
+              "opportunityEn": "Analysis: review busy-hour capacity, policy/charging and user experience with Nepal Telecom using measured traffic and complaint data. This is a retail promotion; no build scope, procurement budget or equipment supplier is disclosed. Do not treat it as a confirmed tender.",
+              "badge": "官方公告核验 · Tier 1",
+              "links": [
+                {
+                  "label": "Nepal Telecom · official release (PDF)",
+                  "url": "https://cms.ntc.net.np/storage/press-release/gvPO4QgXQe4qOqGj63Wvl8CK7Jxmx6q6w8aP2jGH.pdf"
+                },
+                {
+                  "label": "Nepal Telecom · press releases",
+                  "url": "https://www.ntc.net.np/press-releases"
+                }
+              ]
+            },
             {
               "id": "np-leo",
               "date": "2026-09-08",
@@ -267,11 +290,11 @@
     }
   },
   "stats": {
-    "news": 8,
-    "opportunities": 8,
+    "news": 9,
+    "opportunities": 9,
     "telegram": 0,
     "countryCounts": {
-      "np": 8
+      "np": 9
     }
   }
 }

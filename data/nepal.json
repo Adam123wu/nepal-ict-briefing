@@ -50,21 +50,23 @@
     "period": "2026年9月5日—9月18日 · 尼泊尔独立版",
     "periodEn": "5–18 September 2026 · Nepal edition",
     "sourceFile": "nepal-w37-38.html",
-    "status": "已完成8条本期事件编辑核验；社媒线索单列，不重复计入新闻。尚未取得足够证据的栏目不填充旧闻。",
-    "statusEn": "Eight current-period events reviewed. Social observations are shown separately and not counted again. Unverified sections are not padded with old news.",
+    "status": "已完成9条本期事件编辑核验；新增9月17日官方资费公告。社媒线索不重复计入新闻，附件关键词命中仍需核验。",
+    "statusEn": "Nine current-period events reviewed, including the 17 September official tariff announcement. Social observations are not counted again; attachment keyword matches remain unverified candidates.",
     "summary": [
       "NTA 公布800MHz竞价说明会安排；这是竞价流程推进，尚非频谱或设备授标。",
       "UTL牌照取消公告进入本期监管视野，相关资产和应收交易需加强尽调。",
       "Ncell在灾区引入Eutelsat低轨卫星连接，韧性回传和备电需求值得跟进。",
       "WorldLink、Classic Tech和Vianet分别推进企业托管Wi-Fi、千兆套餐和电竞场景。",
-      "数字议会公开测试带来公共部门运维、安全及数据治理的潜在线索，尚无新招标依据。"
+      "数字议会公开测试带来公共部门运维、安全及数据治理的潜在线索，尚无新招标依据。",
+      "新增每日监控关注点后，核验了 Nepal Telecom 宪法日套餐；促销与采购机会明确区分。"
     ],
     "summaryEn": [
       "NTA schedules an 800 MHz pre-bid conference; no spectrum or equipment award is established.",
       "UTL's cancellation notice highlights asset and receivables due-diligence needs.",
       "Ncell deploys Eutelsat satellite connectivity for disaster relief, highlighting backhaul resilience.",
       "WorldLink, Classic Tech and Vianet advance managed Wi-Fi, gigabit SME access and esports connectivity.",
-      "Digital Parliament testing suggests operations and security needs, but no new tender is confirmed."
+      "Digital Parliament testing suggests operations and security needs, but no new tender is confirmed.",
+      "Expanded daily monitoring verified Nepal Telecom's Constitution Day plans; a promotion is not a procurement opportunity."
     ],
     "countries": {
       "np": {
@@ -76,6 +78,27 @@
             "category": "本国运营商最新动态",
             "categoryEn": "Operator developments",
             "items": [
+              {
+                "id": "np-constitution-offer",
+                "date": "2026-09-17",
+                "title": "Nepal Telecom 发布宪法日套餐：大流量促销仍设每日高速限额",
+                "titleEn": "Nepal Telecom announces Constitution Day plans with daily high-speed limits",
+                "text": "事实：运营商9月17日（尼历2083年6月1日）公告面向预付费与后付费客户推出两款30天套餐：含税499尼泊尔卢比，每日5GB后限速2Mbps；含税699尼泊尔卢比，每日10GB后限速3Mbps。办理窗口为9月18—20日。已核对官方扫描公告；“无限”不等于全程不限速，也不是网络扩容或设备采购公告。",
+                "textEn": "The operator's 17 September release announces two 30-day plans: NPR 499 including tax for 5 GB/day, then 2 Mbps; NPR 699 for 10 GB/day, then 3 Mbps. Subscription is available 18–20 September for prepaid and postpaid customers. The scanned official release was checked. Unlimited usage does not mean unlimited high-speed data, and the offer does not establish a network expansion or equipment purchase.",
+                "opportunity": "研判：客户 Nepal Telecom；跟进促销期忙时容量、策略计费及用户体验，但先取得实际流量和投诉数据。当前是零售套餐活动，没有披露建设规模、采购预算或设备供应商，不列为已确认招标。",
+                "opportunityEn": "Analysis: review busy-hour capacity, policy/charging and user experience with Nepal Telecom using measured traffic and complaint data. This is a retail promotion; no build scope, procurement budget or equipment supplier is disclosed. Do not treat it as a confirmed tender.",
+                "badge": "官方公告核验 · Tier 1",
+                "links": [
+                  {
+                    "label": "Nepal Telecom · official release (PDF)",
+                    "url": "https://cms.ntc.net.np/storage/press-release/gvPO4QgXQe4qOqGj63Wvl8CK7Jxmx6q6w8aP2jGH.pdf"
+                  },
+                  {
+                    "label": "Nepal Telecom · press releases",
+                    "url": "https://www.ntc.net.np/press-releases"
+                  }
+                ]
+              },
               {
                 "id": "np-leo",
                 "date": "2026-09-08",
@@ -311,11 +334,11 @@
       }
     },
     "stats": {
-      "news": 8,
-      "opportunities": 8,
+      "news": 9,
+      "opportunities": 9,
       "telegram": 0,
       "countryCounts": {
-        "np": 8
+        "np": 9
       }
     }
   },
@@ -339,10 +362,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:29.343791+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:48.089436+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.343791+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:48.089436+00:00"
     },
     {
       "id": "np-mocit",
@@ -366,8 +389,11 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.344058+00:00",
-      "scanError": "URLError"
+      "lastAttemptAt": "2026-09-18T00:43:48.089704+00:00",
+      "scanError": "URLError",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "English + Nepali"
     },
     {
       "id": "np-pmo",
@@ -391,7 +417,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://www.opmcm.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.344125+00:00",
+      "lastAttemptAt": "2026-09-18T00:43:48.089779+00:00",
       "scanError": "URLError"
     },
     {
@@ -413,10 +439,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:29.344169+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:48.089830+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.ntc.net.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.344169+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:48.089830+00:00"
     },
     {
       "id": "np-ncell",
@@ -437,10 +463,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:29.344219+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:48.089869+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.ncell.com.np/en",
-      "lastAttemptAt": "2026-09-18T00:08:29.344219+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:48.089869+00:00"
     },
     {
       "id": "np-worldlink",
@@ -461,10 +487,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:29.344291+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:48.089911+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://worldlink.com.np/",
-      "lastAttemptAt": "2026-09-18T00:08:29.344291+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:48.089911+00:00"
     },
     {
       "id": "np-vianet",
@@ -485,10 +511,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:31.668333+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:48.662844+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.vianet.com.np/",
-      "lastAttemptAt": "2026-09-18T00:08:31.668333+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:48.662844+00:00"
     },
     {
       "id": "np-subisu",
@@ -509,10 +535,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:44.997633+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:50.350045+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.subisu.net.np/",
-      "lastAttemptAt": "2026-09-18T00:08:44.997633+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:50.350045+00:00"
     },
     {
       "id": "np-dishhome",
@@ -533,10 +559,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:47.624280+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:52.700939+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://dishhome.com.np/",
-      "lastAttemptAt": "2026-09-18T00:08:47.624280+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:52.700939+00:00"
     },
     {
       "id": "np-cgnet",
@@ -557,10 +583,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:47.829950+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:53.092780+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://cgnet.com.np/",
-      "lastAttemptAt": "2026-09-18T00:08:47.829950+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:53.092780+00:00"
     },
     {
       "id": "np-techpana",
@@ -584,8 +610,11 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://www.techpana.com/",
-      "lastAttemptAt": "2026-09-18T00:08:47.830345+00:00",
-      "scanError": "HTTPError"
+      "lastAttemptAt": "2026-09-18T00:43:53.798722+00:00",
+      "scanError": "HTTPError",
+      "monitoringPriority": "high",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "English+ Nepali"
     },
     {
       "id": "np-ictsamachar",
@@ -606,10 +635,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:48.317704+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:53.952501+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ictsamachar.com/",
-      "lastAttemptAt": "2026-09-18T00:08:48.317704+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:53.952501+00:00"
     },
     {
       "id": "np-gadgetbyte",
@@ -630,10 +659,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:50.054396+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:55.273058+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.gadgetbytenepal.com/",
-      "lastAttemptAt": "2026-09-18T00:08:50.054396+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:55.273058+00:00"
     },
     {
       "id": "np-nepalitelecom",
@@ -654,10 +683,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:51.115541+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:56.475421+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nepalitelecom.com/",
-      "lastAttemptAt": "2026-09-18T00:08:51.115541+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:56.475421+00:00"
     },
     {
       "id": "np-ictbyte",
@@ -678,10 +707,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:51.329899+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:57.256752+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ictbyte.com/",
-      "lastAttemptAt": "2026-09-18T00:08:51.329899+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:57.256752+00:00"
     },
     {
       "id": "np-kathmandupost",
@@ -702,10 +731,13 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:52.086475+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:57.887275+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://kathmandupost.com/",
-      "lastAttemptAt": "2026-09-18T00:08:52.086475+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:57.887275+00:00",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "English"
     },
     {
       "id": "np-onlinekhabar",
@@ -726,10 +758,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:52.415412+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:59.576813+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://english.onlinekhabar.com/",
-      "lastAttemptAt": "2026-09-18T00:08:52.415412+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:59.576813+00:00"
     },
     {
       "id": "np-huawei",
@@ -750,10 +782,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:54.066577+00:00",
+      "lastCollectedAt": "2026-09-18T00:43:59.987086+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.huawei.com/en/news",
-      "lastAttemptAt": "2026-09-18T00:08:54.066577+00:00"
+      "lastAttemptAt": "2026-09-18T00:43:59.987086+00:00"
     },
     {
       "id": "np-nokia",
@@ -774,10 +806,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:56.920097+00:00",
+      "lastCollectedAt": "2026-09-18T00:44:00.647787+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.nokia.com/newsroom/",
-      "lastAttemptAt": "2026-09-18T00:08:56.920097+00:00"
+      "lastAttemptAt": "2026-09-18T00:44:00.647787+00:00"
     },
     {
       "id": "np-zte",
@@ -798,10 +830,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:56.991876+00:00",
+      "lastCollectedAt": "2026-09-18T00:44:00.813337+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.zte.com.cn/global/about/news.html",
-      "lastAttemptAt": "2026-09-18T00:08:56.991876+00:00"
+      "lastAttemptAt": "2026-09-18T00:44:00.813337+00:00"
     },
     {
       "id": "np-ericsson",
@@ -817,16 +849,15 @@
       "handle": "",
       "owner": "Ericsson newsroom · Nepal filter",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T00:44:01.377826+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.ericsson.com/en/newsroom",
-      "lastAttemptAt": "2026-09-18T00:08:59.904379+00:00",
-      "scanError": "HTTPError"
+      "lastAttemptAt": "2026-09-18T00:44:01.377826+00:00"
     },
     {
       "id": "np-cisco",
@@ -847,10 +878,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:08:59.929680+00:00",
+      "lastCollectedAt": "2026-09-18T00:44:01.972803+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://newsroom.cisco.com/",
-      "lastAttemptAt": "2026-09-18T00:08:59.929680+00:00"
+      "lastAttemptAt": "2026-09-18T00:44:01.972803+00:00"
     },
     {
       "id": "np-nrb",
@@ -871,10 +902,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-18T00:09:06.125788+00:00",
+      "lastCollectedAt": "2026-09-18T00:44:02.139120+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-09-18T00:09:06.125788+00:00"
+      "lastAttemptAt": "2026-09-18T00:44:02.139120+00:00"
     },
     {
       "id": "np-law",
@@ -898,7 +929,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:09.052033+00:00",
+      "lastAttemptAt": "2026-09-18T00:44:02.377833+00:00",
       "scanError": "URLError"
     },
     {
@@ -923,7 +954,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:10.373254+00:00",
+      "lastAttemptAt": "2026-09-18T00:44:03.643652+00:00",
       "scanError": "URLError"
     },
     {
@@ -948,7 +979,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:11.848711+00:00",
+      "lastAttemptAt": "2026-09-18T00:44:04.135762+00:00",
       "scanError": "URLError"
     },
     {
@@ -973,7 +1004,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:12.289781+00:00",
+      "lastAttemptAt": "2026-09-18T00:44:04.225487+00:00",
       "scanError": "URLError"
     },
     {
@@ -998,7 +1029,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-09-18T00:09:13.331498+00:00",
+      "lastAttemptAt": "2026-09-18T00:44:04.358944+00:00",
       "scanError": "URLError"
     },
     {
@@ -1935,14 +1966,15 @@
       "handle": "",
       "owner": "Classic Tech",
       "enabled": true,
-      "status": "已列入监控",
-      "statusEn": "Monitoring configured",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T00:44:06.663145+00:00",
       "scope": "Nepal",
-      "verificationUrl": "https://classic.com.np/"
+      "verificationUrl": "https://classic.com.np/",
+      "lastAttemptAt": "2026-09-18T00:44:06.663145+00:00"
     },
     {
       "id": "np-ictframe",
@@ -1958,14 +1990,15 @@
       "handle": "",
       "owner": "ICT Frame",
       "enabled": true,
-      "status": "已列入监控",
-      "statusEn": "Monitoring configured",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
-      "lastCollectedAt": null,
+      "lastCollectedAt": "2026-09-18T00:44:07.346988+00:00",
       "scope": "Nepal",
-      "verificationUrl": "https://ictframe.com/"
+      "verificationUrl": "https://ictframe.com/",
+      "lastAttemptAt": "2026-09-18T00:44:07.346988+00:00"
     },
     {
       "id": "np-parliament",
@@ -1981,14 +2014,394 @@
       "handle": "",
       "owner": "Digital Parliament",
       "enabled": true,
-      "status": "官网正文已核验",
-      "statusEn": "Official page reviewed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
+      "lastCollectedAt": "2026-09-18T00:44:09.192050+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://digital.parliament.gov.np/",
+      "lastAttemptAt": "2026-09-18T00:44:09.192050+00:00"
+    },
+    {
+      "id": "np-nepalkhabar",
+      "name": "NepalKhabar",
+      "nameEn": "NepalKhabar",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://nepalkhabar.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "NepalKhabar",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:10.180815+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://nepalkhabar.com/",
+      "monitoringPriority": "high",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali + English",
+      "lastAttemptAt": "2026-09-18T00:44:10.180815+00:00"
+    },
+    {
+      "id": "np-technologykhabar",
+      "name": "TechnologyKhabar",
+      "nameEn": "TechnologyKhabar",
+      "category": "科技与设备媒体",
+      "categoryEn": "Technology media",
+      "url": "https://www.technologykhabar.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "TechnologyKhabar",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:10.987574+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://technologykhabar.com/",
+      "monitoringPriority": "high",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:10.987574+00:00"
+    },
+    {
+      "id": "np-baahrakhari",
+      "name": "Baahrakhari",
+      "nameEn": "Baahrakhari",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://baahrakhari.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Baahrakhari",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:12.380955+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://baahrakhari.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:12.380955+00:00"
+    },
+    {
+      "id": "np-ekantipur",
+      "name": "eKantipur",
+      "nameEn": "eKantipur",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://ekantipur.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "eKantipur",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:12.525295+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://ekantipur.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali + English",
+      "lastAttemptAt": "2026-09-18T00:44:12.525295+00:00"
+    },
+    {
+      "id": "np-clickmandu",
+      "name": "Clickmandu",
+      "nameEn": "Clickmandu",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://clickmandu.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Clickmandu",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:14.365983+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://clickmandu.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:14.365983+00:00"
+    },
+    {
+      "id": "np-onlinekhabar-nepali",
+      "name": "OnlineKhabar（尼泊尔语版）",
+      "nameEn": "OnlineKhabar",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://onlinekhabar.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "OnlineKhabar",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:14.657763+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://onlinekhabar.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali + English",
+      "lastAttemptAt": "2026-09-18T00:44:14.657763+00:00"
+    },
+    {
+      "id": "np-bizmandu",
+      "name": "Bizmandu",
+      "nameEn": "Bizmandu",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://bizmandu.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Bizmandu",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:16.361769+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://bizmandu.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:16.361769+00:00"
+    },
+    {
+      "id": "np-setopati",
+      "name": "Setopati",
+      "nameEn": "Setopati",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://setopati.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Setopati",
+      "enabled": true,
+      "status": "扫描失败·待重试",
+      "statusEn": "Scan failed; retry needed",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
       "lastCollectedAt": null,
       "scope": "Nepal",
-      "verificationUrl": "https://digital.parliament.gov.np/"
+      "verificationUrl": "https://setopati.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:17.407457+00:00",
+      "scanError": "URLError"
+    },
+    {
+      "id": "np-rajdhanidaily",
+      "name": "Rajdhani Daily",
+      "nameEn": "Rajdhani Daily",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://rajdhanidaily.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Rajdhani Daily",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:18.078510+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://rajdhanidaily.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:18.078510+00:00"
+    },
+    {
+      "id": "np-karobardaily",
+      "name": "Karobar Daily",
+      "nameEn": "Karobar Daily",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://karobardaily.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Karobar Daily",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:18.539293+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://karobardaily.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:18.539293+00:00"
+    },
+    {
+      "id": "np-urjakhabar",
+      "name": "UrjaKhabar",
+      "nameEn": "UrjaKhabar",
+      "category": "能源与基础设施",
+      "categoryEn": "Energy and infrastructure",
+      "url": "https://urjakhabar.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "UrjaKhabar",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:19.766383+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://urjakhabar.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:19.766383+00:00"
+    },
+    {
+      "id": "np-nepalpurbadhar",
+      "name": "NepalPurbadhar",
+      "nameEn": "NepalPurbadhar",
+      "category": "能源与基础设施",
+      "categoryEn": "Energy and infrastructure",
+      "url": "https://nepalpurbadhar.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "NepalPurbadhar",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:20.932570+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://nepalpurbadhar.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:20.932570+00:00"
+    },
+    {
+      "id": "np-bizpati",
+      "name": "Bizpati",
+      "nameEn": "Bizpati",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://bizpati.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "Bizpati",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:21.581544+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://bizpati.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:21.581544+00:00"
+    },
+    {
+      "id": "np-karmacharipress",
+      "name": "KarmachariPress",
+      "nameEn": "KarmachariPress",
+      "category": "主流媒体",
+      "categoryEn": "Mainstream media",
+      "url": "https://karmacharipress.com/",
+      "tier": "T2",
+      "country": "尼泊尔",
+      "countryCode": "np",
+      "platform": "Website",
+      "handle": "",
+      "owner": "KarmachariPress",
+      "enabled": true,
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
+      "posts14d": null,
+      "verifiedBy": "用户提供清单；内容须另行核验",
+      "verifiedByEn": "User-supplied registry; content requires separate verification",
+      "lastCollectedAt": "2026-09-18T00:44:22.003282+00:00",
+      "scope": "Nepal",
+      "verificationUrl": "https://karmacharipress.com/",
+      "monitoringPriority": "normal",
+      "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+      "sourceLanguage": "Nepali",
+      "lastAttemptAt": "2026-09-18T00:44:22.003282+00:00"
     }
   ],
   "people": [
@@ -2133,10 +2546,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-09-18T00:08:29.343791+00:00",
+        "lastCollectedAt": "2026-09-18T00:43:48.089436+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://www.nta.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:08:29.343791+00:00"
+        "lastAttemptAt": "2026-09-18T00:43:48.089436+00:00"
       },
       {
         "id": "np-mocit",
@@ -2160,8 +2573,11 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://mocit.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:08:29.344058+00:00",
-        "scanError": "URLError"
+        "lastAttemptAt": "2026-09-18T00:43:48.089704+00:00",
+        "scanError": "URLError",
+        "monitoringPriority": "normal",
+        "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
+        "sourceLanguage": "English + Nepali"
       },
       {
         "id": "np-nrb",
@@ -2182,10 +2598,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-09-18T00:09:06.125788+00:00",
+        "lastCollectedAt": "2026-09-18T00:44:02.139120+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://www.nrb.org.np/",
-        "lastAttemptAt": "2026-09-18T00:09:06.125788+00:00"
+        "lastAttemptAt": "2026-09-18T00:44:02.139120+00:00"
       },
       {
         "id": "np-law",
@@ -2209,7 +2625,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://lawcommission.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:09:09.052033+00:00",
+        "lastAttemptAt": "2026-09-18T00:44:02.377833+00:00",
         "scanError": "URLError"
       },
       {
@@ -2234,7 +2650,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://rajpatra.dop.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:09:10.373254+00:00",
+        "lastAttemptAt": "2026-09-18T00:44:03.643652+00:00",
         "scanError": "URLError"
       },
       {
@@ -2259,7 +2675,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://ppmo.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:09:11.848711+00:00",
+        "lastAttemptAt": "2026-09-18T00:44:04.135762+00:00",
         "scanError": "URLError"
       },
       {
@@ -2284,7 +2700,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://ird.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:09:12.289781+00:00",
+        "lastAttemptAt": "2026-09-18T00:44:04.225487+00:00",
         "scanError": "URLError"
       },
       {
@@ -2309,7 +2725,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://ibn.gov.np/",
-        "lastAttemptAt": "2026-09-18T00:09:13.331498+00:00",
+        "lastAttemptAt": "2026-09-18T00:44:04.358944+00:00",
         "scanError": "URLError"
       }
     ],
@@ -2429,6 +2845,80 @@
       "date": "2026年9月5日—9月18日 · 尼泊尔独立版",
       "dateEn": "5–18 September 2026 · Nepal edition",
       "current": true
+    }
+  ],
+  "focus": [
+    {
+      "id": "hot-topics",
+      "label": "热点与临时关注",
+      "labelEn": "Hot topics",
+      "priority": "HIGH"
+    },
+    {
+      "id": "huawei",
+      "label": "华为相关",
+      "labelEn": "Huawei",
+      "priority": "HIGH"
+    },
+    {
+      "id": "operators",
+      "label": "运营商与竞争",
+      "labelEn": "Operators and competition",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "regulation",
+      "label": "电信监管",
+      "labelEn": "Telecom regulation",
+      "priority": "HIGH"
+    },
+    {
+      "id": "government",
+      "label": "政府与政策",
+      "labelEn": "Government and policy",
+      "priority": "HIGH"
+    },
+    {
+      "id": "technology",
+      "label": "5G 与 ICT 技术",
+      "labelEn": "5G and ICT technology",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "market",
+      "label": "电信市场与用户",
+      "labelEn": "Telecom market and users",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "csr",
+      "label": "社会责任与绿色通信",
+      "labelEn": "CSR and green telecom",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "economy",
+      "label": "数字经济与基础设施",
+      "labelEn": "Digital economy and infrastructure",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "energy",
+      "label": "太阳能与绿色数据中心",
+      "labelEn": "Solar and green data centres",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "politics",
+      "label": "政治与地缘关系",
+      "labelEn": "Politics and geopolitics",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "disaster",
+      "label": "灾害与网络恢复",
+      "labelEn": "Disasters and network restoration",
+      "priority": "CRITICAL"
     }
   ]
 }

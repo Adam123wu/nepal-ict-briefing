@@ -7,6 +7,14 @@ assert.equal(d.report.countries.np.sections.length,11);
 for(const group of [d.sources,d.people,d.signals,d.telegram.items,d.legal.sources])for(const item of group)assert.equal(item.country,'尼泊尔');
 const ids=new Set();
 for(const s of d.sources){assert(!ids.has(s.id));ids.add(s.id);assert(s.id.startsWith('np-'));assert.equal(new URL(s.url).protocol,'https:');if(s.platform==='Telegram')assert(s.identityVerified&&s.verificationUrl);}
+const imported=read('skills/nepal-ict-briefing/references/source-import.json').sources;
+assert.equal(imported.length,17);
+for(const s of imported)assert(ids.has(s.sourceId),'Imported source mapping missing: '+s.sourceId);
+const focus=read('config/monitoring-focus.json').focusAreas;
+assert.equal(focus.length,12);assert.equal(new Set(focus.map(f=>f.id)).size,12);
+for(const f of focus)assert(f.label&&f.labelEn&&Array.isArray(f.keywords));
+assert.equal(focus.find(f=>f.id==='hot-topics').keywords.length,0);
+assert(!JSON.stringify(d.focus).match(/[\u0900-\u097f]/),'Raw research keywords must not leak into public focus labels');
 for(const t of read('config/topic-source-routing.json').topics)assert.deepEqual(t.countries,['尼泊尔']);
 const hosts=new Set(d.legal.sources.map(s=>new URL(s.url).hostname));
 for(const s of d.legal.sources)assert(new URL(s.url).hostname.endsWith('.gov.np')||new URL(s.url).hostname.endsWith('.org.np'));

@@ -28,8 +28,12 @@ const server=http.createServer((req,res)=>{
  }
  await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),11);assert((await page.locator('main').innerText()).includes('Eutelsat'));
  await page.goto(base+'/compliance/');assert((await page.locator('main').innerText()).includes('UTL'));
- await page.goto(base+'/sources/');await page.getByRole('textbox').fill('Ncell');assert.equal(await page.locator('tbody tr').count(),3);
+ await page.goto(base+'/sources/');assert((await page.locator('main').innerText()).includes('监控关注点与附件'));
+ const attachment=await page.request.get(base+'/resources/Nepal_Media_Monitoring_with_News_Sources.xlsx');assert(attachment.ok());assert.equal((await attachment.body()).subarray(0,2).toString(),'PK');
+ await page.getByRole('textbox').fill('TechnologyKhabar');assert.equal(await page.locator('tbody tr').count(),1);
+ await page.getByRole('textbox').fill('Ncell');assert.equal(await page.locator('tbody tr').count(),3);
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
- assert.deepEqual(errors,[]);console.log('Six routes, Chinese/English, Nepal isolation, 11 sections, source filtering and mobile width passed.');
+ if(process.env.NEPAL_SCREENSHOT){await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/sources/');await page.screenshot({path:process.env.NEPAL_SCREENSHOT,fullPage:false});}
+ assert.deepEqual(errors,[]);console.log('Six routes, Chinese/English, Nepal isolation, 11 sections, new source filtering, original attachment download and mobile width passed.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

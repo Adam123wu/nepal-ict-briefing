@@ -12,7 +12,7 @@
     "primarySourceRule": "T1 official sources may enter the candidate pool directly; T2 and media-only claims require independent corroboration.",
     "deduplication": "Deduplicate by canonical URL, source message ID and semantic event identity before topic routing.",
     "classification": "Assign one primary topic and any materially relevant secondary topics; never classify solely from the platform name.",
-    "language": "Public output must contain complete Chinese and English fields and must not expose untranslated Arabic text.",
+    "language": "Public narratives must have complete Chinese and English fields. Nepali belongs only in research keywords and original candidate metadata.",
     "publication": "Automatic collection creates candidates. Analyst-reviewed items may be promoted into the corresponding briefing or compliance section."
   },
   "topics": [
@@ -369,5 +369,6 @@
     "खरिद",
     "ठेक्का",
     "नियमावली"
-  ]
+  ],
+  "monitoringFocusConfig": "config/monitoring-focus.json"
 }

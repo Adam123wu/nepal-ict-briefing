@@ -8,6 +8,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.parse import urljoin, urlparse
+from nepal_monitoring import canonical_url, classify, RANK
 
 class Links(HTMLParser):
     def __init__(self):
@@ -21,25 +22,30 @@ class Links(HTMLParser):
             self.links.append((self.href,' '.join(' '.join(self.text).split()))); self.href=None
 
 def scan(source):
-    if source['platform']!='Website': return source,[],[]
+    if source['platform']!='Website' or not source.get('enabled',True): return source,[],[]
     now=datetime.now(timezone.utc).isoformat()
     source={**source,'lastAttemptAt':now}
     try:
         with urlopen(Request(source['url'],headers={'User-Agent':'NepalICTResearch/1.0 (public-source-index)'}),timeout=18) as response:
+            final_url=response.geturl()
             text=response.read(2_000_000).decode('utf-8','replace')
         if re.search(r'just a moment|verify you are human|cf-chl-',text,re.I): raise ValueError('Access challenge')
         parser=Links();parser.feed(text)
         candidates=[];social=[];seen=set()
         for path,title in parser.links:
-            url=urljoin(source['url'],path.strip()); parsed=urlparse(url)
+            url=canonical_url(urljoin(final_url,path.strip())); parsed=urlparse(url)
             if parsed.scheme!='https' or parsed.username or parsed.password: continue
             if parsed.hostname in ['facebook.com','www.facebook.com','x.com','twitter.com','t.me','www.linkedin.com','np.linkedin.com'] and not any(x in url for x in ['sharer','intent/','/share','/tr?','login','plugins/']):
                 social.append({'sourceId':source['id'],'url':url,'evidenceUrl':source['url'],'status':'needs-ownership-review'})
-            if len(title)<15 or url in seen or parsed.hostname!=urlparse(source['url']).hostname: continue
+            allowed_hosts={urlparse(source['url']).hostname,urlparse(final_url).hostname}
+            if len(title)<15 or url in seen or parsed.hostname not in allowed_hosts: continue
             if source.get('scope')=='Nepal-only' and not re.search(r'nepal|nepali|नेपाल|kathmandu|worldlink|ncell',title+' '+url,re.I): continue
-            if not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
+            triage=classify(title+' '+url)
+            if not triage['focusMatches'] and not re.search(r'news|press|notice|article|blog|tender|समाचार|सूचना|खरिद|प्रविधि|टेलिकम|दूरसञ्चार|इन्टरनेट|फाइबर|5g|ncell',title+' '+url,re.I): continue
             seen.add(url)
-            candidates.append({'id':hashlib.sha256(url.encode()).hexdigest()[:20],'sourceId':source['id'],'country':'尼泊尔','url':url,'titleOriginal':title[:240],'observedAt':now,'publishedAt':None,'status':'date-and-content-unverified'})
+            candidates.append({'id':hashlib.sha256(url.encode()).hexdigest()[:20],'sourceId':source['id'],'country':'尼泊尔','url':url,'titleOriginal':title[:240],'observedAt':now,'publishedAt':None,'status':'date-and-content-unverified',**triage})
+        candidates.sort(key=lambda item:RANK[item['priority']])
+        source.pop('scanError',None)
         source.update(status='官网可读取·内容待核验',statusEn='Website readable; content pending review',lastCollectedAt=now)
         return source,candidates[:60],social[:30]
     except Exception as error:
