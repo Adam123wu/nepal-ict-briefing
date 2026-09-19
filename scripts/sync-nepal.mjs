@@ -21,10 +21,13 @@ export async function syncNepal(){
  const feed={...raw,items:tg.filter(i=>!reviewed.has(i.id)&&!urls.has(i.url))};feed.messageCount=feed.items.length;
  let previous=[];
  try{previous=await read('data/archive.json');}catch(e){if(e.code!=='ENOENT')throw e;}
- const archive=[{file:market.reportFile,week:report.issue,date:report.period,dateEn:report.periodEn,current:true},...previous.filter(i=>i.file.startsWith('nepal-')&&i.file!==market.reportFile).map(i=>({...i,current:false}))];
+ const sealed=await read('config/archive-manifest.json');
+ const archive=[{file:market.reportFile,week:report.issue,date:report.period,dateEn:report.periodEn,current:true},...sealed,...previous.filter(i=>i.file.startsWith('nepal-')&&i.file!==market.reportFile&&!sealed.some(s=>s.file===i.file)).map(i=>({...i,current:false}))];
  const items=report.countries.np.sections.flatMap(s=>s.items);
  report.stats={news:items.length,opportunities:items.filter(i=>i.opportunity).length,telegram:feed.items.length,countryCounts:{np:items.length}};
  await fs.mkdir('data',{recursive:true});
+ const collected=await read('config/nepal-source-candidates.json');
+ await save('data/refresh-status.json',{generatedAt:collected.generatedAt,candidateCount:collected.candidates.length,failedSources:sources.filter(s=>s.scanError).length});
  await save('data/report.json',report);await save('data/sources.json',sources);await save('data/people.json',people);
  await save('data/social-signals.json',social);await save('data/telegram-feed.json',feed);await save('data/compliance-analysis.json',compliance);
  await save('data/nepal-legal-news.json',legal);await save('data/archive.json',archive);

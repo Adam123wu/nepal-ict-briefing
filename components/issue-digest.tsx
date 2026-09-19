@@ -1,5 +1,6 @@
 import data from '@/data/nepal.json';
 import {Card} from './ui';
+import {RefreshStatus} from './refresh-status';
 
 export function IssueDigest({en}:{en:boolean}) {
  const t=(zh:string,english:string)=>en?english:zh;
@@ -7,7 +8,7 @@ export function IssueDigest({en}:{en:boolean}) {
  const news=sections.reduce((n,s)=>n+s.items.length,0);
  const facebook=data.sources.filter(s=>s.platform==='Facebook');
  const pending=facebook.filter(s=>!s.lastCollectedAt).length;
- return <Card className="card-pad issue-digest">
+ return <><RefreshStatus en={en}/><Card className="card-pad issue-digest">
   <h2>{t('本期要点','This issue at a glance')}</h2>
   <p className="section-sub">{t(`${news} 条独立事件 · ${sections.filter(s=>s.items.length).length} 个有新闻的专题 · 社媒转述不重复计数`,`${news} distinct events · ${sections.filter(s=>s.items.length).length} populated topics · social mentions are not counted twice`)}</p>
   <ol style={{listStyle:'decimal',paddingLeft:24,lineHeight:1.85,margin:'16px 0'}}>{(en?data.report.summaryEn:data.report.summary).map((summary,i)=><li style={{marginBottom:8}} key={i}>{summary}</li>)}</ol>
@@ -19,5 +20,5 @@ export function IssueDigest({en}:{en:boolean}) {
    <p>{t(`Facebook 已登记 ${facebook.length} 个信源，其中 ${pending} 个尚无帖子扫描完成记录。登记账号不等于读取帖子；当前网站采集器不自动采集 Facebook。`,`${facebook.length} Facebook sources are registered; ${pending} have no completed post-scan record. Registering an account does not mean reading its posts. The website collector does not automatically collect Facebook.`)}</p>
    <p>{t('国家政策与外交人事要闻独立纳入；提名不等于任命，内阁批准不等于法规已生效。没有独立新闻的专题暂不展示，竞争监控名单单独折叠。','National policy and diplomatic appointments are included in their own topic. Nomination is not appointment; Cabinet approval is not proof that a rule is in force. Empty topics are omitted and the competitor watchlist is collapsed separately.')}</p>
   </details>
- </Card>;
+ </Card></>;
 }

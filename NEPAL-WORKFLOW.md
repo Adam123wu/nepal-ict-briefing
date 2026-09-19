@@ -40,10 +40,14 @@ Run `npm run build`, `npm audit --omit=dev`, and UI tests. Check actual counts, 
 
 Commit intentional files and push only Adam123wu/nepal-ict-briefing main under the user's publication authorization. Wait for Pages and check all five routes in both languages at https://adam123wu.github.io/nepal-ict-briefing/ and verify `/compliance/` returns 404. Do not publish to a different repository.
 
-Daily GitHub collection: 01:30 Nepal time. Daily Codex editorial update: 02:00 Asia/Baghdad (04:45 Asia/Kathmandu). The latter needs the computer and app running with access to the local project and network. Scheduling is not proof of successful research; report failures and source limitations accurately.
+Daily GitHub collection: 02:45 Nepal time. Daily Codex editorial update: 00:20 Asia/Baghdad (03:05 Asia/Kathmandu). The latter needs the computer and app running with access to the local project and network. Scheduling is not proof of successful research; report failures and source limitations accurately.
 
 ## Attachment-derived focus
 
 The 18 September monitoring workbook contributes Huawei, operators/competition, regulation, ministries, 5G/ICT, market metrics, CSR, digital economy, solar/green data centres, politics/geopolitics and disaster recovery. User-defined hot topics remain empty until specified. Read all twelve groups in config/monitoring-focus.json, search both English and Nepali, and integrate results into the existing eleven sections. Disaster keywords alone are not a verified CRITICAL outage.
 
 Seventeen supplied domains map to the registry, preserving the original reference and correcting the ministry endpoint to mocit.gov.np. Prioritize TechPana, NepalKhabar, New Business Age and TechnologyKhabar for discovery. Sharing frequency is not an evidence tier; selectors and RSS claims must be checked against live pages. Use alternative public sources when access is blocked, without bypassing login or access controls. Major national policies and diplomatic/senior appointments are independently in scope; other broad energy/economic stories require concrete Nepal ICT or business-environment relevance.
+
+## Midnight collection and biweekly sealing
+
+Daily collection is scheduled at 00:00 Asia/Baghdad (02:45 Nepal); editorial review at 00:20 Baghdad (03:05 Nepal). Inspect workflow records for missed or failed runs. The visible search timestamp is not an editorial publication timestamp. Run `python3 scripts/archive_nepal.py` after each completed 14-day window; sealed bilingual files and config/archive-manifest.json must be committed and never overwritten. Advance the next issue by 14 days only after preserving the previous issue; do not relabel old news or invent empty completed issues. Keep the previous reviewed issue visible if new research is incomplete, explicitly noting the lag. The daily cloud collector also checks archiving independently of local Codex availability.
