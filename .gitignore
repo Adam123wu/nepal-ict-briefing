@@ -36,3 +36,4 @@ out/
 !.env.example
 *.session
 *.session-journal
+.analysis/

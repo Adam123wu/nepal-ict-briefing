@@ -1,0 +1,30 @@
+name: DeepSeek reviewed-news analysis
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: deepseek-analysis
+  cancel-in-progress: false
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s scripts -p 'test_nepal_deepseek.py'
+      - name: Analyze Codex-reviewed public news
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/analyze_nepal_deepseek.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: deepseek-analysis-draft
+          path: .analysis/deepseek-draft.json
+          include-hidden-files: true
+          retention-days: 7

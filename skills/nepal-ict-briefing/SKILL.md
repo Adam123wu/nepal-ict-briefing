@@ -15,6 +15,14 @@ Read `../../NEPAL-WORKFLOW.md` and `../../config/monitoring-focus.json` before r
 
 ## Daily editorial cycle
 
+### DeepSeek analysis after Codex research
+
+After verifying public news, use `scripts/analyze_nepal_deepseek.py` with backend-only `DEEPSEEK_API_KEY`. It calls official DeepSeek V4.1 Flash (`deepseek-flash`) with high thinking effort. Use `--dry-run` to check the packet without cost. Never send private messages, credentials or unpublished customer materials. The script sends only allowlisted public report facts and links, not fetched full articles; read primary sources yourself first.
+
+If the key is held only in GitHub Secrets, commit the reviewed report to main, dispatch `deepseek-analysis.yml`, wait for that exact run, and download its `deepseek-analysis-draft` artifact. This is an explicit post-research step, not a replacement for source collection. The workflow has no write permission and cannot publish drafts. Missing keys or API failures mean analysis is unavailable, not completed; do not retry paid requests indefinitely or claim activation.
+
+Review `.analysis/deepseek-draft.json` against the current input hash, source texts and prior context. Reject unsupported claims and distinguish bidders from OEMs. Integrate approved Chinese/English implications into the report's `opportunity` / `opportunityEn` fields without changing source facts or unique event counts, then run normal validation and publish. Model output is a draft, not evidence. Do not publish chain-of-thought or raw API responses. Budget is bounded to one request per invocation, at most 50 articles, 180 KB input and 24,000 output tokens; usage is saved with the draft. Only explicit research completion should trigger a request, not every site build.
+
 1. Inspect the worktree and safely synchronize main without overwriting unrelated work. Read the current report, sources and topic routing. Maintain the current biweekly issue; daily refresh does not mean a new issue each day.
 2. Run `python3 scripts/collect_nepal_sources.py`. Review `config/nepal-source-candidates.json` in priority order. Candidates are not verified news. Failed sources need an alternative public search, not invented content.
 3. Search all twelve focus areas in English and Nepali. Read actual articles and original notices, not snippets alone. Prioritize TechPana, NepalKhabar and TechnologyKhabar for discovery, but use official documents for regulatory facts. Retain all existing official, operator, ISP and vendor sources.
