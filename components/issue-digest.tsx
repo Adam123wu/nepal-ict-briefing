@@ -14,7 +14,6 @@ export function IssueDigest({en}:{en:boolean}) {
   <nav aria-label={t('本期导航','Issue navigation')} style={{display:'flex',gap:16,flexWrap:'wrap'}}>
    <a href="#issue-news">{t('专题新闻与影响','News & implications')}</a>
    <a href="#issue-social">{t('社媒补充','Social context')}</a>
-   <a href="../compliance/">{t('法律与合规','Legal & compliance')}</a>
   </nav>
   <details style={{marginTop:16}}><summary>{t('内容覆盖与采集缺口','Coverage & collection gaps')}</summary>
    <p>{t(`Facebook 已登记 ${facebook.length} 个信源，其中 ${pending} 个尚无帖子扫描完成记录。登记账号不等于读取帖子；当前网站采集器不自动采集 Facebook。`,`${facebook.length} Facebook sources are registered; ${pending} have no completed post-scan record. Registering an account does not mean reading its posts. The website collector does not automatically collect Facebook.`)}</p>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {usePathname} from 'next/navigation';
 import {useLanguage} from './language-context';
 import report from '@/data/report.json';
-const links=[['/','情报总览','Overview'],['/briefings','双周简报','Briefing'],['/compliance','合规与法律','Compliance & law'],['/people','政府与监管','Government & regulators'],['/sources','新闻与社媒信源','News & social sources'],['/archive','历史归档','Archive']];
+const links=[['/','情报总览','Overview'],['/briefings','双周简报','Briefing'],['/people','政府与监管','Government & regulators'],['/sources','新闻与社媒信源','News & social sources'],['/archive','历史归档','Archive']];
 export function NepalShell({children}:{children:React.ReactNode}){
  const {language,setLanguage}=useLanguage(),en=language==='en',path=usePathname();
  const nav=<>{links.map(([href,zh,english])=><Link key={href} href={href} className={`side-link ${path===href||path===href+'/'?'active':''}`}>{en?english:zh}</Link>)}</>;

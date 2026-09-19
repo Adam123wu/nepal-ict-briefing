@@ -18,7 +18,7 @@ const server=http.createServer((req,res)=>{
  browser=await chromium.launch({headless:true,channel:'chrome'});
  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const base=process.env.NEPAL_LIVE_BASE||`http://127.0.0.1:${server.address().port}/nepal-ict-briefing`;
- for(const route of ['','briefings','sources','people','compliance','archive']){
+ for(const route of ['','briefings','sources','people','archive']){
   await page.goto(base+'/'+(route?route+'/':''));await page.getByRole('button',{name:'English',exact:true}).click();
   await page.getByRole('heading',{level:1}).first().waitFor();
   assert((await page.locator('h1').innerText()).match(/Nepal|Historical/));
@@ -51,7 +51,8 @@ const server=http.createServer((req,res)=>{
    if(process.env.NEPAL_READING_SHOTS)await page.screenshot({path:`${process.env.NEPAL_READING_SHOTS}-${language==='English'?'en':'zh'}-${width}.png`,fullPage:false});
   }
  }
- await page.goto(base+'/compliance/');assert((await page.locator('main').innerText()).includes('UTL'));
+ assert.equal(await page.locator('a[href*="/compliance"]').count(),0,'Removed compliance section must not have navigation links');
+ const removedPage=await page.request.get(base+'/compliance/');assert.equal(removedPage.status(),404,'Removed compliance page must not remain published');
  await page.goto(base+'/sources/');assert((await page.locator('main').innerText()).includes('监控关注点与附件'));
  await page.getByRole('textbox').fill('New Business Age');assert.equal(await page.locator('tbody tr').count(),1);
  await page.getByRole('textbox').fill('');
@@ -61,6 +62,6 @@ const server=http.createServer((req,res)=>{
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
  await page.goto(base+'/people/');assert.equal(await page.locator('tbody tr').count(),18);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
  if(process.env.NEPAL_SCREENSHOT){await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/sources/');await page.screenshot({path:process.env.NEPAL_SCREENSHOT,fullPage:false});}
- assert.deepEqual(errors,[]);console.log('Six routes, Chinese/English, Nepal isolation, 11 sections, new source filtering, original attachment download and mobile width passed.');
+ assert.deepEqual(errors,[]);console.log('Five routes, Chinese/English, removed compliance page, Nepal isolation, topic sections, source filtering, attachment download and mobile width passed.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});
