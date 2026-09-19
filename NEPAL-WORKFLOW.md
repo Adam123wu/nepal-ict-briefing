@@ -4,7 +4,7 @@
 
 Major national policies, Cabinet decisions and diplomatic/senior appointments are now explicitly in scope even without an ICT link. Use `config/government-directory.json` for the federal portfolio roster, including the Prime Minister's Office; review reorganization and legacy domain names. New Business Age joins the national-business media review. Do not equate ambassador nomination with appointment or Cabinet endorsement with legal commencement.
 
-Only Nepal. This is a standalone repository and site. Keep eleven topic sections, Chinese and English summaries, a unified social feed, source registry, verified decision-making offices, a separate compliance/legal section and Nepal-only archives. Never import another market's news or personnel to fill a gap.
+Only Nepal. This is a standalone repository and site. Keep eleven topic sections, Chinese and English summaries, a unified social feed, source registry, verified decision-making offices and Nepal-only archives. Compliance & Law has been removed: do not restore its page or navigation. Never import or restore another market's historical reports, news or personnel to fill a gap. Separate legacy repositories are outside this cleanup scope.
 
 ## Research cycle
 
@@ -26,6 +26,8 @@ No verified Nepal Telegram channel currently exists in the registry. Do not scan
 
 ## Legal and compliance
 
+These are research standards, not a standalone public section. Route relevant verified events into existing policy/regulatory topics; do not restore `/compliance/` or publish a separate assessment panel.
+
 Use official NTA, ministry, Gazette, Law Commission, NRB, PPMO, IRD and Investment Board documents. Separate draft, publication, commencement, enforcement and appeal. Include source/date, bilingual factual summary, business implications and at least two concrete actions. Do not infer government assumption of debts or an asset title from press coverage. Keep the non-legal-advice disclaimer.
 
 The six assessment weights are 20/20/15/20/15/10 (stability, access, integrity, transaction compliance, ICT regulation, procurement clarity). Score only when all dimensions have traceable evidence; 10 means lower assessed risk. Scores are editorial judgments, not official ratings. Do not fill missing evidence with neutral scores. Display concrete event-based risks even when the aggregate remains unscored.
@@ -36,7 +38,7 @@ Update config/nepal-report.json, social-signals.json and its English dictionary,
 
 Run `npm run build`, `npm audit --omit=dev`, and UI tests. Check actual counts, current-window dates, translations, official legal domains, links, mobile widths and archive isolation. Generated data is rebuilt, not hand-edited. Public output and Git history must not contain credentials or former-market documents.
 
-Commit intentional files and push only Adam123wu/nepal-ict-briefing main under the user's publication authorization. Wait for Pages and check all six routes in both languages at https://adam123wu.github.io/nepal-ict-briefing/. Do not publish to a different repository.
+Commit intentional files and push only Adam123wu/nepal-ict-briefing main under the user's publication authorization. Wait for Pages and check all five routes in both languages at https://adam123wu.github.io/nepal-ict-briefing/ and verify `/compliance/` returns 404. Do not publish to a different repository.
 
 Daily GitHub collection: 01:30 Nepal time. Daily Codex editorial update: 02:00 Asia/Baghdad (04:45 Asia/Kathmandu). The latter needs the computer and app running with access to the local project and network. Scheduling is not proof of successful research; report failures and source limitations accurately.
 

@@ -21,7 +21,7 @@ Read `../../NEPAL-WORKFLOW.md` and `../../config/monitoring-focus.json` before r
 4. Check event date, publication date, Bikram Sambat conversion, attribution, numbers and permanent links. Cross-check media-only claims and distinguish syndicated copies from independent evidence. Keyword matches and attachment sharing counts never establish truth.
 5. Route by subject into the existing eleven sections. Social posts contribute to every subject and the unified important-social-updates panel. Deduplicate events across platforms and languages. Follow ownership, access and Telegram limitations in the workflow.
 6. Write complete Chinese and English fields. Separate fact, source claim and analysis. Opportunities identify customer, need, stage, disclosed scale, next action and known competitors. Unknowns remain unknown. Corporate donations do not establish equipment procurement.
-7. Update the separate compliance/legal section from official sources where applicable, preserving draft/effective/enforcement distinctions and actionable implications. Do not fabricate an aggregate risk score.
+7. Do not restore the removed Compliance & Law page, navigation or independent section. Relevant verified policies and regulatory events belong in the existing national-affairs or regulatory topics; preserve draft/effective/enforcement distinctions. Retained Nepal research data is not a reason to republish the removed page.
 8. Build, validate, test bilingual/mobile routes and inspect the publication diff for secrets and unrelated/private files. Publish only to `Adam123wu/nepal-ict-briefing` under the user's authorization. Verify Pages after deployment. Preserve previous verified content if research fails.
 
 ## Focus and source references
@@ -46,5 +46,11 @@ For frontend changes, inspect actual computed heading/body/source-link sizes, sp
 CRITICAL requires a confirmed Nepal ICT/service-continuity disaster impact. A disaster keyword alone is HIGH pending review. Huawei, regulator, government and major national-affairs matches are HIGH candidates. ZTE belongs to equipment vendors, not operators. Major national policy and diplomatic appointments do not require an ICT link; other broad economic stories need a business-environment implication. A low priority never means false; a high priority never means verified.
 
 ## Scheduling boundaries
+
+### Persistent publication choices
+
+Publish Nepal-only current issues and archives. Do not restore historical Iraq, Jordan or Lebanon reports, people or feeds in this repository or site. This does not authorize deleting separate legacy repositories or rewriting Git history. Keep Compliance & Law absent from desktop/mobile navigation and direct public routes; test that `/compliance/` returns 404.
+
+For award intelligence distinguish intent to award, final award and signed contract. Record the procuring entity, tender ID, successful bidder or JV, amount/currency/tax basis, notice date and primary-source URL. A successful bidder may be a reseller or integrator: record the equipment manufacturer/brand separately and only with explicit documentary evidence. Otherwise mark manufacturer undisclosed; never infer ZTE, Cisco or another OEM from a partner's name alone.
 
 GitHub Actions collects public candidates daily at 01:30 Nepal time. The existing Codex editorial task runs daily at 02:00 Asia/Baghdad / 04:45 Nepal and performs research, translation, review and publication using this skill. Local-file scheduled work needs the computer and app running with required access. Report missed/failed research honestly; do not equate a successful collection with an updated briefing. Do not silently add paid APIs or send alerts to new recipients.
