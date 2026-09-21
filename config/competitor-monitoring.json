@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-18",
+  "reviewedAt": "2026-09-21",
   "country": "尼泊尔",
   "note": "监控名单不等于本期新中标名单；核验日期不是项目发生日期。",
   "noteEn": "The watchlist is not a list of new awards. Review dates are not project dates.",
@@ -39,16 +39,14 @@
     {
       "id": "eutelsat",
       "name": "Eutelsat",
-      "kind": "current",
+      "kind": "baseline",
       "sourceIds": [
         "np-eutelsat",
         "np-ncell"
       ],
-      "relatedEventIds": [
-        "np-leo"
-      ],
-      "status": "本期已核验 · 同一事件不重复计数",
-      "statusEn": "Current issue · existing event, not counted twice",
+      "relatedEventIds": [],
+      "status": "上期已核验 · 非本期新项目",
+      "statusEn": "Verified in the previous issue · not a new award",
       "scope": "卫星连接与应急回传",
       "scopeEn": "Satellite access and emergency backhaul",
       "summary": "Ncell 官方公告确认采用 Eutelsat 低轨卫星方案，为灾区提供本地 Wi-Fi 连接。",

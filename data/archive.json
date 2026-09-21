@@ -1,9 +1,9 @@
 [
   {
-    "file": "nepal-w37-38.html",
-    "week": "W37-38",
-    "date": "2026年9月5日—9月18日 · 尼泊尔独立版",
-    "dateEn": "5–18 September 2026 · Nepal edition",
+    "file": "nepal-w39-40.html",
+    "week": "W39-40",
+    "date": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
+    "dateEn": "19 September–2 October 2026 · Nepal edition (live issue)",
     "current": true
   },
   {
@@ -13,5 +13,12 @@
     "dateEn": "5–18 September 2026 · Nepal edition",
     "current": false,
     "archivedAt": "2026-09-19"
+  },
+  {
+    "file": "nepal-w37-38.html",
+    "week": "W37-38",
+    "date": "2026年9月5日—9月18日 · 尼泊尔独立版",
+    "dateEn": "5–18 September 2026 · Nepal edition",
+    "current": false
   }
 ]

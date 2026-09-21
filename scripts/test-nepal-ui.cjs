@@ -43,7 +43,7 @@ const server=http.createServer((req,res)=>{
   assert.equal(await page.locator('[data-primary-competitors] .competitor-card').count(),6);
   assert.equal(await page.locator('.competitor-card').count(),11);
   for(const name of ['ZTE','Cisco','Whale Cloud','AsiaInfo','H3C','FiberHome']) assert((await page.locator('[data-primary-competitors]').innerText()).includes(name));
-  assert.equal(await page.locator('[data-evidence-kind="current"]').count(),1);
+  assert.equal(await page.locator('[data-evidence-kind="current"]').count(),0);
   assert.equal(await page.locator('[data-evidence-kind="watch"]').count(),5);
   for(const width of [1440,390]){
    await page.setViewportSize({width,height:1000});
