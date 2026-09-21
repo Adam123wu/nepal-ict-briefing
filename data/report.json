@@ -1,22 +1,24 @@
 {
   "issue": "W39-40",
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "windowStart": "2026-09-19",
   "windowEnd": "2026-10-02",
   "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
   "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
   "sourceFile": "nepal-w39-40.html",
-  "status": "截至9月21日，本期已核验1条重要事件。每日采集用于发现候选，只有完成日期、原文与事实核验后才进入公开简报；政策表态不等于预算、项目或采购授标。",
-  "statusEn": "As of 21 September, one material event has been verified for this issue. Daily collection discovers candidates, but publication requires date, source and factual verification. A policy statement is not a budget, project or procurement award.",
+  "status": "截至9月22日，本期已核验4条重要事件。每日采集用于发现候选，只有完成日期、原文与事实核验后才进入公开简报；政策表态、应急投入和技术故障均不等于已形成的采购项目。",
+  "statusEn": "As of 22 September, four material events have been verified for this issue. Daily collection discovers candidates, but publication requires date, source and factual verification. Policy statements, emergency support and technical incidents do not by themselves constitute procurement projects.",
   "summary": [
-    "通信部长在9月20日 Digital Nepal Conclave 提出韧性数字化的五项优先方向：信息可信、包容连接、政府互操作、以公民为中心的服务，以及负责任的AI与数据治理。",
-    "本次讲话强化了灾害响应、数据交换和公共服务连续性的政策信号，但未公布新增预算、招标、时间表或设备厂家。",
-    "后续应跟踪 MoCIT 及相关实施机构发布的实施计划、预算和采购文件，再判断具体客户与商机。"
+    "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路等通信保障；这些措施已执行，但尚无新增采购预算或供应商信息。",
+    "数据中心技术故障导致尼泊尔证券交易所9月21日停市，券商技术服务商报告勒索软件影响多个互联系统，暴露72家券商集中托管和灾备连续性风险。",
+    "通信基础设施规则修订仍处讨论阶段，NTA官网尚未发布新的生效文本；通信部长此前提出的韧性数字化方向也未形成预算或招标。",
+    "本期应重点跟踪 NEPSE/券商生态的正式事故调查与恢复采购、NTA规则定稿，以及洪灾通信重建是否进入公开预算和采购程序。"
   ],
   "summaryEn": [
-    "At the 20 September Digital Nepal Conclave, the communications minister set out five priorities for resilient digital transformation: trusted information, inclusive connectivity, government interoperability, citizen-centred services, and responsible AI and data governance.",
-    "The speech strengthens the policy signal around disaster response, data exchange and continuity of public services, but announces no new budget, tender, timetable or equipment vendor.",
-    "Follow MoCIT and the relevant implementing agencies for delivery plans, budgets and procurement documents before treating the agenda as a defined customer opportunity."
+    "Nepal Telecom is providing free fibre-equipment repair, SIM replacement and disaster-recovery connectivity in flood-affected areas. The measures are operational, but no new procurement budget or supplier has been disclosed.",
+    "A data-centre technical failure led Nepal Stock Exchange to halt trading on 21 September, while the brokers' technology provider reported ransomware affecting several interconnected systems. The incident exposes concentration and continuity risks across 72 brokers.",
+    "The telecom-infrastructure rule revision remains under discussion and NTA has not published a new effective text. The communications minister's resilience agenda also remains a policy signal without a budget or tender.",
+    "Priority follow-up is the formal NEPSE/broker incident review and any recovery procurement, finalisation of the NTA rules, and whether flood communications reconstruction enters a public budget and procurement process."
   ],
   "countries": {
     "np": {
@@ -27,7 +29,33 @@
         {
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
-          "items": [],
+          "items": [
+            {
+              "id": "np-ntc-flood-connectivity-20260921",
+              "date": "2026-09-21",
+              "title": "尼泊尔电信扩大洪灾通信保障：免费修复光纤、补卡并打通灾备链路",
+              "titleEn": "Nepal Telecom expands flood communications support and disaster-recovery links",
+              "text": "事实：Radio Nepal、eKantipur 和 Technology Khabar 均引述 Nepal Telecom 9月21日公告称，公司正为 Rasuwa、Dhading、Gorkha、Chitwan、Nuwakot、Tanahun 等受灾地区及相关道路走廊提供额外通信保障。措施包括免费更换或安装损坏的 NT Fiber 线缆和路由器、对已到期服务免费延长3个月、按最近五个呼叫号码核验后补发 SIM 并更新 KYC，以及配合尼泊尔军方向救援行动提供210张含套餐的 SIM。公司还为国家减灾与风险管理局主备服务器提供免费暗光纤物理连接，并向部分救援中心和地方行政机构提供高速互联网。报道所称约2亿尼泊尔卢比为公司过往多类救灾援助总额，不是本次网络设备采购预算。",
+              "textEn": "Radio Nepal, eKantipur and Technology Khabar cite Nepal Telecom's 21 September notice on additional communications support across flood-affected areas including Rasuwa, Dhading, Gorkha, Chitwan, Nuwakot and Tanahun and associated road corridors. Measures include free replacement or installation of damaged NT Fiber cable and routers, a three-month extension for expired services, SIM reissue after last-five-number verification and KYC update, and 210 packaged SIMs supplied with the Nepal Army for rescue communications. Nepal Telecom is also providing free dark-fibre physical connectivity between the disaster authority's primary and backup servers and high-speed internet at selected relief and administration sites. The reported roughly NPR 200 million is cumulative aid across previous relief categories, not a budget for this equipment programme.",
+              "opportunity": "客户与需求：Nepal Telecom、NDRRMA、地方行政机构和灾区用户需要恢复接入、主备连接及应急通信；当前阶段是已执行的救灾与业务恢复，不是公开采购。竞争研判：报道没有披露设备厂商、系统集成商、招标、合同或中标结果，不能据此认定任何厂商参与。下一步：跟踪 Nepal Telecom、NDRRMA、PPMO 和地方政府是否发布灾后网络重建、数据中心互联、备件或运维采购。证据缺口：新增预算、技术规格、采购主体、交付期限和供应商均未知。",
+              "opportunityEn": "Customers and need: Nepal Telecom, NDRRMA, local administrations and affected users need access restoration, primary-backup connectivity and emergency communications. The present stage is executed relief and service restoration, not a public procurement. Competition: no equipment vendor, integrator, tender, contract or award is disclosed, so supplier participation cannot be inferred. Next action: monitor Nepal Telecom, NDRRMA, PPMO and local authorities for post-disaster network reconstruction, data-centre interconnect, spares or managed-service procurement. Gaps: new budget, technical specification, procuring entity, delivery timetable and supplier remain unknown.",
+              "badge": "公共广播 + 主流媒体交叉核验 · Tier 1/2",
+              "links": [
+                {
+                  "label": "Radio Nepal · 9月21日",
+                  "url": "https://radionepalonline.com/2026/09/21/736660.html"
+                },
+                {
+                  "label": "eKantipur · 9月21日",
+                  "url": "https://ekantipur.com/technology/2026/09/21/telecom-provides-additional-communication-facilities-in-flood-affected-areas-00-08.html"
+                },
+                {
+                  "label": "Technology Khabar · 9月21日",
+                  "url": "https://www.technologykhabar.com/2026/09/21/255455/"
+                }
+              ]
+            }
+          ],
           "displayCategory": "运营商与网络建设",
           "displayCategoryEn": "Operators & network infrastructure"
         },
@@ -35,6 +63,27 @@
           "category": "本国部委最新动态",
           "categoryEn": "Ministry and regulator developments",
           "items": [
+            {
+              "id": "np-telecom-infra-rule-delay-20260921",
+              "date": "2026-09-21",
+              "title": "通信基础设施规则修订仍在讨论，尚未形成有效的新许可框架",
+              "titleEn": "Telecom infrastructure-rule revision remains under discussion",
+              "text": "事实：Technology Khabar 9月21日报道，通信部长 Dr Bikram Timilsina 此前要求尼泊尔电信管理局（NTA）在两天内提交新的通信基础设施规则，但约两个月后仍未完成。NTA 发言人 Min Prasad Aryal 对该媒体表示文本仍在讨论，完成后才会上报。该报道提及草案或涉及大型基础设施、小型基础设施和骨干光纤公司的分类许可，但草案不是生效规则；其关于 NTA 董事会因错误退回文本的说法来自未具名消息源，尚无独立官方确认。NTA 官方法规页目前仍列示《Telecommunications Infrastructure Regulations 2074》，未见新规则正式发布。",
+              "textEn": "Technology Khabar reported on 21 September that a replacement telecom-infrastructure regulation remained unfinished roughly two months after Communications Minister Dr Bikram Timilsina instructed Nepal Telecommunications Authority to submit it within two days. NTA spokesperson Min Prasad Aryal told the outlet that the text was still under discussion and would be forwarded when complete. The report says the draft may contemplate separate licensing for large infrastructure, small infrastructure and backbone fibre companies, but the draft is not an effective rule. Its claim that the NTA board returned the text for errors relies on an unnamed source and lacks independent official confirmation. NTA's official regulation page still lists Telecommunications Infrastructure Regulations 2074 and does not show a newly enacted replacement.",
+              "opportunity": "客户与影响：运营商、独立基础设施公司和骨干光纤投资方可能受未来许可分类及基础设施共享规则影响；当前仍是政策起草阶段。竞争研判：没有生效条文、许可申请、招标、预算或获批公司，不能据媒体描述建立市场份额或项目判断。下一步：持续核查 NTA、MoCIT 和 Nepal Gazette 的正式文本、咨询文件及实施日期。证据缺口：最终许可类别、数量、资本要求、共享义务、过渡安排和审批时间均未知。",
+              "opportunityEn": "Customers and impact: operators, independent infrastructure companies and backbone-fibre investors may be affected by future licence categories and sharing rules; the process remains at policy-drafting stage. Competition: there is no effective text, licence application, tender, budget or approved company, so the media description cannot support market-share or project conclusions. Next action: monitor NTA, MoCIT and the Nepal Gazette for the official text, consultation documents and effective date. Gaps: final licence classes, number of licences, capital requirements, sharing obligations, transition rules and approval timing are unknown.",
+              "badge": "媒体报道 + NTA官网核验 · Tier 1/2",
+              "links": [
+                {
+                  "label": "Technology Khabar · 9月21日",
+                  "url": "https://www.technologykhabar.com/2026/09/21/255438/"
+                },
+                {
+                  "label": "NTA · 现行法规页",
+                  "url": "https://www.nta.gov.np/page/regulation"
+                }
+              ]
+            },
             {
               "id": "np-digital-resilience-20260920",
               "date": "2026-09-20",
@@ -65,11 +114,37 @@
           "displayCategoryEn": "Government & regulation"
         },
         {
-          "category": "本国财团投资动态",
-          "categoryEn": "Consortium investment",
-          "items": [],
-          "displayCategory": "投资与产业资本",
-          "displayCategoryEn": "Investment & industry capital"
+          "category": "本国头部客户的新机会点",
+          "categoryEn": "Key-account opportunities",
+          "items": [
+            {
+              "id": "np-nepse-datahub-outage-20260921",
+              "date": "2026-09-21",
+              "title": "数据中心故障致尼泊尔股市停摆，72家券商暴露集中托管与灾备风险",
+              "titleEn": "Data-centre failure halts Nepal stock trading and exposes resilience risk across 72 brokers",
+              "text": "事实：Nepal Stock Exchange（NEPSE）依据交易规则21(1)于9月21日暂停常规交易，官方对外说明为 DataHub Pvt Ltd 数据中心的技术问题尚未解决；该中心托管72家券商服务器，问题自9月20日上午出现。Kathmandu Post 后续报道称，为券商管理交易系统的 YCO 向相关机构通报，持续的勒索软件攻击影响交易管理系统、CDSC相关系统、支付网关及其他互联服务，受影响系统已被隔离。由于 NEPSE 公开表述仍为“技术问题”，勒索软件成因及是否发生数据泄露应视为 YCO/DataHub 信息经媒体转述，尚待正式取证结论。OnlineKhabar 亦核实券商协会请求停市，以避免继续交易影响交易所系统。",
+              "textEn": "Nepal Stock Exchange suspended regular trading on 21 September under Rule 21(1), publicly citing an unresolved technical problem at DataHub Pvt Ltd, which hosts servers for 72 brokers; the disruption began on the morning of 20 September. Kathmandu Post subsequently reported that YCO, the provider managing brokers' trading systems, notified stakeholders that an ongoing ransomware attack had affected the trading management system, CDSC-related systems, payment gateways and other interconnected services, and that affected systems had been isolated. Because NEPSE's public wording remains 'technical problem', ransomware causation and any data-exfiltration scope should be treated as YCO/DataHub information reported by the newspaper pending a formal forensic conclusion. OnlineKhabar also verified that the brokers' association requested suspension to avoid affecting the exchange system.",
+              "opportunity": "客户与需求：NEPSE、券商、DataHub/YCO及证券市场基础设施需要可验证的多站点灾备、不可变备份、网络与身份隔离、安全监测、事件响应和定期演练。当前阶段是故障处置与调查，不是公开采购。竞争研判：现有报道没有披露未来采购主体、预算、招标、技术路线、入围厂商或合同；不能把 DataHub、YCO 或任何设备商直接视为买方或中标方。下一步：跟踪 NEPSE、SEBON、CDSC、券商协会及 PPMO 的事故报告、恢复要求和采购公告，并确认是否形成统一行业韧性标准。证据缺口：攻击入口、数据影响、恢复点/时间目标、现有架构、预算和采购日程均未知。",
+              "opportunityEn": "Customers and need: NEPSE, brokers, DataHub/YCO and securities-market infrastructure require tested multi-site recovery, immutable backup, network and identity isolation, security monitoring, incident response and regular exercises. The current stage is incident response and investigation, not a public procurement. Competition: reporting identifies no future buyer, budget, tender, architecture, shortlisted supplier or contract; DataHub, YCO or any equipment vendor cannot be treated as buyer or awardee. Next action: follow NEPSE, SEBON, CDSC, the brokers' association and PPMO for incident findings, recovery requirements and procurement notices, and verify whether a common sector-resilience standard emerges. Gaps: entry vector, data impact, recovery objectives, current architecture, budget and procurement timing are unknown.",
+              "badge": "NEPSE说明 + 双媒体核验 · Tier 1/2",
+              "links": [
+                {
+                  "label": "Kathmandu Post · 停市公告",
+                  "url": "https://kathmandupost.com/money/2026/09/21/nepse-closed-after-data-centre-outage-disrupts-trading"
+                },
+                {
+                  "label": "Kathmandu Post · 事件跟进",
+                  "url": "https://kathmandupost.com/money/2026/09/21/why-was-nepal-s-stock-market-shut-on-monday"
+                },
+                {
+                  "label": "OnlineKhabar · 9月21日",
+                  "url": "https://english.onlinekhabar.com/nepse-suspends-trading-problem-data-centre.html"
+                }
+              ]
+            }
+          ],
+          "displayCategory": "重点客户与商机",
+          "displayCategoryEn": "Key accounts & opportunities"
         },
         {
           "category": "本国政治与大选进展及内幕",
@@ -114,11 +189,11 @@
           "displayCategoryEn": "Huawei in Nepal"
         },
         {
-          "category": "本国头部客户的新机会点",
-          "categoryEn": "Key-account opportunities",
+          "category": "本国财团投资动态",
+          "categoryEn": "Consortium investment",
           "items": [],
-          "displayCategory": "重点客户与商机",
-          "displayCategoryEn": "Key accounts & opportunities"
+          "displayCategory": "投资与产业资本",
+          "displayCategoryEn": "Investment & industry capital"
         },
         {
           "category": "社交媒体新闻追踪",
@@ -131,11 +206,11 @@
     }
   },
   "stats": {
-    "news": 1,
-    "opportunities": 1,
+    "news": 4,
+    "opportunities": 4,
     "telegram": 0,
     "countryCounts": {
-      "np": 1
+      "np": 4
     }
   }
 }
