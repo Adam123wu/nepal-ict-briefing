@@ -4188,6 +4188,29 @@
       "current": false
     }
   ],
+  "editorial": {
+    "lastCodexReviewDate": "2026-09-21",
+    "lastCodexReviewAt": "2026-09-21T00:16:58+00:00",
+    "lastCodexCommit": "7d983a6fd158bcef923d4c55fc83fce4f6989603",
+    "lastCandidateGeneratedAt": "2026-09-20T23:00:32.608048+00:00",
+    "lastFallbackDate": null,
+    "lastFallbackAt": null,
+    "fallbackStatus": "not-needed",
+    "fallbackStatusEn": "Not needed",
+    "note": "Codex 已完成本日研究、双语审校与发布。",
+    "noteEn": "Codex completed today's research, bilingual review and publication."
+  },
+  "fallback": {
+    "status": "clear",
+    "statusEn": "Clear",
+    "generatedAt": null,
+    "reviewDate": null,
+    "sourceCandidateGeneratedAt": null,
+    "model": null,
+    "note": "当天 Codex 已完成审校，无需启用 DeepSeek 兜底。",
+    "noteEn": "Codex completed today's editorial review; the DeepSeek fallback was not needed.",
+    "items": []
+  },
   "focus": [
     {
       "id": "hot-topics",

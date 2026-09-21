@@ -42,4 +42,17 @@ for(const v of competition.vendors){
 assert(d.archive.every(i=>/^nepal-/.test(i.file)),'Foreign archive blocked');
 for(const file of fs.readdirSync('public/archive'))assert(/^nepal-/.test(file),'Foreign archive asset blocked: '+file);
 assert.equal(d.telegram.messageCount,d.telegram.items.length);
-console.log('Nepal country, source, legal-domain, routing, score and news-count checks passed.');
+assert(d.editorial&&typeof d.editorial.lastCodexReviewDate==='string');
+assert(['not-needed','pending_codex_review','no_relevant_candidates'].includes(d.editorial.fallbackStatus));
+assert(d.fallback&&Array.isArray(d.fallback.items)&&d.fallback.items.length<=5);
+assert(['clear','pending_codex_review','no_relevant_candidates'].includes(d.fallback.status));
+const formalUrls=new Set(d.report.countries.np.sections.flatMap(s=>s.items.flatMap(i=>i.links.map(l=>l.url))));
+for(const item of d.fallback.items){
+ assert.equal(item.status,'DeepSeek 标题筛选 · 待 Codex 核验');
+ assert(['T1','T2'].includes(item.sourceTier));
+ assert(item.date>=d.report.windowStart&&item.date<=d.report.windowEnd);
+ assert(item.title&&item.titleEn&&!/[\u0600-\u06ff]/.test(item.title+item.titleEn));
+ assert.equal(new URL(item.url).protocol,'https:');
+ assert(!formalUrls.has(item.url),'Fallback candidate must not duplicate formal reviewed news');
+}
+console.log('Nepal country, source, legal-domain, routing, score, news-count and fallback-watchdog checks passed.');

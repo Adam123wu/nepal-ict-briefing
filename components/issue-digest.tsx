@@ -2,13 +2,25 @@ import data from '@/data/nepal.json';
 import {Card} from './ui';
 import {RefreshStatus} from './refresh-status';
 
+type FallbackItem={id:string;date:string;title:string;titleEn:string;section:string;sectionEn:string;sourceName:string;sourceTier:string;url:string};
+
 export function IssueDigest({en}:{en:boolean}) {
  const t=(zh:string,english:string)=>en?english:zh;
  const sections=data.report.countries.np.sections;
  const news=sections.reduce((n,s)=>n+s.items.length,0);
  const facebook=data.sources.filter(s=>s.platform==='Facebook');
  const pending=facebook.filter(s=>!s.lastCollectedAt).length;
- return <><RefreshStatus en={en}/><Card className="card-pad issue-digest">
+ const fallback={...data.fallback,items:data.fallback.items as FallbackItem[]};
+ return <><RefreshStatus en={en}/>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
+  <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('DeepSeek 自动兜底候选（待核验）','DeepSeek fallback candidates (unverified)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
+  <p>{t(fallback.note,fallback.noteEn)}</p>
+  <div className="summary-list">{fallback.items.map(item=><article key={item.id} style={{padding:'12px 0'}}>
+   <p style={{margin:'0 0 4px'}}><strong>{t(item.title,item.titleEn)}</strong></p>
+   <p className="section-sub" style={{margin:'0 0 6px'}}>{item.date} · {t(item.section,item.sectionEn)} · {item.sourceName} · {item.sourceTier}</p>
+   <a href={item.url} target="_blank" rel="noreferrer">{t('查看原始候选来源','Open original candidate source')}</a>
+  </article>)}</div>
+  <p className="section-sub">{t('该区域不计入正式新闻、商机或本期统计；Codex 完成原文核验后才会进入正式简报。','This area is excluded from reviewed-news, opportunity and issue counts. An item enters the formal briefing only after Codex verifies the source text.')}</p>
+ </Card></div>}<Card className="card-pad issue-digest">
   <h2>{t('本期要点','This issue at a glance')}</h2>
   <p className="section-sub">{t(`${news} 条独立事件 · ${sections.filter(s=>s.items.length).length} 个有新闻的专题 · 社媒转述不重复计数`,`${news} distinct events · ${sections.filter(s=>s.items.length).length} populated topics · social mentions are not counted twice`)}</p>
   <ol style={{listStyle:'decimal',paddingLeft:24,lineHeight:1.85,margin:'16px 0'}}>{(en?data.report.summaryEn:data.report.summary).map((summary,i)=><li style={{marginBottom:8}} key={i}>{summary}</li>)}</ol>

@@ -27,7 +27,9 @@ const server=http.createServer((req,res)=>{
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
  const sections=JSON.parse(fs.readFileSync('config/nepal-report.json','utf8')).countries.np.sections;
+ const fallbackCount=JSON.parse(fs.readFileSync('config/deepseek-fallback-digest.json','utf8')).items.length;
  await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),sections.filter(s=>s.items.length||s.category==='ICT 竞争对手最新动态').length);
+ assert.equal(await page.locator('[data-fallback-digest]').count(),fallbackCount>0?1:0,'Fallback card visibility must match its data');
  assert.equal(await page.locator('.news-card').count(),sections.reduce((n,s)=>n+s.items.length,0));
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();

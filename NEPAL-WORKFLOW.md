@@ -17,6 +17,7 @@ For NepalKhabar and key-ministry coverage, also read `docs/source-coverage-2026-
 5. Read the actual article or notice. Verify dates, action, institution, numbers, currency and permanent URL. Cross-check Bikram Sambat dates. Exclude prior-period events even if newly reported, historic appointments, recycled project descriptions, promotional rankings and unsupported award claims.
 6. Official statements are evidence of the statement, not independent proof of every corporate claim. For secondary reports obtain a second source, preferably the original notice. Do not describe syndicated press releases as independent investigation. Explicitly retain disagreements instead of inventing a consensus.
 7. Classify by event, not platform. Keep facts, company claims and editorial analysis distinct. Each opportunity states customer, product, stage, disclosed scale, next action and known competitors; unknown amount or vendor stays unknown. No fake RFPs.
+8. Finish every successful daily review by updating `config/editorial-status.json`, including no-news days, and clear `config/deepseek-fallback-digest.json` after inspecting any fallback titles. The marker is the cloud watchdog's proof that Codex ran; collection and deployment timestamps do not substitute for it.
 
 ## Social coverage
 
@@ -40,7 +41,7 @@ Run `npm run build`, `npm audit --omit=dev`, and UI tests. Check actual counts, 
 
 Commit intentional files and push only Adam123wu/nepal-ict-briefing main under the user's publication authorization. Wait for Pages and check all five routes in both languages at https://adam123wu.github.io/nepal-ict-briefing/ and verify `/compliance/` returns 404. Do not publish to a different repository.
 
-Daily GitHub collection: 02:45 Nepal time. Daily Codex editorial update: 00:20 Asia/Baghdad (03:05 Asia/Kathmandu). The latter needs the computer and app running with access to the local project and network. Scheduling is not proof of successful research; report failures and source limitations accurately.
+Daily GitHub collection: 02:45 Nepal time. Daily Codex editorial update: 00:20 Asia/Baghdad (03:05 Asia/Kathmandu). Cloud watchdog: 02:30 Baghdad (05:15 Kathmandu). The Codex task needs the computer and app running with access to the local project and network. If its dated completion marker is absent, the watchdog may use DeepSeek once to translate and classify same-day T1/T2 website candidate titles. Those titles stay visibly unverified, are excluded from formal statistics and cannot alter the reviewed report until Codex checks the source text. Stale inputs, API errors and invalid output fail closed. Scheduling is not proof of successful research; report failures and source limitations accurately.
 
 ## Attachment-derived focus
 
@@ -50,4 +51,4 @@ Seventeen supplied domains map to the registry, preserving the original referenc
 
 ## Midnight collection and biweekly sealing
 
-Daily collection is scheduled at 00:00 Asia/Baghdad (02:45 Nepal); editorial review at 00:20 Baghdad (03:05 Nepal). Inspect workflow records for missed or failed runs. The visible search timestamp is not an editorial publication timestamp. Run `python3 scripts/archive_nepal.py` after each completed 14-day window; sealed bilingual files and config/archive-manifest.json must be committed and never overwritten. Advance the next issue by 14 days only after preserving the previous issue; do not relabel old news or invent empty completed issues. Keep the previous reviewed issue visible if new research is incomplete, explicitly noting the lag. The daily cloud collector also checks archiving independently of local Codex availability.
+Daily collection is scheduled at 00:00 Asia/Baghdad (02:45 Nepal); editorial review at 00:20 Baghdad (03:05 Nepal); cloud watchdog at 02:30 Baghdad (05:15 Nepal). Inspect workflow records for missed or failed runs. The visible search timestamp or fallback title list is not an editorial publication timestamp. Run `python3 scripts/archive_nepal.py` after each completed 14-day window; sealed bilingual files and config/archive-manifest.json must be committed and never overwritten. Advance the next issue by 14 days only after preserving the previous issue; do not relabel old news or invent empty completed issues. Keep the previous reviewed issue visible if new research is incomplete, explicitly noting the lag. The daily cloud collector also checks archiving independently of local Codex availability.
