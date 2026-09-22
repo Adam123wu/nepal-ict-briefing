@@ -39,7 +39,21 @@ for(const v of competition.vendors){
  for(const field of ['status','statusEn','scope','scopeEn','summary','summaryEn','action','actionEn'])assert(v[field]&&!/[\u0900-\u097f\u0600-\u06ff]/.test(v[field]));
  assert.equal(new URL(v.evidenceUrl).protocol,'https:');
 }
-assert(d.archive.every(i=>/^nepal-/.test(i.file)),'Foreign archive blocked');
+const manifest=read('config/archive-manifest.json');
+assert.equal(d.issues.length,manifest.length+1);
+assert.equal(d.issues[0].issue,d.report.issue);assert.equal(d.issues[0].current,true);
+assert.equal(Object.hasOwn(d,'archive'),false,'Separate archive payload must stay removed');
+for(const issue of d.issues.slice(1)){
+ assert.equal(issue.current,false);assert(issue.stats.news>0,'Historical issue must retain all reviewed items');
+ assert.deepEqual(Object.keys(issue.countries),['np']);
+ const historicalIds=new Set();let historicalCount=0;
+ for(const section of issue.countries.np.sections)for(const item of section.items){
+  historicalCount++;assert(!historicalIds.has(item.id));historicalIds.add(item.id);
+  assert(item.date>=issue.windowStart&&item.date<=issue.windowEnd);assert(item.title&&item.titleEn&&item.text&&item.textEn);
+  assert(item.links.length>=1);for(const link of item.links)assert.equal(new URL(link.url).protocol,'https:');
+ }
+ assert.equal(issue.stats.news,historicalCount);
+}
 for(const file of fs.readdirSync('public/archive'))assert(/^nepal-/.test(file),'Foreign archive asset blocked: '+file);
 assert.equal(d.telegram.messageCount,d.telegram.items.length);
 assert(d.editorial&&typeof d.editorial.lastCodexReviewDate==='string');

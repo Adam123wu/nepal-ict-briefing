@@ -18,7 +18,7 @@ const server=http.createServer((req,res)=>{
  browser=await chromium.launch({headless:true,channel:'chrome'});
  const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const base=process.env.NEPAL_LIVE_BASE||`http://127.0.0.1:${server.address().port}/nepal-ict-briefing`;
- for(const route of ['','briefings','sources','people','archive']){
+ for(const route of ['','briefings','sources','people']){
   await page.goto(base+'/'+(route?route+'/':''));await page.getByRole('button',{name:'English',exact:true}).click();
   await page.getByRole('heading',{level:1}).first().waitFor();
   assert((await page.locator('h1').innerText()).match(/Nepal|Historical/));
@@ -27,10 +27,26 @@ const server=http.createServer((req,res)=>{
   assert(!/伊拉克|约旦|黎巴嫩/.test(await page.locator('main').innerText()));
  }
  const sections=JSON.parse(fs.readFileSync('config/nepal-report.json','utf8')).countries.np.sections;
+ const portal=JSON.parse(fs.readFileSync('data/nepal.json','utf8'));
  const fallbackCount=JSON.parse(fs.readFileSync('config/deepseek-fallback-digest.json','utf8')).items.length;
- await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('.accordion-trigger').count(),sections.filter(s=>s.items.length||s.category==='ICT 竞争对手最新动态').length);
+ await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('[data-issue]').count(),portal.issues.length);assert.equal(await page.locator('.accordion-trigger').count(),sections.filter(s=>s.items.length||s.category==='ICT 竞争对手最新动态').length);
  assert.equal(await page.locator('[data-fallback-digest]').count(),fallbackCount>0?1:0,'Fallback card visibility must match its data');
  assert.equal(await page.locator('.news-card').count(),sections.reduce((n,s)=>n+s.items.length,0));
+ const history=portal.issues.find(issue=>!issue.current);assert(history,'Expected one integrated historical issue');
+ await page.locator(`[data-issue="${history.issue}"]`).click();
+ await page.locator('[data-history-summary]').waitFor();
+ assert.equal(await page.locator('[data-history-summary]').count(),1);
+ assert.equal(await page.locator('.news-card').count(),history.stats.news,'Historical issue must show every reviewed item');
+ assert((await page.locator('.accordion').innerText()).includes('Nepal Telecom 发布宪法日套餐'));
+ for(const language of ['中文','English']){
+  await page.getByRole('button',{name:language,exact:true}).click();
+  const typography=await page.locator('.news-card').first().evaluate(card=>{const style=selector=>getComputedStyle(card.querySelector(selector));return {title:parseFloat(style('.news-title').fontSize),body:parseFloat(style('.news-text').fontSize),link:parseFloat(style('.feed-link').fontSize),line:parseFloat(style('.news-text').lineHeight)};});
+  assert(typography.title>typography.body&&typography.body>typography.link);assert(typography.body>=12&&typography.line/typography.body>=1.7);
+  for(const width of [1440,390]){await page.setViewportSize({width,height:1000});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));}
+ }
+ assert((await page.locator('.accordion').innerText()).includes('Nepal Telecom announces Constitution Day plans'));
+ await page.locator(`[data-issue="${portal.report.issue}"]`).click();
+ await page.getByRole('button',{name:'中文',exact:true}).click();
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
  for(const title of ['运营商集团战略','对外关系与市场影响','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
@@ -55,6 +71,8 @@ const server=http.createServer((req,res)=>{
  }
  assert.equal(await page.locator('a[href*="/compliance"]').count(),0,'Removed compliance section must not have navigation links');
  const removedPage=await page.request.get(base+'/compliance/');assert.equal(removedPage.status(),404,'Removed compliance page must not remain published');
+ assert.equal(await page.locator('a[href*="/archive"]').count(),0,'Separate archive navigation must stay removed');
+ const removedArchive=await page.request.get(base+'/archive/');assert.equal(removedArchive.status(),404,'Historical issues must live inside Briefing, not a separate archive page');
  await page.goto(base+'/sources/');assert((await page.locator('main').innerText()).includes('监控关注点与附件'));
  await page.getByRole('textbox').fill('New Business Age');assert.equal(await page.locator('tbody tr').count(),1);
  await page.getByRole('textbox').fill('');
@@ -64,6 +82,6 @@ const server=http.createServer((req,res)=>{
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
  await page.goto(base+'/people/');assert.equal(await page.locator('tbody tr').count(),18);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));
  if(process.env.NEPAL_SCREENSHOT){await page.setViewportSize({width:1440,height:1000});await page.goto(base+'/sources/');await page.screenshot({path:process.env.NEPAL_SCREENSHOT,fullPage:false});}
- assert.deepEqual(errors,[]);console.log('Five routes, Chinese/English, removed compliance page, Nepal isolation, topic sections, source filtering, attachment download and mobile width passed.');
+ assert.deepEqual(errors,[]);console.log('Four routes, integrated issue history, Chinese/English, removed archive/compliance pages, Nepal isolation, source filtering and mobile width passed.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exitCode=1;});

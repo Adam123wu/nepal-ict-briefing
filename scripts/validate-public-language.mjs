@@ -3,6 +3,7 @@ import fs from "node:fs";
 const telegramFeed = JSON.parse(fs.readFileSync("data/telegram-feed.json", "utf8"));
 const socialSignals = JSON.parse(fs.readFileSync("data/social-signals.json", "utf8"));
 const report = JSON.parse(fs.readFileSync("data/report.json", "utf8"));
+const historyReports = JSON.parse(fs.readFileSync("data/history-reports.json", "utf8"));
 const arabicPattern = /[\u0600-\u06ff\u0900-\u097f]/;
 
 function validateBilingualItem(item, fields, label) {
@@ -41,9 +42,21 @@ for (const [countryCode, country] of Object.entries(report.countries)) {
   }
 }
 
+for (const history of historyReports) {
+  if (!history.periodEn || history.current !== false) throw new Error(`Historical issue metadata is invalid: ${history.issue}`);
+  for (const section of history.countries.np.sections) {
+    if (!section.categoryEn) throw new Error(`Historical section is missing English: ${history.issue}/${section.category}`);
+    for (const item of section.items) {
+      validateBilingualItem(item, ["title", "text", "titleEn", "textEn"], "Historical briefing item");
+      if (item.opportunity) validateBilingualItem(item, ["opportunity", "opportunityEn"], "Historical briefing opportunity");
+    }
+  }
+}
+
 if (telegramFeed.messageCount !== telegramFeed.items.length) {
   throw new Error("Public Telegram message count does not match translated items");
 }
 
 const briefingItemCount = Object.values(report.countries).reduce((total, country) => total + country.sections.reduce((sectionTotal, section) => sectionTotal + section.items.length, 0), 0);
-console.log(`Public language validation passed: ${briefingItemCount} briefing items and ${telegramFeed.items.length + socialSignals.length} social signals are bilingual, with no Arabic text.`);
+const historyItemCount = historyReports.reduce((total,history) => total + history.stats.news, 0);
+console.log(`Public language validation passed: ${briefingItemCount} current and ${historyItemCount} historical briefing items plus ${telegramFeed.items.length + socialSignals.length} social signals are bilingual, with no Arabic text.`);

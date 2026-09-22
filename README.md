@@ -3,6 +3,7 @@
 Independent, bilingual Nepal ICT briefing. Current reporting window: 5–18 September 2026.
 
 - Website: https://adam123wu.github.io/nepal-ict-briefing/
+- Current and completed historical issues are selected from the single Briefing page; the former standalone Archive page has been removed.
 - Reviewed bilingual events, three deduplicated social observations and two regulatory analyses; counts derive from current config.
 - Sources: regulators, ministries, operators, ISPs, technology publishers and relevant equipment vendors.
 - No former-market reports, archives, personnel datasets or inherited Git history are included.

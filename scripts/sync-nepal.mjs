@@ -1,6 +1,48 @@
 import fs from 'node:fs/promises';
+import {load} from 'cheerio';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const save=(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
+
+async function readHistory(manifest,currentReport){
+ const reports=[];
+ for(const entry of manifest){
+  const html=await fs.readFile(`public/archive/${entry.file}`,'utf8');
+  const $=load(html);
+  const readLanguage=lang=>{
+   const root=$(`section[lang="${lang}"]`);if(root.length!==1)throw Error(`Missing ${lang} history: ${entry.file}`);
+   const sections=[];let active;
+   root.children().each((_,element)=>{
+    if(element.tagName==='h2'){
+     active={category:$(element).text().trim(),items:[]};sections.push(active);return;
+    }
+    if(element.tagName!=='article')return;
+    if(!active)throw Error(`Historical item without section: ${entry.file}`);
+    const article=$(element),paragraphs=article.children('p').map((_,node)=>$(node).text().trim()).get();
+    active.items.push({title:article.children('h3').first().text().trim(),date:paragraphs[0]||'',text:paragraphs[1]||'',opportunity:paragraphs[2]||'',links:article.children('a').map((_,node)=>({label:$(node).text().trim(),url:$(node).attr('href')})).get()});
+   });
+   return {period:root.children('h1').first().text().trim(),sections};
+  };
+  const zh=readLanguage('zh'),en=readLanguage('en');
+  if(zh.sections.length!==en.sections.length)throw Error(`Historical section mismatch: ${entry.file}`);
+  const match=entry.file.match(/^nepal-(\d{4}-\d{2}-\d{2})-(\d{4}-\d{2}-\d{2})\.html$/);
+  if(!match)throw Error(`Invalid sealed history filename: ${entry.file}`);
+  const sections=zh.sections.map((section,sectionIndex)=>{
+   const translated=en.sections[sectionIndex];
+   const currentSection=currentReport.countries.np.sections.find(item=>item.category===section.category);
+   if(section.items.length!==translated.items.length)throw Error(`Historical item mismatch: ${entry.file}/${section.category}`);
+   return {category:section.category,categoryEn:translated.category,displayCategory:currentSection?.displayCategory||section.category,displayCategoryEn:currentSection?.displayCategoryEn||translated.category,
+    items:section.items.map((item,itemIndex)=>{const translatedItem=translated.items[itemIndex];return {
+     id:`${entry.week.toLowerCase()}-${sectionIndex+1}-${itemIndex+1}`,date:item.date,title:item.title,titleEn:translatedItem.title,
+     text:item.text,textEn:translatedItem.text,opportunity:item.opportunity,opportunityEn:translatedItem.opportunity,badge:'',links:item.links
+    };})};
+  });
+  const count=sections.reduce((total,section)=>total+section.items.length,0);
+  reports.push({issue:entry.week,generated:entry.archivedAt,windowStart:match[1],windowEnd:match[2],period:zh.period,periodEn:en.period,
+   sourceFile:entry.file,current:false,status:`历史期已封存，共 ${count} 条核验事件。`,statusEn:`Sealed historical issue with ${count} reviewed events.`,summary:[],summaryEn:[],
+   countries:{np:{name:'尼泊尔',nameEn:'Nepal',flag:'🇳🇵',sections}},stats:{news:count,opportunities:sections.flatMap(section=>section.items).filter(item=>item.opportunity).length,telegram:0,countryCounts:{np:count}}});
+ }
+ return reports;
+}
 export async function syncNepal(){
  const market=await read('config/market.json');
  const focus=await read('config/monitoring-focus.json');
@@ -21,10 +63,8 @@ export async function syncNepal(){
  const reviewed=new Set(social.flatMap(i=>i.sourceMessageIds||[]));
  const urls=new Set(social.map(i=>i.url));
  const feed={...raw,items:tg.filter(i=>!reviewed.has(i.id)&&!urls.has(i.url))};feed.messageCount=feed.items.length;
- let previous=[];
- try{previous=await read('data/archive.json');}catch(e){if(e.code!=='ENOENT')throw e;}
  const sealed=await read('config/archive-manifest.json');
- const archive=[{file:market.reportFile,week:report.issue,date:report.period,dateEn:report.periodEn,current:true},...sealed,...previous.filter(i=>i.file.startsWith('nepal-')&&i.file!==market.reportFile&&!sealed.some(s=>s.file===i.file)).map(i=>({...i,current:false}))];
+ const history=await readHistory(sealed,report);
  const items=report.countries.np.sections.flatMap(s=>s.items);
  report.stats={news:items.length,opportunities:items.filter(i=>i.opportunity).length,telegram:feed.items.length,countryCounts:{np:items.length}};
  await fs.mkdir('data',{recursive:true});
@@ -32,12 +72,8 @@ export async function syncNepal(){
  await save('data/refresh-status.json',{generatedAt:collected.generatedAt,candidateCount:collected.candidates.length,failedSources:sources.filter(s=>s.scanError).length});
  await save('data/report.json',report);await save('data/sources.json',sources);await save('data/people.json',people);
  await save('data/social-signals.json',social);await save('data/telegram-feed.json',feed);await save('data/compliance-analysis.json',compliance);
- await save('data/nepal-legal-news.json',legal);await save('data/archive.json',archive);
+ await save('data/nepal-legal-news.json',legal);await save('data/history-reports.json',history);
  await save('data/editorial-status.json',editorial);await save('data/deepseek-fallback-digest.json',fallback);
- await save('data/nepal.json',{market,report,sources,people,compliance,legal,signals:social,telegram:feed,archive,editorial,fallback,focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
- const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const html=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>尼泊尔 ICT 双周简报</title><style>body{font:16px/1.8 system-ui;background:#f5f7fb;color:#172033;max-width:1000px;margin:40px auto;padding:24px}article,section{background:white;padding:24px;margin:16px 0;border-radius:16px}a{color:#1459aa}</style><h1>🇳🇵 尼泊尔 ICT 双周简报 · ${esc(report.issue)}</h1><p>${esc(report.period)}</p><p>${esc(report.status)}</p>${report.countries.np.sections.map(s=>`<section><h2>${esc(s.displayCategory||s.category)}</h2>${s.items.length?s.items.map(i=>`<article><h3>${esc(i.title)}</h3><p>${esc(i.date)} · ${esc(i.badge)}</p><p>${esc(i.text)}</p><p>${esc(i.opportunity||"")}</p>${i.links.map(l=>`<a href="${esc(l.url)}">${esc(l.label)}</a>`).join(' ')}</article>`).join(''):'<p>本栏目尚无完成核验的尼泊尔新闻。</p>'}</section>`).join('')}</html>`;
- await fs.mkdir('public/archive',{recursive:true});
- await fs.writeFile(`public/archive/${market.reportFile}`,html);
+ await save('data/nepal.json',{market,report,issues:[{...report,current:true},...history],sources,people,compliance,legal,signals:social,telegram:feed,editorial,fallback,focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
  console.log(`Nepal: ${sources.length} sources, ${people.length} monitored offices; ${report.stats.news} reviewed news.`);
 }
