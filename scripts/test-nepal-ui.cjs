@@ -49,7 +49,8 @@ const server=http.createServer((req,res)=>{
  await page.getByRole('button',{name:'中文',exact:true}).click();
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
- for(const title of ['运营商集团战略','对外关系与市场影响','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
+ for(const title of ['运营商集团战略','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
+ assert((await page.locator('.accordion').innerText()).includes('对外关系与市场影响'));
  for(const language of ['English','中文']){
   await page.getByRole('button',{name:language,exact:true}).click();
   const typography=await page.locator('.social-story').first().evaluate(el=>{
