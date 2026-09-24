@@ -25,10 +25,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-23T23:26:03.881686+00:00",
+      "lastCollectedAt": "2026-09-24T23:45:57.732595+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:03.881686+00:00",
+      "lastAttemptAt": "2026-09-24T23:45:57.732595+00:00",
       "scanPages": [
         {
           "url": "https://www.nta.gov.np/",
@@ -63,7 +63,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:04.120875+00:00",
+      "lastAttemptAt": "2026-09-24T23:45:58.865595+00:00",
       "scanError": "URLError",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
@@ -97,21 +97,21 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-23T23:26:12.034685+00:00",
+      "lastCollectedAt": "2026-09-24T23:46:07.610519+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-09-23T23:26:12.034685+00:00",
-      "candidateCountBeforeLimit": 12,
+      "lastAttemptAt": "2026-09-24T23:46:07.610519+00:00",
+      "candidateCountBeforeLimit": 10,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://www.nrb.org.np/",
           "success": true,
-          "candidateCount": 12,
+          "candidateCount": 10,
           "limitReached": false
         }
       ],
-      "candidateCount": 12
+      "candidateCount": 10
     },
     {
       "id": "np-law",
@@ -127,27 +127,26 @@
       "handle": "",
       "owner": "Nepal Law Commission",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-22T23:30:12.310564+00:00",
+      "lastCollectedAt": "2026-09-24T23:46:07.616925+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:12.351284+00:00",
-      "candidateCountBeforeLimit": 8,
+      "lastAttemptAt": "2026-09-24T23:46:07.616925+00:00",
+      "candidateCountBeforeLimit": 7,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://lawcommission.gov.np/",
-          "success": false,
-          "candidateCount": 0,
+          "success": true,
+          "candidateCount": 7,
           "limitReached": false
         }
       ],
-      "candidateCount": 0,
-      "scanError": "HTTPError"
+      "candidateCount": 7
     },
     {
       "id": "np-gazette",
@@ -171,7 +170,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:12.477965+00:00",
+      "lastAttemptAt": "2026-09-24T23:46:07.637671+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -205,7 +204,7 @@
       "lastCollectedAt": "2026-09-22T23:30:13.147112+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:12.570882+00:00",
+      "lastAttemptAt": "2026-09-24T23:46:08.513399+00:00",
       "candidateCountBeforeLimit": 123,
       "candidateLimitReached": true,
       "scanPages": [
@@ -233,27 +232,26 @@
       "handle": "",
       "owner": "Inland Revenue Department",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-22T23:30:13.253193+00:00",
+      "lastCollectedAt": "2026-09-24T23:46:08.574932+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:13.000749+00:00",
+      "lastAttemptAt": "2026-09-24T23:46:08.574932+00:00",
       "candidateCountBeforeLimit": 22,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://ird.gov.np/",
-          "success": false,
-          "candidateCount": 0,
+          "success": true,
+          "candidateCount": 22,
           "limitReached": false
         }
       ],
-      "candidateCount": 0,
-      "scanError": "HTTPError"
+      "candidateCount": 22
     },
     {
       "id": "np-ibn",
@@ -269,27 +267,26 @@
       "handle": "",
       "owner": "Investment Board Nepal",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-09-22T23:30:14.848946+00:00",
+      "lastCollectedAt": "2026-09-24T23:46:09.367481+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-09-23T23:26:13.462955+00:00",
+      "lastAttemptAt": "2026-09-24T23:46:09.367481+00:00",
       "candidateCountBeforeLimit": 10,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://ibn.gov.np/",
-          "success": false,
-          "candidateCount": 0,
+          "success": true,
+          "candidateCount": 10,
           "limitReached": false
         }
       ],
-      "candidateCount": 0,
-      "scanError": "HTTPError"
+      "candidateCount": 10
     }
   ],
   "items": [
