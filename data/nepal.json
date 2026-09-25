@@ -50,8 +50,8 @@
     "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
     "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
     "sourceFile": "nepal-w39-40.html",
-    "status": "截至9月25日，本期已核验10条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标、电信行业对统一电信政策草案的正式反馈，以及农村电信发展基金宽带项目进度；只有首项已进入正式招标阶段。",
-    "statusEn": "As of 25 September, ten material events have been verified. New coverage includes Nepal Telecom's formal real-time billing and customer-support tender, industry feedback on the unified telecom-policy draft, and RTDF broadband-programme progress; only the first is at a formal tender stage.",
+    "status": "截至9月25日，本期已核验9条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标，以及电信行业对统一电信政策草案的正式反馈；前者已进入正式招标阶段，后者仍处于征求意见阶段。",
+    "statusEn": "As of 25 September, nine material events have been verified. New coverage includes Nepal Telecom's formal real-time billing and customer-support tender and industry feedback on the unified telecom-policy draft; the former is at tender stage while the latter remains under consultation.",
     "summary": [
       "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
       "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
@@ -59,7 +59,6 @@
       "最高法院驳回 Dish Media Network、Classic Tech、Vianet 和 Subisu 针对电信服务税追缴决定的四份诉状，ISP税务与合规风险显著上升，但完整书面判决及最终应付金额尚未公开核实。",
       "中国气象局向尼泊尔水文与气象部门移交 MAZU-NEPAL 人工智能气象平台，并提出后续部署卫星AI设备、培训和数据共享；目前未披露预算、采购或本地数据治理条款。",
       "Ncell 已就统一电信政策草案提出降低频谱、税费和监管成本、改善投资保护及区分移动与固定宽带监管的建议；尼泊尔电信尚在准备反馈，政策仍处于征求意见阶段。",
-      "NTA 报告显示，农村电信发展基金18个宽带接入包已连接74个县16,208个公共站点，累计支付约54.37亿尼泊尔卢比；这是存量项目进度，不是9月24日新授标。",
       "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
     ],
     "summaryEn": [
@@ -69,7 +68,6 @@
       "The Supreme Court dismissed four petitions by Dish Media Network, Classic Tech, Vianet and Subisu against telecom-service-charge collection decisions. ISP tax and compliance risk has risen, but the full written judgment and final payable amount remain unverified.",
       "China Meteorological Administration transferred the MAZU-NEPAL AI weather platform to Nepal's hydrology and meteorology authority and outlined future satellite-AI equipment, training and data-sharing support. No budget, procurement or local data-governance terms have been disclosed.",
       "Ncell submitted feedback on the unified telecom-policy draft seeking lower spectrum, tax and regulatory costs, stronger investment protection and differentiated treatment of mobile and fixed broadband. Nepal Telecom was still preparing its response, and the policy remains under consultation.",
-      "An NTA report says 18 RTDF broadband-access packages have connected 16,208 public sites across 74 districts, with about NPR 5.437 billion paid. This is progress on existing programmes, not a new award dated 24 September.",
       "Priority follow-up covers the formal NEPSE/broker forensic review and resilience procurement, the ISP tax judgment, final NTA infrastructure rules, Nepal Telecom expansion procurement, and MAZU equipment and data arrangements."
     ],
     "countries": {
@@ -304,29 +302,7 @@
           {
             "category": "本国 ISP/DSP 和互联网运营商的投资动态",
             "categoryEn": "ISP and internet infrastructure investment",
-            "items": [
-              {
-                "id": "np-rtdf-broadband-progress-20260924",
-                "date": "2026-09-24",
-                "title": "农村电信发展基金18个项目包已连接74县16,208个公共站点",
-                "titleEn": "RTDF broadband packages connect 16,208 public sites across 74 districts",
-                "text": "事实：Technology Khabar 9月24日依据NTA报告称，截至2083年Asar，农村电信发展基金（RTDF）的18个宽带接入网络项目包已在74个县连接16,208个指定公共站点，包括708个地方政府办公室、5,933个区办公室、5,318所中学和4,249个卫生机构，累计支付5,437,293,169.42尼泊尔卢比。NTA官方RTDF进度页列出18个已100%完成的区域包及 Nepal Telecom、WorldLink、Subisu、Vianet、TechMinds、Mercantile 等实施服务商。另一个面向八个地震重灾县的升级与基础学校联网计划已在53个地方政府、3,528个站点完成工作，累计支付175,749,495.86尼泊尔卢比。上述为存量项目进度披露，不是9月24日新签合同。",
-                "textEn": "Technology Khabar reported on 24 September, citing an NTA report, that 18 Rural Telecommunications Development Fund broadband-access packages had connected 16,208 designated public sites across 74 districts by Asar 2083: 708 local-government offices, 5,933 ward offices, 5,318 secondary schools and 4,249 health institutions. Reported cumulative payment was NPR 5,437,293,169.42. NTA's official RTDF progress page lists 18 completed geographic packages and implementing providers including Nepal Telecom, WorldLink, Subisu, Vianet, TechMinds and Mercantile. A separate upgrade and basic-school connectivity programme in eight earthquake-affected districts had completed work in 53 local governments and 3,528 sites, with NPR 175,749,495.86 paid. These are progress disclosures for existing programmes, not contracts newly signed on 24 September.",
-                "opportunity": "客户与需求：NTA、地方政府、学校、卫生机构及实施ISP需要持续的带宽、运维、质量监测、升级和灾害韧性；当前阶段是既有RTDF项目交付与付款。竞争研判：NTA官方页披露了区域实施服务商，但没有本次新设备采购、OEM、分包或新增授标，不能据此认定设备商份额。下一步：核查NTA最新项目级报告、验收和第三阶段监测结果、剩余付款、八县升级计划缺口及任何新一轮RTDF/PPMO公告。证据缺口：现网设备品牌、SLA表现、续期预算、升级规格、剩余站点和未来采购时间均未知。",
-                "opportunityEn": "Customers and need: NTA, local governments, schools, health institutions and implementing ISPs require continuing capacity, operations, quality monitoring, upgrades and disaster resilience. The current stage is delivery and payment under existing RTDF programmes. Competition: NTA identifies geographic implementing providers, but no new equipment procurement, OEM, subcontract or fresh award is disclosed, so vendor share cannot be inferred. Next action: obtain the latest NTA project-level report, acceptance and third-stage monitoring results, outstanding payments, gaps in the eight-district upgrade programme and any new RTDF or PPMO notice. Gaps: installed equipment brands, SLA performance, renewal budget, upgrade specifications, remaining sites and future procurement timing are unknown.",
-                "badge": "NTA项目进度 + 行业媒体 · Tier 1/2",
-                "links": [
-                  {
-                    "label": "Technology Khabar · 9月24日",
-                    "url": "https://www.technologykhabar.com/2026/09/24/255786/"
-                  },
-                  {
-                    "label": "NTA · RTDF进度",
-                    "url": "https://nta.gov.np/page/nta-rtdf-progress"
-                  }
-                ]
-              }
-            ],
+            "items": [],
             "displayCategory": "宽带与企业连接",
             "displayCategoryEn": "Broadband & enterprise connectivity"
           },
@@ -406,11 +382,11 @@
       }
     },
     "stats": {
-      "news": 10,
-      "opportunities": 10,
+      "news": 9,
+      "opportunities": 9,
       "telegram": 0,
       "countryCounts": {
-        "np": 10
+        "np": 9
       }
     }
   },
@@ -423,8 +399,8 @@
       "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
       "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
       "sourceFile": "nepal-w39-40.html",
-      "status": "截至9月25日，本期已核验10条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标、电信行业对统一电信政策草案的正式反馈，以及农村电信发展基金宽带项目进度；只有首项已进入正式招标阶段。",
-      "statusEn": "As of 25 September, ten material events have been verified. New coverage includes Nepal Telecom's formal real-time billing and customer-support tender, industry feedback on the unified telecom-policy draft, and RTDF broadband-programme progress; only the first is at a formal tender stage.",
+      "status": "截至9月25日，本期已核验9条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标，以及电信行业对统一电信政策草案的正式反馈；前者已进入正式招标阶段，后者仍处于征求意见阶段。",
+      "statusEn": "As of 25 September, nine material events have been verified. New coverage includes Nepal Telecom's formal real-time billing and customer-support tender and industry feedback on the unified telecom-policy draft; the former is at tender stage while the latter remains under consultation.",
       "summary": [
         "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
         "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
@@ -432,7 +408,6 @@
         "最高法院驳回 Dish Media Network、Classic Tech、Vianet 和 Subisu 针对电信服务税追缴决定的四份诉状，ISP税务与合规风险显著上升，但完整书面判决及最终应付金额尚未公开核实。",
         "中国气象局向尼泊尔水文与气象部门移交 MAZU-NEPAL 人工智能气象平台，并提出后续部署卫星AI设备、培训和数据共享；目前未披露预算、采购或本地数据治理条款。",
         "Ncell 已就统一电信政策草案提出降低频谱、税费和监管成本、改善投资保护及区分移动与固定宽带监管的建议；尼泊尔电信尚在准备反馈，政策仍处于征求意见阶段。",
-        "NTA 报告显示，农村电信发展基金18个宽带接入包已连接74个县16,208个公共站点，累计支付约54.37亿尼泊尔卢比；这是存量项目进度，不是9月24日新授标。",
         "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
       ],
       "summaryEn": [
@@ -442,7 +417,6 @@
         "The Supreme Court dismissed four petitions by Dish Media Network, Classic Tech, Vianet and Subisu against telecom-service-charge collection decisions. ISP tax and compliance risk has risen, but the full written judgment and final payable amount remain unverified.",
         "China Meteorological Administration transferred the MAZU-NEPAL AI weather platform to Nepal's hydrology and meteorology authority and outlined future satellite-AI equipment, training and data-sharing support. No budget, procurement or local data-governance terms have been disclosed.",
         "Ncell submitted feedback on the unified telecom-policy draft seeking lower spectrum, tax and regulatory costs, stronger investment protection and differentiated treatment of mobile and fixed broadband. Nepal Telecom was still preparing its response, and the policy remains under consultation.",
-        "An NTA report says 18 RTDF broadband-access packages have connected 16,208 public sites across 74 districts, with about NPR 5.437 billion paid. This is progress on existing programmes, not a new award dated 24 September.",
         "Priority follow-up covers the formal NEPSE/broker forensic review and resilience procurement, the ISP tax judgment, final NTA infrastructure rules, Nepal Telecom expansion procurement, and MAZU equipment and data arrangements."
       ],
       "countries": {
@@ -677,29 +651,7 @@
             {
               "category": "本国 ISP/DSP 和互联网运营商的投资动态",
               "categoryEn": "ISP and internet infrastructure investment",
-              "items": [
-                {
-                  "id": "np-rtdf-broadband-progress-20260924",
-                  "date": "2026-09-24",
-                  "title": "农村电信发展基金18个项目包已连接74县16,208个公共站点",
-                  "titleEn": "RTDF broadband packages connect 16,208 public sites across 74 districts",
-                  "text": "事实：Technology Khabar 9月24日依据NTA报告称，截至2083年Asar，农村电信发展基金（RTDF）的18个宽带接入网络项目包已在74个县连接16,208个指定公共站点，包括708个地方政府办公室、5,933个区办公室、5,318所中学和4,249个卫生机构，累计支付5,437,293,169.42尼泊尔卢比。NTA官方RTDF进度页列出18个已100%完成的区域包及 Nepal Telecom、WorldLink、Subisu、Vianet、TechMinds、Mercantile 等实施服务商。另一个面向八个地震重灾县的升级与基础学校联网计划已在53个地方政府、3,528个站点完成工作，累计支付175,749,495.86尼泊尔卢比。上述为存量项目进度披露，不是9月24日新签合同。",
-                  "textEn": "Technology Khabar reported on 24 September, citing an NTA report, that 18 Rural Telecommunications Development Fund broadband-access packages had connected 16,208 designated public sites across 74 districts by Asar 2083: 708 local-government offices, 5,933 ward offices, 5,318 secondary schools and 4,249 health institutions. Reported cumulative payment was NPR 5,437,293,169.42. NTA's official RTDF progress page lists 18 completed geographic packages and implementing providers including Nepal Telecom, WorldLink, Subisu, Vianet, TechMinds and Mercantile. A separate upgrade and basic-school connectivity programme in eight earthquake-affected districts had completed work in 53 local governments and 3,528 sites, with NPR 175,749,495.86 paid. These are progress disclosures for existing programmes, not contracts newly signed on 24 September.",
-                  "opportunity": "客户与需求：NTA、地方政府、学校、卫生机构及实施ISP需要持续的带宽、运维、质量监测、升级和灾害韧性；当前阶段是既有RTDF项目交付与付款。竞争研判：NTA官方页披露了区域实施服务商，但没有本次新设备采购、OEM、分包或新增授标，不能据此认定设备商份额。下一步：核查NTA最新项目级报告、验收和第三阶段监测结果、剩余付款、八县升级计划缺口及任何新一轮RTDF/PPMO公告。证据缺口：现网设备品牌、SLA表现、续期预算、升级规格、剩余站点和未来采购时间均未知。",
-                  "opportunityEn": "Customers and need: NTA, local governments, schools, health institutions and implementing ISPs require continuing capacity, operations, quality monitoring, upgrades and disaster resilience. The current stage is delivery and payment under existing RTDF programmes. Competition: NTA identifies geographic implementing providers, but no new equipment procurement, OEM, subcontract or fresh award is disclosed, so vendor share cannot be inferred. Next action: obtain the latest NTA project-level report, acceptance and third-stage monitoring results, outstanding payments, gaps in the eight-district upgrade programme and any new RTDF or PPMO notice. Gaps: installed equipment brands, SLA performance, renewal budget, upgrade specifications, remaining sites and future procurement timing are unknown.",
-                  "badge": "NTA项目进度 + 行业媒体 · Tier 1/2",
-                  "links": [
-                    {
-                      "label": "Technology Khabar · 9月24日",
-                      "url": "https://www.technologykhabar.com/2026/09/24/255786/"
-                    },
-                    {
-                      "label": "NTA · RTDF进度",
-                      "url": "https://nta.gov.np/page/nta-rtdf-progress"
-                    }
-                  ]
-                }
-              ],
+              "items": [],
               "displayCategory": "宽带与企业连接",
               "displayCategoryEn": "Broadband & enterprise connectivity"
             },
@@ -779,11 +731,11 @@
         }
       },
       "stats": {
-        "news": 10,
-        "opportunities": 10,
+        "news": 9,
+        "opportunities": 9,
         "telegram": 0,
         "countryCounts": {
-          "np": 10
+          "np": 9
         }
       },
       "current": true
@@ -5080,8 +5032,8 @@
     "lastFallbackAt": null,
     "fallbackStatus": "not-needed",
     "fallbackStatusEn": "Not needed",
-    "note": "Codex 已完成9月25日研究与双语审校；新增实时计费招标、统一电信政策反馈和RTDF宽带进度3条事件，并完成DeepSeek草稿复核。",
-    "noteEn": "Codex completed the 25 September research and bilingual review; three events were added covering the real-time billing tender, unified telecom-policy feedback and RTDF broadband progress, followed by review of the DeepSeek draft."
+    "note": "Codex 已完成9月25日研究与双语审校；新增实时计费招标和统一电信政策反馈2条事件，并完成DeepSeek草稿复核。RTDF累计数据因统计截止早于本期而未计入正式新闻。",
+    "noteEn": "Codex completed the 25 September research and bilingual review; two events were added covering the real-time billing tender and unified telecom-policy feedback, followed by review of the DeepSeek draft. Cumulative RTDF data was excluded from formal news because its reporting cutoff predates this issue."
   },
   "fallback": {
     "status": "clear",
