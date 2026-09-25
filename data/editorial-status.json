@@ -1,12 +1,12 @@
 {
-  "lastCodexReviewDate": "2026-09-23",
-  "lastCodexReviewAt": "2026-09-23T07:07:50+00:00",
-  "lastCodexCommit": "0e210bac15f8741a53a61f28c7b693830b7634a1",
-  "lastCandidateGeneratedAt": "2026-09-22T23:30:41.015582+00:00",
+  "lastCodexReviewDate": "2026-09-25",
+  "lastCodexReviewAt": "2026-09-25T08:22:30+00:00",
+  "lastCodexCommit": "c9c58b7fe6d9cc656696b974a418c62b8ed1ae77",
+  "lastCandidateGeneratedAt": "2026-09-24T23:46:36.338738+00:00",
   "lastFallbackDate": null,
   "lastFallbackAt": null,
   "fallbackStatus": "not-needed",
   "fallbackStatusEn": "Not needed",
-  "note": "Codex 已完成9月23日研究与双语审校；新增3条事件并更新1条事故恢复进展。",
-  "noteEn": "Codex completed the 23 September research and bilingual review; three events were added and one incident was updated with recovery progress."
+  "note": "Codex 已完成9月25日研究与双语审校；新增实时计费招标、统一电信政策反馈和RTDF宽带进度3条事件，并完成DeepSeek草稿复核。",
+  "noteEn": "Codex completed the 25 September research and bilingual review; three events were added covering the real-time billing tender, unified telecom-policy feedback and RTDF broadband progress, followed by review of the DeepSeek draft."
 }
