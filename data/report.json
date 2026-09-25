@@ -1,14 +1,15 @@
 {
   "issue": "W39-40",
-  "generated": "2026-09-23",
+  "generated": "2026-09-25",
   "windowStart": "2026-09-19",
   "windowEnd": "2026-10-02",
   "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
   "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
   "sourceFile": "nepal-w39-40.html",
-  "status": "截至9月23日，本期已核验7条重要事件。每日采集用于发现候选，只有完成日期、原文与事实核验后才进入公开简报；政策表态、网络投产、技术移交和事故恢复均不等于已形成的采购项目。",
-  "statusEn": "As of 23 September, seven material events have been verified for this issue. Daily collection discovers candidates, but publication requires date, source and factual verification. Policy statements, network activation, technology transfer and incident recovery do not by themselves constitute procurement projects.",
+  "status": "截至9月25日，本期已核验8条事件；新增 Nepal Telecom 实时计费及客户支持系统国际招标，截止日期和投标保证金已核对官方原件。候选不直接作为新闻，未知投标人与合同金额不作推定。",
+  "statusEn": "As of 25 September, eight events are reviewed. Added Nepal Telecom's international real-time billing/customer-support tender, with deadlines and bid security checked against the official document. Candidates are not published as facts; bidders and contract value remain unconfirmed.",
   "summary": [
+    "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
     "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
     "尼泊尔证券交易所在停市一天后于9月22日恢复交易，72家券商系统从 Butwal 灾备中心恢复；勒索软件成因、影响范围与数据是否外泄仍待正式取证结论。",
     "最高法院驳回 Dish Media Network、Classic Tech、Vianet 和 Subisu 针对电信服务税追缴决定的四份诉状，ISP税务与合规风险显著上升，但完整书面判决及最终应付金额尚未公开核实。",
@@ -16,6 +17,7 @@
     "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
   ],
   "summaryEn": [
+    "Nepal Telecom issued its virtualized billing/customer-support tender on 23 September: pre-bid meeting on 8 October and hard-copy bids due at noon on 30 October. NPR 90,276,000 is bid security, not a contract budget; current bidders are not disclosed.",
     "Nepal Telecom is providing free fibre repair, SIM replacement and recovery connectivity in flood-affected areas, and disclosed on 22 September that 13 2G/4G sites went live across 11 districts in five provinces during Bhadra. Neither development identifies a new procurement budget or equipment supplier.",
     "Nepal Stock Exchange resumed trading on 22 September after a one-day halt, with systems serving 72 brokers restored from the Butwal disaster-recovery site. Ransomware causation, affected scope and possible data exfiltration still await a formal forensic finding.",
     "The Supreme Court dismissed four petitions by Dish Media Network, Classic Tech, Vianet and Subisu against telecom-service-charge collection decisions. ISP tax and compliance risk has risen, but the full written judgment and final payable amount remain unverified.",
@@ -32,6 +34,31 @@
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
           "items": [
+            {
+              "id": "np-ntc-crtb-tender-20260923",
+              "date": "2026-09-23",
+              "title": "尼泊尔电信重启实时计费与客户支持系统国际招标，10月30日截标",
+              "titleEn": "Nepal Telecom launches billing and customer-support tender, with bids due 30 October",
+              "text": "事实：Nepal Telecom 官方采购门户及9月23日招标文件确认，标号 NDCL/CTO/ICB/02/083-84，采购虚拟化平台上的融合实时计费与客户支持系统，覆盖供货、安装、测试、投运和支持。采用国际竞争、单阶段双信封、纸质投标。官方文件第5—6页列明：标前会10月8日11:30；投标截止10月30日12:00，13:00开标（加德满都当地时间）；文件费100,000尼泊尔卢比，最低投标保证金90,276,000卢比，或588,000美元、512,000欧元。保证金不是合同金额。部分媒体对尼历截止日的转述不一致，本条以官方公历日期为准，仍需跟踪后续澄清及延期。尚无本轮投标名单或授标依据。行业媒体称存量系统来自 AsiaInfo；这是现网背景，不代表亚信、华为、浩鲸或其他厂家已参加或获本轮订单。",
+              "textEn": "Fact: Nepal Telecom's procurement portal and bidding document issued on 23 September confirm IFB NDCL/CTO/ICB/02/083-84 for a virtualized convergent real-time billing and customer-support system, including supply, installation, testing, commissioning and support. It uses international competition, a single-stage two-envelope procedure and hard-copy bids. PDF pages 5–6 specify a pre-bid meeting on 8 October at 11:30, submission by 30 October at 12:00 and opening at 13:00 (Kathmandu local time); document fee NPR 100,000; minimum bid security NPR 90,276,000, alternatively USD 588,000 or EUR 512,000. Security is not contract value. A media rendering of the Nepali deadline is inconsistent; this item uses official Gregorian dates, subject to later clarifications or extensions. No current bidder list or award is established. Industry media identify AsiaInfo as the incumbent system supplier; that background does not prove participation or an award for AsiaInfo, Huawei, Whale Cloud or any other vendor in this round.",
+              "opportunity": "客户与阶段：Nepal Telecom 的 CTO 采购部门及 IT 团队，已进入正式招标而非一般数字化意向。下一步：先获取完整正式标书并确认资格，再梳理存量数据迁移、计费准确性、接口兼容、容灾切换和长期支持的证明材料；在标前会上澄清验收与回退责任。竞争研判：存量维护经验不等于新标资格，旧轮投标及淘汰情况不能移用到本轮。未知项：实际参标企业、合同总价和中标厂家。",
+              "opportunityEn": "Customer and stage: Nepal Telecom's CTO procurement department and IT team, at formal tender stage rather than a general digitalisation intention. Next action: obtain the complete official documents and confirm eligibility, then prepare evidence for legacy-data migration, billing accuracy, interface compatibility, recovery and long-term support; clarify acceptance and rollback responsibilities at the pre-bid meeting. Competition: incumbent maintenance experience does not establish eligibility, and previous-round bidder outcomes cannot be carried into this round. Unknowns: actual participants, total contract value and awarded supplier.",
+              "badge": "官方采购门户及招标文件核验 · Tier 1",
+              "links": [
+                {
+                  "label": "Nepal Telecom · official procurement portal",
+                  "url": "https://www.ntc.net.np/notices/procurement-content"
+                },
+                {
+                  "label": "Nepal Telecom · official bidding document (pages 5–6)",
+                  "url": "https://cms.ntc.net.np/storage/media/RRNnJXHVse5846Rbs7p7kQmoMZk7s3CM3LH1fsd4.pdf"
+                },
+                {
+                  "label": "NepaliTelecom · 23 September coverage",
+                  "url": "https://www.nepalitelecom.com/2026/09/ntc-new-billing-system-tender.html"
+                }
+              ]
+            },
             {
               "id": "np-ntc-flood-connectivity-20260921",
               "date": "2026-09-21",
@@ -292,11 +319,11 @@
     }
   },
   "stats": {
-    "news": 7,
-    "opportunities": 7,
+    "news": 8,
+    "opportunities": 8,
     "telegram": 0,
     "countryCounts": {
-      "np": 7
+      "np": 8
     }
   }
 }

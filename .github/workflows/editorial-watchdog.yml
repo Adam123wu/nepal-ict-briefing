@@ -49,7 +49,7 @@ jobs:
         run: python scripts/fallback_nepal_deepseek.py --force
       - name: Rebuild public data
         run: |
-          npm install --legacy-peer-deps --no-audit --no-fund
+          npm ci --legacy-peer-deps --no-audit --no-fund
           npm run sync-data
           npm run validate-data
       - name: Publish watchdog status
@@ -57,10 +57,14 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add config/editorial-status.json config/deepseek-fallback-digest.json data/editorial-status.json data/deepseek-fallback-digest.json data/nepal.json
+          # sync-data also refreshes source health, report and issue payloads.
+          # Stage all generated outputs in this clean runner, not just 3 files.
+          git add config/editorial-status.json config/deepseek-fallback-digest.json data public/archive
+          git diff --exit-code
           if ! git diff --staged --quiet; then
             git commit -m 'data: record Nepal editorial watchdog'
-            git pull --rebase origin main
+            # Never rebase stale watchdog data over a newer Codex completion marker.
+            # A concurrent push fails safely; the next run reloads current inputs.
             git push origin HEAD:main
             echo 'changed=true' >> "$GITHUB_OUTPUT"
           else
