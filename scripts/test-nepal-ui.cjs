@@ -29,28 +29,28 @@ const server=http.createServer((req,res)=>{
  const sections=JSON.parse(fs.readFileSync('config/nepal-report.json','utf8')).countries.np.sections;
  const portal=JSON.parse(fs.readFileSync('data/nepal.json','utf8'));
  const fallbackCount=JSON.parse(fs.readFileSync('config/deepseek-fallback-digest.json','utf8')).items.length;
- await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),1);assert.equal(await page.locator('[data-issue]').count(),portal.issues.length);assert.equal(await page.locator('.accordion-trigger').count(),sections.filter(s=>s.items.length||s.category==='ICT 竞争对手最新动态').length);
+ await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),portal.issues.length);assert.equal(await page.locator('[data-issue]').count(),portal.issues.length);
+ const expectedAccordions=portal.issues.reduce((total,issue)=>total+issue.countries.np.sections.filter(s=>s.items.length||(issue.current&&s.category==='ICT 竞争对手最新动态')).length,0);
+ assert.equal(await page.locator('.accordion-trigger').count(),expectedAccordions);
  assert.equal(await page.locator('[data-fallback-digest]').count(),fallbackCount>0?1:0,'Fallback card visibility must match its data');
- assert.equal(await page.locator('.news-card').count(),sections.reduce((n,s)=>n+s.items.length,0));
+ assert.equal(await page.locator('.news-card').count(),portal.issues.reduce((total,issue)=>total+issue.stats.news,0),'All current and historical projects must be visible together');
  const history=portal.issues.find(issue=>!issue.current);assert(history,'Expected one integrated historical issue');
- await page.locator(`[data-issue="${history.issue}"]`).click();
  await page.locator('[data-history-summary]').waitFor();
  assert.equal(await page.locator('[data-history-summary]').count(),1);
- assert.equal(await page.locator('.news-card').count(),history.stats.news,'Historical issue must show every reviewed item');
- assert((await page.locator('.accordion').innerText()).includes('Nepal Telecom 发布宪法日套餐'));
+ assert.equal(await page.locator(`[data-issue="${history.issue}"] .news-card`).count(),history.stats.news,'Historical issue must show every reviewed item without a tab click');
+ assert((await page.locator(`[data-issue="${history.issue}"] .accordion`).innerText()).includes('Nepal Telecom 发布宪法日套餐'));
  for(const language of ['中文','English']){
   await page.getByRole('button',{name:language,exact:true}).click();
   const typography=await page.locator('.news-card').first().evaluate(card=>{const style=selector=>getComputedStyle(card.querySelector(selector));return {title:parseFloat(style('.news-title').fontSize),body:parseFloat(style('.news-text').fontSize),link:parseFloat(style('.feed-link').fontSize),line:parseFloat(style('.news-text').lineHeight)};});
   assert(typography.title>typography.body&&typography.body>typography.link);assert(typography.body>=12&&typography.line/typography.body>=1.7);
   for(const width of [1440,390]){await page.setViewportSize({width,height:1000});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));}
  }
- assert((await page.locator('.accordion').innerText()).includes('Nepal Telecom announces Constitution Day plans'));
- await page.locator(`[data-issue="${portal.report.issue}"]`).click();
+ assert((await page.locator(`[data-issue="${history.issue}"] .accordion`).innerText()).includes('Nepal Telecom announces Constitution Day plans'));
  await page.getByRole('button',{name:'中文',exact:true}).click();
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
- for(const title of ['运营商集团战略','华为在尼泊尔']) assert(!(await page.locator('.accordion').innerText()).includes(title));
- assert((await page.locator('.accordion').innerText()).includes('对外关系与市场影响'));
+ for(const title of ['运营商集团战略','华为在尼泊尔']) assert(!(await page.locator(`[data-issue="${portal.report.issue}"] .accordion`).innerText()).includes(title));
+ assert((await page.locator(`[data-issue="${portal.report.issue}"] .accordion`).innerText()).includes('对外关系与市场影响'));
  for(const language of ['English','中文']){
   await page.getByRole('button',{name:language,exact:true}).click();
   const typography=await page.locator('.social-story').first().evaluate(el=>{

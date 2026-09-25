@@ -1,6 +1,3 @@
-"use client";
-
-import {useState} from "react";
 import data from "@/data/nepal.json";
 import {BriefingView} from "./briefing-view";
 import {IssueDigest} from "./issue-digest";
@@ -11,27 +8,33 @@ type Signal={id:string;title:string;titleEn:string;summary:string;summaryEn:stri
 
 export function BriefingCollection({language}:{language:"zh"|"en"}){
  const en=language==="en",t=(zh:string,english:string)=>en?english:zh;
- const [issueId,setIssueId]=useState(data.issues[0].issue);
- const issue=data.issues.find(item=>item.issue===issueId)??data.issues[0];
  const signals=[...data.signals,...data.telegram.items] as Signal[];
  return <>
   <Card className="card-pad issue-picker">
    <div className="issue-picker-head">
-    <div><h2>{t('全部双周简报','All biweekly issues')}</h2><p className="section-sub">{t('当前期与历史期统一展示；切换期数即可查看该期全部核验项目。','Current and historical issues are shown together. Select an issue to view every reviewed item from that period.')}</p></div>
-    <Badge>{data.issues.reduce((total,item)=>total+item.stats.news,0)} {t('条历史项目','items across all issues')}</Badge>
+    <div><h2>{t('全部双周简报项目','All biweekly briefing items')}</h2><p className="section-sub">{t('当前期与全部历史期按时间连续展开，不再把历史项目放入独立归档。','The current issue and every historical issue are expanded chronologically, with no separate archive.')}</p></div>
+    <Badge>{data.issues.reduce((total,item)=>total+item.stats.news,0)} {t('条全部项目','items in total')}</Badge>
    </div>
-   <div className="tabs issue-tabs" aria-label={t('选择简报期数','Select briefing issue')}>
-    {data.issues.map(item=><button type="button" data-issue={item.issue} aria-pressed={item.issue===issue.issue} className={`tab ${item.issue===issue.issue?'active':''}`} key={item.issue} onClick={()=>setIssueId(item.issue)}>
-     <strong>{item.issue}</strong><span>{t(item.period,item.periodEn)}</span><small>{item.stats.news} {t('条','items')} · {item.current?t('当前期','Current'):t('历史完整期','Completed')}</small>
-    </button>)}
-   </div>
+   <nav className="issue-index" aria-label={t('简报期数目录','Briefing issue index')}>
+    {data.issues.map(item=><a href={`#issue-${item.issue.toLowerCase()}`} className={item.current?'current':''} key={item.issue}>
+     <strong>{item.issue}</strong><span>{item.stats.news} {t('条','items')}</span><small>{item.current?t('当前期','Current'):t('历史期','Historical')}</small>
+    </a>)}
+   </nav>
   </Card>
-  {issue.current?<IssueDigest en={en}/>:<div data-history-summary><Card className="card-pad historical-issue-note">
-   <div><Badge tone="green">{t('历史完整期','Completed issue')}</Badge><h2>{t(issue.period,issue.periodEn)}</h2></div>
-   <p>{t(issue.status,issue.statusEn)}</p>
-   <p className="section-sub">{t('下列内容为封存时已经核验的完整项目，保留当期事实、来源和商机研判，不会被后续更新覆盖。','The complete set below was verified when the issue was sealed. Its facts, sources and opportunity analysis are preserved and are not overwritten by later updates.')}</p>
-  </Card></div>}
-  <div id="issue-news"><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current}/></div>
-  {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}
+  <div className="all-issues">
+   {data.issues.map(issue=><section className="briefing-issue" data-issue={issue.issue} id={`issue-${issue.issue.toLowerCase()}`} key={issue.issue}>
+    <div data-history-summary={issue.current?undefined:"true"}><Card className={`card-pad issue-heading ${issue.current?'current':'historical'}`}>
+     <div>
+      <Badge tone={issue.current?'amber':'green'}>{issue.current?t('当前更新期','Current issue'):t('历史期','Historical issue')}</Badge>
+      <h2>{issue.issue} · {t(issue.period,issue.periodEn)}</h2>
+     </div>
+     <strong>{issue.stats.news} {t('条核验项目','reviewed items')}</strong>
+     {!issue.current&&<p className="section-sub">{t('以下为本期全部已核验项目，事实、来源与商机研判均完整保留。','Every reviewed item from this issue is shown below with its facts, sources and opportunity analysis intact.')}</p>}
+    </Card></div>
+    {issue.current&&<IssueDigest en={en}/>}
+    <div id={`issue-news-${issue.issue.toLowerCase()}`}><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current} idPrefix={issue.issue.toLowerCase()}/></div>
+    {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}
+   </section>)}
+  </div>
  </>;
 }

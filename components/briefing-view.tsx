@@ -32,7 +32,7 @@ function englishBadge(badge: string) {
   return "Source verified";
 }
 
-export function BriefingView({ countries, language, showCompetitorWatch = true }: {countries: Record<string, Country>; language: "zh" | "en"; showCompetitorWatch?: boolean}) {
+export function BriefingView({ countries, language, showCompetitorWatch = true, idPrefix = "current" }: {countries: Record<string, Country>; language: "zh" | "en"; showCompetitorWatch?: boolean; idPrefix?: string}) {
   const [country, setCountry] = useState(Object.keys(countries)[0]);
   const [open, setOpen] = useState<Record<string, boolean>>({});
   const current = countries[country];
@@ -50,11 +50,11 @@ export function BriefingView({ countries, language, showCompetitorWatch = true }
         if (!section.items.length && (!competitor || !showCompetitorWatch)) return null;
         const active = open[index] ?? !competitor;
         return <Card className="accordion-section" key={`${country}-${index}-${section.category}`}>
-          <button className="accordion-trigger" aria-expanded={active} aria-controls={`section-${index}`} onClick={() => setOpen((value) => ({...value, [index]: !active}))}>
+          <button className="accordion-trigger" aria-expanded={active} aria-controls={`section-${idPrefix}-${country}-${index}`} onClick={() => setOpen((value) => ({...value, [index]: !active}))}>
             <span className="accordion-title">{competitor ? (isEnglish ? 'Competitor intelligence' : '竞争对手情报') : isEnglish ? (section.displayCategoryEn||section.categoryEn) : (section.displayCategory||section.category)}</span>
             <span style={{display: "flex", alignItems: "center", gap: 8}}><Badge>{competitor ? `${monitoring.vendors.length} ${isEnglish?'vendors watched':'家监控'}` : `${section.items.length} ${isEnglish?'items':'条'}`}</Badge><ChevronDown size={15} style={{transform: active ? "rotate(180deg)" : "none", transition: ".18s"}}/></span>
           </button>
-          {active && <div className="accordion-body" id={`section-${index}`}>
+          {active && <div className="accordion-body" id={`section-${idPrefix}-${country}-${index}`}>
             {competitor && showCompetitorWatch && <CompetitorWatch en={isEnglish}/>}
             {!competitor && !section.items.length && <p className="section-sub">{index===10 ? (isEnglish ? "See Important social updates above. Cross-platform mentions of existing stories are not counted as additional events." : "请见上方重要社媒快讯。同一事件的多平台传播不重复计入新闻。") : (isEnglish ? "No additional current-period event has been verified for this topic. Historical announcements and uncorroborated claims are excluded." : "本期未核实到本专题可新增的独立事件；不以历史公告或未证实线索填充。")}</p>}
             {section.items.map((item, itemIndex) => <article className="news-card" key={`${country}-${section.category}-${item.title}-${itemIndex}`}>

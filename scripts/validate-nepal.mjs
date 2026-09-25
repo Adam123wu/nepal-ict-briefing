@@ -39,8 +39,8 @@ for(const v of competition.vendors){
  for(const field of ['status','statusEn','scope','scopeEn','summary','summaryEn','action','actionEn'])assert(v[field]&&!/[\u0900-\u097f\u0600-\u06ff]/.test(v[field]));
  assert.equal(new URL(v.evidenceUrl).protocol,'https:');
 }
-const manifest=read('config/archive-manifest.json');
-assert.equal(d.issues.length,manifest.length+1);
+const history=read('config/history-reports.json');
+assert.equal(d.issues.length,history.length+1);
 assert.equal(d.issues[0].issue,d.report.issue);assert.equal(d.issues[0].current,true);
 assert.equal(Object.hasOwn(d,'archive'),false,'Separate archive payload must stay removed');
 for(const issue of d.issues.slice(1)){
@@ -54,7 +54,8 @@ for(const issue of d.issues.slice(1)){
  }
  assert.equal(issue.stats.news,historicalCount);
 }
-for(const file of fs.readdirSync('public/archive'))assert(/^nepal-/.test(file),'Foreign archive asset blocked: '+file);
+const archiveAssets=fs.existsSync('public/archive')?fs.readdirSync('public/archive'):[];
+assert.equal(archiveAssets.length,0,'Independent archive assets must not be published');
 assert.equal(d.telegram.messageCount,d.telegram.items.length);
 assert(d.editorial&&typeof d.editorial.lastCodexReviewDate==='string');
 assert(['not-needed','pending_codex_review','no_relevant_candidates'].includes(d.editorial.fallbackStatus));
