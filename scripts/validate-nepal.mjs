@@ -13,7 +13,8 @@ for(const s of imported)assert(ids.has(s.sourceId),'Imported source mapping miss
 const focus=read('config/monitoring-focus.json').focusAreas;
 assert.equal(focus.length,12);assert.equal(new Set(focus.map(f=>f.id)).size,12);
 for(const f of focus)assert(f.label&&f.labelEn&&Array.isArray(f.keywords));
-assert.equal(focus.find(f=>f.id==='hot-topics').keywords.length,0);
+const hotTopics=focus.find(f=>f.id==='hot-topics').keywords;
+assert(hotTopics.includes('Public Procurement Act Nepal')&&hotTopics.includes('Battery Energy Storage System Nepal'),'User-selected procurement-law and digital-energy topics must remain monitored');
 assert(!JSON.stringify(d.focus).match(/[\u0900-\u097f]/),'Raw research keywords must not leak into public focus labels');
 for(const t of read('config/topic-source-routing.json').topics)assert.deepEqual(t.countries,['尼泊尔']);
 const hosts=new Set(d.legal.sources.map(s=>new URL(s.url).hostname));
@@ -22,6 +23,13 @@ for(const i of d.legal.items){assert(hosts.has(new URL(i.url).hostname));assert(
 for(const c of d.compliance.countries){assert.equal(c.code,'np');const score=c.dimensions.reduce((n,x)=>n+x.score*d.compliance.method.find(m=>m.id===x.id).weight/100,0);assert(Math.abs(c.score-Math.round(score*10)/10)<0.001);}
 const count=d.report.countries.np.sections.reduce((n,s)=>n+s.items.length,0);assert.equal(d.report.stats.news,count);
 assert(count>0,'Do not publish an empty migration edition');
+assert.equal(d.policyTracker.items.length,2);
+for(const policy of d.policyTracker.items){
+ assert(policy.category&&policy.categoryEn&&policy.status&&policy.statusEn);
+ assert(policy.facts.length>=3&&policy.factsEn.length===policy.facts.length);
+ assert(policy.nextChecks&&policy.nextChecksEn);
+ for(const source of policy.sources)assert.equal(new URL(source.url).protocol,'https:');
+}
 const events=new Set();
 for(const s of d.report.countries.np.sections)for(const i of s.items){assert(!events.has(i.id));events.add(i.id);assert(i.date>=d.report.windowStart&&i.date<=d.report.windowEnd);assert(i.links.length>=1);assert(i.titleEn&&i.textEn);}
 const competition=read('config/competitor-monitoring.json');

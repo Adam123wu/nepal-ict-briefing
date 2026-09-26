@@ -2,6 +2,7 @@ import data from "@/data/nepal.json";
 import {BriefingView} from "./briefing-view";
 import {IssueDigest} from "./issue-digest";
 import {SocialUpdates} from "./social-updates";
+import {IndustrialPolicyTracker} from "./industrial-policy-tracker";
 import {Badge, Card} from "./ui";
 
 type Signal={id:string;title:string;titleEn:string;summary:string;summaryEn:string;url:string;date?:string;platform?:string;account?:string;impact?:string;impactEn?:string};
@@ -31,6 +32,7 @@ export function BriefingCollection({language}:{language:"zh"|"en"}){
      <strong>{issue.stats.news} {t('条核验项目','reviewed items')}</strong>
      {!issue.current&&<p className="section-sub">{t('以下为本期全部已核验项目，事实、来源与商机研判均完整保留。','Every reviewed item from this issue is shown below with its facts, sources and opportunity analysis intact.')}</p>}
     </Card></div>
+    {issue.current&&<IndustrialPolicyTracker tracker={data.policyTracker} en={en}/>}
     {issue.current&&<IssueDigest en={en}/>}
     <div id={`issue-news-${issue.issue.toLowerCase()}`}><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current} idPrefix={issue.issue.toLowerCase()}/></div>
     {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-09-18",
+  "updated": "2026-09-27",
   "provenance": "Nepal_Media_Monitoring_with_News_Sources.xlsx; user-supplied planning input, not evidence that a news event occurred.",
   "policy": {
     "keywordsOnly": "Candidate prioritization, not factual verification or automatic publication.",
@@ -14,7 +14,25 @@
       "id": "hot-topics",
       "label": "热点与临时关注",
       "labelEn": "Hot topics",
-      "keywords": [],
+      "keywords": [
+        "Public Procurement Act Nepal",
+        "Public Procurement Regulations Nepal",
+        "PPMO standard bidding document",
+        "e-GP procurement reform",
+        "Digital Energy Nepal",
+        "Battery Energy Storage System Nepal",
+        "BESS Nepal",
+        "smart grid Nepal",
+        "green data centre Nepal",
+        "सार्वजनिक खरिद ऐन",
+        "सार्वजनिक खरिद नियमावली",
+        "नमुना बोलपत्र कागजात",
+        "विद्युतीय खरिद प्रणाली",
+        "डिजिटल ऊर्जा",
+        "ब्याट्री ऊर्जा भण्डारण",
+        "स्मार्ट ग्रिड",
+        "हरित डाटा सेन्टर"
+      ],
       "priority": "HIGH",
       "workbookRange": "Nepal_Monitoring categories!B5:D5"
     },

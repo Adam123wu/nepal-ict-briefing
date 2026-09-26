@@ -35,7 +35,7 @@ Review `.analysis/deepseek-draft.json` against the current input hash, source te
 
 ## Focus and source references
 
-- `../../config/monitoring-focus.json`: twelve focus areas and bilingual search terms. Hot topics remain empty until the user provides a specific topic.
+- `../../config/monitoring-focus.json`: twelve focus areas and bilingual search terms. The user selected public-procurement law and digital energy as persistent hot topics on 27 September 2026; retain their English and Nepali search terms until explicitly removed.
 - `references/source-import.json`: mapping of the seventeen attachment domains to active sources, including the legacy `moic.gov.np` to current `mocit.gov.np` correction. OnlineKhabar's Nepali and English editions are separate search endpoints.
 - `references/attachment-skill.md`: original attachment, retained as reference only. Its selectors, sharing counts and example news are unverified planning material. Do not execute its incomplete sample pipeline or publish its example event.
 - `../../public/resources/Nepal_Media_Monitoring_with_News_Sources.xlsx`: original planning workbook, not event evidence.
