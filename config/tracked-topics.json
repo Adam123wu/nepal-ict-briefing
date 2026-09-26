@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "ntc-realtime-billing-tender",
+      "reportItemId": "np-ntc-crtb-tender-20260923",
+      "title": "尼泊尔电信融合实时计费与客户支持系统招标",
+      "titleEn": "Nepal Telecom convergent real-time billing and customer-support tender",
+      "enabled": true,
+      "keywords": [
+        "NDCL/CTO/ICB/02/083-84",
+        "convergent real time billing",
+        "real-time billing",
+        "customer support system",
+        "billing system tender",
+        "计费"
+      ],
+      "officialUrls": [
+        "https://www.ntc.net.np/notices/procurement-content",
+        "https://cms.ntc.net.np/storage/media/RRNnJXHVse5846Rbs7p7kQmoMZk7s3CM3LH1fsd4.pdf"
+      ]
+    }
+  ]
+}

@@ -4,9 +4,11 @@ import { useState } from "react";
 import { CompetitorWatch } from "./competitor-watch";
 import monitoring from "@/config/competitor-monitoring.json";
 import { Badge, Card } from "@/components/ui";
-import { ChevronDown, ExternalLink } from "lucide-react";
+import { Bell, BellRing, ChevronDown, ExternalLink } from "lucide-react";
+import tracking from "@/config/tracked-topics.json";
 
 type Item = {
+  id?: string;
   title: string;
   titleEn: string;
   date: string;
@@ -17,6 +19,23 @@ type Item = {
   opportunityEn: string;
   links: {label: string; url: string}[];
 };
+
+const trackedIds = new Set(tracking.topics.filter((topic) => topic.enabled).map((topic) => topic.reportItemId));
+
+function trackingRequestUrl(item: Item, language: "zh" | "en") {
+  const title = `[Tracking] ${item.titleEn || item.title}`;
+  const body = [
+    "Please keep this request open while daily tracking is required.",
+    "",
+    `REPORT_ITEM_ID: ${item.id || ""}`,
+    `TOPIC: ${item.titleEn || item.title}`,
+    "",
+    language === "en"
+      ? "The daily monitor emails the configured recipient when the topic changes and when there is no new update."
+      : "每日监控会在专题出现变化或当日没有新进展时，向已配置的收件人发送邮件。",
+  ].join("\n");
+  return `https://github.com/Adam123wu/nepal-ict-briefing/issues/new?labels=tracking-request&title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+}
 type Country = {
   name: string;
   nameEn: string;
@@ -60,6 +79,9 @@ export function BriefingView({ countries, language, showCompetitorWatch = true, 
             {section.items.map((item, itemIndex) => <article className="news-card" key={`${country}-${section.category}-${item.title}-${itemIndex}`}>
               <div className="feed-meta"><span>{item.date || (isEnglish ? "Current period" : "本期")}</span>{item.badge && <Badge tone="green">{isEnglish ? englishBadge(item.badge) : item.badge}</Badge>}</div>
               <h3 className="news-title">{isEnglish ? item.titleEn : item.title}</h3>
+              {item.id && <a className={`tracking-button ${trackedIds.has(item.id) ? "tracking-button-active" : ""}`} href={trackingRequestUrl(item, language)} target="_blank" rel="noreferrer">
+                {trackedIds.has(item.id) ? <BellRing size={14}/> : <Bell size={14}/>} {trackedIds.has(item.id) ? (isEnglish ? "Tracking daily" : "每日跟踪中") : (isEnglish ? "Track updates" : "持续跟踪")}
+              </a>}
               <p className="news-text">{isEnglish ? item.textEn : item.text}</p>
               {item.links?.map((link) => <a className="feed-link" href={link.url} target="_blank" rel="noreferrer" key={link.url}>{isEnglish ? "Source" : link.label} <ExternalLink size={11} style={{display: "inline"}}/></a>)}
               {item.opportunity && <div className="opportunity">{isEnglish ? item.opportunityEn : item.opportunity}</div>}

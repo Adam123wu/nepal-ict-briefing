@@ -73,4 +73,5 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hira
 .competitor-card .watch-action{color:#365c83;border-top:1px solid #e2e8f0;padding-top:12px;font-size:13px}
 .competitor-intro{padding-top:20px}
 .focus-tags{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.focus-tags p{background:#f2f6fa;border-radius:6px;padding:5px 10px;font-size:13px;margin:0}
+.tracking-button{display:inline-flex;align-items:center;gap:6px;margin:0 0 12px;padding:7px 11px;border:1px solid #cbd5e1;border-radius:999px;color:#334155;background:#fff;font-size:12px;font-weight:700;text-decoration:none;transition:.16s ease}.tracking-button:hover{border-color:#e11d48;color:#be123c;background:#fff1f2}.tracking-button-active{border-color:#fda4af;color:#be123c;background:#fff1f2}
 @media(max-width:640px){.social-story{padding:20px}.social-story h3{font-size:18px}.content .hero h1{font-size:26px}.content .card-pad{padding:20px}.competitor-grid{grid-template-columns:1fr}.accordion-trigger{padding:16px}.accordion-body{padding:0 16px 14px}.editorial-section-head{gap:8px}.story-summary,.news-text{overflow-wrap:anywhere}.hero{margin-bottom:24px}}

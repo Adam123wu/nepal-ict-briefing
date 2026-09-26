@@ -56,6 +56,12 @@ CRITICAL requires a confirmed Nepal ICT/service-continuity disaster impact. A di
 
 ## Scheduling boundaries
 
+### User-selected topic tracking
+
+News cards expose a `持续跟踪 / Track updates` action. The action creates a constrained GitHub issue containing only a valid current report item ID; `scripts/check_tracked_topics.py` ignores free-form instructions and unknown IDs. Keep the Nepal Telecom billing tender in `config/tracked-topics.json` until the user disables it. The daily `tracked-topic-monitor.yml` run compares the reviewed report and collected candidates with the previous snapshot, then emails both changes and an explicit no-update result. Candidate matches remain unverified until the normal editorial cycle reads the underlying source.
+
+Email credentials belong only in GitHub Actions secrets: `SMTP_USERNAME`, `SMTP_APP_PASSWORD`, and `TRACKING_EMAIL_TO`. Never commit an email password or recipient address. The authorized recipient is configured outside the public repository. A missing secret must produce a visible workflow warning while topic state continues to update.
+
 ### Persistent publication choices
 
 Publish Nepal-only current and completed issues inside the single Briefing interface. Completed bilingual history remains immutable structured input, and every issue must be expanded on the Briefing page without requiring an archive page or issue-tab click. Do not restore historical Iraq, Jordan or Lebanon reports, people or feeds in this repository or site. This does not authorize deleting separate legacy repositories or rewriting Git history. Keep Compliance & Law absent from desktop/mobile navigation and direct public routes; test that `/archive/` and `/compliance/` return 404.

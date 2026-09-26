@@ -12,6 +12,8 @@ export async function syncNepal(){
  const signals=await read('config/social-signals.json');
  const editorial=await read('config/editorial-status.json');
  const fallback=await read('config/deepseek-fallback-digest.json');
+ const tracking=await read('config/tracked-topics.json');
+ const trackingStatus=await read('config/tracking-state.json');
  const signalEn=await read('config/social-signal-translations-en.json');
  const raw=await read('config/telegram-feed.json');
  const zh=await read('config/telegram-translations.json'),en=await read('config/telegram-translations-en.json');
@@ -31,6 +33,7 @@ export async function syncNepal(){
  await save('data/social-signals.json',social);await save('data/telegram-feed.json',feed);await save('data/compliance-analysis.json',compliance);
  await save('data/nepal-legal-news.json',legal);await save('data/history-reports.json',history);
  await save('data/editorial-status.json',editorial);await save('data/deepseek-fallback-digest.json',fallback);
- await save('data/nepal.json',{market,report,issues:[{...report,current:true},...history],sources,people,compliance,legal,signals:social,telegram:feed,editorial,fallback,focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
+ await save('data/tracking-status.json',trackingStatus);
+ await save('data/nepal.json',{market,report,issues:[{...report,current:true},...history],sources,people,compliance,legal,signals:social,telegram:feed,editorial,fallback,tracking:{topics:tracking.topics.map(({id,reportItemId,title,titleEn,enabled})=>({id,reportItemId,title,titleEn,enabled})),status:trackingStatus},focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
  console.log(`Nepal: ${sources.length} sources, ${people.length} monitored offices; ${report.stats.news} reviewed news.`);
 }

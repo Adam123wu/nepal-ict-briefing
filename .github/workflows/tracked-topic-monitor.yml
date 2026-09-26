@@ -1,0 +1,60 @@
+name: Tracked topic monitor
+
+on:
+  schedule:
+    - cron: "15 1 * * *" # 07:00 Asia/Kathmandu
+  workflow_dispatch:
+    inputs:
+      send_email:
+        description: Send the result email
+        type: boolean
+        required: true
+        default: false
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: tracked-topic-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+      SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+      TRACKING_EMAIL_TO: ${{ secrets.TRACKING_EMAIL_TO }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read active tracking requests
+        run: gh issue list --label tracking-request --state open --limit 100 --json number,title,body,url > "$RUNNER_TEMP/tracking-issues.json"
+      - name: Check tracked topics and send daily result email
+        if: ${{ (github.event_name == 'schedule' || inputs.send_email) && env.SMTP_APP_PASSWORD != '' && env.SMTP_USERNAME != '' && env.TRACKING_EMAIL_TO != '' }}
+        run: python3 scripts/check_tracked_topics.py --issues-json "$RUNNER_TEMP/tracking-issues.json" --send-email
+      - name: Check tracked topics without email
+        if: ${{ !((github.event_name == 'schedule' || inputs.send_email) && env.SMTP_APP_PASSWORD != '' && env.SMTP_USERNAME != '' && env.TRACKING_EMAIL_TO != '') }}
+        run: python3 scripts/check_tracked_topics.py --issues-json "$RUNNER_TEMP/tracking-issues.json"
+      - name: Test monitor
+        run: PYTHONPATH=scripts python3 -m unittest scripts/test_tracked_topics.py
+      - name: Report missing email credentials
+        if: ${{ (github.event_name == 'schedule' || inputs.send_email) && (env.SMTP_APP_PASSWORD == '' || env.SMTP_USERNAME == '' || env.TRACKING_EMAIL_TO == '') }}
+        run: echo "::warning::Email skipped. Configure SMTP_USERNAME, SMTP_APP_PASSWORD and TRACKING_EMAIL_TO as Actions secrets."
+      - name: Commit tracking state
+        run: |
+          if git diff --quiet -- config/tracking-state.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/tracking-state.json
+          git commit -m "chore: record daily topic tracking state"
+          git pull --rebase origin main
+          git push origin HEAD:main
