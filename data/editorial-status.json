@@ -3,10 +3,10 @@
   "lastCodexReviewAt": "2026-09-26T18:56:15+00:00",
   "lastCodexCommit": "a8f890226e8744034fcaa5c53554b8ba5490b517",
   "lastCandidateGeneratedAt": "2026-09-25T23:50:59.136764+00:00",
-  "lastFallbackDate": null,
-  "lastFallbackAt": null,
-  "fallbackStatus": "not-needed",
-  "fallbackStatusEn": "Not needed",
-  "note": "Codex 于尼泊尔时间9月27日完成采购法和数字能源专项研究与双语审校；新增NEA冬季保供正式事件，并发布不计入本期新闻数的跨期产业政策追踪，明确区分法规、预算目标、项目登记和待出台细则。",
-  "noteEn": "Codex completed a procurement-law and digital-energy review on 27 September Nepal time. One verified NEA winter-supply event was added, alongside a cross-issue industry-policy tracker excluded from the news count and separating enacted rules, budget targets, project registrations and pending implementation instruments."
+  "lastFallbackDate": "2026-09-29",
+  "lastFallbackAt": "2026-09-29T10:36:32.312936+00:00",
+  "fallbackStatus": "pending_codex_review",
+  "fallbackStatusEn": "Pending Codex review",
+  "note": "DeepSeek 自动正文分析更新 5 条；Codex 正式审校日期保持不变。",
+  "noteEn": "DeepSeek refreshed 5 automatic article analyses; the Codex review date is unchanged."
 }
