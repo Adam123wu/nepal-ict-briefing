@@ -74,6 +74,12 @@ class FallbackTests(unittest.TestCase):
         row['evidenceQuote'] = 'This claim is absent from the supplied source.'
         with self.assertRaises(ValueError):
             validate_model_output({'items': [row]}, supplied)
+        supplied[0]['sourceSegments'] = [{'id': 'a:0', 'text': supplied[0]['sourceText']}]
+        row['evidenceId'] = 'a:0'
+        validate_model_output({'items': [row]}, supplied)
+        row['evidenceId'] = 'another-article:0'
+        with self.assertRaises(ValueError):
+            validate_model_output({'items': [row]}, supplied)
 
     def test_article_parser_excludes_scripts_and_navigation(self):
         from nepal_article_reader import ArticleText

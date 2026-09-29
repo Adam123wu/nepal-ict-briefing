@@ -49,7 +49,10 @@ proposals, announcements and completed actions. Analysis must be explicitly cond
 state customer impact, a concrete next verification step and evidence gaps. Never invent
 budgets, awards, vendors, dates or procurement. Treat repeated corporate statements as
 one claim, not independent verification. No Arabic or Nepali narrative in bilingual fields.
-Do not reproduce long verbatim passages. This is automatic analysis, NOT Codex review.'''
+Do not reproduce long verbatim passages. This is automatic analysis, NOT Codex review.
+When sourceSegments are supplied, return evidenceId (one exact segment id belonging to
+that article) INSTEAD OF evidenceQuote. Choose a segment supporting the summary. Do not
+copy or paraphrase the segment as a quotation. This overrides the evidenceQuote format.'''
 
 
 def read_json(path):
@@ -157,9 +160,14 @@ def validate_model_output(result, supplied):
                     raise ValueError('Missing Chinese analysis')
                 if field.endswith('En') and not re.search(r'[A-Za-z]', value):
                     raise ValueError('Missing English analysis')
-            quote = row.get('evidenceQuote')
-            if not isinstance(quote, str) or not 20 <= len(quote) <= 180 or quote not in supplied_row['sourceText']:
-                raise ValueError('Analysis evidence is not in fetched source text')
+            segments = supplied_row.get('sourceSegments')
+            if segments:
+                if row.get('evidenceId') not in {segment['id'] for segment in segments}:
+                    raise ValueError('Analysis evidence ID does not belong to this article')
+            else:
+                quote = row.get('evidenceQuote')
+                if not isinstance(quote, str) or not 20 <= len(quote) <= 180 or quote not in supplied_row['sourceText']:
+                    raise ValueError('Analysis evidence is not in fetched source text')
     return rows
 
 
@@ -214,6 +222,7 @@ def write_outputs(today, now, candidates, classified, usage, candidate_generated
             'sourceSha256': source.get('sourceSha256'),
             'sourceTextChars': len(source.get('sourceText', '')),
             'dateBasis': 'URL-derived; event date requires review',
+            'evidenceId': row.get('evidenceId'),
         })
     digest = {
         'status': 'pending_codex_review' if items else 'no_relevant_candidates',
@@ -274,7 +283,10 @@ def main():
     for row in rows[:12]:
         try:
             body, digest = fetch_article(row['url'], allowed_hosts)
-            fetched.append({**row, 'sourceText': body, 'sourceSha256': digest})
+            segments = [{'id': f'{row["id"]}:{i // 240}', 'text': body[i:i+240]}
+                        for i in range(0, len(body), 240)]
+            fetched.append({**row, 'sourceText': body, 'sourceSha256': digest,
+                            'sourceSegments': segments})
         except (ValueError, OSError, urllib.error.URLError):
             print(f'Article unavailable: {row["id"]}; not submitted to model')
         if len(fetched) == 5:

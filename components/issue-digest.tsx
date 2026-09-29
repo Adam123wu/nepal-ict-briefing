@@ -14,9 +14,10 @@ export function IssueDigest({en}:{en:boolean}) {
  return <><RefreshStatus en={en}/>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
   <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('每日 AI 新闻更新（待审校）','Daily AI news update (pending review)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
   <p>{t(fallback.note,fallback.noteEn)}</p>
+  {fallback.generatedAt&&<p className="section-sub">{t('AI 更新完成时间（UTC）：','AI update completed (UTC): ')}<time dateTime={fallback.generatedAt}>{fallback.generatedAt}</time></p>}
   <div className="summary-list">{fallback.items.map(item=><article key={item.id} style={{padding:'12px 0'}}>
    <p style={{margin:'0 0 4px'}}><strong>{t(item.title,item.titleEn)}</strong></p>
-   <p className="section-sub" style={{margin:'0 0 6px'}}>{item.date} · {t(item.section,item.sectionEn)} · {item.sourceName} · {item.sourceTier}</p>
+   <p className="section-sub" style={{margin:'0 0 6px'}}>{t('链接日期（待核验）','URL date (unverified)')} {item.date} · {t(item.section,item.sectionEn)} · {item.sourceName} · {item.sourceTier}</p>
    {item.summary&&item.summaryEn&&<p style={{lineHeight:1.85}}>{t(item.summary,item.summaryEn)}</p>}
    {item.analysis&&item.analysisEn&&<p style={{lineHeight:1.85}}><strong>{t('AI 条件性分析：','AI conditional analysis: ')}</strong>{t(item.analysis,item.analysisEn)}</p>}
    <a href={item.url} target="_blank" rel="noreferrer">{t('查看原始候选来源','Open original candidate source')}</a>
