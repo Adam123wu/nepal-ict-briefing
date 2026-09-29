@@ -59,7 +59,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           # sync-data also refreshes source health, report and issue payloads.
           # Stage all generated outputs in this clean runner, not just 3 files.
-          git add config/editorial-status.json config/deepseek-fallback-digest.json data public/archive
+          # Completed issues are now structured history; public/archive was removed.
+          git add config/editorial-status.json config/deepseek-fallback-digest.json data
           git diff --exit-code
           if ! git diff --staged --quiet; then
             git commit -m 'data: record Nepal editorial watchdog'
