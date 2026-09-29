@@ -11,4 +11,6 @@ Scope: four public DeepSeek article candidates from the morning automatic feed. 
 
 ## Publication controls
 
+DeepSeek reviewed-news workflow 36596698930 succeeded for commit e56b8e0. Its artifact input hash matched the current factual packet. Codex inspected the three new analysis records, retained conditional language, and integrated only concrete checks on grant versus investment-loan documentation, UAE disbursement evidence and a trilateral work plan. Rejected wording that labels hypothetical beneficiaries as facts. The other ten model drafts were not substituted for existing reviewed copy. No reasoning traces or raw model artifact are published.
+
 Three bilingual items join the existing ten; sealed history stays unchanged. Clear the reviewed AI batch to avoid duplicate counting. Preserve full-daily-review status; add a separate targeted-review timestamp and explicit scope. Existing source badges distinguish primary text from media reporting. Financial implications are conditional and do not establish awards or suppliers.

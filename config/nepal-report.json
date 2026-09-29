@@ -149,8 +149,8 @@
               "titleEn": "Finance minister seeks AIIB reconstruction and digital-infrastructure support; no project approval established",
               "text": "原文复核：B360 将多哈会谈明确标为9月27日，Radio Nepal 与 OnlineKhabar 于28日报道。财政部长瓦格尔提出增加灾后重建、绿色能源、跨境输电和数字基础设施支持；报道引述亚投行方面关于项目准备赠款及优惠融资的表态。多篇报道可能共用财政部长秘书处信息，不能视为多份独立审批证据；未取得新增项目批准文件、融资额度或采购清单。",
               "textEn": "Source review: B360 dates the Doha meeting to 27 September; Radio Nepal and OnlineKhabar reported on 28 September. Wagle sought support for reconstruction, green energy, cross-border transmission and digital infrastructure. Reports attribute statements on preparation grants and concessional financing to AIIB. Coverage may share the minister's secretariat as its origin, rather than provide independent approval evidence. No new project approval, financing amount or procurement list was obtained.",
-              "opportunity": "研判：潜在需求方是财政部及后续被指定的项目执行机构，当前仅为融资沟通。先跟踪亚投行项目库、财政部正式公告与可研采购；如出现数字基础设施项目，再核查范围、融资生效条件及招标计划。不得把优惠贷款讨论当成订单，竞争厂家未披露。",
-              "opportunityEn": "Assessment: potential stakeholders are the Finance Ministry and any subsequently designated implementing agency; the stage is financing dialogue. Track AIIB project records, ministry notices and feasibility procurement. If a digital project emerges, verify scope, financing conditions and tender plans. Loan discussions are not orders; competing vendors are undisclosed.",
+              "opportunity": "研判：潜在需求方是财政部及后续被指定的项目执行机构，当前仅为融资沟通。先跟踪亚投行项目库、财政部正式公告与可研采购；如出现数字基础设施项目，再核查范围、融资生效条件及招标计划。不得把优惠贷款讨论当成订单，竞争厂家未披露。 补充核查：区分项目准备赠款协议与正式投资贷款，逐项核对亚投行董事会文件及是否列有数字基础设施采购包。",
+              "opportunityEn": "Assessment: potential stakeholders are the Finance Ministry and any subsequently designated implementing agency; the stage is financing dialogue. Track AIIB project records, ministry notices and feasibility procurement. If a digital project emerges, verify scope, financing conditions and tender plans. Loan discussions are not orders; competing vendors are undisclosed. Additional check: distinguish a project-preparation grant agreement from an investment loan; examine board records and whether a digital-infrastructure procurement package is actually listed.",
               "badge": "Codex 原文复核 · 会谈报道，审批未确认",
               "links": [
                 {
@@ -335,8 +335,8 @@
               "titleEn": "Nepal proposes trilateral climate-resilience mechanism with satellite-data sharing and joint warnings",
               "text": "官方原文：外交部公布的9月24日联大讲话确认，总理提出由尼泊尔、印度和中国推动喜马拉雅气候韧性机制，涵盖卫星数据与专业知识共享、危险冰湖监测、联合预警和跨境救援协调。Radio Nepal 9月28日报道部长在27日研讨会上呼应该方向，本简报合并为同一政策线索，不重复计数。机制尚为尼方提议，未见三方签署、预算或采购文件。",
               "textEn": "Primary source: the Foreign Ministry's text of the prime minister's 24 September UN address proposes a Nepal–India–China Himalayan climate-resilience mechanism for satellite-data and expertise sharing, dangerous-lake monitoring, joint warnings and coordinated cross-border assistance. Radio Nepal's 28 September report describes ministerial support at a 27 September seminar; this is treated as the same policy thread, not a second event. It remains a Nepal proposal, without an identified trilateral agreement, budget or procurement.",
-              "opportunity": "研判：有明确的数据互通和预警系统方向，但不是招标。后续核实牵头机构、跨境数据规则、资金与试点范围；在获得正式需求后再讨论监测接入、数据平台及通信备份方案。与既有MAZU平台新闻是不同事件，不能假定该平台已获三国机制采用；无已确认厂家。",
-              "opportunityEn": "Assessment: data interoperability and warning systems are explicit directions, not a tender. Verify the lead agency, cross-border data rules, funding and pilot scope before proposing monitoring access, platforms or backup communications. This is distinct from the existing MAZU transfer story; adoption of that platform by the proposed mechanism is not established. No vendor is confirmed.",
+              "opportunity": "研判：有明确的数据互通和预警系统方向，但不是招标。后续核实牵头机构、跨境数据规则、资金与试点范围；在获得正式需求后再讨论监测接入、数据平台及通信备份方案。与既有MAZU平台新闻是不同事件，不能假定该平台已获三国机制采用；无已确认厂家。 下一步以三方工作方案和实施时间表为观察点，而不是把研讨会表态当成新项目。",
+              "opportunityEn": "Assessment: data interoperability and warning systems are explicit directions, not a tender. Verify the lead agency, cross-border data rules, funding and pilot scope before proposing monitoring access, platforms or backup communications. This is distinct from the existing MAZU transfer story; adoption of that platform by the proposed mechanism is not established. No vendor is confirmed. Watch for a trilateral work plan and implementation timetable rather than treating seminar statements as a new project.",
               "badge": "Codex 官方讲话核验 · 提议阶段",
               "links": [
                 {
@@ -356,8 +356,8 @@
               "titleEn": "Nepal–UAE ministerial meeting: USD 25 million remains a pledge",
               "text": "原文复核：Kathmandu Post 9月27日报道会谈于纽约当地周六（9月26日）举行，Radio Nepal 于9月28日跟进。报道指尼泊尔外长感谢阿联酋新增2500万美元灾后援助承诺，并讨论投资、可再生能源与互联互通。这里核对的是公开报道，不是资金到账；尚未取得拨付凭证或项目清单。",
               "textEn": "Source review: The Kathmandu Post's 27 September article dates the New York meeting to Saturday, 26 September; Radio Nepal followed on 28 September. Reports describe thanks for an additional USD 25 million UAE flood-aid pledge and discussion of investment, renewable energy and connectivity. This verifies the reporting, not disbursement; no payment record or project list was obtained.",
-              "opportunity": "研判：属外交与援助意向，不列为已落地ICT商机。关注财政部、外交部后续公布的执行单位、用途和拨付安排；在出现具体数字基础设施项目及采购公告前，不推断合同金额或设备厂家。",
-              "opportunityEn": "Assessment: diplomatic and aid intentions, not an established ICT opportunity. Check finance and foreign-affairs releases for implementing entities, allocation and disbursement; do not infer a contract value or OEM before a defined digital project and procurement notice exist.",
+              "opportunity": "研判：属外交与援助意向，不列为已落地ICT商机。关注财政部、外交部后续公布的执行单位、用途和拨付安排；在出现具体数字基础设施项目及采购公告前，不推断合同金额或设备厂家。 同时核对阿联酋官方协议或拨付公告，不以尼方感谢表态替代出资方执行证据。",
+              "opportunityEn": "Assessment: diplomatic and aid intentions, not an established ICT opportunity. Check finance and foreign-affairs releases for implementing entities, allocation and disbursement; do not infer a contract value or OEM before a defined digital project and procurement notice exist. Also check UAE agreements or disbursement notices; Nepal's expression of thanks does not substitute for execution evidence from the donor.",
               "badge": "Codex 原文复核 · 媒体报道，拨付未确认",
               "links": [
                 {
