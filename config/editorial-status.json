@@ -7,6 +7,6 @@
   "lastFallbackAt": "2026-09-29T10:36:32.312936+00:00",
   "fallbackStatus": "pending_codex_review",
   "fallbackStatusEn": "Pending Codex review",
-  "note": "DeepSeek 自动正文分析更新 5 条；Codex 正式审校日期保持不变。",
-  "noteEn": "DeepSeek refreshed 5 automatic article analyses; the Codex review date is unchanged."
+  "note": "DeepSeek 自动正文分析生成 5 条，剔除 1 条无关消息后保留 4 条；Codex 正式审校日期保持不变。",
+  "noteEn": "DeepSeek generated 5 article analyses; 4 remain after removing one unrelated story. The Codex review date is unchanged."
 }
