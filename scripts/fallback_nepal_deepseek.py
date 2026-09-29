@@ -52,7 +52,12 @@ one claim, not independent verification. No Arabic or Nepali narrative in biling
 Do not reproduce long verbatim passages. This is automatic analysis, NOT Codex review.
 When sourceSegments are supplied, return evidenceId (one exact segment id belonging to
 that article) INSTEAD OF evidenceQuote. Choose a segment supporting the summary. Do not
-copy or paraphrase the segment as a quotation. This overrides the evidenceQuote format.'''
+copy or paraphrase the segment as a quotation. This overrides the evidenceQuote format.
+Reject routine road blockages, accidents and local human-interest stories unless the source
+explicitly reports communications disruption, ICT impact or a substantive national policy action.
+Do not invent an ICT connection in the analysis to justify including an unrelated story.
+Chinese prose must be fully translated except proper names and standard ICT abbreviations.
+Preserve geographic identity: Baglung is not Pokhara; omit uncertain transliterations.'''
 
 
 def read_json(path):
@@ -270,7 +275,7 @@ def main():
                                read_json('config/nepal-report.json'),
                                {item['id'] for item in previous.get('items', [])}, today)
     if args.dry_run:
-        print(f'Ready: {len(rows)} eligible title-only candidates; no API call or file write')
+        print(f'Ready: {len(rows)} eligible candidates awaiting article retrieval; no API call or file write')
         return
     if not rows:
         write_outputs(today, now, [], [], {}, candidates['generatedAt'])
