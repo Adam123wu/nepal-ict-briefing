@@ -1,14 +1,15 @@
 {
   "issue": "W39-40",
-  "generated": "2026-09-27",
+  "generated": "2026-09-29",
   "windowStart": "2026-09-19",
   "windowEnd": "2026-10-02",
   "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
   "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
   "sourceFile": "nepal-w39-40.html",
-  "status": "截至9月27日，本期已核验10条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标、电信行业对统一电信政策草案的正式反馈，以及 NEA 针对洪灾损失启动的冬季供电与电网恢复安排；采购法和数字能源另设常驻政策追踪。",
-  "statusEn": "As of 27 September, ten material events have been verified. New coverage includes Nepal Telecom's billing/customer-support tender, industry feedback on the unified telecom-policy draft, and NEA's winter-supply and grid-recovery programme after flood damage. Procurement law and digital energy are also covered in a persistent policy tracker.",
+  "status": "9月29日完成4条AI候选的定向原文复核：3条修订后纳入正式简报，1条灾区通信个案因缺少独立确认暂缓。本期共13条经编辑复核事件；媒体报道、官方提议和已完成事项分别标注。本次不是全部信源的全面复核。",
+  "statusEn": "On 29 September, targeted source review of four AI candidates added three revised items and withheld one disaster-communications case lacking independent confirmation. The issue now contains 13 editorially reviewed events, distinguishing media reports, official proposals and completed actions. This was not an exhaustive review of all sources.",
   "summary": [
+    "9月29日新增：亚投行重建融资会谈、阿联酋援助承诺及尼中印气候韧性机制提议。均不代表资金到账、项目获批或厂家中标；灾区通信个案暂缓纳入。",
     "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
     "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
     "尼泊尔证券交易所在停市一天后于9月22日恢复交易，72家券商系统从 Butwal 灾备中心恢复；勒索软件成因、影响范围与数据是否外泄仍待正式取证结论。",
@@ -20,6 +21,7 @@
     "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
   ],
   "summaryEn": [
+    "29 September additions: AIIB reconstruction-financing talks, a UAE aid pledge and Nepal's trilateral climate-resilience proposal. None establishes disbursement, project approval or a vendor award; the local communications case is withheld.",
     "Nepal Telecom issued its virtualized billing/customer-support tender on 23 September: pre-bid meeting on 8 October and hard-copy bids due at noon on 30 October. NPR 90,276,000 is bid security, not a contract budget; current bidders are not disclosed.",
     "Nepal Telecom is providing free fibre repair, SIM replacement and recovery connectivity in flood-affected areas, and disclosed on 22 September that 13 2G/4G sites went live across 11 districts in five provinces during Bhadra. Neither development identifies a new procurement budget or equipment supplier.",
     "Nepal Stock Exchange resumed trading on 22 September after a one-day halt, with systems serving 72 brokers restored from the Butwal disaster-recovery site. Ransomware causation, affected scope and possible data exfiltration still await a formal forensic finding.",
@@ -140,6 +142,31 @@
           "category": "本国部委最新动态",
           "categoryEn": "Ministry and regulator developments",
           "items": [
+            {
+              "id": "np-aiib-reconstruction-talks-20260927",
+              "date": "2026-09-27",
+              "title": "财政部长向亚投行争取重建与数字基础设施融资，尚非项目获批",
+              "titleEn": "Finance minister seeks AIIB reconstruction and digital-infrastructure support; no project approval established",
+              "text": "原文复核：B360 将多哈会谈明确标为9月27日，Radio Nepal 与 OnlineKhabar 于28日报道。财政部长瓦格尔提出增加灾后重建、绿色能源、跨境输电和数字基础设施支持；报道引述亚投行方面关于项目准备赠款及优惠融资的表态。多篇报道可能共用财政部长秘书处信息，不能视为多份独立审批证据；未取得新增项目批准文件、融资额度或采购清单。",
+              "textEn": "Source review: B360 dates the Doha meeting to 27 September; Radio Nepal and OnlineKhabar reported on 28 September. Wagle sought support for reconstruction, green energy, cross-border transmission and digital infrastructure. Reports attribute statements on preparation grants and concessional financing to AIIB. Coverage may share the minister's secretariat as its origin, rather than provide independent approval evidence. No new project approval, financing amount or procurement list was obtained.",
+              "opportunity": "研判：潜在需求方是财政部及后续被指定的项目执行机构，当前仅为融资沟通。先跟踪亚投行项目库、财政部正式公告与可研采购；如出现数字基础设施项目，再核查范围、融资生效条件及招标计划。不得把优惠贷款讨论当成订单，竞争厂家未披露。",
+              "opportunityEn": "Assessment: potential stakeholders are the Finance Ministry and any subsequently designated implementing agency; the stage is financing dialogue. Track AIIB project records, ministry notices and feasibility procurement. If a digital project emerges, verify scope, financing conditions and tender plans. Loan discussions are not orders; competing vendors are undisclosed.",
+              "badge": "Codex 原文复核 · 会谈报道，审批未确认",
+              "links": [
+                {
+                  "label": "B360 · meeting date and secretariat attribution",
+                  "url": "https://www.b360nepal.com/detail/30218/finance-minister-wagle-seeks-aiib-support-for-post-flood-reconstruction-in-nepal"
+                },
+                {
+                  "label": "OnlineKhabar · Nepali reporting",
+                  "url": "https://www.onlinekhabar.com/2026/09/2027489/finance-minister-wagle-meets-aiib-president-jiayi-urges-increased-investment-in-reconstruction-and-infrastructure"
+                },
+                {
+                  "label": "Radio Nepal · 28 September",
+                  "url": "https://radionepalonline.com/en/2026/09/28/436839.html"
+                }
+              ]
+            },
             {
               "id": "np-unified-telecom-policy-feedback-20260924",
               "date": "2026-09-24",
@@ -302,6 +329,48 @@
           "categoryEn": "External relations and geopolitics",
           "items": [
             {
+              "id": "np-himalayan-resilience-proposal-20260924",
+              "date": "2026-09-24",
+              "title": "总理提出尼中印气候韧性机制，明确卫星数据共享和联合预警方向",
+              "titleEn": "Nepal proposes trilateral climate-resilience mechanism with satellite-data sharing and joint warnings",
+              "text": "官方原文：外交部公布的9月24日联大讲话确认，总理提出由尼泊尔、印度和中国推动喜马拉雅气候韧性机制，涵盖卫星数据与专业知识共享、危险冰湖监测、联合预警和跨境救援协调。Radio Nepal 9月28日报道部长在27日研讨会上呼应该方向，本简报合并为同一政策线索，不重复计数。机制尚为尼方提议，未见三方签署、预算或采购文件。",
+              "textEn": "Primary source: the Foreign Ministry's text of the prime minister's 24 September UN address proposes a Nepal–India–China Himalayan climate-resilience mechanism for satellite-data and expertise sharing, dangerous-lake monitoring, joint warnings and coordinated cross-border assistance. Radio Nepal's 28 September report describes ministerial support at a 27 September seminar; this is treated as the same policy thread, not a second event. It remains a Nepal proposal, without an identified trilateral agreement, budget or procurement.",
+              "opportunity": "研判：有明确的数据互通和预警系统方向，但不是招标。后续核实牵头机构、跨境数据规则、资金与试点范围；在获得正式需求后再讨论监测接入、数据平台及通信备份方案。与既有MAZU平台新闻是不同事件，不能假定该平台已获三国机制采用；无已确认厂家。",
+              "opportunityEn": "Assessment: data interoperability and warning systems are explicit directions, not a tender. Verify the lead agency, cross-border data rules, funding and pilot scope before proposing monitoring access, platforms or backup communications. This is distinct from the existing MAZU transfer story; adoption of that platform by the proposed mechanism is not established. No vendor is confirmed.",
+              "badge": "Codex 官方讲话核验 · 提议阶段",
+              "links": [
+                {
+                  "label": "Nepal MoFA · official 24 September address",
+                  "url": "https://mofa.gov.np/content/1890/address-by-the-rt--hon--prime-minister/"
+                },
+                {
+                  "label": "Radio Nepal · ministerial follow-up",
+                  "url": "https://radionepalonline.com/en/2026/09/28/436828.html"
+                }
+              ]
+            },
+            {
+              "id": "np-uae-flood-pledge-20260926",
+              "date": "2026-09-26",
+              "title": "尼泊尔外长会见阿联酋外长：2500万美元援助仍为承诺",
+              "titleEn": "Nepal–UAE ministerial meeting: USD 25 million remains a pledge",
+              "text": "原文复核：Kathmandu Post 9月27日报道会谈于纽约当地周六（9月26日）举行，Radio Nepal 于9月28日跟进。报道指尼泊尔外长感谢阿联酋新增2500万美元灾后援助承诺，并讨论投资、可再生能源与互联互通。这里核对的是公开报道，不是资金到账；尚未取得拨付凭证或项目清单。",
+              "textEn": "Source review: The Kathmandu Post's 27 September article dates the New York meeting to Saturday, 26 September; Radio Nepal followed on 28 September. Reports describe thanks for an additional USD 25 million UAE flood-aid pledge and discussion of investment, renewable energy and connectivity. This verifies the reporting, not disbursement; no payment record or project list was obtained.",
+              "opportunity": "研判：属外交与援助意向，不列为已落地ICT商机。关注财政部、外交部后续公布的执行单位、用途和拨付安排；在出现具体数字基础设施项目及采购公告前，不推断合同金额或设备厂家。",
+              "opportunityEn": "Assessment: diplomatic and aid intentions, not an established ICT opportunity. Check finance and foreign-affairs releases for implementing entities, allocation and disbursement; do not infer a contract value or OEM before a defined digital project and procurement notice exist.",
+              "badge": "Codex 原文复核 · 媒体报道，拨付未确认",
+              "links": [
+                {
+                  "label": "Kathmandu Post · 27 September",
+                  "url": "https://kathmandupost.com/national/2026/09/27/khanal-meets-uae-counterpart-thanks-abu-dhabi-for-25m-flood-aid"
+                },
+                {
+                  "label": "Radio Nepal · 28 September",
+                  "url": "https://radionepalonline.com/en/2026/09/28/436832.html"
+                }
+              ]
+            },
+            {
               "id": "np-mazu-ai-weather-transfer-20260922",
               "date": "2026-09-22",
               "title": "中国向尼泊尔移交 MAZU 人工智能气象平台，后续拟部署卫星AI设备",
@@ -359,11 +428,11 @@
     }
   },
   "stats": {
-    "news": 9,
+    "news": 13,
     "opportunities": 9,
     "telegram": 0,
     "countryCounts": {
-      "np": 9
+      "np": 13
     }
   }
 }
