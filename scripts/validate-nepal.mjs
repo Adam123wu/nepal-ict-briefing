@@ -71,7 +71,12 @@ assert(d.fallback&&Array.isArray(d.fallback.items)&&d.fallback.items.length<=5);
 assert(['clear','pending_codex_review','no_relevant_candidates'].includes(d.fallback.status));
 const formalUrls=new Set(d.report.countries.np.sections.flatMap(s=>s.items.flatMap(i=>i.links.map(l=>l.url))));
 for(const item of d.fallback.items){
- assert.equal(item.status,'DeepSeek 标题筛选 · 待 Codex 核验');
+ assert(['DeepSeek 标题筛选 · 待 Codex 核验','DeepSeek 正文分析 · 待 Codex 核验'].includes(item.status));
+ if(item.status==='DeepSeek 正文分析 · 待 Codex 核验'){
+  assert(item.summary&&item.summaryEn&&item.analysis&&item.analysisEn);
+  assert(/^[a-f0-9]{64}$/.test(item.sourceSha256));
+  assert(item.sourceTextChars>=400);
+ }
  assert(['T1','T2'].includes(item.sourceTier));
  assert(item.date>=d.report.windowStart&&item.date<=d.report.windowEnd);
  assert(item.title&&item.titleEn&&!/[\u0600-\u06ff]/.test(item.title+item.titleEn));

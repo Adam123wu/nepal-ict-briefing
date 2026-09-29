@@ -1,6 +1,9 @@
 name: Nepal editorial watchdog
 
 on:
+  workflow_run:
+    workflows: ['Refresh Nepal news sources']
+    types: [completed]
   schedule:
     - cron: '30 23 * * *' # 02:30 Asia/Baghdad (05:15 Nepal)
   workflow_dispatch:
@@ -21,6 +24,7 @@ concurrency:
 
 jobs:
   fallback:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

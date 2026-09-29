@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-27",
+  "title": "投标法与数字能源产业政策追踪",
+  "titleEn": "Procurement law and digital-energy policy tracker",
+  "note": "这是跨期政策基线，不计入本期新闻条数。严格区分已发布规则、预算目标、登记项目和仍待出台的实施细则。",
+  "noteEn": "This is a cross-issue policy baseline and is excluded from the current news count. It separates published rules, budget targets, registered projects and pending implementation instruments.",
+  "items": [
+    {
+      "id": "nepal-public-procurement-2083",
+      "category": "公共采购",
+      "categoryEn": "Public procurement",
+      "status": "法律与实施条例已修正，六类标准文件已更新",
+      "statusEn": "Act and Rules amended; six standard documents updated",
+      "statusTone": "green",
+      "facts": [
+        "PPMO 官方法规目录列有《公共采购（第二次修正）法，2083》和《公共采购条例（第十六次修正），2083》；不能继续仅按旧版法条和模板准备政府投标。",
+        "PPMO 2083/06/02（2026年9月18日）公告更新六类文件：货物及工程 ICB 单阶段双信封、咨询服务总价及工时制 SRFP、货物及工程 NCB 密封报价。",
+        "该公告是模板执行更新，不代表所有在途招标自动变更；每个项目仍须核对招标发布日期、适用版本、补遗及专用条款。"
+      ],
+      "factsEn": [
+        "PPMO's official legal index lists the Public Procurement (Second Amendment) Act 2083 and the Public Procurement (Sixteenth Amendment) Rules 2083. Government bids should no longer be prepared solely against superseded provisions and templates.",
+        "A PPMO notice dated 2083/06/02 (18 September 2026) updated six documents: goods and works ICB under single-stage two-envelope procedures, lump-sum and time-based consultant SRFPs, and goods and works NCB sealed quotations.",
+        "The notice updates standard documents; it does not automatically amend every live tender. Each procurement still requires checks of issue date, applicable version, addenda and special conditions."
+      ],
+      "nextChecks": "持续核对e-GP强制字段、评标与异常低价规则、履约保证、价格调整、变更审批及在途项目过渡安排。",
+      "nextChecksEn": "Continue checking mandatory e-GP fields, evaluation and abnormally-low-bid rules, performance security, price adjustment, variation approval and transition treatment for live procurements.",
+      "sources": [
+        {
+          "label": "PPMO · 法规目录",
+          "labelEn": "PPMO · legal index",
+          "url": "https://ppmo.gov.np/category/1095/"
+        },
+        {
+          "label": "PPMO · 9月18日公告",
+          "labelEn": "PPMO · 18 September notice",
+          "url": "https://ppmo.gov.np/content/13488/release--2083-06-02-/"
+        },
+        {
+          "label": "六类文件逐项核对",
+          "labelEn": "Cross-check of the six documents",
+          "url": "https://engineeringsarathi.com/notices/ppmo-standard-documents-revised-2083-06-02"
+        }
+      ]
+    },
+    {
+      "id": "nepal-digital-energy-policy",
+      "category": "数字能源",
+      "categoryEn": "Digital energy",
+      "status": "项目管线形成，BESS专门实施规则仍有缺口",
+      "statusEn": "Project pipeline emerging; dedicated BESS rules remain incomplete",
+      "statusTone": "amber",
+      "facts": [
+        "FY 2083/84预算提出在加德满都谷地安装100MW电池储能系统，但截至9月下旬尚未核实到专门的BESS电价、标准PPA或完整实施指引。预算目标不等于已招标或已授标。",
+        "DoED 9月18日更新的官方登记中可见10MW Dangihat光储项目、6MW Janaki光储项目，以及被列入1MW以上水电申请表的40MW Inaruwa Battery Storage申请。登记或申请不等于建设许可、融资落实或商业运行。",
+        "洪灾暴露水电单一结构和关键变电站故障风险；NEA已启动冬季保供与电网恢复工作，后续机会集中在储能、SCADA/EMS、变电站自动化、智能计量、数据中心与灾备通信。"
+      ],
+      "factsEn": [
+        "The FY 2083/84 budget announced a 100 MW battery-energy-storage installation target for Kathmandu Valley, but as of late September no dedicated BESS tariff, standard PPA or complete implementation directive has been verified. A budget target is not a tender or award.",
+        "DoED registers updated on 18 September show the 10 MW Dangihat solar-plus-storage project, 6 MW Janaki solar-plus-storage project and a 40 MW Inaruwa Battery Storage application placed in the over-1-MW hydro application register. A register entry or application is not a construction licence, financing close or commercial operation.",
+        "Flood damage has exposed hydro concentration and critical-substation risk. NEA's winter-supply and grid-recovery work raises future demand for storage, SCADA/EMS, substation automation, smart metering, data centres and resilient communications."
+      ],
+      "nextChecks": "跟踪能源部、NEA、DoED和投资委员会是否发布100MW BESS可研、采购方式、站点、并网标准、PPA/辅助服务付费机制及项目许可状态。",
+      "nextChecksEn": "Track MoEWRI, NEA, DoED and Investment Board releases for the 100 MW BESS feasibility study, procurement route, sites, grid code, PPA or ancillary-service payment mechanism and licence status.",
+      "sources": [
+        {
+          "label": "财政部 · FY 2083/84预算",
+          "labelEn": "Finance Ministry · FY 2083/84 budget",
+          "url": "https://mof.gov.np/content/1741/budget-statement-for-the-financial-year-2083-84/"
+        },
+        {
+          "label": "DoED · 光伏勘测许可登记",
+          "labelEn": "DoED · solar survey-licence register",
+          "url": "https://doed.gov.np/pages/slsolar/"
+        },
+        {
+          "label": "DoED · 1MW以上项目申请登记",
+          "labelEn": "DoED · applications above 1 MW",
+          "url": "https://doed.gov.np/pages/appslhydromorethan1/"
+        },
+        {
+          "label": "NEA · 冬季供电安排报道",
+          "labelEn": "NEA winter-supply reporting",
+          "url": "https://kathmandupost.com/money/2026/09/23/nea-working-on-winter-power-management"
+        },
+        {
+          "label": "BESS政策缺口行业分析",
+          "labelEn": "Industry analysis of BESS policy gaps",
+          "url": "https://risingnepaldaily.com/news/82294"
+        }
+      ]
+    }
+  ]
+}

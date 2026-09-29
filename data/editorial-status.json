@@ -1,12 +1,12 @@
 {
-  "lastCodexReviewDate": "2026-09-25",
-  "lastCodexReviewAt": "2026-09-25T08:22:30+00:00",
-  "lastCodexCommit": "8459fe6dd75bd765b94553059c0f6c328ec11a70",
-  "lastCandidateGeneratedAt": "2026-09-24T23:46:36.338738+00:00",
+  "lastCodexReviewDate": "2026-09-26",
+  "lastCodexReviewAt": "2026-09-26T18:56:15+00:00",
+  "lastCodexCommit": "a8f890226e8744034fcaa5c53554b8ba5490b517",
+  "lastCandidateGeneratedAt": "2026-09-25T23:50:59.136764+00:00",
   "lastFallbackDate": null,
   "lastFallbackAt": null,
   "fallbackStatus": "not-needed",
   "fallbackStatusEn": "Not needed",
-  "note": "Codex 已完成9月25日研究与双语审校；新增实时计费招标和统一电信政策反馈2条事件，并完成DeepSeek草稿复核。RTDF累计数据因统计截止早于本期而未计入正式新闻。",
-  "noteEn": "Codex completed the 25 September research and bilingual review; two events were added covering the real-time billing tender and unified telecom-policy feedback, followed by review of the DeepSeek draft. Cumulative RTDF data was excluded from formal news because its reporting cutoff predates this issue."
+  "note": "Codex 于尼泊尔时间9月27日完成采购法和数字能源专项研究与双语审校；新增NEA冬季保供正式事件，并发布不计入本期新闻数的跨期产业政策追踪，明确区分法规、预算目标、项目登记和待出台细则。",
+  "noteEn": "Codex completed a procurement-law and digital-energy review on 27 September Nepal time. One verified NEA winter-supply event was added, alongside a cross-issue industry-policy tracker excluded from the news count and separating enacted rules, budget targets, project registrations and pending implementation instruments."
 }

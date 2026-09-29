@@ -2,7 +2,7 @@ import data from '@/data/nepal.json';
 import {Card} from './ui';
 import {RefreshStatus} from './refresh-status';
 
-type FallbackItem={id:string;date:string;title:string;titleEn:string;section:string;sectionEn:string;sourceName:string;sourceTier:string;url:string};
+type FallbackItem={id:string;date:string;title:string;titleEn:string;section:string;sectionEn:string;sourceName:string;sourceTier:string;url:string;summary?:string;summaryEn?:string;analysis?:string;analysisEn?:string};
 
 export function IssueDigest({en}:{en:boolean}) {
  const t=(zh:string,english:string)=>en?english:zh;
@@ -12,11 +12,13 @@ export function IssueDigest({en}:{en:boolean}) {
  const pending=facebook.filter(s=>!s.lastCollectedAt).length;
  const fallback={...data.fallback,items:data.fallback.items as FallbackItem[]};
  return <><RefreshStatus en={en}/>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
-  <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('DeepSeek 自动兜底候选（待核验）','DeepSeek fallback candidates (unverified)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
+  <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('每日 AI 新闻更新（待审校）','Daily AI news update (pending review)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
   <p>{t(fallback.note,fallback.noteEn)}</p>
   <div className="summary-list">{fallback.items.map(item=><article key={item.id} style={{padding:'12px 0'}}>
    <p style={{margin:'0 0 4px'}}><strong>{t(item.title,item.titleEn)}</strong></p>
    <p className="section-sub" style={{margin:'0 0 6px'}}>{item.date} · {t(item.section,item.sectionEn)} · {item.sourceName} · {item.sourceTier}</p>
+   {item.summary&&item.summaryEn&&<p style={{lineHeight:1.85}}>{t(item.summary,item.summaryEn)}</p>}
+   {item.analysis&&item.analysisEn&&<p style={{lineHeight:1.85}}><strong>{t('AI 条件性分析：','AI conditional analysis: ')}</strong>{t(item.analysis,item.analysisEn)}</p>}
    <a href={item.url} target="_blank" rel="noreferrer">{t('查看原始候选来源','Open original candidate source')}</a>
   </article>)}</div>
   <p className="section-sub">{t('该区域不计入正式新闻、商机或本期统计；Codex 完成原文核验后才会进入正式简报。','This area is excluded from reviewed-news, opportunity and issue counts. An item enters the formal briefing only after Codex verifies the source text.')}</p>

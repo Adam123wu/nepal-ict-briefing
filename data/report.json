@@ -1,13 +1,13 @@
 {
   "issue": "W39-40",
-  "generated": "2026-09-25",
+  "generated": "2026-09-27",
   "windowStart": "2026-09-19",
   "windowEnd": "2026-10-02",
   "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
   "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
   "sourceFile": "nepal-w39-40.html",
-  "status": "截至9月25日，本期已核验9条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标，以及电信行业对统一电信政策草案的正式反馈；前者已进入正式招标阶段，后者仍处于征求意见阶段。",
-  "statusEn": "As of 25 September, nine material events have been verified. New coverage includes Nepal Telecom's formal real-time billing and customer-support tender and industry feedback on the unified telecom-policy draft; the former is at tender stage while the latter remains under consultation.",
+  "status": "截至9月27日，本期已核验10条重要事件。新增 Nepal Telecom 实时计费及客户支持系统国际招标、电信行业对统一电信政策草案的正式反馈，以及 NEA 针对洪灾损失启动的冬季供电与电网恢复安排；采购法和数字能源另设常驻政策追踪。",
+  "statusEn": "As of 27 September, ten material events have been verified. New coverage includes Nepal Telecom's billing/customer-support tender, industry feedback on the unified telecom-policy draft, and NEA's winter-supply and grid-recovery programme after flood damage. Procurement law and digital energy are also covered in a persistent policy tracker.",
   "summary": [
     "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
     "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
@@ -15,6 +15,8 @@
     "最高法院驳回 Dish Media Network、Classic Tech、Vianet 和 Subisu 针对电信服务税追缴决定的四份诉状，ISP税务与合规风险显著上升，但完整书面判决及最终应付金额尚未公开核实。",
     "中国气象局向尼泊尔水文与气象部门移交 MAZU-NEPAL 人工智能气象平台，并提出后续部署卫星AI设备、培训和数据共享；目前未披露预算、采购或本地数据治理条款。",
     "Ncell 已就统一电信政策草案提出降低频谱、税费和监管成本、改善投资保护及区分移动与固定宽带监管的建议；尼泊尔电信尚在准备反馈，政策仍处于征求意见阶段。",
+    "NEA 9月22日成立五人工作组推进冬季供电和加德满都谷地输配电项目，并要求每日上报进度；176.1MW电源因枢纽变电站损毁无法送出，数字化调度、变电站自动化与韧性改造需求上升，但尚未形成公开采购。",
+    "新增产业政策追踪：PPMO 已按《公共采购法》第二次修正和实施条例第十六次修正更新六类标准采购文件；数字能源侧已有100MW BESS预算目标和若干储能项目登记，但专门电价、PPA与实施细则仍待发布。",
     "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
   ],
   "summaryEn": [
@@ -24,6 +26,8 @@
     "The Supreme Court dismissed four petitions by Dish Media Network, Classic Tech, Vianet and Subisu against telecom-service-charge collection decisions. ISP tax and compliance risk has risen, but the full written judgment and final payable amount remain unverified.",
     "China Meteorological Administration transferred the MAZU-NEPAL AI weather platform to Nepal's hydrology and meteorology authority and outlined future satellite-AI equipment, training and data-sharing support. No budget, procurement or local data-governance terms have been disclosed.",
     "Ncell submitted feedback on the unified telecom-policy draft seeking lower spectrum, tax and regulatory costs, stronger investment protection and differentiated treatment of mobile and fixed broadband. Nepal Telecom was still preparing its response, and the policy remains under consultation.",
+    "On 22 September NEA formed a five-member team to accelerate winter-supply and Kathmandu Valley transmission/distribution work, with daily progress reporting. A damaged hub substation is stranding 176.1 MW; demand for digital dispatch, substation automation and resilient-grid upgrades is rising, but no public procurement has been announced.",
+    "A new industry-policy tracker records PPMO's six revised standard procurement documents under the second Act amendment and sixteenth Rules amendment. Digital-energy policy includes a 100 MW BESS budget target and registered storage projects, while dedicated tariffs, PPAs and implementation rules remain pending.",
     "Priority follow-up covers the formal NEPSE/broker forensic review and resilience procurement, the ISP tax judgment, final NTA infrastructure rules, Nepal Telecom expansion procurement, and MAZU equipment and data arrangements."
   ],
   "countries": {
@@ -110,10 +114,27 @@
                   "url": "https://nayapatrikadaily.com/public/index.php/news-details/205206/2026-09-22"
                 }
               ]
+            },
+            {
+              "id": "np-nea-winter-grid-recovery-20260923",
+              "date": "2026-09-23",
+              "title": "NEA成立冬季保供工作组，176.1MW电源受制于受损枢纽变电站",
+              "titleEn": "NEA forms winter-supply task force as damaged hub substation strands 176.1 MW",
+              "text": "事实：Nepal Electricity Authority 9月22日会议决定加快冬季电力供需研究及执行工作，成立由 Bagmati 省办公室主任协调的五人工作组，要求每日向执行董事报告进度并立即上报障碍，同时为加德满都谷地输配电项目设定完工期限。8月26日洪灾摧毁220kV Trishuli-3B Hub变电站，使 Trishuli-Chilime 系统所接176.1MW电源即使部分电站本体未受损也无法送入国家电网；超过256MW在运水电受损，NEA被迫持续运行通常用于冬季调峰的106MW Kulekhani梯级。NEA表示正评估恢复 Devighat 变电站并力争避免冬季限电。报道未披露新增预算、正式采购包或设备供应商。",
+              "textEn": "At its 22 September meeting, Nepal Electricity Authority decided to accelerate studies and execution for winter supply-demand management, created a five-member team coordinated by the Bagmati Provincial Office director, required daily progress reports to the managing director and set deadlines for Kathmandu Valley transmission and distribution work. The 26 August flood destroyed the 220 kV Trishuli-3B Hub substation, preventing 176.1 MW connected through the Trishuli-Chilime system from reaching the grid even where plants themselves survived. More than 256 MW of operating hydropower was damaged, forcing NEA to run the 106 MW Kulekhani cascade—normally held for winter balancing—continuously. NEA is assessing restoration of Devighat substation and says it aims to avoid winter load-shedding. No new budget, procurement package or equipment supplier is disclosed.",
+              "opportunity": "客户与需求：NEA输电、配电和系统运行部门需要受损变电站恢复、数字化调度与态势感知、SCADA/EMS、变电站自动化、保护通信、备用电源、灾备通信和工程进度管理。阶段：已成立工作组并设内部期限，仍未见PPMO/NEA公开招标。下一步：跟踪Trishuli-3B Hub、Devighat及加德满都谷地项目的技术评估、资金安排、招标编号和恢复时间表；核实是修复、临时旁路还是重建。竞争研判：现有报道没有披露OEM、集成商或承包商，不能把灾后需求当作已授标项目。",
+              "opportunityEn": "Customer and need: NEA transmission, distribution and system-operations teams require damaged-substation recovery, digital dispatch and situational awareness, SCADA/EMS, substation automation, protection communications, backup power, resilient communications and programme controls. Stage: a task force and internal deadlines exist, but no PPMO/NEA tender is public. Next: track technical assessments, financing, tender numbers and restoration schedules for Trishuli-3B Hub, Devighat and Kathmandu Valley projects, and verify whether the response is repair, temporary bypass or reconstruction. Competition: reporting identifies no OEM, integrator or contractor; disaster-recovery demand is not an award.",
+              "badge": "NEA会议决定经主流媒体核验 · Tier 2",
+              "links": [
+                {
+                  "label": "Kathmandu Post · 9月23日",
+                  "url": "https://kathmandupost.com/money/2026/09/23/nea-working-on-winter-power-management"
+                }
+              ]
             }
           ],
-          "displayCategory": "运营商与网络建设",
-          "displayCategoryEn": "Operators & network infrastructure"
+          "displayCategory": "运营商、数字能源与网络建设",
+          "displayCategoryEn": "Operators, digital energy & network infrastructure"
         },
         {
           "category": "本国部委最新动态",
@@ -338,11 +359,11 @@
     }
   },
   "stats": {
-    "news": 9,
-    "opportunities": 9,
+    "news": 10,
+    "opportunities": 10,
     "telegram": 0,
     "countryCounts": {
-      "np": 9
+      "np": 10
     }
   }
 }
