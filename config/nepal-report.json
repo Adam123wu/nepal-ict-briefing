@@ -1,14 +1,15 @@
 {
   "issue": "W39-40",
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "windowStart": "2026-09-19",
   "windowEnd": "2026-10-02",
   "period": "2026年9月19日—10月2日 · 尼泊尔独立版（持续更新）",
   "periodEn": "19 September–2 October 2026 · Nepal edition (live issue)",
   "sourceFile": "nepal-w39-40.html",
-  "status": "9月29日完成4条AI候选的定向原文复核：3条修订后纳入正式简报，1条灾区通信个案因缺少独立确认暂缓。本期共13条经编辑复核事件；媒体报道、官方提议和已完成事项分别标注。本次不是全部信源的全面复核。",
-  "statusEn": "On 29 September, targeted source review of four AI candidates added three revised items and withheld one disaster-communications case lacking independent confirmation. The issue now contains 13 editorially reviewed events, distinguishing media reports, official proposals and completed actions. This was not an exhaustive review of all sources.",
+  "status": "9月30日新增6条原文复核事件，本期共19条。补入通信恢复、国防大学法案、证券监管数字化、访印安排、内阁决议及口岸物流；竞争线索单列为待核实，不冒充中标。此次为重点新闻补充核验，并非全部网站均成功抓取。",
+  "statusEn": "30 September: six source-reviewed additions bring this issue to 19 events, covering network restoration, the defence university bill, securities-regulator digitalisation, diplomatic scheduling Cabinet decisions and border logistics. Competition leads remain explicitly unverified, not awards. This is a targeted update, not a claim that every source was accessible.",
   "summary": [
+    "9月30日更新：NTC称仍有130个受灾站点离线；SEBON提出审批自动化计划；国防大学法案进入审议。新增访印安排与口岸物流风险，分别区分事实、计划和条件性商机。 同时补入内阁法案提交与能源部秘书任命消息。",
     "9月29日新增：亚投行重建融资会谈、阿联酋援助承诺及尼中印气候韧性机制提议。均不代表资金到账、项目获批或厂家中标；灾区通信个案暂缓纳入。",
     "9月23日 Nepal Telecom 发布虚拟化平台计费及客户支持系统国际招标：10月8日标前会，10月30日中午交纸质标。投标保证金为90,276,000尼泊尔卢比，不能当作合同预算；未公布本轮投标厂家。",
     "尼泊尔电信在洪灾地区提供免费光纤设备修复、补卡和灾备链路，并于9月22日披露 Bhadra 月在五省11个县投产13个2G/4G站点；两项均未披露新增采购预算或设备供应商。",
@@ -21,6 +22,7 @@
     "本期应重点跟踪 NEPSE/券商生态的正式取证与韧性采购、ISP税案书面判决、NTA规则定稿、尼泊尔电信扩容采购，以及 MAZU 后续设备和数据安排。"
   ],
   "summaryEn": [
+    "30 September update: NTC reports 130 affected sites still offline; SEBON outlines approval automation; the defence university bill is under consideration. Diplomatic scheduling and border logistics are added with facts, plans and conditional opportunities separated. Cabinet bill submission and the energy-secretary appointment are also covered.",
     "29 September additions: AIIB reconstruction-financing talks, a UAE aid pledge and Nepal's trilateral climate-resilience proposal. None establishes disbursement, project approval or a vendor award; the local communications case is withheld.",
     "Nepal Telecom issued its virtualized billing/customer-support tender on 23 September: pre-bid meeting on 8 October and hard-copy bids due at noon on 30 October. NPR 90,276,000 is bid security, not a contract budget; current bidders are not disclosed.",
     "Nepal Telecom is providing free fibre repair, SIM replacement and recovery connectivity in flood-affected areas, and disclosed on 22 September that 13 2G/4G sites went live across 11 districts in five provinces during Bhadra. Neither development identifies a new procurement budget or equipment supplier.",
@@ -42,6 +44,31 @@
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
           "items": [
+            {
+              "id": "np-ntc-restoration-snapshot-20260929",
+              "date": "2026-09-29",
+              "title": "通信恢复进度：NTC称1,002个站点恢复、130个仍离线",
+              "titleEn": "Restoration update: NTC reports 1,002 sites restored, 130 still offline",
+              "text": "据 Radio Nepal 及 New Business Age 对9月29日通信部会议的报道，Nepal Telecom 管理层称1,132个受灾站点中1,002个恢复、130个仍离线。部长要求调配技术人员、备用电源和运输支持。这是会议披露的运营商口径，并非独立网络测量。报道对灾害起始月份存在不一致，因此这里只标注9月29日进度，不推定起灾日期，也不代表全国网络已全部恢复。 Radio Nepal另报道，通信部长取消赴韩行程，优先处理救灾与通信恢复；此背景不单独重复计数。",
+              "textEn": "Radio Nepal and New Business Age report that, at the 29 September ministry meeting, Nepal Telecom said 1,002 of 1,132 affected sites had recovered, with 130 offline. The minister requested technical teams, backup power and transport support. These are reported operator figures, not independent measurements. Conflicting onset-month references remain unresolved; this is a dated restoration snapshot, not confirmation of nationwide recovery. Radio Nepal separately reports that the minister cancelled his Korea visit to prioritise relief and communications; this context is not counted separately.",
+              "opportunity": "研判：当前瓶颈涉及供电、进场和修复，不宜直接推成设备扩容订单。下一步向NTC核对剩余站点清单、供电/回传故障分类、可进场时间及备件缺口；只有获得预算和采购文件后才升级为销售机会。",
+              "opportunityEn": "Analysis: power, site access and repair may constrain recovery; outages do not establish expansion orders. Ask NTC for remaining sites, power/backhaul fault categories, access windows and spare shortages. Treat this as procurement only after budget and tender evidence.",
+              "badge": "媒体转述运营商会议 · 日期分歧已标注",
+              "links": [
+                {
+                  "label": "Radio Nepal · 29 September",
+                  "url": "https://radionepalonline.com/en/2026/09/29/436923.html"
+                },
+                {
+                  "label": "New Business Age · restoration report",
+                  "url": "https://www.newbusinessage.com/news/50288/130-nepal-telecom-sites-remain-offline-after-floods--landslides/"
+                },
+                {
+                  "label": "Radio Nepal · visit cancellation",
+                  "url": "https://radionepalonline.com/en/2026/09/29/436933.html"
+                }
+              ]
+            },
             {
               "id": "np-ntc-crtb-tender-20260923",
               "date": "2026-09-23",
@@ -260,6 +287,23 @@
           "categoryEn": "Key-account opportunities",
           "items": [
             {
+              "id": "np-sebon-ipo-digital-workflow-20260930",
+              "date": "2026-09-30",
+              "title": "SEBON拟推进IPO审批自动化，委员会要求完善企业评估",
+              "titleEn": "SEBON outlines IPO approval automation as House panel seeks stronger assessment",
+              "text": "New Business Age 9月30日报道，众议院财政委员会要求SEBON评估并排序IPO申请企业。SEBON主席同时表示，正在制定审批操作规程，并计划通过自动化提高透明度。报道中的净资产门槛仍是征求意见稿，不能写成现行准入规则；自动化计划也不是已发布的软件招标。",
+              "textEn": "New Business Age reports on 30 September that the House Finance Committee asked SEBON to assess and prioritise IPO applicants. SEBON's chair described approval procedures under development and planned automation for transparency. The proposed net-worth threshold remains a consultation draft, not an effective eligibility rule; the automation plan is not a software tender.",
+              "opportunity": "研判：客户为证券监管机构，需求线索集中在审批流程、材料检查和审计留痕。先核对官方SOP、现有系统与实施预算；没有采购公告前，不推断系统规模、厂家或项目金额。",
+              "opportunityEn": "Analysis: the regulator is a potential workflow, document-checking and audit-trail customer. Verify its official SOP, existing systems and implementation budget before inferring scope, supplier or contract value.",
+              "badge": "New Business Age · 计划阶段 / 未见招标",
+              "links": [
+                {
+                  "label": "New Business Age · SEBON and Finance Committee",
+                  "url": "https://www.newbusinessage.com/news/50293/house-panel-tells-sebon-to-assess-and-prioritise-ipo-applicants/"
+                }
+              ]
+            },
+            {
               "id": "np-nepse-datahub-outage-20260921",
               "date": "2026-09-22",
               "title": "尼泊尔股市停摆一天后恢复，72家券商系统从灾备中心重启",
@@ -299,7 +343,42 @@
         {
           "category": "本国政治与大选进展及内幕",
           "categoryEn": "Politics and elections",
-          "items": [],
+          "items": [
+            {
+              "id": "np-cabinet-decisions-20260929",
+              "date": "2026-09-29",
+              "title": "内阁批准公务员法案提交议会，任命能源部秘书",
+              "titleEn": "Cabinet endorses civil-service bill submission and names energy secretary",
+              "text": "NepalKhabar 9月29日转述政府发言人公布的六项内阁决定：批准将联邦公务员法案提交议会；将 Jagdishwar Karmacharya 晋升并任命为能源、水资源与灌溉部秘书，同时任命 Aabha Shrestha Karna 为甘达基省首席秘书。本条依据媒体发布的决议清单，尚待官方任命文件补核；法案获准提交不等于已获议会通过或生效。",
+              "textEn": "NepalKhabar's 29 September account of six Cabinet decisions, attributed to the government spokesperson, includes approval to submit the federal civil-service bill and the promotion and appointment of Jagdishwar Karmacharya as energy, water resources and irrigation secretary, and Aabha Shrestha Karna as Gandaki chief secretary. Official appointment documents remain to be cross-checked. Submission approval is not parliamentary passage or commencement.",
+              "opportunity": "研判：能源项目的行政协调联系人可能随任命调整，应先核对正式履职与职责分工；不据人事变动推断NEA招标偏好或采购结果。",
+              "opportunityEn": "Analysis: verify formal assumption of office and responsibilities before updating energy-project engagement contacts. Personnel changes do not establish NEA tender preferences or procurement outcomes.",
+              "badge": "NepalKhabar · 转述内阁决定 / 官方文件待补核",
+              "links": [
+                {
+                  "label": "NepalKhabar · six Cabinet decisions",
+                  "url": "https://nepalkhabar.com/politics/288370-2026-9-29-17-17-7"
+                }
+              ]
+            },
+            {
+              "id": "np-defense-university-bill-20260929",
+              "date": "2026-09-29",
+              "title": "国防大学法案进入审议，网络安全纳入拟议研究方向",
+              "titleEn": "Defence university bill considered; cybersecurity included in proposed remit",
+              "text": "Radio Nepal/RSS 报道，9月29日众议院通过了审议《国防大学法案》的动议。司法部长解释，拟建机构面向国家安全、外交与网络安全等学术研究，而非单纯军队训练学校。当前是法案审议进展，不是法律最终生效，也未证实校园、实验室或ICT采购已获批。",
+              "textEn": "Radio Nepal/RSS reports that the House approved a motion to consider the defence university bill on 29 September. The law minister described an academic remit including national security, diplomacy and cybersecurity, rather than military training alone. Consideration is not final enactment; no campus, laboratory or ICT procurement approval is established.",
+              "opportunity": "研判：先跟踪法案文本、办学主体和拨款。网络安全研究方向可能带来教学平台需求，但尚不足以判断建设规模、采购时间或供应商。",
+              "opportunityEn": "Analysis: track the bill, institutional ownership and appropriations first. Cybersecurity studies could require teaching platforms, but scale, procurement timing and suppliers are not established.",
+              "badge": "Radio Nepal/RSS · 法案审议而非生效",
+              "links": [
+                {
+                  "label": "Radio Nepal · parliamentary report",
+                  "url": "https://radionepalonline.com/en/2026/09/29/436914.html"
+                }
+              ]
+            }
+          ],
           "displayCategory": "国家政策与外交人事要闻",
           "displayCategoryEn": "National policy & diplomatic appointments"
         },
@@ -328,6 +407,40 @@
           "category": "外部关系与地缘政治",
           "categoryEn": "External relations and geopolitics",
           "items": [
+            {
+              "id": "np-china-border-logistics-20260930",
+              "date": "2026-09-30",
+              "title": "中尼陆路口岸运输受阻，设备交付需逐单核对物流风险",
+              "titleEn": "China–Nepal land-route disruptions warrant shipment-level delivery checks",
+              "text": "New Business Age 9月30日报道，多个对华陆路通道受阻，节前货物滞留；尼中人员已检查Tatopani口岸条件。报道主要涉及消费品和商贸物流，没有证明某个通信厂家的设备被扣留或某个ICT项目延期，也不能据此宣布口岸已经恢复通关。",
+              "textEn": "New Business Age reports on 30 September that disrupted China-facing land routes are delaying pre-festival cargo, while a Nepal–China team inspected Tatopani. The report concerns trade logistics, not evidence that a named telecom supplier's equipment is stranded or an ICT project delayed. Inspection does not establish reopening.",
+              "opportunity": "研判：对计划从中国陆运的设备，逐单核对路线、在途状态、备货和验收节点，再比较替代运输的时间及成本；不要套用消费品报道中的运价作为通信设备报价。",
+              "opportunityEn": "Analysis: for equipment planned overland from China, verify routes, shipment status, spares and acceptance dates before comparing alternatives. Consumer-goods freight quotations are not telecom-equipment quotations.",
+              "badge": "New Business Age · 物流风险 / 非ICT订单",
+              "links": [
+                {
+                  "label": "New Business Age · border disruption report",
+                  "url": "https://www.newbusinessage.com/news/50290/shortage-of-new-goods-ahead-of-dashain/"
+                }
+              ]
+            },
+            {
+              "id": "np-india-visit-unscheduled-20260930",
+              "date": "2026-09-30",
+              "title": "外长：总理访印日期仍未确定，不能提前计入双边项目成果",
+              "titleEn": "Foreign minister says PM's India visit remains unscheduled",
+              "text": "New Business Age 9月30日报道，外长 Shishir Khanal 表示，印度已发出邀请，但总理访印时间尚未确定，双方希望访问取得实质成果。该消息澄清的是外交安排的不确定性，并未宣布新的双边协议或项目。",
+              "textEn": "New Business Age reports on 30 September that Foreign Minister Shishir Khanal confirmed an Indian invitation but said no date had been fixed for the prime minister's visit. Both sides seek substantive results. This clarifies diplomatic scheduling, not a new bilateral agreement or project.",
+              "opportunity": "研判：跨境互联、能源和基础设施议题应继续以两国官方议程及签署文件为依据。不要把邀请、预期访问或政党交流自动转化为项目批准与订单。",
+              "opportunityEn": "Analysis: assess connectivity, energy and infrastructure against official agendas and signed documents. Invitations, anticipated visits and party exchanges do not establish project approvals or orders.",
+              "badge": "New Business Age · 外长表态",
+              "links": [
+                {
+                  "label": "New Business Age · foreign minister statement",
+                  "url": "https://www.newbusinessage.com/news/50296/pms-india-visit-yet-to-be-scheduled--foreign-minister/"
+                }
+              ]
+            },
             {
               "id": "np-himalayan-resilience-proposal-20260924",
               "date": "2026-09-24",
@@ -428,11 +541,11 @@
     }
   },
   "stats": {
-    "news": 13,
+    "news": 19,
     "opportunities": 9,
     "telegram": 0,
     "countryCounts": {
-      "np": 13
+      "np": 19
     }
   }
 }

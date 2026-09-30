@@ -1,0 +1,19 @@
+{
+  "reviewDate": "2026-09-30",
+  "scope": "Targeted publication update, not an exhaustive daily review",
+  "collection": {"sources": 108, "readable": 53, "candidateLinks": 1654, "socialCandidates": 103},
+  "newEvents": 6,
+  "currentIssueEvents": 19,
+  "historyEventsUnchanged": 10,
+  "decisions": [
+    {"topic": "NTC restoration", "decision": "Publish operator figures as reported by Radio Nepal and New Business Age; retain unresolved disaster-onset month caveat; no OEM/order inference."},
+    {"topic": "Defence university", "decision": "Publish Radio Nepal/RSS parliamentary report as motion to consider, not enactment or procurement."},
+    {"topic": "Korea visit cancellation", "decision": "Radio Nepal original text reviewed via search retrieval; merge into restoration context without an extra event."},
+    {"topic": "SEBON", "decision": "Publish New Business Age 30 September report; distinguish draft eligibility, intended automation and actual procurement."},
+    {"topic": "PM India visit", "decision": "Publish 30 September ministerial statement reported by New Business Age; timing remains unset."},
+    {"topic": "Border logistics", "decision": "Publish supply-chain context; no named telecom shipment or project delay established."},
+    {"topic": "Cabinet", "decision": "Read complete NepalKhabar original; attribute appointments and bill submission to reported Cabinet decisions. Official appointment document still needed; do not overwrite people directory."},
+    {"topic": "NEA / Nokia", "decision": "Keep NepalKhabar lead in competitor watch only. Do not adopt influence allegations or confirm tender amount/deadline without official documents."}
+  ],
+  "limitations": ["55 collection sources not readable in this run", "No claim of authenticated Facebook or Telegram-wide coverage", "Previous sealed issue remains unchanged", "Daily completion marker not advanced for a targeted review"]
+}

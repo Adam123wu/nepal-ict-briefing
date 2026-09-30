@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-09-21",
+  "reviewedAt": "2026-09-30",
   "country": "尼泊尔",
   "note": "监控名单不等于本期新中标名单；核验日期不是项目发生日期。",
   "noteEn": "The watchlist is not a list of new awards. Review dates are not project dates.",
@@ -64,15 +64,15 @@
         "np-worldlink"
       ],
       "relatedEventIds": [],
-      "status": "历史竞争格局 · 非本期新项目",
-      "statusEn": "Historical footprint · not a new award",
-      "scope": "光传输、接入与家庭 Wi-Fi",
-      "scopeEn": "Optical transport, access and home Wi-Fi",
-      "summary": "WorldLink 的机构介绍列出 Nokia 参与 DWDM 和接入网络；页面有旧资料，现网范围须另核实。",
-      "summaryEn": "WorldLink's undated profile lists Nokia for DWDM and access. The profile contains old information; the current footprint needs confirmation.",
-      "action": "核实在网设备、扩容计划与替换周期，不以旧介绍推断新增采购。",
-      "actionEn": "Verify installed equipment, expansion plans and replacement cycles.",
-      "evidenceUrl": "https://worldlink.com.np/organization/"
+      "status": "9月29日新增媒体线索 · 非中标确认",
+      "statusEn": "29 September media lead · not an award",
+      "scope": "电力通信与SCADA；历史光传输及接入",
+      "scopeEn": "Utility communications and SCADA; historical optical/access footprint",
+      "summary": "NepalKhabar 9月29日报道NEA数字通信与SCADA项目进度和技术路线争议，并提及Nokia。涉及厂商影响的说法尚无官方文件或独立证据佐证，不作为事实采纳；这不是新中标，也不计入已复核新闻总数。WorldLink旧机构介绍仍仅作历史背景。",
+      "summaryEn": "A 29 September NepalKhabar report discusses NEA digital-network/SCADA procurement and technical-route disputes, mentioning Nokia. Claims about vendor influence lack official or independent corroboration and are not adopted as facts. This is not an award and is excluded from reviewed-news counts. WorldLink's old profile remains historical background only.",
+      "action": "优先获取NEA原始招标、延期澄清及正式技术规范，对照传输路线和资格条款；未拿到文件前不确认媒体所述金额、截止日、参标方或中标厂家。",
+      "actionEn": "Obtain NEA's original tender, amendments and technical specifications; compare transport architecture and eligibility. Do not confirm reported value, deadline, bidders or OEMs without those documents.",
+      "evidenceUrl": "https://nepalkhabar.com/economy/288163-2026-9-29-10-46-42"
     },
     {
       "id": "juniper",
