@@ -1,21 +1,10 @@
 {
   "status": "clear",
   "statusEn": "Reviewed",
-  "generatedAt": "2026-09-30T02:17:30.295910+00:00",
-  "reviewDate": "2026-09-30",
-  "sourceCandidateGeneratedAt": "2026-09-30T00:05:01.732297+00:00",
-  "model": "deepseek-flash",
-  "note": "9月30日已复核三条AI候选：国防大学法案与通信恢复纳入正文；访韩取消合并为通信恢复背景，不重复计数。",
-  "noteEn": "All three AI candidates were reviewed on 30 September: the university bill and network restoration entered the report; the Korea cancellation was merged as context without a duplicate count.",
-  "usage": {
-    "prompt_tokens": 6342,
-    "completion_tokens": 1978,
-    "total_tokens": 8320,
-    "prompt_tokens_details": {
-      "cached_tokens": 1280
-    },
-    "prompt_cache_hit_tokens": 1280,
-    "prompt_cache_miss_tokens": 5062
-  },
+  "generatedAt": "2026-09-30T21:31:29Z",
+  "reviewDate": "2026-10-01",
+  "sourceCandidateGeneratedAt": "2026-09-30T21:23:31.930844+00:00",
+  "note": "例行复核完成；原兜底列表为空，无未处理AI候选。此时间为编辑清空记录，不是新的兜底模型调用。",
+  "noteEn": "Daily review completed; the fallback list was already empty with no unresolved AI candidates. This timestamp records editorial clearing, not a new fallback model call.",
   "items": []
 }

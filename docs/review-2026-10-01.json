@@ -1,0 +1,69 @@
+{
+  "reviewDate": "2026-10-01",
+  "reviewTimezone": "Asia/Baghdad",
+  "scope": "Daily twelve-focus public-search and priority-candidate review; not exhaustive article or authenticated social coverage",
+  "collection": {
+    "workflowRun": 36779033675,
+    "trigger": "One manual dispatch after confirming the 00:00 Baghdad scheduled run was absent and no collector was active",
+    "conclusion": "success",
+    "generatedAt": "2026-09-30T21:23:31.930844+00:00",
+    "registeredSources": 108,
+    "readableWebsites": 58,
+    "failedSources": 13,
+    "socialAccountsNotFullyScanned": 37,
+    "candidates": 2045,
+    "socialCandidates": 116,
+    "newCandidateUrlsSincePreviousInput": 374
+  },
+  "focusAreasSearched": [
+    "hot-topics",
+    "huawei",
+    "operators",
+    "regulation",
+    "government",
+    "technology",
+    "market",
+    "csr",
+    "economy",
+    "energy",
+    "politics",
+    "disaster"
+  ],
+  "currentIssue": "W39-40",
+  "currentIssueEvents": 23,
+  "addedEvents": [
+    "np-india-envoy-farewell-20260929",
+    "np-disaster-recovery-decision-20260930"
+  ],
+  "updatedWithoutDuplicateCount": [
+    "np-aiib-reconstruction-talks-20260927",
+    "np-nea-winter-grid-recovery-20260923"
+  ],
+  "decisions": [
+    "Read OnlineKhabar Nepali original and ANI/Tribune original on the Indian ambassador's farewell. No successor appointment or credential presentation inferred; people directory unchanged.",
+    "Read full Radio Nepal/RSS search-retrieved article on disaster-recovery arrangements after direct page access failed. Report the meeting decision, not a legal amendment, platform tender or automatic entitlement.",
+    "Read full Radio Nepal search-retrieved follow-ups on winter power and AIIB. Keep the 430 MW scope separate from the previous 176.1 MW figure; governance office does not establish an approved loan.",
+    "Read NepaliTelecom's 30 September Rasuwa wireless story. Exact ministerial Facebook post and independent corroboration not obtained; retain as an unverified candidate, not formal news.",
+    "Vendor-focused English, Chinese and Nepali public searches did not establish a new local equipment award. Global launches and historical customer footprints are not promoted.",
+    "Public Facebook search did not produce verifiable current post evidence. No authenticated scan or new Telegram coverage is claimed.",
+    "Fallback digest was already clear with zero pending items. Reset alongside the dated completion marker.",
+    "Window ends 2 October; preserve_nepal_history.py reported no completed issue. Existing sealed history remains unchanged. No separate archive or compliance route restored."
+  ],
+  "localSafety": "Original project has pre-existing modified, deleted and untracked files; all preserved. Work performed in a clean temporary clone of remote main.",
+  "analysisReview": {
+    "workflowRun": 36779721679,
+    "reviewedSourceCommit": "a9e44a0cb73e00e27124d1e8059dedbbd81bd4c4",
+    "inputSha256": "88b1991f96596eb61212328b3177de2c888d54a181c1216829f30f75b6afb777",
+    "status": "reviewed",
+    "inputHashMatched": true,
+    "model": "deepseek-flash",
+    "decision": "Reviewed all four changed-item bilingual drafts; integrated edited verification actions. Rejected unsupported claims that NEA has no peer competition, supplier competition has not begun or no contracts exist. No relief-payment timing or successor appointment inferred. Raw drafts and thinking not published."
+  },
+  "checks": [
+    "Production build and bilingual validation passed",
+    "32 Python tests passed",
+    "Four-route desktop/mobile bilingual UI tests passed; archive/compliance remain 404",
+    "Recognisable credential-pattern scan passed (not a guarantee against every secret format)",
+    "Production dependency audit: zero vulnerabilities"
+  ]
+}

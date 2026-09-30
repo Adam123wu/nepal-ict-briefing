@@ -245,8 +245,8 @@
                 "titleEn": "NEA forms winter-supply task force as damaged hub substation strands 176.1 MW",
                 "text": "事实：Nepal Electricity Authority 9月22日会议决定加快冬季电力供需研究及执行工作，成立由 Bagmati 省办公室主任协调的五人工作组，要求每日向执行董事报告进度并立即上报障碍，同时为加德满都谷地输配电项目设定完工期限。8月26日洪灾摧毁220kV Trishuli-3B Hub变电站，使 Trishuli-Chilime 系统所接176.1MW电源即使部分电站本体未受损也无法送入国家电网；超过256MW在运水电受损，NEA被迫持续运行通常用于冬季调峰的106MW Kulekhani梯级。NEA表示正评估恢复 Devighat 变电站并力争避免冬季限电。报道未披露新增预算、正式采购包或设备供应商。 9月30日后续：Radio Nepal引述能源部发言人称，Bhotekoshi洪灾使约430MW电力脱离国家输电系统，正筹划替代供电和新增地下电网以保障冬季供电。430MW是本次报道的更广范围口径，与前述176.1MW受损枢纽相关数值不能相加；没有依据据此推算新增损失或已签采购。",
                 "textEn": "At its 22 September meeting, Nepal Electricity Authority decided to accelerate studies and execution for winter supply-demand management, created a five-member team coordinated by the Bagmati Provincial Office director, required daily progress reports to the managing director and set deadlines for Kathmandu Valley transmission and distribution work. The 26 August flood destroyed the 220 kV Trishuli-3B Hub substation, preventing 176.1 MW connected through the Trishuli-Chilime system from reaching the grid even where plants themselves survived. More than 256 MW of operating hydropower was damaged, forcing NEA to run the 106 MW Kulekhani cascade—normally held for winter balancing—continuously. NEA is assessing restoration of Devighat substation and says it aims to avoid winter load-shedding. No new budget, procurement package or equipment supplier is disclosed. Follow-up on 30 September: Radio Nepal quotes the energy ministry spokesperson on roughly 430 MW disconnected from the national transmission system after the Bhotekoshi flood, with alternative supply and additional underground-grid arrangements being planned for winter. The 430 MW figure has a broader reported scope than the earlier 176.1 MW hub-related figure; they must not be added or treated as incremental damage or signed procurement.",
-                "opportunity": "客户与需求：NEA输电、配电和系统运行部门需要受损变电站恢复、数字化调度与态势感知、SCADA/EMS、变电站自动化、保护通信、备用电源、灾备通信和工程进度管理。阶段：已成立工作组并设内部期限，仍未见PPMO/NEA公开招标。下一步：跟踪Trishuli-3B Hub、Devighat及加德满都谷地项目的技术评估、资金安排、招标编号和恢复时间表；核实是修复、临时旁路还是重建。竞争研判：现有报道没有披露OEM、集成商或承包商，不能把灾后需求当作已授标项目。 要求项目清单明确电源损失、输电瓶颈与恢复时间，区分规划、招标和合同阶段。",
-                "opportunityEn": "Customer and need: NEA transmission, distribution and system-operations teams require damaged-substation recovery, digital dispatch and situational awareness, SCADA/EMS, substation automation, protection communications, backup power, resilient communications and programme controls. Stage: a task force and internal deadlines exist, but no PPMO/NEA tender is public. Next: track technical assessments, financing, tender numbers and restoration schedules for Trishuli-3B Hub, Devighat and Kathmandu Valley projects, and verify whether the response is repair, temporary bypass or reconstruction. Competition: reporting identifies no OEM, integrator or contractor; disaster-recovery demand is not an award. Seek a project list separating generation losses, transmission constraints and restoration timing; distinguish planning, tender and contract stages.",
+                "opportunity": "研判：供电恢复与冬季韧性需求值得跟踪，但报道没有确认新增设备订单。下一步向NEA核对Devighat恢复、应急供电及地下电网的正式项目清单、预算、时间表和招标文件，并了解数据中心及基站实际备用电源缺口。176.1MW与430MW分别记录，不相加；未取得采购信息不代表市场没有竞争或没有合同。",
+                "opportunityEn": "Analysis: Supply restoration and winter resilience warrant follow-up, but the reports do not confirm new equipment orders. Ask NEA for formal Devighat-restoration, emergency-supply and underground-grid project lists, budgets, schedules and tender documents; check actual backup-power gaps at data centres and base stations. Record 176.1 MW and 430 MW separately. Missing procurement evidence does not establish absence of competition or contracts.",
                 "badge": "NEA会议决定经主流媒体核验 · Tier 2",
                 "links": [
                   {
@@ -274,8 +274,8 @@
                 "titleEn": "Finance minister seeks AIIB reconstruction and digital-infrastructure support; no project approval established",
                 "text": "原文复核：B360 将多哈会谈明确标为9月27日，Radio Nepal 与 OnlineKhabar 于28日报道。财政部长瓦格尔提出增加灾后重建、绿色能源、跨境输电和数字基础设施支持；报道引述亚投行方面关于项目准备赠款及优惠融资的表态。多篇报道可能共用财政部长秘书处信息，不能视为多份独立审批证据；未取得新增项目批准文件、融资额度或采购清单。 9月30日后续：Radio Nepal援引财长秘书处称，Wagle结束多哈年会返国，并获选为亚投行理事会2026—2027年度副主席；他继续呼吁对通信、信息技术和重建增加投资。这是理事会职务与融资倡议，不是亚投行管理层副行长任命，也不代表具体项目已获批。",
                 "textEn": "Source review: B360 dates the Doha meeting to 27 September; Radio Nepal and OnlineKhabar reported on 28 September. Wagle sought support for reconstruction, green energy, cross-border transmission and digital infrastructure. Reports attribute statements on preparation grants and concessional financing to AIIB. Coverage may share the minister's secretariat as its origin, rather than provide independent approval evidence. No new project approval, financing amount or procurement list was obtained. Follow-up on 30 September: Radio Nepal, citing the finance minister's secretariat, reports that Wagle returned from the Doha meeting and was elected Vice-Chair of AIIB's Board of Governors for 2026–2027. He called for more communications, IT and reconstruction investment. This is a Board of Governors role and a financing appeal, not an executive vice-president appointment or project approval.",
-                "opportunity": "研判：潜在需求方是财政部及后续被指定的项目执行机构，当前仅为融资沟通。先跟踪亚投行项目库、财政部正式公告与可研采购；如出现数字基础设施项目，再核查范围、融资生效条件及招标计划。不得把优惠贷款讨论当成订单，竞争厂家未披露。 补充核查：区分项目准备赠款协议与正式投资贷款，逐项核对亚投行董事会文件及是否列有数字基础设施采购包。 后续核对亚投行理事会正式名录及项目审批记录，不能把会议职务或积极表态计为贷款获批。",
-                "opportunityEn": "Assessment: potential stakeholders are the Finance Ministry and any subsequently designated implementing agency; the stage is financing dialogue. Track AIIB project records, ministry notices and feasibility procurement. If a digital project emerges, verify scope, financing conditions and tender plans. Loan discussions are not orders; competing vendors are undisclosed. Additional check: distinguish a project-preparation grant agreement from an investment loan; examine board records and whether a digital-infrastructure procurement package is actually listed. Check AIIB's official Board of Governors roster and project approvals; a governance role or supportive statement is not an approved loan.",
+                "opportunity": "研判：会谈和理事会副主席职务不等于项目或贷款获批。下一步核对亚投行正式理事会名录、尼泊尔项目清单、财政部预算与原始通稿，确认项目准备赠款、贷款各自的审批阶段及采购计划；没有项目编号、金额和采购文件前，不列为确定订单。多家媒体可能共用秘书处信息，不视为多份独立审批证据。",
+                "opportunityEn": "Analysis: Talks and a Board of Governors vice-chairmanship are not project or loan approval. Check AIIB's official roster and Nepal project pipeline, the finance ministry budget and original readout; establish separate approval stages for preparation grants and loans and any procurement plan. Without project IDs, amounts and procurement documents, no firm order is established. Coverage may share secretariat information rather than independent approval evidence.",
                 "badge": "Codex 原文复核 · 会谈报道，审批未确认",
                 "links": [
                   {
@@ -454,8 +454,8 @@
                 "badge": "Radio Nepal / RSS报道",
                 "text": "Radio Nepal 9月30日刊载RSS报道：内政部长主持的国家减灾与管理机构第37次执行委员会会议决定推进Bhotekoshi灾区搜寻与恢复、临时住房及重建安置，搜寻工作仍在继续。报道还称，失踪人员家庭的救助资料拟由地方政府核实，经地区行政办公室复核后报送灾害管理机构。这里只记录所报道的会议安排；没有据此认定相关法律已修改，也未核验实施细则或采购文件。",
                 "textEn": "A 30 September Radio Nepal/RSS report says the disaster-management authority's 37th executive committee meeting, chaired by the home minister, advanced Bhotekoshi search and recovery, temporary housing and rehabilitation while searches continued. It describes relief records for families of missing people being verified by local governments, rechecked by district administration offices and forwarded to the authority. This records reported meeting arrangements, not a confirmed legal amendment; implementation rules and procurement documents were not verified.",
-                "opportunity": "研判：跨层级资料核验可能增加安全数据交换、去重和审计留痕需求，但这是条件性需求判断，并无已公布的数字平台招标。下一步取得正式会议决议和执行通知，确认责任部门、数据最小化与访问权限，再判断是否存在有预算的系统建设任务。",
-                "opportunityEn": "Analysis: Cross-level verification may create needs for secure exchange, deduplication and audit trails, but this is a conditional inference, not an announced digital-platform tender. Obtain the formal decision and implementation notice, identify responsible offices and data-minimisation/access controls, then establish whether a funded system project exists.",
+                "opportunity": "研判：此项首先是救助与行政协同，不是ICT销售线索。逐级核验可能带来安全交换、去重与审计留痕需求，但没有已核验的数字平台招标。下一步取得正式决议及执行通知，确认责任部门、数据最小化、访问权限与资金安排；不得推定救助到账时间或法定资格已改变。",
+                "opportunityEn": "Analysis: This is primarily relief administration, not an ICT sales lead. Tiered verification could require secure exchange, deduplication and audit trails, but no digital-platform tender is verified. Obtain the formal decision and implementation notice, then identify responsible offices, data minimisation, access controls and funding. Do not infer payment timing or changed legal eligibility.",
                 "links": [
                   {
                     "label": "Radio Nepal / RSS 9/30：恢复与救助安排",
@@ -534,8 +534,8 @@
                 "badge": "双源报道 · ANI引述总理办公室",
                 "text": "OnlineKhabar及ANI于9月29日报道，印度驻尼大使Naveen Srivastava在任期结束前拜会总理Balendra Shah。ANI引述尼泊尔总理办公室声明称，双方回顾发展合作，尼方感谢印度对近期灾害的援助。此为辞行会面，不是新大使任命或递交国书；本轮未取得继任者任命及到任的官方文件。",
                 "textEn": "OnlineKhabar and ANI reported on 29 September that Indian Ambassador Naveen Srivastava made a farewell call on Prime Minister Balendra Shah before completing his tenure. ANI cited Nepal's PMO on development cooperation and Nepal's thanks for India's disaster assistance. This is a farewell meeting, not the appointment or credential presentation of a successor; no official successor appointment or arrival record was obtained in this review.",
-                "opportunity": "研判：涉及双边联络窗口交接，不自动意味着项目政策或执行暂停。下一步核对印度外交部及使馆的继任公告、临时代办与项目联络安排；跨境能源和基础设施项目仍按各自批复、合同和进度判断。",
-                "opportunityEn": "Analysis: This concerns a diplomatic handover, not evidence of policy change or project suspension. Check India's foreign ministry and embassy for successor, chargé d'affaires and project-contact arrangements; assess cross-border energy and infrastructure projects by their own approvals, contracts and milestones.",
+                "opportunity": "研判：涉及外交联络窗口交接，不自动意味着项目政策或执行暂停。下一步核对印度外交部及使馆的继任公告、到任及递交国书安排，确认临时代办和项目联络人；跨境能源与基础设施合作仍按各自批复、合同和实际进度判断。",
+                "opportunityEn": "Analysis: This concerns diplomatic handover, not evidence of policy change or project suspension. Check India's foreign ministry and embassy for successor appointment, arrival and credential presentation, and confirm interim and project contacts. Assess cross-border energy and infrastructure cooperation against its own approvals, contracts and actual progress.",
                 "links": [
                   {
                     "label": "OnlineKhabar 9/29（尼文）",
@@ -893,8 +893,8 @@
                   "titleEn": "NEA forms winter-supply task force as damaged hub substation strands 176.1 MW",
                   "text": "事实：Nepal Electricity Authority 9月22日会议决定加快冬季电力供需研究及执行工作，成立由 Bagmati 省办公室主任协调的五人工作组，要求每日向执行董事报告进度并立即上报障碍，同时为加德满都谷地输配电项目设定完工期限。8月26日洪灾摧毁220kV Trishuli-3B Hub变电站，使 Trishuli-Chilime 系统所接176.1MW电源即使部分电站本体未受损也无法送入国家电网；超过256MW在运水电受损，NEA被迫持续运行通常用于冬季调峰的106MW Kulekhani梯级。NEA表示正评估恢复 Devighat 变电站并力争避免冬季限电。报道未披露新增预算、正式采购包或设备供应商。 9月30日后续：Radio Nepal引述能源部发言人称，Bhotekoshi洪灾使约430MW电力脱离国家输电系统，正筹划替代供电和新增地下电网以保障冬季供电。430MW是本次报道的更广范围口径，与前述176.1MW受损枢纽相关数值不能相加；没有依据据此推算新增损失或已签采购。",
                   "textEn": "At its 22 September meeting, Nepal Electricity Authority decided to accelerate studies and execution for winter supply-demand management, created a five-member team coordinated by the Bagmati Provincial Office director, required daily progress reports to the managing director and set deadlines for Kathmandu Valley transmission and distribution work. The 26 August flood destroyed the 220 kV Trishuli-3B Hub substation, preventing 176.1 MW connected through the Trishuli-Chilime system from reaching the grid even where plants themselves survived. More than 256 MW of operating hydropower was damaged, forcing NEA to run the 106 MW Kulekhani cascade—normally held for winter balancing—continuously. NEA is assessing restoration of Devighat substation and says it aims to avoid winter load-shedding. No new budget, procurement package or equipment supplier is disclosed. Follow-up on 30 September: Radio Nepal quotes the energy ministry spokesperson on roughly 430 MW disconnected from the national transmission system after the Bhotekoshi flood, with alternative supply and additional underground-grid arrangements being planned for winter. The 430 MW figure has a broader reported scope than the earlier 176.1 MW hub-related figure; they must not be added or treated as incremental damage or signed procurement.",
-                  "opportunity": "客户与需求：NEA输电、配电和系统运行部门需要受损变电站恢复、数字化调度与态势感知、SCADA/EMS、变电站自动化、保护通信、备用电源、灾备通信和工程进度管理。阶段：已成立工作组并设内部期限，仍未见PPMO/NEA公开招标。下一步：跟踪Trishuli-3B Hub、Devighat及加德满都谷地项目的技术评估、资金安排、招标编号和恢复时间表；核实是修复、临时旁路还是重建。竞争研判：现有报道没有披露OEM、集成商或承包商，不能把灾后需求当作已授标项目。 要求项目清单明确电源损失、输电瓶颈与恢复时间，区分规划、招标和合同阶段。",
-                  "opportunityEn": "Customer and need: NEA transmission, distribution and system-operations teams require damaged-substation recovery, digital dispatch and situational awareness, SCADA/EMS, substation automation, protection communications, backup power, resilient communications and programme controls. Stage: a task force and internal deadlines exist, but no PPMO/NEA tender is public. Next: track technical assessments, financing, tender numbers and restoration schedules for Trishuli-3B Hub, Devighat and Kathmandu Valley projects, and verify whether the response is repair, temporary bypass or reconstruction. Competition: reporting identifies no OEM, integrator or contractor; disaster-recovery demand is not an award. Seek a project list separating generation losses, transmission constraints and restoration timing; distinguish planning, tender and contract stages.",
+                  "opportunity": "研判：供电恢复与冬季韧性需求值得跟踪，但报道没有确认新增设备订单。下一步向NEA核对Devighat恢复、应急供电及地下电网的正式项目清单、预算、时间表和招标文件，并了解数据中心及基站实际备用电源缺口。176.1MW与430MW分别记录，不相加；未取得采购信息不代表市场没有竞争或没有合同。",
+                  "opportunityEn": "Analysis: Supply restoration and winter resilience warrant follow-up, but the reports do not confirm new equipment orders. Ask NEA for formal Devighat-restoration, emergency-supply and underground-grid project lists, budgets, schedules and tender documents; check actual backup-power gaps at data centres and base stations. Record 176.1 MW and 430 MW separately. Missing procurement evidence does not establish absence of competition or contracts.",
                   "badge": "NEA会议决定经主流媒体核验 · Tier 2",
                   "links": [
                     {
@@ -922,8 +922,8 @@
                   "titleEn": "Finance minister seeks AIIB reconstruction and digital-infrastructure support; no project approval established",
                   "text": "原文复核：B360 将多哈会谈明确标为9月27日，Radio Nepal 与 OnlineKhabar 于28日报道。财政部长瓦格尔提出增加灾后重建、绿色能源、跨境输电和数字基础设施支持；报道引述亚投行方面关于项目准备赠款及优惠融资的表态。多篇报道可能共用财政部长秘书处信息，不能视为多份独立审批证据；未取得新增项目批准文件、融资额度或采购清单。 9月30日后续：Radio Nepal援引财长秘书处称，Wagle结束多哈年会返国，并获选为亚投行理事会2026—2027年度副主席；他继续呼吁对通信、信息技术和重建增加投资。这是理事会职务与融资倡议，不是亚投行管理层副行长任命，也不代表具体项目已获批。",
                   "textEn": "Source review: B360 dates the Doha meeting to 27 September; Radio Nepal and OnlineKhabar reported on 28 September. Wagle sought support for reconstruction, green energy, cross-border transmission and digital infrastructure. Reports attribute statements on preparation grants and concessional financing to AIIB. Coverage may share the minister's secretariat as its origin, rather than provide independent approval evidence. No new project approval, financing amount or procurement list was obtained. Follow-up on 30 September: Radio Nepal, citing the finance minister's secretariat, reports that Wagle returned from the Doha meeting and was elected Vice-Chair of AIIB's Board of Governors for 2026–2027. He called for more communications, IT and reconstruction investment. This is a Board of Governors role and a financing appeal, not an executive vice-president appointment or project approval.",
-                  "opportunity": "研判：潜在需求方是财政部及后续被指定的项目执行机构，当前仅为融资沟通。先跟踪亚投行项目库、财政部正式公告与可研采购；如出现数字基础设施项目，再核查范围、融资生效条件及招标计划。不得把优惠贷款讨论当成订单，竞争厂家未披露。 补充核查：区分项目准备赠款协议与正式投资贷款，逐项核对亚投行董事会文件及是否列有数字基础设施采购包。 后续核对亚投行理事会正式名录及项目审批记录，不能把会议职务或积极表态计为贷款获批。",
-                  "opportunityEn": "Assessment: potential stakeholders are the Finance Ministry and any subsequently designated implementing agency; the stage is financing dialogue. Track AIIB project records, ministry notices and feasibility procurement. If a digital project emerges, verify scope, financing conditions and tender plans. Loan discussions are not orders; competing vendors are undisclosed. Additional check: distinguish a project-preparation grant agreement from an investment loan; examine board records and whether a digital-infrastructure procurement package is actually listed. Check AIIB's official Board of Governors roster and project approvals; a governance role or supportive statement is not an approved loan.",
+                  "opportunity": "研判：会谈和理事会副主席职务不等于项目或贷款获批。下一步核对亚投行正式理事会名录、尼泊尔项目清单、财政部预算与原始通稿，确认项目准备赠款、贷款各自的审批阶段及采购计划；没有项目编号、金额和采购文件前，不列为确定订单。多家媒体可能共用秘书处信息，不视为多份独立审批证据。",
+                  "opportunityEn": "Analysis: Talks and a Board of Governors vice-chairmanship are not project or loan approval. Check AIIB's official roster and Nepal project pipeline, the finance ministry budget and original readout; establish separate approval stages for preparation grants and loans and any procurement plan. Without project IDs, amounts and procurement documents, no firm order is established. Coverage may share secretariat information rather than independent approval evidence.",
                   "badge": "Codex 原文复核 · 会谈报道，审批未确认",
                   "links": [
                     {
@@ -1102,8 +1102,8 @@
                   "badge": "Radio Nepal / RSS报道",
                   "text": "Radio Nepal 9月30日刊载RSS报道：内政部长主持的国家减灾与管理机构第37次执行委员会会议决定推进Bhotekoshi灾区搜寻与恢复、临时住房及重建安置，搜寻工作仍在继续。报道还称，失踪人员家庭的救助资料拟由地方政府核实，经地区行政办公室复核后报送灾害管理机构。这里只记录所报道的会议安排；没有据此认定相关法律已修改，也未核验实施细则或采购文件。",
                   "textEn": "A 30 September Radio Nepal/RSS report says the disaster-management authority's 37th executive committee meeting, chaired by the home minister, advanced Bhotekoshi search and recovery, temporary housing and rehabilitation while searches continued. It describes relief records for families of missing people being verified by local governments, rechecked by district administration offices and forwarded to the authority. This records reported meeting arrangements, not a confirmed legal amendment; implementation rules and procurement documents were not verified.",
-                  "opportunity": "研判：跨层级资料核验可能增加安全数据交换、去重和审计留痕需求，但这是条件性需求判断，并无已公布的数字平台招标。下一步取得正式会议决议和执行通知，确认责任部门、数据最小化与访问权限，再判断是否存在有预算的系统建设任务。",
-                  "opportunityEn": "Analysis: Cross-level verification may create needs for secure exchange, deduplication and audit trails, but this is a conditional inference, not an announced digital-platform tender. Obtain the formal decision and implementation notice, identify responsible offices and data-minimisation/access controls, then establish whether a funded system project exists.",
+                  "opportunity": "研判：此项首先是救助与行政协同，不是ICT销售线索。逐级核验可能带来安全交换、去重与审计留痕需求，但没有已核验的数字平台招标。下一步取得正式决议及执行通知，确认责任部门、数据最小化、访问权限与资金安排；不得推定救助到账时间或法定资格已改变。",
+                  "opportunityEn": "Analysis: This is primarily relief administration, not an ICT sales lead. Tiered verification could require secure exchange, deduplication and audit trails, but no digital-platform tender is verified. Obtain the formal decision and implementation notice, then identify responsible offices, data minimisation, access controls and funding. Do not infer payment timing or changed legal eligibility.",
                   "links": [
                     {
                       "label": "Radio Nepal / RSS 9/30：恢复与救助安排",
@@ -1182,8 +1182,8 @@
                   "badge": "双源报道 · ANI引述总理办公室",
                   "text": "OnlineKhabar及ANI于9月29日报道，印度驻尼大使Naveen Srivastava在任期结束前拜会总理Balendra Shah。ANI引述尼泊尔总理办公室声明称，双方回顾发展合作，尼方感谢印度对近期灾害的援助。此为辞行会面，不是新大使任命或递交国书；本轮未取得继任者任命及到任的官方文件。",
                   "textEn": "OnlineKhabar and ANI reported on 29 September that Indian Ambassador Naveen Srivastava made a farewell call on Prime Minister Balendra Shah before completing his tenure. ANI cited Nepal's PMO on development cooperation and Nepal's thanks for India's disaster assistance. This is a farewell meeting, not the appointment or credential presentation of a successor; no official successor appointment or arrival record was obtained in this review.",
-                  "opportunity": "研判：涉及双边联络窗口交接，不自动意味着项目政策或执行暂停。下一步核对印度外交部及使馆的继任公告、临时代办与项目联络安排；跨境能源和基础设施项目仍按各自批复、合同和进度判断。",
-                  "opportunityEn": "Analysis: This concerns a diplomatic handover, not evidence of policy change or project suspension. Check India's foreign ministry and embassy for successor, chargé d'affaires and project-contact arrangements; assess cross-border energy and infrastructure projects by their own approvals, contracts and milestones.",
+                  "opportunity": "研判：涉及外交联络窗口交接，不自动意味着项目政策或执行暂停。下一步核对印度外交部及使馆的继任公告、到任及递交国书安排，确认临时代办和项目联络人；跨境能源与基础设施合作仍按各自批复、合同和实际进度判断。",
+                  "opportunityEn": "Analysis: This concerns diplomatic handover, not evidence of policy change or project suspension. Check India's foreign ministry and embassy for successor appointment, arrival and credential presentation, and confirm interim and project contacts. Assess cross-border energy and infrastructure cooperation against its own approvals, contracts and actual progress.",
                   "links": [
                     {
                       "label": "OnlineKhabar 9/29（尼文）",
@@ -5646,16 +5646,16 @@
     "coverageGapEn": "No Nepal Telegram channels verified through official websites yet."
   },
   "editorial": {
-    "lastCodexReviewDate": "2026-09-26",
-    "lastCodexReviewAt": "2026-09-26T18:56:15+00:00",
-    "lastCodexCommit": "a8f890226e8744034fcaa5c53554b8ba5490b517",
-    "lastCandidateGeneratedAt": "2026-09-25T23:50:59.136764+00:00",
+    "lastCodexReviewDate": "2026-10-01",
+    "lastCodexReviewAt": "2026-09-30T21:31:29Z",
+    "lastCodexCommit": "a9e44a0cb73e00e27124d1e8059dedbbd81bd4c4",
+    "lastCandidateGeneratedAt": "2026-09-30T21:23:31.930844+00:00",
     "lastFallbackDate": "2026-09-30",
     "lastFallbackAt": "2026-09-30T02:17:30.295910+00:00",
     "fallbackStatus": "not-needed",
     "fallbackStatusEn": "Reviewed",
-    "note": "9月30日重点新闻复核后，继续补入NTA市场统计与Ncell税费披露，本期21项；旅游合作单列跨期背景。DeepSeek分析经人工复核。仍有抓取受限信源，不冒充全量日审完成。",
-    "noteEn": "Following the 30 September targeted review, NTA market statistics and Ncell's reported tax disclosure bring the issue to 21 items; tourism cooperation is prior-period context. DeepSeek analysis was editorially reviewed. Source-access gaps remain; this is not an exhaustive daily review.",
+    "note": "10月1日日常复核完成：新增2项、更新2项，本期23项；已人工复核DeepSeek分析。58个网站可读取，13个信源扫描失败，社媒覆盖仍有限；不代表全部候选逐条核实。",
+    "noteEn": "1 October daily review completed: two additions and two follow-ups; 23 current items. DeepSeek analysis was editorially reviewed. 58 websites were readable, 13 sources failed and social coverage remains limited; not every candidate was individually verified.",
     "lastTargetedReviewDate": "2026-09-30",
     "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
     "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
@@ -5663,22 +5663,11 @@
   "fallback": {
     "status": "clear",
     "statusEn": "Reviewed",
-    "generatedAt": "2026-09-30T02:17:30.295910+00:00",
-    "reviewDate": "2026-09-30",
-    "sourceCandidateGeneratedAt": "2026-09-30T00:05:01.732297+00:00",
-    "model": "deepseek-flash",
-    "note": "9月30日已复核三条AI候选：国防大学法案与通信恢复纳入正文；访韩取消合并为通信恢复背景，不重复计数。",
-    "noteEn": "All three AI candidates were reviewed on 30 September: the university bill and network restoration entered the report; the Korea cancellation was merged as context without a duplicate count.",
-    "usage": {
-      "prompt_tokens": 6342,
-      "completion_tokens": 1978,
-      "total_tokens": 8320,
-      "prompt_tokens_details": {
-        "cached_tokens": 1280
-      },
-      "prompt_cache_hit_tokens": 1280,
-      "prompt_cache_miss_tokens": 5062
-    },
+    "generatedAt": "2026-09-30T21:31:29Z",
+    "reviewDate": "2026-10-01",
+    "sourceCandidateGeneratedAt": "2026-09-30T21:23:31.930844+00:00",
+    "note": "例行复核完成；原兜底列表为空，无未处理AI候选。此时间为编辑清空记录，不是新的兜底模型调用。",
+    "noteEn": "Daily review completed; the fallback list was already empty with no unresolved AI candidates. This timestamp records editorial clearing, not a new fallback model call.",
     "items": []
   },
   "policyTracker": {
