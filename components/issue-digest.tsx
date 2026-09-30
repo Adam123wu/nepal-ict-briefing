@@ -11,7 +11,7 @@ export function IssueDigest({en}:{en:boolean}) {
  const facebook=data.sources.filter(s=>s.platform==='Facebook');
  const pending=facebook.filter(s=>!s.lastCollectedAt).length;
  const fallback={...data.fallback,items:data.fallback.items as FallbackItem[]};
- return <><RefreshStatus en={en}/>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
+ return <>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
   <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('每日 AI 新闻更新（待审校）','Daily AI news update (pending review)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
   <p>{t(fallback.note,fallback.noteEn)}</p>
   {fallback.generatedAt&&<p className="section-sub">{t('AI 生成时间（UTC）：','AI generation time (UTC): ')}<time dateTime={fallback.generatedAt}>{fallback.generatedAt}</time></p>}
@@ -26,12 +26,14 @@ export function IssueDigest({en}:{en:boolean}) {
  </Card></div>}<Card className="card-pad issue-digest">
   <h2>{t('本期要点','This issue at a glance')}</h2>
   <p className="section-sub">{t(`${news} 条独立事件 · ${sections.filter(s=>s.items.length).length} 个有新闻的专题 · 社媒转述不重复计数`,`${news} distinct events · ${sections.filter(s=>s.items.length).length} populated topics · social mentions are not counted twice`)}</p>
-  <ol style={{listStyle:'decimal',paddingLeft:24,lineHeight:1.85,margin:'16px 0'}}>{(en?data.report.summaryEn:data.report.summary).map((summary,i)=><li style={{marginBottom:8}} key={i}>{summary}</li>)}</ol>
+  <ol className="digest-highlights">{(en?data.report.summaryEn:data.report.summary).slice(0,3).map((summary,i)=><li key={i}><span className="digest-number">0{i+1}</span><p>{summary}</p></li>)}</ol>
+  <details className="digest-more"><summary>{t('展开其余要点','Read the remaining highlights')} · {data.report.summary.length-3}</summary><ol>{(en?data.report.summaryEn:data.report.summary).slice(3).map((summary,i)=><li key={i}>{summary}</li>)}</ol></details>
   <nav aria-label={t('本期导航','Issue navigation')} style={{display:'flex',gap:16,flexWrap:'wrap'}}>
-   <a href="#issue-news">{t('专题新闻与影响','News & implications')}</a>
+   <a href={`#issue-news-${data.report.issue.toLowerCase()}`}>{t('专题新闻与影响 ↓','News & implications ↓')}</a>
    <a href="#issue-social">{t('社媒补充','Social context')}</a>
   </nav>
   <details style={{marginTop:16}}><summary>{t('内容覆盖与采集缺口','Coverage & collection gaps')}</summary>
+   <RefreshStatus en={en}/>
    <p>{t(`Facebook 已登记 ${facebook.length} 个信源，其中 ${pending} 个尚无帖子扫描完成记录。登记账号不等于读取帖子；当前网站采集器不自动采集 Facebook。`,`${facebook.length} Facebook sources are registered; ${pending} have no completed post-scan record. Registering an account does not mean reading its posts. The website collector does not automatically collect Facebook.`)}</p>
    <p>{t('国家政策与外交人事要闻独立纳入；提名不等于任命，内阁批准不等于法规已生效。没有独立新闻的专题暂不展示，竞争监控名单单独折叠。','National policy and diplomatic appointments are included in their own topic. Nomination is not appointment; Cabinet approval is not proof that a rule is in force. Empty topics are omitted and the competitor watchlist is collapsed separately.')}</p>
   </details>

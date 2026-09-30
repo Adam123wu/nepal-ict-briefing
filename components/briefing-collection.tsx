@@ -13,7 +13,7 @@ export function BriefingCollection({language}:{language:"zh"|"en"}){
  return <>
   <Card className="card-pad issue-picker">
    <div className="issue-picker-head">
-    <div><h2>{t('全部双周简报项目','All biweekly briefing items')}</h2><p className="section-sub">{t('当前期与全部历史期按时间连续展开，不再把历史项目放入独立归档。','The current issue and every historical issue are expanded chronologically, with no separate archive.')}</p></div>
+    <div><h2>{t('阅读目录','Issue index')}</h2><p className="section-sub">{t('本期观察与往期记录','Current intelligence & previous editions')}</p></div>
     <Badge>{data.issues.reduce((total,item)=>total+item.stats.news,0)} {t('条全部项目','items in total')}</Badge>
    </div>
    <nav className="issue-index" aria-label={t('简报期数目录','Briefing issue index')}>
@@ -32,9 +32,9 @@ export function BriefingCollection({language}:{language:"zh"|"en"}){
      <strong>{issue.stats.news} {t('条核验项目','reviewed items')}</strong>
      {!issue.current&&<p className="section-sub">{t('以下为本期全部已核验项目，事实、来源与商机研判均完整保留。','Every reviewed item from this issue is shown below with its facts, sources and opportunity analysis intact.')}</p>}
     </Card></div>
-    {issue.current&&<IndustrialPolicyTracker tracker={data.policyTracker} en={en}/>}
     {issue.current&&<IssueDigest en={en}/>}
     <div id={`issue-news-${issue.issue.toLowerCase()}`}><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current} idPrefix={issue.issue.toLowerCase()}/></div>
+    {issue.current&&<IndustrialPolicyTracker tracker={data.policyTracker} en={en}/>}
     {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}
    </section>)}
   </div>

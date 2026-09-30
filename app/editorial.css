@@ -1,0 +1,79 @@
+/* Nepal editorial edition: a quiet, light reading surface. */
+:root{--background:#f6f7f9;--foreground:#202c38;--border:#e5e9ec;--muted:#687784;--primary:#17635f}
+body{background:var(--background);color:var(--foreground);font-size:15px}
+.sidebar{width:224px;background:#fff;color:var(--foreground);border-right:1px solid var(--border);padding:34px 18px}
+.brand{padding:0 8px 26px;border-bottom:1px solid var(--border)}
+.brand-mark{font-size:15px;font-weight:700;letter-spacing:-.3px}
+.brand-sub{color:#74818a;font-size:11px;line-height:1.8;margin-top:14px}
+.nav-list{margin-top:28px;gap:8px}
+.side-link{padding:12px 11px;font-size:13px;font-weight:500;color:#65727e;border-radius:8px;line-height:1.5}
+.side-link svg{flex:none}.side-link:hover{background:#f4f7f7;color:#17635f}
+.side-link.active{background:#eaf3f0;color:#17635f;box-shadow:none;font-weight:650}
+.nav-active-dot{width:5px;height:5px;background:#237d70;border-radius:50%;margin-left:auto;flex:none}
+.sidebar-foot{color:#667c78;background:#f6f9f8;border:1px solid #e5ede9;border-radius:8px;font-size:11px;line-height:1.8}
+.main{margin-left:224px}
+.topbar{height:72px;background:rgba(255,255,255,.96);border-color:var(--border);padding:0 42px;backdrop-filter:blur(12px)}
+.page-title{font-size:14px;font-weight:600}.top-meta{font-size:10px;color:#879198;margin-top:4px}
+.chip{font-size:11px;border-radius:6px;background:#f8faf9;border-color:#e4ebe8;color:#596f68}
+.language-toggle{border:0;background:#f0f3f4;padding:4px;border-radius:7px}
+.language-toggle button{font-size:11px;padding:6px 10px;min-height:30px;color:#65727e}
+.language-toggle button.active{background:#fff;color:#17635f;box-shadow:0 1px 4px #142d2212}
+.content{max-width:1260px;padding:40px 42px 72px}
+.hero{padding-bottom:28px;margin-bottom:24px;border-bottom:1px solid #dce3e5;align-items:center}
+.eyebrow{font-size:10px;letter-spacing:2px;color:#28776d;font-weight:650}
+.content .hero h1{font-size:36px;line-height:1.35;letter-spacing:-1px;font-weight:650;margin:12px 0 10px}
+.content .hero p{font-size:12px;color:#7a8790}
+.content .hero .hero-deck{font-size:13px;color:#5e707a;margin-top:12px;letter-spacing:.4px}
+.hero>.badge{background:#fff;border:1px solid var(--border);padding:7px 12px;font-size:12px}
+.card{border:1px solid var(--border);border-radius:12px;box-shadow:0 2px 4px #24354403;background:#fff}
+.content .card-pad{padding:26px;margin-bottom:20px}
+.content h2{font-size:19px;font-weight:650;letter-spacing:-.3px}
+.badge{font-size:10px;font-weight:550;line-height:1.55;padding:4px 8px;border-radius:5px;background:#f0f3f5;color:#68757e;white-space:normal}
+.badge.green{background:#edf5f1;color:#3e7460}.badge.amber{background:#f7f1e3;color:#8a7040}
+.content .issue-picker{display:flex;align-items:center;justify-content:space-between;gap:20px;background:transparent;border:0;border-bottom:1px solid var(--border);border-radius:0;padding:0 0 22px;box-shadow:none;margin-bottom:24px}
+.issue-picker-head{align-items:center}.issue-picker-head>.badge{display:none}
+.issue-picker-head h2{font-size:12px;color:#667681;margin:0 0 3px}.issue-picker-head .section-sub{font-size:11px;margin:0;color:#849097}
+.issue-index{margin:0;gap:8px}.issue-index a{min-width:145px;border:1px solid #e2e7e9;background:#fff;padding:9px 13px;border-radius:8px;gap:2px 18px}
+.issue-index a.current{background:#edf5f2;border-color:#b9d5ca;color:#17635f}.issue-index a:hover{border-color:#6d9e90}
+.issue-index strong{font-size:13px}.issue-index small{font-size:10px}.issue-index span{font-size:11px}
+.content .issue-heading{border:0;border-radius:0;border-bottom:1px solid var(--border);box-shadow:none;padding:0 0 20px;background:none;gap:16px;margin-bottom:22px!important}
+.issue-heading h2{font-size:17px;margin:8px 0 0;line-height:1.6;max-width:760px}
+.issue-heading>strong{font-weight:500;font-size:12px;color:#64756c;white-space:nowrap}
+.content .issue-digest{background:#fff;border-top:3px solid #367a6e;padding:25px 28px}
+.issue-digest>h2{font-size:18px}.issue-digest>.section-sub{font-size:11px;color:#7a878e}
+.digest-highlights{list-style:none;padding:0;margin:22px 0 16px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.digest-highlights li{min-width:0;border-right:1px solid var(--border);padding-right:24px}.digest-highlights li:last-child{border:0;padding:0}
+.digest-number{font-size:24px;line-height:1;font-weight:450;color:#98b4a9;font-variant-numeric:tabular-nums;letter-spacing:-1px}
+.digest-highlights p{font-size:13px;line-height:1.9;color:#4c5f68;margin-top:12px!important;margin-bottom:0!important}
+summary{cursor:pointer;color:#60746c;font-size:12px;line-height:1.8;min-height:28px}
+summary:hover{color:#17635f}.digest-more{border-top:1px solid var(--border);padding-top:12px;margin-bottom:14px}
+.digest-more ol{padding-left:20px;color:#56656f;font-size:14px;line-height:1.9}.digest-more li{padding:6px 0}
+.issue-digest nav{font-size:12px;color:#17635f}.issue-digest details .card{margin-top:14px;background:#f8faf9;box-shadow:none}
+.tabs{margin:24px 0 12px}.tab{font-size:11px;border-radius:5px;padding:5px 10px}.tab.active{background:#edf4f1;color:#386c5e;border-color:#dce7e1}
+.accordion{gap:24px}.accordion-section{border-color:#e0e6e8;border-radius:12px}
+.accordion-trigger{background:#fbfcfc;padding:20px 28px;border-bottom:1px solid #edf0f1;gap:12px}
+.accordion-trigger:hover{background:#f3f7f5}.accordion-title{font-size:17px;font-weight:650;letter-spacing:-.2px}
+.accordion-body{padding:0 28px 8px}
+.news-card{padding:28px 0;border-top:1px solid #e8ecee}.news-card:first-child{border-top:0}
+.content .feed-meta{font-size:11px;gap:10px;color:#7c8992}
+.content .news-title{font-size:21px;line-height:1.55;font-weight:620;letter-spacing:-.3px;margin:12px 0;max-width:860px;color:#263743}
+.content .news-text{font-size:15px;line-height:1.95;color:#53626d;max-width:88ch;margin-bottom:16px}
+.tracking-button{padding:4px 9px;font-size:10px;font-weight:500;background:#fff;border-color:#e0e7e8;color:#718088;margin-bottom:16px}
+.tracking-button:hover,.tracking-button-active{color:#2b7165;border-color:#b9d5ca;background:#eff6f2}
+.feed-link{font-size:12px;font-weight:500;color:#34766c;margin-top:3px;margin-bottom:3px;margin-right:16px}
+.content .opportunity{font-size:14px;line-height:1.85;background:#f1f6f4;border:1px solid #e2ece6;border-left:3px solid #86aa9a;border-radius:0 8px 8px 0;color:#476459;padding:17px 20px;margin-top:19px;max-width:none}
+.policy-tracker{margin-top:30px}.policy-track-card{background:#fafbfb;border-radius:8px}.policy-track-title{color:#3d675f}
+.policy-next{background:#f7f4ec;border-color:#c7b891;color:#746448}.policy-sources a{color:#34766c}
+.social-story{padding:26px 28px}.social-story h3{color:#263743}.story-analysis{background:#f1f6f4;border-color:#86aa9a}.story-source{color:#34766c}
+.competitor-card{background:#fafcfb;border-color:#e1e9e5;border-radius:8px}.competitor-card .watch-action{color:#47695d}
+.kpi-grid{gap:16px}.kpi-label{font-size:11px;letter-spacing:.3px}.kpi-value{color:#23675b;font-weight:500;font-size:36px}
+.table-tools{padding:14px 0;flex-wrap:wrap;border:0}.search,.select{font-size:13px;min-height:42px;border-radius:7px}.search{background:#fff;min-width:0}
+.data-table{font-size:13px}.data-table th{font-size:11px;background:#f4f7f6;color:#667a70;padding:14px}.data-table td{padding:16px 14px}.data-table a{color:#2f7568}
+.button{background:#236c5f;box-shadow:none;font-size:13px}.button:hover{background:#18584e}
+a,button,summary{touch-action:manipulation}:focus-visible{outline:3px solid #75a993;outline-offset:4px}
+[id^="issue-news"],#issue-social{scroll-margin-top:92px}
+@media(min-width:1600px){.content{padding-top:48px}.content .news-text{max-width:90ch}}
+@media(max-width:1100px){.content{padding:30px 26px 72px}.topbar{padding:0 26px}.digest-highlights{gap:16px}.digest-highlights li{padding-right:16px}}
+@media(max-width:960px){.main{margin-left:0}.sidebar{display:none}.content{max-width:900px;padding-bottom:100px}.mobile-nav{padding:8px 6px calc(8px + env(safe-area-inset-bottom));box-shadow:0 -4px 16px #263f3410}.mobile-nav .side-link{padding:6px 9px;gap:4px;font-size:10px;border-radius:7px;min-height:46px}.mobile-nav .side-link.active{color:#17635f;background:#edf5f1}.mobile-nav .nav-active-dot{display:none}}
+@media(max-width:640px){.topbar{padding:0 18px;height:68px}.page-title{font-size:12px}.top-meta{font-size:9px}.language-toggle button{padding:5px 8px}.content{padding:28px 16px 108px}.hero{padding-bottom:23px;gap:12px}.content .hero h1{font-size:29px}.hero>.badge{display:none}.content .issue-picker{align-items:flex-start;flex-direction:column;gap:12px}.issue-index{width:100%;flex-wrap:nowrap}.issue-index a{width:auto;min-width:0;flex:1}.content .issue-heading{gap:10px}.issue-heading h2{font-size:16px}.content .card-pad{padding:20px}.content .issue-digest{padding:21px}.digest-highlights{grid-template-columns:1fr;gap:0;margin-top:16px}.digest-highlights li{display:flex;align-items:flex-start;gap:14px;padding:15px 0;border:0;border-bottom:1px solid #edf0ee}.digest-highlights li:last-child{padding:15px 0}.digest-number{font-size:20px;min-width:25px;line-height:1.5}.digest-highlights p{margin-top:0!important;font-size:13px}.accordion{gap:18px}.accordion-trigger{padding:18px}.accordion-title{font-size:16px}.accordion-body{padding:0 18px 4px}.news-card{padding:24px 0}.content .news-title{font-size:19px}.content .news-text{font-size:15px;line-height:1.9}.content .opportunity{padding:14px;font-size:13px}.content .feed-meta .badge{max-width:100%}.social-story{padding:20px}.select{max-width:100%}.table-tools .search{width:100%;flex-basis:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}

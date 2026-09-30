@@ -30,6 +30,13 @@ const server=http.createServer((req,res)=>{
  const portal=JSON.parse(fs.readFileSync('data/nepal.json','utf8'));
  const fallbackCount=JSON.parse(fs.readFileSync('config/deepseek-fallback-digest.json','utf8')).items.length;
  await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),portal.issues.length);assert.equal(await page.locator('[data-issue]').count(),portal.issues.length);
+ assert.equal(await page.locator('.digest-highlights li').count(),Math.min(3,portal.report.summary.length));
+ assert.equal(await page.locator('.digest-more li').count(),Math.max(0,portal.report.summary.length-3));
+ await page.locator('.digest-more summary').click();
+ assert(await page.locator('.digest-more li').first().isVisible(),'Remaining highlights must stay accessible');
+ await page.locator('.digest-more summary').click();
+ const newsAnchor=await page.locator('.issue-digest nav a').first().getAttribute('href');
+ assert.equal(await page.locator(newsAnchor).count(),1,'News navigation must target the current issue');
  const expectedAccordions=portal.issues.reduce((total,issue)=>total+issue.countries.np.sections.filter(s=>s.items.length||(issue.current&&s.category==='ICT 竞争对手最新动态')).length,0);
  assert.equal(await page.locator('.accordion-trigger').count(),expectedAccordions);
  assert.equal(await page.locator('[data-fallback-digest]').count(),fallbackCount>0?1:0,'Fallback card visibility must match its data');

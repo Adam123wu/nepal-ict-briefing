@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./editorial.css";
 import { NepalShell as AppShell } from "@/components/nepal-shell";
 import { LanguageProvider } from "@/components/language-context";
 
