@@ -41,6 +41,9 @@ const server=http.createServer((req,res)=>{
  assert.equal(await page.locator('.accordion-trigger').count(),expectedAccordions);
  assert.equal(await page.locator('[data-fallback-digest]').count(),fallbackCount>0?1:0,'Fallback card visibility must match its data');
  assert.equal(await page.locator('.news-card').count(),portal.issues.reduce((total,issue)=>total+issue.stats.news,0),'All current and historical projects must be visible together');
+ const context=JSON.parse(fs.readFileSync('config/operator-context.json','utf8'));
+ assert.equal(await page.locator('[data-operator-context]').count(),portal.issues.some(issue=>issue.issue===context.issue)?1:0);
+ assert.equal(await page.locator('.news-card [data-operator-context]').count(),0,'Prior-period context must not become a new event');
  const history=portal.issues.find(issue=>!issue.current);assert(history,'Expected one integrated historical issue');
  await page.locator('[data-history-summary]').waitFor();
  assert.equal(await page.locator('[data-history-summary]').count(),1);
@@ -48,6 +51,7 @@ const server=http.createServer((req,res)=>{
  assert((await page.locator(`[data-issue="${history.issue}"] .accordion`).innerText()).includes('Nepal Telecom 发布宪法日套餐'));
  for(const language of ['中文','English']){
   await page.getByRole('button',{name:language,exact:true}).click();
+  assert((await page.locator('[data-operator-context]').innerText()).includes(language==='English'?'Prior-period':'跨期补充'));
   const typography=await page.locator('.news-card').first().evaluate(card=>{const style=selector=>getComputedStyle(card.querySelector(selector));return {title:parseFloat(style('.news-title').fontSize),body:parseFloat(style('.news-text').fontSize),link:parseFloat(style('.feed-link').fontSize),line:parseFloat(style('.news-text').lineHeight)};});
   assert(typography.title>typography.body&&typography.body>typography.link);assert(typography.body>=12&&typography.line/typography.body>=1.7);
   for(const width of [1440,390]){await page.setViewportSize({width,height:1000});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth));}

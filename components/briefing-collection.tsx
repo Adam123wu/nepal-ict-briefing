@@ -3,6 +3,7 @@ import {BriefingView} from "./briefing-view";
 import {IssueDigest} from "./issue-digest";
 import {SocialUpdates} from "./social-updates";
 import {IndustrialPolicyTracker} from "./industrial-policy-tracker";
+import {OperatorContext} from "./operator-context";
 import {Badge, Card} from "./ui";
 
 type Signal={id:string;title:string;titleEn:string;summary:string;summaryEn:string;url:string;date?:string;platform?:string;account?:string;impact?:string;impactEn?:string};
@@ -35,6 +36,7 @@ export function BriefingCollection({language}:{language:"zh"|"en"}){
     {issue.current&&<IssueDigest en={en}/>}
     <div id={`issue-news-${issue.issue.toLowerCase()}`}><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current} idPrefix={issue.issue.toLowerCase()}/></div>
     {issue.current&&<IndustrialPolicyTracker tracker={data.policyTracker} en={en}/>}
+    <OperatorContext issue={issue.issue} en={en}/>
     {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}
    </section>)}
   </div>

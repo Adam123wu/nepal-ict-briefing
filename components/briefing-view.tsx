@@ -45,6 +45,8 @@ type Country = {
 
 function englishBadge(badge: string) {
   if (!badge) return "";
+  if (badge.includes("媒体转述公司声明")) return "Company claim via media";
+  if (badge.includes("8月底数据")) return "NTA · end-August data";
   if (badge.includes("未核验")) return "Unverified";
   if (badge.includes("官方")) return "Official source";
   if (badge.includes("三源") || badge.includes("双源") || badge.includes("核验")) return "Cross-checked";
