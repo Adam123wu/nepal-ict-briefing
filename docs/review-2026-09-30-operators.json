@@ -1,0 +1,24 @@
+{
+  "reviewDate": "2026-09-30",
+  "scope": "Targeted addition of four requested NepaliTelecom topics",
+  "currentIssueEvents": 21,
+  "newCountedItems": 2,
+  "priorPeriodContextItems": 1,
+  "historyEventsUnchanged": 10,
+  "decisions": [
+    "Fibre and 4G coverage derive from one NTA Bhadra 2083 report and count once, not twice.",
+    "Downloaded original NTA PDF and visually inspected pages 7 and 11; end-August 2026 cutoff verified. Compared preceding Shrawan statistics. Media prose inconsistencies resolved using official table values.",
+    "Vianet ranks second for fibre alone, while NTC ranks second for all fixed broadband. Subscriptions are not unique people and do not prove switching or churn causes.",
+    "Ncell FY 2082/83 taxes retained as a company claim reported by NepaliTelecom. Original statement and audit reconciliation unavailable; not represented as independently verified payments or capex.",
+    "Ncell tourism MoU confirmed by official release; Taksar dated 18 September predates current issue. Retained in issue-scoped supplementary context, excluded from news and opportunity counts. No sealed history changed."
+  ],
+  "analysisReview": {
+    "workflowRun": 36756313943,
+    "reviewedSourceCommit": "ec4f9cafdb1935a04fe569e4df2d166f16375505",
+    "inputSha256": "71a476dc967d6c561d8f9c82c5b6396fe83faf9577e2223a61e3bc866e0a5c20",
+    "inputHashMatched": true,
+    "model": "deepseek-flash",
+    "decision": "Reviewed two new formal-item analyses. Incorporated edited next-period and like-for-like comparison checks. Did not adopt customer-loss attribution or speculative investment/pricing impact. No raw model response or thinking published. Tourism context is source-reviewed editorial copy, outside the model packet."
+  },
+  "limitations": ["Targeted update only; full daily completion marker unchanged", "Ncell tax disclosure remains media-attributed", "No newly confirmed vendor award or procurement budget"]
+}

@@ -7,9 +7,9 @@
   "lastFallbackAt": "2026-09-30T02:17:30.295910+00:00",
   "fallbackStatus": "not-needed",
   "fallbackStatusEn": "Reviewed",
-  "note": "9月30日重点新闻复核已纳入6条新事件；全部3条AI候选已处理。仍有抓取受限信源，不冒充全量日审完成。",
-  "noteEn": "30 September targeted review added six events and adjudicated all three AI candidates. Access gaps remain; this is not an exhaustive daily review.",
+  "note": "9月30日重点新闻复核后，继续补入NTA市场统计与Ncell税费披露，本期21项；旅游合作单列跨期背景。DeepSeek分析经人工复核。仍有抓取受限信源，不冒充全量日审完成。",
+  "noteEn": "Following the 30 September targeted review, NTA market statistics and Ncell's reported tax disclosure bring the issue to 21 items; tourism cooperation is prior-period context. DeepSeek analysis was editorially reviewed. Source-access gaps remain; this is not an exhaustive daily review.",
   "lastTargetedReviewDate": "2026-09-30",
-  "lastTargetedReviewAt": "2026-09-30T14:56:37.404Z",
-  "targetedReviewScope": "Six new source-reviewed events; three fallback candidates adjudicated. 53 of 108 collection sources readable; not an exhaustive daily review."
+  "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
+  "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
 }

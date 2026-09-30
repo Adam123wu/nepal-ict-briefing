@@ -98,8 +98,8 @@
                 "badge": "NTA官方统计 · 8月底数据",
                 "text": "NepaliTelecom 于9月28日和30日分别更新4G与光纤市场报道。已对照 NTA Bhadra 2083 月报第7、11页及上期数据：统计截止2026年8月底，而非9月实时变化。全国光纤连接3,563,666条，较7月底增加13,196；WorldLink为1,121,849条（+19,119），Vianet为380,937条（+1,241），NTC为375,140条（−1,093），DishHome为374,628条（−187）。同期4G订阅26,947,641个，净减少35,319；NTC为14,700,863个（+15,981），Ncell为12,246,778个（−51,300）。Vianet仅在纯光纤口径排第二；若计入无线等固定宽带，NTA表中NTC排第二。两篇报道源于同一份统计，本简报合并计为一项；订阅数不等于独立人数。",
                 "textEn": "NepaliTelecom updated its 4G and fibre coverage on 28 and 30 September. Cross-checking pages 7 and 11 of NTA's Bhadra 2083 report against the previous issue confirms these are end-August 2026 figures, not live September changes. Fibre connections total 3,563,666, up 13,196 from end-July: WorldLink 1,121,849 (+19,119), Vianet 380,937 (+1,241), NTC 375,140 (−1,093), and DishHome 374,628 (−187). 4G subscriptions total 26,947,641, down 35,319: NTC 14,700,863 (+15,981) and Ncell 12,246,778 (−51,300). Vianet ranks second for fibre alone; NTC ranks second in NTA's broader fixed-broadband table including wireless. Both articles derive from one statistical release and count as one briefing item. Subscriptions are not unique people.",
-                "opportunity": "研判：WorldLink光纤净增与NTC/Ncell的4G走势分化，值得分别跟进接入容量和客户留存，但不能证明相互抢走用户。下一步核对区域增量、端口利用率、活跃订阅定义及后续月份趋势，再向WorldLink、Vianet和移动运营商确认扩容或优化计划；尚无新增采购预算、设备厂家或中标证据。",
-                "opportunityEn": "Analysis: WorldLink's fibre gains and the divergent NTC/Ncell 4G trends warrant separate capacity and retention checks, but do not prove customers switched between them. Check regional additions, port utilisation, active-subscription definitions and subsequent months before asking WorldLink, Vianet and mobile operators about expansion or optimisation plans. No new procurement budget, equipment supplier or award is established.",
+                "opportunity": "研判：WorldLink光纤净增与NTC/Ncell的4G走势分化，值得分别跟进接入容量和客户留存，但不能证明相互抢走用户。下一步核对区域增量、端口利用率、活跃订阅定义及后续月份趋势，再向WorldLink、Vianet和移动运营商确认扩容或优化计划；尚无新增采购预算、设备厂家或中标证据。 对照下一期NTA月报检查上述趋势是否持续，并查找运营商对变化的公开说明；目前不能归因于价格、促销或网络质量。",
+                "opportunityEn": "Analysis: WorldLink's fibre gains and the divergent NTC/Ncell 4G trends warrant separate capacity and retention checks, but do not prove customers switched between them. Check regional additions, port utilisation, active-subscription definitions and subsequent months before asking WorldLink, Vianet and mobile operators about expansion or optimisation plans. No new procurement budget, equipment supplier or award is established. Compare the next NTA release for persistence and seek operator explanations; pricing, promotions and network quality are not established causes.",
                 "links": [
                   {
                     "label": "NTA Bhadra月报（第7、11页）",
@@ -127,8 +127,8 @@
                 "badge": "媒体转述公司声明",
                 "text": "NepaliTelecom 9月25日援引Ncell新声明称，公司在2082/83财年向政府缴纳税费约172.4亿尼泊尔卢比（NPR 17.24 billion），其中牌照分期约32.9亿、频谱费约19.6亿、增值税约26.3亿。上述仅为部分科目，不能相加代替总额。数据描述上一财年的缴款，不是本期支出或网络投资预算；尚未取得该声明原件或独立审计勾稽，保留公司经媒体披露的口径。",
                 "textEn": "On 25 September NepaliTelecom attributed a new statement to Ncell reporting approximately NPR 17.24 billion in government taxes and fees for FY 2082/83, including NPR 3.29 billion in licence instalments, NPR 1.96 billion in spectrum fees and NPR 2.63 billion in VAT. These are selected components, not an exhaustive reconciliation. This concerns the prior fiscal year's payments, not current-period spending or a network investment budget. The underlying statement and an independent audit reconciliation have not been obtained; figures remain a company disclosure reported by the media.",
-                "opportunity": "研判：税费结构可作为与Ncell讨论全生命周期成本的背景，不能仅凭总额推断现金流紧张、投资削减或新增订单。下一步取得原始声明及年度财务资料，核对缴款周期与资本开支分开列示，再确认网络现代化项目的预算、回报目标和采购时间；当前未披露设备供应商。",
-                "opportunityEn": "Analysis: The payment mix provides context for a lifecycle-cost discussion with Ncell, but the total alone does not establish cash stress, investment cuts or new orders. Obtain the original statement and annual financial information, reconcile payment periods separately from capex, and then confirm modernisation budgets, return targets and procurement timing. No equipment supplier is identified.",
+                "opportunity": "研判：税费结构可作为与Ncell讨论全生命周期成本的背景，不能仅凭总额推断现金流紧张、投资削减或新增订单。下一步取得原始声明及年度财务资料，核对缴款周期与资本开支分开列示，再确认网络现代化项目的预算、回报目标和采购时间；当前未披露设备供应商。 竞争比较须使用NTC同财年、同税费范围的数据；当前资料不足以判断两家成本高低。",
+                "opportunityEn": "Analysis: The payment mix provides context for a lifecycle-cost discussion with Ncell, but the total alone does not establish cash stress, investment cuts or new orders. Obtain the original statement and annual financial information, reconcile payment periods separately from capex, and then confirm modernisation budgets, return targets and procurement timing. No equipment supplier is identified. Any NTC comparison must use the same fiscal year and tax/fee scope; the supplied evidence cannot establish which operator has lower costs.",
                 "links": [
                   {
                     "label": "NepaliTelecom 9/25：Ncell税费披露",
@@ -698,8 +698,8 @@
                   "badge": "NTA官方统计 · 8月底数据",
                   "text": "NepaliTelecom 于9月28日和30日分别更新4G与光纤市场报道。已对照 NTA Bhadra 2083 月报第7、11页及上期数据：统计截止2026年8月底，而非9月实时变化。全国光纤连接3,563,666条，较7月底增加13,196；WorldLink为1,121,849条（+19,119），Vianet为380,937条（+1,241），NTC为375,140条（−1,093），DishHome为374,628条（−187）。同期4G订阅26,947,641个，净减少35,319；NTC为14,700,863个（+15,981），Ncell为12,246,778个（−51,300）。Vianet仅在纯光纤口径排第二；若计入无线等固定宽带，NTA表中NTC排第二。两篇报道源于同一份统计，本简报合并计为一项；订阅数不等于独立人数。",
                   "textEn": "NepaliTelecom updated its 4G and fibre coverage on 28 and 30 September. Cross-checking pages 7 and 11 of NTA's Bhadra 2083 report against the previous issue confirms these are end-August 2026 figures, not live September changes. Fibre connections total 3,563,666, up 13,196 from end-July: WorldLink 1,121,849 (+19,119), Vianet 380,937 (+1,241), NTC 375,140 (−1,093), and DishHome 374,628 (−187). 4G subscriptions total 26,947,641, down 35,319: NTC 14,700,863 (+15,981) and Ncell 12,246,778 (−51,300). Vianet ranks second for fibre alone; NTC ranks second in NTA's broader fixed-broadband table including wireless. Both articles derive from one statistical release and count as one briefing item. Subscriptions are not unique people.",
-                  "opportunity": "研判：WorldLink光纤净增与NTC/Ncell的4G走势分化，值得分别跟进接入容量和客户留存，但不能证明相互抢走用户。下一步核对区域增量、端口利用率、活跃订阅定义及后续月份趋势，再向WorldLink、Vianet和移动运营商确认扩容或优化计划；尚无新增采购预算、设备厂家或中标证据。",
-                  "opportunityEn": "Analysis: WorldLink's fibre gains and the divergent NTC/Ncell 4G trends warrant separate capacity and retention checks, but do not prove customers switched between them. Check regional additions, port utilisation, active-subscription definitions and subsequent months before asking WorldLink, Vianet and mobile operators about expansion or optimisation plans. No new procurement budget, equipment supplier or award is established.",
+                  "opportunity": "研判：WorldLink光纤净增与NTC/Ncell的4G走势分化，值得分别跟进接入容量和客户留存，但不能证明相互抢走用户。下一步核对区域增量、端口利用率、活跃订阅定义及后续月份趋势，再向WorldLink、Vianet和移动运营商确认扩容或优化计划；尚无新增采购预算、设备厂家或中标证据。 对照下一期NTA月报检查上述趋势是否持续，并查找运营商对变化的公开说明；目前不能归因于价格、促销或网络质量。",
+                  "opportunityEn": "Analysis: WorldLink's fibre gains and the divergent NTC/Ncell 4G trends warrant separate capacity and retention checks, but do not prove customers switched between them. Check regional additions, port utilisation, active-subscription definitions and subsequent months before asking WorldLink, Vianet and mobile operators about expansion or optimisation plans. No new procurement budget, equipment supplier or award is established. Compare the next NTA release for persistence and seek operator explanations; pricing, promotions and network quality are not established causes.",
                   "links": [
                     {
                       "label": "NTA Bhadra月报（第7、11页）",
@@ -727,8 +727,8 @@
                   "badge": "媒体转述公司声明",
                   "text": "NepaliTelecom 9月25日援引Ncell新声明称，公司在2082/83财年向政府缴纳税费约172.4亿尼泊尔卢比（NPR 17.24 billion），其中牌照分期约32.9亿、频谱费约19.6亿、增值税约26.3亿。上述仅为部分科目，不能相加代替总额。数据描述上一财年的缴款，不是本期支出或网络投资预算；尚未取得该声明原件或独立审计勾稽，保留公司经媒体披露的口径。",
                   "textEn": "On 25 September NepaliTelecom attributed a new statement to Ncell reporting approximately NPR 17.24 billion in government taxes and fees for FY 2082/83, including NPR 3.29 billion in licence instalments, NPR 1.96 billion in spectrum fees and NPR 2.63 billion in VAT. These are selected components, not an exhaustive reconciliation. This concerns the prior fiscal year's payments, not current-period spending or a network investment budget. The underlying statement and an independent audit reconciliation have not been obtained; figures remain a company disclosure reported by the media.",
-                  "opportunity": "研判：税费结构可作为与Ncell讨论全生命周期成本的背景，不能仅凭总额推断现金流紧张、投资削减或新增订单。下一步取得原始声明及年度财务资料，核对缴款周期与资本开支分开列示，再确认网络现代化项目的预算、回报目标和采购时间；当前未披露设备供应商。",
-                  "opportunityEn": "Analysis: The payment mix provides context for a lifecycle-cost discussion with Ncell, but the total alone does not establish cash stress, investment cuts or new orders. Obtain the original statement and annual financial information, reconcile payment periods separately from capex, and then confirm modernisation budgets, return targets and procurement timing. No equipment supplier is identified.",
+                  "opportunity": "研判：税费结构可作为与Ncell讨论全生命周期成本的背景，不能仅凭总额推断现金流紧张、投资削减或新增订单。下一步取得原始声明及年度财务资料，核对缴款周期与资本开支分开列示，再确认网络现代化项目的预算、回报目标和采购时间；当前未披露设备供应商。 竞争比较须使用NTC同财年、同税费范围的数据；当前资料不足以判断两家成本高低。",
+                  "opportunityEn": "Analysis: The payment mix provides context for a lifecycle-cost discussion with Ncell, but the total alone does not establish cash stress, investment cuts or new orders. Obtain the original statement and annual financial information, reconcile payment periods separately from capex, and then confirm modernisation budgets, return targets and procurement timing. No equipment supplier is identified. Any NTC comparison must use the same fiscal year and tax/fee scope; the supplied evidence cannot establish which operator has lower costs.",
                   "links": [
                     {
                       "label": "NepaliTelecom 9/25：Ncell税费披露",
@@ -5563,11 +5563,11 @@
     "lastFallbackAt": "2026-09-30T02:17:30.295910+00:00",
     "fallbackStatus": "not-needed",
     "fallbackStatusEn": "Reviewed",
-    "note": "9月30日重点新闻复核已纳入6条新事件；全部3条AI候选已处理。仍有抓取受限信源，不冒充全量日审完成。",
-    "noteEn": "30 September targeted review added six events and adjudicated all three AI candidates. Access gaps remain; this is not an exhaustive daily review.",
+    "note": "9月30日重点新闻复核后，继续补入NTA市场统计与Ncell税费披露，本期21项；旅游合作单列跨期背景。DeepSeek分析经人工复核。仍有抓取受限信源，不冒充全量日审完成。",
+    "noteEn": "Following the 30 September targeted review, NTA market statistics and Ncell's reported tax disclosure bring the issue to 21 items; tourism cooperation is prior-period context. DeepSeek analysis was editorially reviewed. Source-access gaps remain; this is not an exhaustive daily review.",
     "lastTargetedReviewDate": "2026-09-30",
-    "lastTargetedReviewAt": "2026-09-30T14:56:37.404Z",
-    "targetedReviewScope": "Six new source-reviewed events; three fallback candidates adjudicated. 53 of 108 collection sources readable; not an exhaustive daily review."
+    "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
+    "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
   },
   "fallback": {
     "status": "clear",
