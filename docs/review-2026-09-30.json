@@ -3,6 +3,14 @@
   "scope": "Targeted publication update, not an exhaustive daily review",
   "collection": {"sources": 108, "readable": 53, "candidateLinks": 1654, "socialCandidates": 103},
   "newEvents": 6,
+  "analysisReview": {
+    "workflowRun": 36733101210,
+    "reviewedSourceCommit": "de78e5085d0c0691ee6a9a99a1c84101668976ea",
+    "inputSha256": "24594005b56825ff2d9987c3a374f3c1159918d1974664c5b5b16d50d128c826",
+    "inputHashMatched": true,
+    "model": "deepseek-flash",
+    "decision": "Reviewed six new-item analyses; integrated edited next checks only. Rejected overstatements equating absence of supplied evidence with non-existence. Prior event facts and counts unchanged. Raw model response not published."
+  },
   "currentIssueEvents": 19,
   "historyEventsUnchanged": 10,
   "decisions": [
