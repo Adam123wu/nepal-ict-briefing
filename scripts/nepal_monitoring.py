@@ -16,6 +16,7 @@ ALIASES = {
     'regulation': ['nta', 'spectrum', 'licensing', 'दूरसञ्चार', 'प्राधिकरण'],
     'government': ['mocit', 'digital nepal', 'ministry', 'minister', 'cabinet', 'मन्त्रालय', 'मन्त्री', 'मन्त्रिपरिषद्', 'अर्थमन्त्री'],
     'technology': ['5g', 'iot', 'ict', 'data centre', 'data center', 'wifi', 'wi-fi'],
+    'market': ['4g users', 'subscribers', 'subscriber base', 'market share', 'broadband penetration', 'isp'],
     'energy': ['solar', 'renewable', 'सोलार', 'नवीकरणीय', 'ऊर्जा', 'विद्युत', 'hydropower'],
     'economy': ['digital economy', 'infrastructure', 'पूर्वाधार'],
     'disaster': ['flood', 'landslide', 'earthquake', 'disaster', 'बाढी', 'पहिरो', 'भूकम्प'],

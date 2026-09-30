@@ -61,7 +61,13 @@ def scan_page(source):
 
 def scan(source):
     if source['platform']!='Website' or not source.get('enabled',True): return source,[],[]
-    paths=['/','/category/economy','/category/politics','/category/science-tech'] if source['id']=='np-nepalkhabar' else [None]
+    section_paths = {
+        'np-nepalkhabar': ['/', '/category/economy', '/category/politics', '/category/science-tech'],
+        # Homepage gadget promotions can displace core telecom reporting.
+        # Keep category scans bounded, same-site and deduplicated below.
+        'np-nepalitelecom': ['/', '/category/nepal-telecom', '/category/ncell', '/category/isp', '/category/nta'],
+    }
+    paths=section_paths.get(source['id'], [None])
     results=[scan_page({**source,'url':urljoin(source['url'],path) if path else source['url']}) for path in paths]
     successful=[r for r in results if not r[0].get('scanError')]
     state={**source,**results[0][0],'url':source['url']}
