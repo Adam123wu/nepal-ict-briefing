@@ -1,6 +1,7 @@
 {
   "reviewDate": "2026-10-04",
-  "reviewAt": "2026-10-03T21:24:09Z",
+  "reviewAt": "2026-10-03T21:26:59Z",
+  "concurrentWatchdog": "Before publication, remote be04a207 added two replacement fallback items. The rejected push protected them. Both originals were then fetched using the existing public article reader and read; the merge clears them only after this review. No additional paid editorial analysis was dispatched by this review.",
   "scope": "Bounded daily review of the new October 3–16 window. Not a claim that all collected links or all historical backlog have been verified.",
   "collectorRun": 37154831601,
   "collectorStatus": "success; dispatched once because no October 4 Baghdad run existed and none was active",
@@ -11,6 +12,8 @@
   "result": "No formal additions in this bounded review. Do not advance or relabel the previous issue. Both existing snapshots remain unchanged. No paid DeepSeek call because report facts are unchanged.",
   "searchCoverage": ["Operator/ISP competition, regulation and government: English and Nepali searches plus latest candidate URLs", "Huawei, CSR, 5G, digital economy: English and Nepali searches returned older or non-qualifying references", "Procurement, BESS, solar and data centres: English and Nepali searches; distinguish old notices and historical projects from new awards", "Market and disaster recovery: searches returned prior-period subscriber and restoration reports", "National affairs and diplomatic visits: checked reporting dates against actual/planned travel", "Vendor watch: Chinese/English/Nepali searches returned historical footprints and earlier tenders, not an established current-window Nepal award"],
   "fallbackDisposition": [
+    {"url":"https://nepalkhabar.com/economy/288666-2026-10-2-16-7-40","eventDate":"2026-10-02","decision":"Original full text read with project article reader after browser failure. Friday workshop speech, not enacted legal reform; outside new window. Retain historical supplement lead."},
+    {"url":"https://nepalkhabar.com/economy/society/288616-2026-10-2-9-20-0","eventDate":"2026-10-01","decision":"Original full text explicitly says Thursday project briefing; published October 2. Coordination and projected completion, not commissioned lines. Outside new window; retain historical follow-up."},
     {"url":"https://radionepalonline.com/en/2026/10/02/437131.html","eventDate":"2026-10-01","decision":"Full text obtained in October 3 review via exact-title search after direct timeout. Thursday speech, not a signed project. Outside new window; remove from pending display, retain historical supplement lead."},
     {"url":"https://radionepalonline.com/en/2026/10/02/437152.html","eventDate":"2026-10-02","decision":"Full speech report read. No adopted regulation or procurement established. Outside new window; retain as historical policy-context lead, not new news."},
     {"url":"https://radionepalonline.com/en/2026/10/01/437044.html","eventDate":"2026-09-30","decision":"Full text explicitly dates credentials presentation September 30, despite October 1 publication. Remove from pending new-window display; presidency/embassy corroboration and historical supplement remain follow-up."},
