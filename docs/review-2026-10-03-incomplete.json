@@ -1,0 +1,19 @@
+{
+  "reviewDate": "2026-10-03",
+  "status": "incomplete",
+  "collectorRun": 37080890201,
+  "candidateGeneratedAt": "2026-10-03T00:10:48.442558+00:00",
+  "publicationScope": "Expose issue lag only. No formal news or completion marker updated. Preserve fallback candidates and all sealed history for follow-up.",
+  "findings": [
+    {"url":"https://www.nepalitelecom.com/2026/10/nepal-telecom-add-200-mobile-towers-expand-4g-to-1597-locations-in-fy-2083-84.html","decision":"Full article read. Published October 2, referring to an earlier parliamentary statement. Expansion and battery plans require the underlying ministerial/operator notice; not an award and not an October 3 event."},
+    {"url":"https://www.nepalitelecom.com/2026/10/nepal-telecom-nt-tv-can-now-be-used-on-smart-tvs-with-virtual-set-top-box.html","decision":"Full article read. October 1 service announcement, not a new-window event. Operator source remains to be obtained."},
+    {"url":"https://newbusinessage.com/news/50324/in-a-first--nea-moves-to-develop-transmission-and-battery-storage-under-ppp/","decision":"Important October 2 transmission/BESS lead. Direct article request returned HTTP 403; search excerpt is insufficient for publication. Obtain ADB/NEA source and resolve late-addendum handling without rewriting sealed history."},
+    {"url":"https://radionepalonline.com/en/2026/10/01/437044.html","decision":"Full text read. Article date October 1, credentials event September 30. Preserve event/publication distinction; primary presidency or embassy confirmation remains outstanding."},
+    {"url":"https://radionepalonline.com/en/2026/10/02/437131.html","decision":"Full source text obtained via exact-title search after direct timeout. Speech refers to Thursday, October 1; not a signed project or accepted invitation."},
+    {"url":"https://radionepalonline.com/en/2026/10/02/437152.html","decision":"Full source text read via exact-title search. October 2 economic-diplomacy speech; no adopted regulation or procurement established."},
+    {"url":"https://radionepalonline.com/en/2026/09/30/436959.html","decision":"Full source text read via exact-title search. September 30 ministerial account of UNGA meetings, not evidence of individual signed agreements."},
+    {"url":"https://www.technologykhabar.com/2026/10/03/256702/","decision":"Read October 3 Honda relief report. Corporate donation does not establish telecom or equipment procurement; not promoted."}
+  ],
+  "remaining": ["Complete all focus-area and vendor searches", "Verify priority original notices", "Publish late-period additions separately without modifying sealed snapshots", "Open October 3–16 issue only with verified in-window news", "Run bounded DeepSeek analysis for qualified additions and review exact input hash", "Update daily completion marker only after editorial review succeeds"],
+  "localDirectory": "Original project preserved; git status remained unresponsive, so work used a clean remote-main clone."
+}

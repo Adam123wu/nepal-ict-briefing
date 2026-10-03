@@ -25,6 +25,9 @@ export async function syncNepal(){
  const urls=new Set(social.map(i=>i.url));
  const feed={...raw,items:tg.filter(i=>!reviewed.has(i.id)&&!urls.has(i.url))};feed.messageCount=feed.items.length;
  const history=await read('config/history-reports.json');
+ // Collection can seal the report before editorial work opens the next issue.
+ // Keep the immutable snapshot on disk, but show that issue only once.
+ const visibleHistory=history.filter(issue=>issue.issue!==report.issue&&!(issue.windowStart===report.windowStart&&issue.windowEnd===report.windowEnd));
  const items=report.countries.np.sections.flatMap(s=>s.items);
  report.stats={news:items.length,opportunities:items.filter(i=>i.opportunity).length,telegram:feed.items.length,countryCounts:{np:items.length}};
  await fs.mkdir('data',{recursive:true});
@@ -36,6 +39,6 @@ export async function syncNepal(){
  await save('data/editorial-status.json',editorial);await save('data/deepseek-fallback-digest.json',fallback);
  await save('data/tracking-status.json',trackingStatus);
  await save('data/industrial-policy-tracker.json',policyTracker);
- await save('data/nepal.json',{market,report,issues:[{...report,current:true},...history],sources,people,compliance,legal,signals:social,telegram:feed,editorial,fallback,policyTracker,tracking:{topics:tracking.topics.map(({id,reportItemId,title,titleEn,enabled})=>({id,reportItemId,title,titleEn,enabled})),status:trackingStatus},focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
+ await save('data/nepal.json',{market,report,issues:[{...report,current:true},...visibleHistory],sources,people,compliance,legal,signals:social,telegram:feed,editorial,fallback,policyTracker,tracking:{topics:tracking.topics.map(({id,reportItemId,title,titleEn,enabled})=>({id,reportItemId,title,titleEn,enabled})),status:trackingStatus},focus:focus.focusAreas.map(({id,label,labelEn,priority})=>({id,label,labelEn,priority}))});
  console.log(`Nepal: ${sources.length} sources, ${people.length} monitored offices; ${report.stats.news} reviewed news.`);
 }

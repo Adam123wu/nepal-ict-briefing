@@ -28,6 +28,10 @@ const server=http.createServer((req,res)=>{
  }
  const sections=JSON.parse(fs.readFileSync('config/nepal-report.json','utf8')).countries.np.sections;
  const portal=JSON.parse(fs.readFileSync('data/nepal.json','utf8'));
+ assert.equal(new Set(portal.issues.map(issue=>issue.issue)).size,portal.issues.length,'Sealing before rollover must not duplicate an issue');
+ const collection=JSON.parse(fs.readFileSync('data/refresh-status.json','utf8'));
+ const collectionDay=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Baghdad',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(collection.generatedAt));
+ const issueExpired=collectionDay>portal.report.windowEnd;
  const fallbackCount=JSON.parse(fs.readFileSync('config/deepseek-fallback-digest.json','utf8')).items.length;
  await page.goto(base+'/briefings/');assert.equal(await page.locator('[data-country="np"]').count(),portal.issues.length);assert.equal(await page.locator('[data-issue]').count(),portal.issues.length);
  assert.equal(await page.locator('.digest-highlights li').count(),Math.min(3,portal.report.summary.length));
@@ -51,6 +55,8 @@ const server=http.createServer((req,res)=>{
  assert((await page.locator(`[data-issue="${history.issue}"] .accordion`).innerText()).includes('Nepal Telecom 发布宪法日套餐'));
  for(const language of ['中文','English']){
   await page.getByRole('button',{name:language,exact:true}).click();
+  assert.equal(await page.locator('[data-editorial-lag]').count(),issueExpired?1:0,'Expired issues must visibly distinguish collection from publication');
+  if(issueExpired)assert((await page.locator('[data-editorial-lag]').innerText()).includes(language==='English'?'awaiting editorial review':'仍待正式审校'));
   assert((await page.locator('[data-operator-context]').innerText()).includes(language==='English'?'Prior-period':'跨期补充'));
   const typography=await page.locator('.news-card').first().evaluate(card=>{const style=selector=>getComputedStyle(card.querySelector(selector));return {title:parseFloat(style('.news-title').fontSize),body:parseFloat(style('.news-text').fontSize),link:parseFloat(style('.feed-link').fontSize),line:parseFloat(style('.news-text').lineHeight)};});
   assert(typography.title>typography.body&&typography.body>typography.link);assert(typography.body>=12&&typography.line/typography.body>=1.7);

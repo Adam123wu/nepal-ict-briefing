@@ -48,10 +48,14 @@ for(const v of competition.vendors){
  assert.equal(new URL(v.evidenceUrl).protocol,'https:');
 }
 const history=read('config/history-reports.json');
-assert.equal(d.issues.length,history.length+1);
+const visibleHistory=history.filter(issue=>issue.issue!==d.report.issue&&!(issue.windowStart===d.report.windowStart&&issue.windowEnd===d.report.windowEnd));
+assert.equal(d.issues.length,visibleHistory.length+1);
+assert.equal(new Set(d.issues.map(issue=>issue.issue)).size,d.issues.length,'Duplicate displayed issue');
+assert.deepEqual(d.issues.slice(1),visibleHistory,'Visible history must retain sealed content');
+assert.deepEqual(read('data/history-reports.json'),history,'All sealed snapshots must remain intact');
 assert.equal(d.issues[0].issue,d.report.issue);assert.equal(d.issues[0].current,true);
 assert.equal(Object.hasOwn(d,'archive'),false,'Separate archive payload must stay removed');
-for(const issue of d.issues.slice(1)){
+for(const issue of history){
  assert.equal(issue.current,false);assert(issue.stats.news>0,'Historical issue must retain all reviewed items');
  assert.deepEqual(Object.keys(issue.countries),['np']);
  const historicalIds=new Set();let historicalCount=0;

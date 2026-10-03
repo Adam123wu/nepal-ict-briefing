@@ -1,6 +1,7 @@
 import data from '@/data/nepal.json';
 import {Card} from './ui';
 import {RefreshStatus} from './refresh-status';
+import collection from '@/data/refresh-status.json';
 
 type FallbackItem={id:string;date:string;title:string;titleEn:string;section:string;sectionEn:string;sourceName:string;sourceTier:string;url:string;summary?:string;summaryEn?:string;analysis?:string;analysisEn?:string};
 
@@ -11,7 +12,12 @@ export function IssueDigest({en}:{en:boolean}) {
  const facebook=data.sources.filter(s=>s.platform==='Facebook');
  const pending=facebook.filter(s=>!s.lastCollectedAt).length;
  const fallback={...data.fallback,items:data.fallback.items as FallbackItem[]};
- return <>{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
+ const collectionDay=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Baghdad',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(collection.generatedAt));
+ const issueExpired=collectionDay>data.report.windowEnd;
+ return <>{issueExpired&&<Card className="card-pad" ><div role="status" data-editorial-lag>
+  <h2>{t('新一期仍待正式审校','Next issue awaiting editorial review')}</h2>
+  <p>{t(`当前展示的是截至 ${data.report.windowEnd} 的已核验简报，最近正式审校日期为 ${data.editorial.lastCodexReviewDate}。每日采集和下方 AI 待审内容不代表新一期已经发布。已封存历史不会被覆盖。`,`The displayed reviewed briefing covers the period ending ${data.report.windowEnd}. The last completed editorial review was ${data.editorial.lastCodexReviewDate}. Daily collection and the pending AI items below do not mean a new issue has been published. Sealed history will not be overwritten.`)}</p>
+ </div></Card>}{fallback.items.length>0&&<div data-fallback-digest><Card className="card-pad fallback-digest">
   <div style={{display:'flex',gap:12,alignItems:'center',flexWrap:'wrap'}}><h2 style={{margin:0}}>{t('每日 AI 新闻更新（待审校）','Daily AI news update (pending review)')}</h2><span className="badge">{fallback.items.length} {t('条','items')}</span></div>
   <p>{t(fallback.note,fallback.noteEn)}</p>
   {fallback.generatedAt&&<p className="section-sub">{t('AI 生成时间（UTC）：','AI generation time (UTC): ')}<time dateTime={fallback.generatedAt}>{fallback.generatedAt}</time></p>}
