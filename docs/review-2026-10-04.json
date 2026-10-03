@@ -1,0 +1,30 @@
+{
+  "reviewDate": "2026-10-04",
+  "reviewAt": "2026-10-03T21:24:09Z",
+  "scope": "Bounded daily review of the new October 3–16 window. Not a claim that all collected links or all historical backlog have been verified.",
+  "collectorRun": 37154831601,
+  "collectorStatus": "success; dispatched once because no October 4 Baghdad run existed and none was active",
+  "candidateGeneratedAt": "2026-10-03T21:22:30.522670+00:00",
+  "candidateCount": 2020,
+  "socialCandidateCount": 118,
+  "failedSourceScans": 13,
+  "result": "No formal additions in this bounded review. Do not advance or relabel the previous issue. Both existing snapshots remain unchanged. No paid DeepSeek call because report facts are unchanged.",
+  "searchCoverage": ["Operator/ISP competition, regulation and government: English and Nepali searches plus latest candidate URLs", "Huawei, CSR, 5G, digital economy: English and Nepali searches returned older or non-qualifying references", "Procurement, BESS, solar and data centres: English and Nepali searches; distinguish old notices and historical projects from new awards", "Market and disaster recovery: searches returned prior-period subscriber and restoration reports", "National affairs and diplomatic visits: checked reporting dates against actual/planned travel", "Vendor watch: Chinese/English/Nepali searches returned historical footprints and earlier tenders, not an established current-window Nepal award"],
+  "fallbackDisposition": [
+    {"url":"https://radionepalonline.com/en/2026/10/02/437131.html","eventDate":"2026-10-01","decision":"Full text obtained in October 3 review via exact-title search after direct timeout. Thursday speech, not a signed project. Outside new window; remove from pending display, retain historical supplement lead."},
+    {"url":"https://radionepalonline.com/en/2026/10/02/437152.html","eventDate":"2026-10-02","decision":"Full speech report read. No adopted regulation or procurement established. Outside new window; retain as historical policy-context lead, not new news."},
+    {"url":"https://radionepalonline.com/en/2026/10/01/437044.html","eventDate":"2026-09-30","decision":"Full text explicitly dates credentials presentation September 30, despite October 1 publication. Remove from pending new-window display; presidency/embassy corroboration and historical supplement remain follow-up."},
+    {"url":"https://radionepalonline.com/en/2026/09/30/436959.html","eventDate":"2026-09-30","decision":"Full airport-interview report read. Ministerial account of meetings does not establish individual signed agreements. Prior period; not promoted."}
+  ],
+  "additionalChecks": [
+    {"url":"https://www.ntc.net.np/post/virtual-set-top-box-virtual-stb","decision":"Official page read: validates virtual-STB product and package terms, but gives no new-window announcement date. Keep linked to October 1 historical lead; do not relabel as October 3 launch."},
+    {"url":"https://www.adb.org/projects/59439-001/main","decision":"Potential primary source for previous NEA/BESS lead; direct access returned 403. Search excerpt insufficient. Follow-up still open."},
+    {"url":"https://mofa.gov.np/content/1896/foreign-minister-pre-cop-event/","decision":"Official October 1 release located for planned October 3 departure. Later event participation and outcomes remain future/unconfirmed; do not count an old travel announcement again."},
+    {"url":"https://english.ratopati.com/story/82113/foreign-minister-khanal-to-visit-fiji-and-australia","decision":"October 3 headline says departs, but body says departing tonight. Not confirmation of completed travel; do not convert planned meetings into outcomes."},
+    {"url":"https://english.nepalnews.com/s/diplomacy/finance-minister-wagle-departs-for-the-united-states/","decision":"October 3 report describes departure Friday evening, October 2. Outside new window; aid meetings are planned, not financing approval."},
+    {"url":"https://www.nepalitelecom.com/","decision":"Latest operator, ISP and banking leads dated October 1–2. October 3 top story is a global handset launch, not Nepal equipment procurement."},
+    {"url":"https://www.techpana.com/","decision":"Direct page retrieval failed; do not claim complete coverage."}
+  ],
+  "remainingHistoricalWork": "See review-2026-10-03-incomplete.json. Late supplements require original-source verification and separate presentation without overwriting sealed history. This daily marker does not claim that historical work is complete.",
+  "localSafety": "Original project directory preserved. Reused the prior clean temporary clone, confirmed clean status, and fast-forwarded remote main only."
+}
