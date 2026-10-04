@@ -1,10 +1,44 @@
 {
-  "status": "clear",
-  "statusEn": "Reviewed",
-  "generatedAt": "2026-10-03T21:26:59Z",
-  "reviewDate": "2026-10-04",
-  "sourceCandidateGeneratedAt": "2026-10-03T21:22:30.522670+00:00",
-  "note": "旧期候选已完成来源及日期检查；不作为10月3日起的新事件发布。补遗待办保留在复核记录。",
-  "noteEn": "Prior-period candidates were checked for source and date, not published as new events from 3 October. Historical supplement follow-up remains in the review log.",
-  "items": []
+  "status": "pending_codex_review",
+  "statusEn": "Pending Codex review",
+  "generatedAt": "2026-10-04T21:41:02.379158+00:00",
+  "reviewDate": "2026-10-05",
+  "sourceCandidateGeneratedAt": "2026-10-04T21:40:45.097648+00:00",
+  "model": "deepseek-flash",
+  "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
+  "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
+  "usage": {
+    "prompt_tokens": 8715,
+    "completion_tokens": 681,
+    "total_tokens": 9396,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 8203
+  },
+  "items": [
+    {
+      "id": "9435449295d8e4f53bf8",
+      "date": "2026-10-01",
+      "url": "https://radionepalonline.com/en/2026/10/01/437044.html",
+      "sourceId": "np-radio-nepal",
+      "sourceName": "Radio Nepal public broadcaster",
+      "sourceTier": "T1",
+      "title": "巴基斯坦大使汗向总统保德尔递交国书",
+      "titleEn": "Pakistani Ambassador Khan presents credentials to President Paudel",
+      "section": "对外关系与市场影响",
+      "sectionEn": "External relations & market impact",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据尼泊尔广播电台报道，巴基斯坦驻尼泊尔大使穆罕默德·阿米尔·汗于周三在加德满都希塔尔尼瓦斯宫向总统拉姆·钱德拉·保德尔递交国书。报道称，汗大使转达了巴基斯坦领导层对保德尔总统的问候，并重申巴基斯坦致力于进一步加强两国长期友好关系与双边合作。该报道仅描述递交国书这一外交礼节性活动及巴方表态，未提及任何具体协议、项目、投资或合作承诺。递交国书本身属于外交程序性事件。",
+      "summaryEn": "Radio Nepal reported that Pakistan's Ambassador to Nepal, Mohammad Aamir Khan, presented his Letter of Credence to President Ram Chandra Paudel at a ceremony at Sheetal Niwas in Kathmandu on Wednesday. According to the report, Ambassador Khan conveyed greetings from Pakistan's leadership to President Paudel and reaffirmed Pakistan's commitment to further strengthening the long-standing bonds of friendship and bilateral cooperation between the two countries. The report describes only a diplomatic ceremonial credential presentation and the ambassador's remarks; it cites no specific agreements, projects, investment, or cooperation commitments.",
+      "analysis": "若该报道属实，这可能只表明巴方有意维持并强化既有双边关系，但递交国书本身并不构成具体政策或商业变化。对尼泊尔客户和企业的直接通信或数字服务影响很可能极小，除非后续出现电信、数字基础设施或投资方面的具体安排。要核实影响，可查尼泊尔外交部或总统府发布的正式新闻稿，确认仪式细节及是否有配套协议；同时可关注双方是否发表联合声明或签署涉及电信、投资或互联互通的谅解备忘录。目前证据缺口在于：报道未提任何具体合作领域、时间表或官员表态之外的实质内容，因此不宜推断双边关系出现实质性升级。",
+      "analysisEn": "If the report is accurate, it may indicate only Pakistan's stated intent to maintain and strengthen existing bilateral ties, since presenting credentials alone does not constitute a concrete policy or commercial change. Direct telecommunications or digital-service impact for Nepali customers and businesses would likely be minimal unless specific arrangements in telecom, digital infrastructure, or investment follow. To verify any impact, check official statements from Nepal's Ministry of Foreign Affairs or the President's Office for ceremonial details and whether any accompanying agreements exist; also watch for a joint statement or a memorandum of understanding on telecom, investment, or connectivity. Evidence gaps: the report cites no specific cooperation area, timeline, or substance beyond the ambassador's remarks, so no substantive upgrade in bilateral relations should be inferred.",
+      "sourceSha256": "90283b743da3bc8d2535d12172427b8999e6377620f7cbbf4a6e6e9e395a3a4f",
+      "sourceTextChars": 490,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "9435449295d8e4f53bf8:0"
+    }
+  ]
 }
