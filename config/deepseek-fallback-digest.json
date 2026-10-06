@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-04T21:41:02.379158+00:00",
-  "reviewDate": "2026-10-05",
-  "sourceCandidateGeneratedAt": "2026-10-04T21:40:45.097648+00:00",
+  "generatedAt": "2026-10-06T03:12:56.900151+00:00",
+  "reviewDate": "2026-10-06",
+  "sourceCandidateGeneratedAt": "2026-10-06T01:40:41.704226+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 8715,
-    "completion_tokens": 681,
-    "total_tokens": 9396,
+    "prompt_tokens": 21741,
+    "completion_tokens": 804,
+    "total_tokens": 22545,
     "prompt_tokens_details": {
-      "cached_tokens": 512
+      "cached_tokens": 1280
     },
-    "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 8203
+    "prompt_cache_hit_tokens": 1280,
+    "prompt_cache_miss_tokens": 20461
   },
   "items": [
     {
-      "id": "9435449295d8e4f53bf8",
-      "date": "2026-10-01",
-      "url": "https://radionepalonline.com/en/2026/10/01/437044.html",
-      "sourceId": "np-radio-nepal",
-      "sourceName": "Radio Nepal public broadcaster",
-      "sourceTier": "T1",
-      "title": "巴基斯坦大使汗向总统保德尔递交国书",
-      "titleEn": "Pakistani Ambassador Khan presents credentials to President Paudel",
-      "section": "对外关系与市场影响",
-      "sectionEn": "External relations & market impact",
+      "id": "44cbd319c6b96df968bd",
+      "date": "2026-09-30",
+      "url": "https://www.technologykhabar.com/2026/09/30/256492/",
+      "sourceId": "np-technologykhabar",
+      "sourceName": "TechnologyKhabar",
+      "sourceTier": "T2",
+      "title": "通信部长蒂米尔西纳称：正在推进政策与法律改革以遏制社交媒体滥用",
+      "titleEn": "Minister for Communication Dr. Timilsina says policy and legal reforms underway to curb social media misuse",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据尼泊尔广播电台报道，巴基斯坦驻尼泊尔大使穆罕默德·阿米尔·汗于周三在加德满都希塔尔尼瓦斯宫向总统拉姆·钱德拉·保德尔递交国书。报道称，汗大使转达了巴基斯坦领导层对保德尔总统的问候，并重申巴基斯坦致力于进一步加强两国长期友好关系与双边合作。该报道仅描述递交国书这一外交礼节性活动及巴方表态，未提及任何具体协议、项目、投资或合作承诺。递交国书本身属于外交程序性事件。",
-      "summaryEn": "Radio Nepal reported that Pakistan's Ambassador to Nepal, Mohammad Aamir Khan, presented his Letter of Credence to President Ram Chandra Paudel at a ceremony at Sheetal Niwas in Kathmandu on Wednesday. According to the report, Ambassador Khan conveyed greetings from Pakistan's leadership to President Paudel and reaffirmed Pakistan's commitment to further strengthening the long-standing bonds of friendship and bilateral cooperation between the two countries. The report describes only a diplomatic ceremonial credential presentation and the ambassador's remarks; it cites no specific agreements, projects, investment, or cooperation commitments.",
-      "analysis": "若该报道属实，这可能只表明巴方有意维持并强化既有双边关系，但递交国书本身并不构成具体政策或商业变化。对尼泊尔客户和企业的直接通信或数字服务影响很可能极小，除非后续出现电信、数字基础设施或投资方面的具体安排。要核实影响，可查尼泊尔外交部或总统府发布的正式新闻稿，确认仪式细节及是否有配套协议；同时可关注双方是否发表联合声明或签署涉及电信、投资或互联互通的谅解备忘录。目前证据缺口在于：报道未提任何具体合作领域、时间表或官员表态之外的实质内容，因此不宜推断双边关系出现实质性升级。",
-      "analysisEn": "If the report is accurate, it may indicate only Pakistan's stated intent to maintain and strengthen existing bilateral ties, since presenting credentials alone does not constitute a concrete policy or commercial change. Direct telecommunications or digital-service impact for Nepali customers and businesses would likely be minimal unless specific arrangements in telecom, digital infrastructure, or investment follow. To verify any impact, check official statements from Nepal's Ministry of Foreign Affairs or the President's Office for ceremonial details and whether any accompanying agreements exist; also watch for a joint statement or a memorandum of understanding on telecom, investment, or connectivity. Evidence gaps: the report cites no specific cooperation area, timeline, or substance beyond the ambassador's remarks, so no substantive upgrade in bilateral relations should be inferred.",
-      "sourceSha256": "90283b743da3bc8d2535d12172427b8999e6377620f7cbbf4a6e6e9e395a3a4f",
-      "sourceTextChars": 490,
+      "summary": "据Technology Khabar报道，通信与信息技术部长维克拉姆·蒂米尔西纳在众议院会议上回答议员提问时表示，政府正在准备政策和法律改革，以应对社交媒体上的诈骗、诽谤和虚假信息传播。他提到《大众传播法案》和《新闻委员会法案》的起草准备工作正在进行，将很快提交议会。他还表示，通信部、内政部、尼泊尔警方网络局和尼泊尔电信管理局之间正在就网络诈骗管控进行协调，并称迄今为止已识别并关闭超过30.5万个博彩网站和新的博彩应用。",
+      "summaryEn": "According to Technology Khabar, Minister for Communication and Information Technology Dr. Vikram Timilsina, responding to lawmakers' questions in a House of Representatives meeting, said the government is preparing policy and legal reforms to address fraud, defamation and dissemination of false and misleading information on social media. He stated that drafting of a Mass Communication Bill, a Press Council Bill and other legislation is underway, and that the bills will soon be presented to Parliament. He also said coordination is ongoing among the Ministry of Communication, Ministry of Home Affairs, Nepal Police Cyber Bureau and the Nepal Telecommunications Authority to control cyber fraud, and that more than 305,000 unique betting sites and new betting apps have so far been identified and shut down.",
+      "analysis": "条件性分析：若上述立法和协调机制按部长所述推进，则尼泊尔社交媒体平台、互联网服务提供商和网络用户可能面临更明确的平台责任与内容监管要求。对普通用户而言，短期影响可能体现在网络诈骗和虚假信息投诉渠道的进一步整合；对平台和ISP而言，则取决于法案具体条款是否引入新的合规或下架义务。下一步核查：应查阅众议院议事记录和通信部公开的《大众传播法案》《新闻委员会法案》草案文本，确认条款内容、提交时间及是否涉及平台义务。证据缺口：本条仅为部长在议会上的口头表态，未提供法案条款、生效时间表或具体执法数据来源；30.5万博彩网站数量的统计口径和核查方式也未说明，因此不应将其视为独立核实的事实。",
+      "analysisEn": "Conditional analysis: if the legislative and coordination measures described by the minister proceed as stated, Nepali social media platforms, internet service providers and online users could face clearer platform responsibility and content-regulation requirements. For ordinary users, short-term impact may be seen mainly in further consolidation of reporting channels for online fraud and misinformation; for platforms and ISPs, it depends on whether the bills introduce new compliance or takedown obligations. Next verification step: review the House of Representatives records and the publicly released draft texts of the Mass Communication Bill and Press Council Bill to confirm provisions, submission timing and whether platform obligations are covered. Evidence gaps: this item rests on oral statements by the minister in Parliament, with no bill provisions, timeline or primary source for the enforcement figures; the methodology behind the 305,000 betting-site figure is not explained, so it should not be treated as independently verified fact.",
+      "sourceSha256": "d80e40fcac9feee1ee8a9aa9083f178f9b492c7f87d2666c48c22ae1cd410e4f",
+      "sourceTextChars": 6540,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "9435449295d8e4f53bf8:0"
+      "evidenceId": "44cbd319c6b96df968bd:4"
     }
   ]
 }
