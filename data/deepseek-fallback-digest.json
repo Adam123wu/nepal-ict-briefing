@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-06T03:12:56.900151+00:00",
-  "reviewDate": "2026-10-06",
-  "sourceCandidateGeneratedAt": "2026-10-06T01:40:41.704226+00:00",
+  "generatedAt": "2026-10-07T00:23:09.958632+00:00",
+  "reviewDate": "2026-10-07",
+  "sourceCandidateGeneratedAt": "2026-10-07T00:22:49.340990+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 21741,
-    "completion_tokens": 804,
-    "total_tokens": 22545,
+    "prompt_tokens": 19134,
+    "completion_tokens": 924,
+    "total_tokens": 20058,
     "prompt_tokens_details": {
-      "cached_tokens": 1280
+      "cached_tokens": 384
     },
-    "prompt_cache_hit_tokens": 1280,
-    "prompt_cache_miss_tokens": 20461
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 18750
   },
   "items": [
     {
-      "id": "44cbd319c6b96df968bd",
-      "date": "2026-09-30",
-      "url": "https://www.technologykhabar.com/2026/09/30/256492/",
-      "sourceId": "np-technologykhabar",
-      "sourceName": "TechnologyKhabar",
+      "id": "578e21a3d4db726ead9a",
+      "date": "2026-09-29",
+      "url": "https://kathmandupost.com/interviews/2026/09/29/ndrrma-chief-upreti-on-what-nepal-must-change-after-the-bhotekoshi-disaster",
+      "sourceId": "np-kathmandupost",
+      "sourceName": "The Kathmandu Post",
       "sourceTier": "T2",
-      "title": "通信部长蒂米尔西纳称：正在推进政策与法律改革以遏制社交媒体滥用",
-      "titleEn": "Minister for Communication Dr. Timilsina says policy and legal reforms underway to curb social media misuse",
+      "title": "尼泊尔国家灾害风险减少与管理机构负责人乌普雷蒂谈博特科西灾难后尼泊尔必须改变什么",
+      "titleEn": "NDRRMA Chief Upreti on what Nepal must change after the Bhotekoshi disaster",
       "section": "政府与监管动态",
       "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据Technology Khabar报道，通信与信息技术部长维克拉姆·蒂米尔西纳在众议院会议上回答议员提问时表示，政府正在准备政策和法律改革，以应对社交媒体上的诈骗、诽谤和虚假信息传播。他提到《大众传播法案》和《新闻委员会法案》的起草准备工作正在进行，将很快提交议会。他还表示，通信部、内政部、尼泊尔警方网络局和尼泊尔电信管理局之间正在就网络诈骗管控进行协调，并称迄今为止已识别并关闭超过30.5万个博彩网站和新的博彩应用。",
-      "summaryEn": "According to Technology Khabar, Minister for Communication and Information Technology Dr. Vikram Timilsina, responding to lawmakers' questions in a House of Representatives meeting, said the government is preparing policy and legal reforms to address fraud, defamation and dissemination of false and misleading information on social media. He stated that drafting of a Mass Communication Bill, a Press Council Bill and other legislation is underway, and that the bills will soon be presented to Parliament. He also said coordination is ongoing among the Ministry of Communication, Ministry of Home Affairs, Nepal Police Cyber Bureau and the Nepal Telecommunications Authority to control cyber fraud, and that more than 305,000 unique betting sites and new betting apps have so far been identified and shut down.",
-      "analysis": "条件性分析：若上述立法和协调机制按部长所述推进，则尼泊尔社交媒体平台、互联网服务提供商和网络用户可能面临更明确的平台责任与内容监管要求。对普通用户而言，短期影响可能体现在网络诈骗和虚假信息投诉渠道的进一步整合；对平台和ISP而言，则取决于法案具体条款是否引入新的合规或下架义务。下一步核查：应查阅众议院议事记录和通信部公开的《大众传播法案》《新闻委员会法案》草案文本，确认条款内容、提交时间及是否涉及平台义务。证据缺口：本条仅为部长在议会上的口头表态，未提供法案条款、生效时间表或具体执法数据来源；30.5万博彩网站数量的统计口径和核查方式也未说明，因此不应将其视为独立核实的事实。",
-      "analysisEn": "Conditional analysis: if the legislative and coordination measures described by the minister proceed as stated, Nepali social media platforms, internet service providers and online users could face clearer platform responsibility and content-regulation requirements. For ordinary users, short-term impact may be seen mainly in further consolidation of reporting channels for online fraud and misinformation; for platforms and ISPs, it depends on whether the bills introduce new compliance or takedown obligations. Next verification step: review the House of Representatives records and the publicly released draft texts of the Mass Communication Bill and Press Council Bill to confirm provisions, submission timing and whether platform obligations are covered. Evidence gaps: this item rests on oral statements by the minister in Parliament, with no bill provisions, timeline or primary source for the enforcement figures; the methodology behind the 305,000 betting-site figure is not explained, so it should not be treated as independently verified fact.",
-      "sourceSha256": "d80e40fcac9feee1ee8a9aa9083f178f9b492c7f87d2666c48c22ae1cd410e4f",
-      "sourceTextChars": 6540,
+      "summary": "据《加德满都邮报》报道，尼泊尔国家灾害风险减少与管理机构（NDRRMA）首席执行官达尔马拉杰·乌普雷蒂在电视台访谈中表示，博特科西洪灾发生一个月后，该机构已组建快速损失与需求评估小组，利用无人机对比灾前灾后状况，初步评估基础设施损失约为30亿美元（逾4500亿卢比），重建需求约47.7亿美元（逾7000亿卢比）。乌普雷蒂称，受灾区域已不适宜居住，政府将在数日内确定安全地点并启动灾后恢复框架。他还提到，尼泊尔的水文气象部门已与中国政府达成预警信息交换协议，并已开始每日接收中方关于湖泊、裂缝等指标的通报。乌普雷蒂表示，该机构目前仅有一名地质学家、一名水文学家和一名气象学家，技术分析能力不足。",
+      "summaryEn": "According to The Kathmandu Post, NDRRMA Chief Executive Dharmaraj Upreti said in a television interview that a month after the Bhotekoshi flood, the authority formed a Rapid Damage and Needs Assessment team using drone surveys to compare pre- and post-disaster conditions. The preliminary assessment puts infrastructure damage at around $3 billion (over Rs450 billion), with reconstruction needs estimated at $4.77 billion (over Rs700 billion). Upreti said flood-mark areas are not suitable for habitation and the government will identify safe locations and begin preparing a Post-Disaster Recovery Framework within days. He also said the Department of Hydrology and Meteorology has reached an agreement with the Chinese government on early warning information exchange, and daily information on lakes and cracks is now being received. Upreti noted the authority has only one geologist, one hydrologist and one meteorologist, lacking sufficient analytical capacity.",
+      "analysis": "若该访谈内容准确，尼泊尔灾害管理机构正在将博特科西洪灾的教训转化为制度性调整，包括跨边境预警合作和灾后重建框架。对尼泊尔电信和数字基础设施客户而言，灾害预警数据的跨境交换可能改善偏远地区的通信中断预警能力，但目前尚不清楚该协议是否涵盖电信网络或互联网基础设施的预警。关键证据缺口包括：损失评估的具体方法、中国预警信息的具体内容和频率、以及这些预警信息如何传递给基层社区和电信运营商。下一步应核实尼泊尔水文气象部门与中国协议的具体条款，以及NDRRMA是否将电信基础设施纳入灾后恢复框架。",
+      "analysisEn": "If the interview is accurate, Nepal's disaster management authority is translating lessons from the Bhotekoshi flood into institutional changes, including cross-border early warning cooperation and a post-disaster recovery framework. For Nepal's telecom and digital infrastructure customers, cross-border exchange of disaster warning data could improve warning capabilities for remote areas, but it remains unclear whether the agreement covers telecom networks or internet infrastructure. Key evidence gaps include: the specific methodology of the damage assessment, the content and frequency of Chinese early warning information, and how this information is disseminated to communities and telecom operators. Next verification step: confirm the specific terms of the agreement between Nepal's hydrology department and China, and whether NDRRMA will include telecom infrastructure in the post-disaster recovery framework.",
+      "sourceSha256": "521ff1425254f32064ca537e8572ca1a9b473984eab3c63f70634a070d02ce8f",
+      "sourceTextChars": 12000,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "44cbd319c6b96df968bd:4"
+      "evidenceId": "578e21a3d4db726ead9a:35"
     }
   ]
 }
