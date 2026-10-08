@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-07T00:23:09.958632+00:00",
-  "reviewDate": "2026-10-07",
-  "sourceCandidateGeneratedAt": "2026-10-07T00:22:49.340990+00:00",
+  "generatedAt": "2026-10-08T00:44:08.290895+00:00",
+  "reviewDate": "2026-10-08",
+  "sourceCandidateGeneratedAt": "2026-10-08T00:43:51.212442+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 19134,
-    "completion_tokens": 924,
-    "total_tokens": 20058,
+    "prompt_tokens": 10225,
+    "completion_tokens": 1011,
+    "total_tokens": 11236,
     "prompt_tokens_details": {
-      "cached_tokens": 384
+      "cached_tokens": 512
     },
-    "prompt_cache_hit_tokens": 384,
-    "prompt_cache_miss_tokens": 18750
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 9713
   },
   "items": [
     {
-      "id": "578e21a3d4db726ead9a",
-      "date": "2026-09-29",
-      "url": "https://kathmandupost.com/interviews/2026/09/29/ndrrma-chief-upreti-on-what-nepal-must-change-after-the-bhotekoshi-disaster",
+      "id": "87130b134eebf899b7b2",
+      "date": "2026-09-26",
+      "url": "https://kathmandupost.com/valley/2026/09/26/dhap-dam-remains-fully-safe-says-energy-ministry",
       "sourceId": "np-kathmandupost",
       "sourceName": "The Kathmandu Post",
       "sourceTier": "T2",
-      "title": "尼泊尔国家灾害风险减少与管理机构负责人乌普雷蒂谈博特科西灾难后尼泊尔必须改变什么",
-      "titleEn": "NDRRMA Chief Upreti on what Nepal must change after the Bhotekoshi disaster",
+      "title": "能源部称达普大坝完全安全",
+      "titleEn": "Dhap Dam remains fully safe, says energy ministry",
       "section": "政府与监管动态",
       "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据《加德满都邮报》报道，尼泊尔国家灾害风险减少与管理机构（NDRRMA）首席执行官达尔马拉杰·乌普雷蒂在电视台访谈中表示，博特科西洪灾发生一个月后，该机构已组建快速损失与需求评估小组，利用无人机对比灾前灾后状况，初步评估基础设施损失约为30亿美元（逾4500亿卢比），重建需求约47.7亿美元（逾7000亿卢比）。乌普雷蒂称，受灾区域已不适宜居住，政府将在数日内确定安全地点并启动灾后恢复框架。他还提到，尼泊尔的水文气象部门已与中国政府达成预警信息交换协议，并已开始每日接收中方关于湖泊、裂缝等指标的通报。乌普雷蒂表示，该机构目前仅有一名地质学家、一名水文学家和一名气象学家，技术分析能力不足。",
-      "summaryEn": "According to The Kathmandu Post, NDRRMA Chief Executive Dharmaraj Upreti said in a television interview that a month after the Bhotekoshi flood, the authority formed a Rapid Damage and Needs Assessment team using drone surveys to compare pre- and post-disaster conditions. The preliminary assessment puts infrastructure damage at around $3 billion (over Rs450 billion), with reconstruction needs estimated at $4.77 billion (over Rs700 billion). Upreti said flood-mark areas are not suitable for habitation and the government will identify safe locations and begin preparing a Post-Disaster Recovery Framework within days. He also said the Department of Hydrology and Meteorology has reached an agreement with the Chinese government on early warning information exchange, and daily information on lakes and cracks is now being received. Upreti noted the authority has only one geologist, one hydrologist and one meteorologist, lacking sufficient analytical capacity.",
-      "analysis": "若该访谈内容准确，尼泊尔灾害管理机构正在将博特科西洪灾的教训转化为制度性调整，包括跨边境预警合作和灾后重建框架。对尼泊尔电信和数字基础设施客户而言，灾害预警数据的跨境交换可能改善偏远地区的通信中断预警能力，但目前尚不清楚该协议是否涵盖电信网络或互联网基础设施的预警。关键证据缺口包括：损失评估的具体方法、中国预警信息的具体内容和频率、以及这些预警信息如何传递给基层社区和电信运营商。下一步应核实尼泊尔水文气象部门与中国协议的具体条款，以及NDRRMA是否将电信基础设施纳入灾后恢复框架。",
-      "analysisEn": "If the interview is accurate, Nepal's disaster management authority is translating lessons from the Bhotekoshi flood into institutional changes, including cross-border early warning cooperation and a post-disaster recovery framework. For Nepal's telecom and digital infrastructure customers, cross-border exchange of disaster warning data could improve warning capabilities for remote areas, but it remains unclear whether the agreement covers telecom networks or internet infrastructure. Key evidence gaps include: the specific methodology of the damage assessment, the content and frequency of Chinese early warning information, and how this information is disseminated to communities and telecom operators. Next verification step: confirm the specific terms of the agreement between Nepal's hydrology department and China, and whether NDRRMA will include telecom infrastructure in the post-disaster recovery framework.",
-      "sourceSha256": "521ff1425254f32064ca537e8572ca1a9b473984eab3c63f70634a070d02ce8f",
-      "sourceTextChars": 12000,
+      "summary": "《加德满都邮报》报道，能源、水资源与灌溉部于周六表示，位于加德满都戈卡尔内什沃市第1区的达普大坝“完全安全”。报道称，该表态是在季风强降雨后外界对大坝状况产生疑虑之际作出的。纳格马蒂与达普大坝项目称，大坝及主要结构处于安全状态，并发布视频表示数日前在大坝区域发现的风险已得到处理。项目方称，9月9日鞍形坝-1附近路边发生滑坡后，自当晚起持续以约每秒400升的流量泄水，水位下降2.38米至2084.80米，约35%的蓄水已安全排出。项目方称正常水位为2087.14米，若降雨使水位超过该高度，水将自动从溢洪道流出。项目方还表示正在加快排水、护岸与应急管理工作，并呼吁公众不要恐慌、仅依据官方信息。以上均为项目方与官方说法，本条目未独立核实。",
+      "summaryEn": "The Kathmandu Post reported that the Ministry of Energy, Water Resources and Irrigation said on Saturday that Dhap Dam in Gokarneshwar Municipality-1, Kathmandu, remains fully safe, after concerns over the reservoir following heavy monsoon rains. The Nagmati and Dhap Dam Project said the dam and its main structures were in a safe condition and released a video stating that risk observed in the dam area several days earlier had been fully addressed. The project said that after a landslide along the roadside near Saddle Dam-1 on September 9, about 400 litres per second has been released since that evening; the water level fell 2.38 metres to 2,084.80 metres, with about 35 percent of stored water safely discharged. It said the normal level is 2,087.14 metres and excess water would flow out through the spillway. The project said it was expediting drainage, embankment protection and emergency management measures, and urged the public not to panic and to rely only on official information. These are official and project claims, not independently verified here.",
+      "analysis": "若官方说法成立，加德满都谷地旱季供水的主要调蓄设施目前未出现迫在眉睫的风险，短期内不太可能因该坝发生下游突发性洪水；但报道依据的是能源部与项目方的声明和自述监测，属单一来源，尚无独立水文或工程核验。对客户而言，直接影响有限，主要体现为谷地供水稳定性预期与公众风险感知，若后续降雨或滑坡使泄水与排水措施承压，可能出现水压波动或临时供水中断，需关注官方通告。下一步应核实：项目技术团队的水位、入库流量与泄流原始监测记录，鞍形坝-1附近滑坡体的处置与护岸工程进度，以及溢洪道在正常水位以上的实际运行测试结果。证据缺口包括：无独立机构复核、无第三方对坝体结构的评估、泄水措施持续时间与终止条件未明确，也不清楚该坝与供水服务的具体衔接安排。",
+      "analysisEn": "If the official account holds, the main storage facility for Kathmandu Valley dry-season water supply currently faces no imminent risk, and a sudden downstream flood from this dam in the near term appears unlikely. However, the report rests on ministry and project statements and self-reported monitoring, a single source with no independent hydrological or engineering verification. Customer impact is limited: mainly expectations about valley water-supply stability and public risk perception; if rainfall or landslides stress the release and drainage measures, there could be pressure fluctuations or temporary service interruptions, so official notices matter. Next verification steps: obtain the project technical team's raw records on water level, inflow and outflow; confirm progress on treating the landslide near Saddle Dam-1 and on embankment protection; and check actual spillway operation above the normal level. Evidence gaps: no independent body has reviewed the findings, no third-party structural assessment is cited, the duration and end conditions of the release measures are unspecified, and how the dam connects to specific water services is unclear.",
+      "sourceSha256": "49005a96b2f7d35540f356a258272ed5e3523b7e0aad13c731236de01a38e35f",
+      "sourceTextChars": 3406,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "578e21a3d4db726ead9a:35"
+      "evidenceId": "87130b134eebf899b7b2:2"
     }
   ]
 }
