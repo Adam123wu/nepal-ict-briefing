@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-08T00:44:08.290895+00:00",
-  "reviewDate": "2026-10-08",
-  "sourceCandidateGeneratedAt": "2026-10-08T00:43:51.212442+00:00",
+  "generatedAt": "2026-10-09T01:00:11.673731+00:00",
+  "reviewDate": "2026-10-09",
+  "sourceCandidateGeneratedAt": "2026-10-09T00:59:52.329800+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 10225,
-    "completion_tokens": 1011,
-    "total_tokens": 11236,
+    "prompt_tokens": 14322,
+    "completion_tokens": 880,
+    "total_tokens": 15202,
     "prompt_tokens_details": {
       "cached_tokens": 512
     },
     "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 9713
+    "prompt_cache_miss_tokens": 13810
   },
   "items": [
     {
-      "id": "87130b134eebf899b7b2",
-      "date": "2026-09-26",
-      "url": "https://kathmandupost.com/valley/2026/09/26/dhap-dam-remains-fully-safe-says-energy-ministry",
+      "id": "578e21a3d4db726ead9a",
+      "date": "2026-09-29",
+      "url": "https://kathmandupost.com/interviews/2026/09/29/ndrrma-chief-upreti-on-what-nepal-must-change-after-the-bhotekoshi-disaster",
       "sourceId": "np-kathmandupost",
       "sourceName": "The Kathmandu Post",
       "sourceTier": "T2",
-      "title": "能源部称达普大坝完全安全",
-      "titleEn": "Dhap Dam remains fully safe, says energy ministry",
+      "title": "尼泊尔国家减灾管理局局长乌普雷蒂谈博特科西灾后尼泊尔必须做出的改变",
+      "titleEn": "NDRRMA Chief Upreti on what Nepal must change after the Bhotekoshi disaster",
       "section": "政府与监管动态",
       "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "《加德满都邮报》报道，能源、水资源与灌溉部于周六表示，位于加德满都戈卡尔内什沃市第1区的达普大坝“完全安全”。报道称，该表态是在季风强降雨后外界对大坝状况产生疑虑之际作出的。纳格马蒂与达普大坝项目称，大坝及主要结构处于安全状态，并发布视频表示数日前在大坝区域发现的风险已得到处理。项目方称，9月9日鞍形坝-1附近路边发生滑坡后，自当晚起持续以约每秒400升的流量泄水，水位下降2.38米至2084.80米，约35%的蓄水已安全排出。项目方称正常水位为2087.14米，若降雨使水位超过该高度，水将自动从溢洪道流出。项目方还表示正在加快排水、护岸与应急管理工作，并呼吁公众不要恐慌、仅依据官方信息。以上均为项目方与官方说法，本条目未独立核实。",
-      "summaryEn": "The Kathmandu Post reported that the Ministry of Energy, Water Resources and Irrigation said on Saturday that Dhap Dam in Gokarneshwar Municipality-1, Kathmandu, remains fully safe, after concerns over the reservoir following heavy monsoon rains. The Nagmati and Dhap Dam Project said the dam and its main structures were in a safe condition and released a video stating that risk observed in the dam area several days earlier had been fully addressed. The project said that after a landslide along the roadside near Saddle Dam-1 on September 9, about 400 litres per second has been released since that evening; the water level fell 2.38 metres to 2,084.80 metres, with about 35 percent of stored water safely discharged. It said the normal level is 2,087.14 metres and excess water would flow out through the spillway. The project said it was expediting drainage, embankment protection and emergency management measures, and urged the public not to panic and to rely only on official information. These are official and project claims, not independently verified here.",
-      "analysis": "若官方说法成立，加德满都谷地旱季供水的主要调蓄设施目前未出现迫在眉睫的风险，短期内不太可能因该坝发生下游突发性洪水；但报道依据的是能源部与项目方的声明和自述监测，属单一来源，尚无独立水文或工程核验。对客户而言，直接影响有限，主要体现为谷地供水稳定性预期与公众风险感知，若后续降雨或滑坡使泄水与排水措施承压，可能出现水压波动或临时供水中断，需关注官方通告。下一步应核实：项目技术团队的水位、入库流量与泄流原始监测记录，鞍形坝-1附近滑坡体的处置与护岸工程进度，以及溢洪道在正常水位以上的实际运行测试结果。证据缺口包括：无独立机构复核、无第三方对坝体结构的评估、泄水措施持续时间与终止条件未明确，也不清楚该坝与供水服务的具体衔接安排。",
-      "analysisEn": "If the official account holds, the main storage facility for Kathmandu Valley dry-season water supply currently faces no imminent risk, and a sudden downstream flood from this dam in the near term appears unlikely. However, the report rests on ministry and project statements and self-reported monitoring, a single source with no independent hydrological or engineering verification. Customer impact is limited: mainly expectations about valley water-supply stability and public risk perception; if rainfall or landslides stress the release and drainage measures, there could be pressure fluctuations or temporary service interruptions, so official notices matter. Next verification steps: obtain the project technical team's raw records on water level, inflow and outflow; confirm progress on treating the landslide near Saddle Dam-1 and on embankment protection; and check actual spillway operation above the normal level. Evidence gaps: no independent body has reviewed the findings, no third-party structural assessment is cited, the duration and end conditions of the release measures are unspecified, and how the dam connects to specific water services is unclear.",
-      "sourceSha256": "49005a96b2f7d35540f356a258272ed5e3523b7e0aad13c731236de01a38e35f",
-      "sourceTextChars": 3406,
+      "summary": "据《加德满都邮报》报道，尼泊尔国家减灾管理局（NDRRMA）局长达尔马拉杰·乌普雷蒂在接受康提普尔电视台《炉边》节目采访时，介绍了博特科西洪灾一个月后的评估与应对。他称，由行业部委、国家计划委员会与该局代表组成的快速损失与需求评估组利用无人机对比灾前灾后情况，初步评估基础设施损失约30亿美元（逾4500亿卢比），重建初步估计需47.7亿美元（逾7000亿卢比），详细调查仍在进行。他还表示，已被洪水痕迹覆盖的区域不宜居住，正组建由测量局局长领导的委员会确定安全土地，政府将在数日内确定安全地点并着手制定灾后恢复框架，第一阶段聚焦临时住房。",
+      "summaryEn": "According to The Kathmandu Post, Dharmaraj Upreti, chief executive of the National Disaster Risk Reduction and Management Authority (NDRRMA), spoke to Kantipur Television's Fireside about assessment and response a month after the Bhotekoshi flood. He said a Rapid Damage and Needs Assessment team comprising sectoral ministries, the National Planning Commission and the authority used drone surveys to compare pre- and post-disaster conditions, putting preliminary infrastructure damage at around $3 billion (over Rs450 billion) and preliminary reconstruction needs at $4.77 billion (over Rs700 billion), with the detailed survey still under way. He also said areas reached by flood marks are not suitable for habitation, a committee headed by the director general of the Department of Survey is identifying safe land, and the government will identify safe locations within days and begin a Post-Disaster Recovery Framework, with the first phase focused on temporary housing.",
+      "analysis": "若该初步评估与时间表属实，这表明尼泊尔灾后重建将进入以安全选址和临时住房为优先的阶段，可能影响受灾地区居民的安置、财产权处理以及相关基础设施投资安排，但现阶段仍属官员在电视采访中的初步表述，尚未见正式框架文本或预算文件。下一步可核查尼泊尔国家减灾管理局或财政部是否发布书面快速评估报告及灾后恢复框架草案，并确认其中是否包含ICT与通信基础设施的恢复条目。证据缺口包括：评估口径与统计范围、47.7亿美元重建估算的构成、安全土地委员会的具体标准与时限，以及中央与地方资金分担机制均未在报道中说明；采访中的多次表态属于同一机构、同一被访者的重复陈述，应视为一项主张而非独立验证。",
+      "analysisEn": "If this preliminary assessment and timeline hold, reconstruction in Nepal would move toward prioritizing safe-site selection and temporary housing, potentially affecting resettlement, property-rights handling and infrastructure investment in affected areas. However, this remains an official's preliminary remarks in a television interview, with no formal framework text or budget document visible. The next verification step is to check whether NDRRMA or the Finance Ministry publishes a written rapid assessment report and a draft Post-Disaster Recovery Framework, and whether these include ICT and communications infrastructure recovery items. Evidence gaps include the assessment's scope and methodology, the composition of the $4.77 billion reconstruction estimate, the specific criteria and deadlines of the safe-land committee, and central-local cost-sharing arrangements, none of which the report specifies. The repeated statements come from the same agency and interviewee and should be treated as one claim, not independent verification.",
+      "sourceSha256": "bdcc41deefcd02b0d448aacbd08e55e52e72212c7af4d90a750fbe260d2fd00f",
+      "sourceTextChars": 12000,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "87130b134eebf899b7b2:2"
+      "evidenceId": "578e21a3d4db726ead9a:35"
     }
   ]
 }
