@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastCheckedAt": "2026-10-08T13:12:19+05:45",
+  "lastCheckedAt": "2026-10-09T13:09:54+05:45",
   "topics": {
     "ntc-realtime-billing-tender": {
       "reportItemId": "np-ntc-crtb-tender-20260923",
-      "fingerprint": "2609c73c564b2047600c88751a6ebc7b5ee7b40431135c431b0b44a18f7e7a15",
-      "lastCheckedAt": "2026-10-08T13:12:19+05:45",
-      "lastChangeAt": "2026-10-08T13:12:19+05:45",
+      "fingerprint": "9786decd6b4f1a12fb7ad5d05a2debf9a991d421568e88d1839167ef7041fff6",
+      "lastCheckedAt": "2026-10-09T13:09:54+05:45",
+      "lastChangeAt": "2026-10-09T13:09:54+05:45",
       "evidenceUrls": [
         "https://www.nepalitelecom.com/2026/09/ntc-new-billing-system-tender.html"
       ]

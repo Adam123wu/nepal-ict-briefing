@@ -1,44 +1,21 @@
 {
-  "status": "pending_codex_review",
-  "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-09T01:00:11.673731+00:00",
-  "reviewDate": "2026-10-09",
-  "sourceCandidateGeneratedAt": "2026-10-09T00:59:52.329800+00:00",
+  "status": "no_relevant_candidates",
+  "statusEn": "No relevant candidates",
+  "generatedAt": "2026-10-10T02:34:48.438065+00:00",
+  "reviewDate": "2026-10-10",
+  "sourceCandidateGeneratedAt": "2026-10-10T00:30:06.071968+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 14322,
-    "completion_tokens": 880,
-    "total_tokens": 15202,
+    "prompt_tokens": 10139,
+    "completion_tokens": 96,
+    "total_tokens": 10235,
     "prompt_tokens_details": {
-      "cached_tokens": 512
+      "cached_tokens": 1920
     },
-    "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 13810
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 8219
   },
-  "items": [
-    {
-      "id": "578e21a3d4db726ead9a",
-      "date": "2026-09-29",
-      "url": "https://kathmandupost.com/interviews/2026/09/29/ndrrma-chief-upreti-on-what-nepal-must-change-after-the-bhotekoshi-disaster",
-      "sourceId": "np-kathmandupost",
-      "sourceName": "The Kathmandu Post",
-      "sourceTier": "T2",
-      "title": "尼泊尔国家减灾管理局局长乌普雷蒂谈博特科西灾后尼泊尔必须做出的改变",
-      "titleEn": "NDRRMA Chief Upreti on what Nepal must change after the Bhotekoshi disaster",
-      "section": "政府与监管动态",
-      "sectionEn": "Government & regulation",
-      "status": "DeepSeek 正文分析 · 待 Codex 核验",
-      "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据《加德满都邮报》报道，尼泊尔国家减灾管理局（NDRRMA）局长达尔马拉杰·乌普雷蒂在接受康提普尔电视台《炉边》节目采访时，介绍了博特科西洪灾一个月后的评估与应对。他称，由行业部委、国家计划委员会与该局代表组成的快速损失与需求评估组利用无人机对比灾前灾后情况，初步评估基础设施损失约30亿美元（逾4500亿卢比），重建初步估计需47.7亿美元（逾7000亿卢比），详细调查仍在进行。他还表示，已被洪水痕迹覆盖的区域不宜居住，正组建由测量局局长领导的委员会确定安全土地，政府将在数日内确定安全地点并着手制定灾后恢复框架，第一阶段聚焦临时住房。",
-      "summaryEn": "According to The Kathmandu Post, Dharmaraj Upreti, chief executive of the National Disaster Risk Reduction and Management Authority (NDRRMA), spoke to Kantipur Television's Fireside about assessment and response a month after the Bhotekoshi flood. He said a Rapid Damage and Needs Assessment team comprising sectoral ministries, the National Planning Commission and the authority used drone surveys to compare pre- and post-disaster conditions, putting preliminary infrastructure damage at around $3 billion (over Rs450 billion) and preliminary reconstruction needs at $4.77 billion (over Rs700 billion), with the detailed survey still under way. He also said areas reached by flood marks are not suitable for habitation, a committee headed by the director general of the Department of Survey is identifying safe land, and the government will identify safe locations within days and begin a Post-Disaster Recovery Framework, with the first phase focused on temporary housing.",
-      "analysis": "若该初步评估与时间表属实，这表明尼泊尔灾后重建将进入以安全选址和临时住房为优先的阶段，可能影响受灾地区居民的安置、财产权处理以及相关基础设施投资安排，但现阶段仍属官员在电视采访中的初步表述，尚未见正式框架文本或预算文件。下一步可核查尼泊尔国家减灾管理局或财政部是否发布书面快速评估报告及灾后恢复框架草案，并确认其中是否包含ICT与通信基础设施的恢复条目。证据缺口包括：评估口径与统计范围、47.7亿美元重建估算的构成、安全土地委员会的具体标准与时限，以及中央与地方资金分担机制均未在报道中说明；采访中的多次表态属于同一机构、同一被访者的重复陈述，应视为一项主张而非独立验证。",
-      "analysisEn": "If this preliminary assessment and timeline hold, reconstruction in Nepal would move toward prioritizing safe-site selection and temporary housing, potentially affecting resettlement, property-rights handling and infrastructure investment in affected areas. However, this remains an official's preliminary remarks in a television interview, with no formal framework text or budget document visible. The next verification step is to check whether NDRRMA or the Finance Ministry publishes a written rapid assessment report and a draft Post-Disaster Recovery Framework, and whether these include ICT and communications infrastructure recovery items. Evidence gaps include the assessment's scope and methodology, the composition of the $4.77 billion reconstruction estimate, the specific criteria and deadlines of the safe-land committee, and central-local cost-sharing arrangements, none of which the report specifies. The repeated statements come from the same agency and interviewee and should be treated as one claim, not independent verification.",
-      "sourceSha256": "bdcc41deefcd02b0d448aacbd08e55e52e72212c7af4d90a750fbe260d2fd00f",
-      "sourceTextChars": 12000,
-      "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "578e21a3d4db726ead9a:35"
-    }
-  ]
+  "items": []
 }
