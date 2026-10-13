@@ -1,21 +1,44 @@
 {
-  "status": "no_relevant_candidates",
-  "statusEn": "No relevant candidates",
-  "generatedAt": "2026-10-10T02:34:48.438065+00:00",
-  "reviewDate": "2026-10-10",
-  "sourceCandidateGeneratedAt": "2026-10-10T00:30:06.071968+00:00",
+  "status": "pending_codex_review",
+  "statusEn": "Pending Codex review",
+  "generatedAt": "2026-10-13T22:21:14.328066+00:00",
+  "reviewDate": "2026-10-14",
+  "sourceCandidateGeneratedAt": "2026-10-13T22:20:56.029483+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 10139,
-    "completion_tokens": 96,
-    "total_tokens": 10235,
+    "prompt_tokens": 11133,
+    "completion_tokens": 909,
+    "total_tokens": 12042,
     "prompt_tokens_details": {
-      "cached_tokens": 1920
+      "cached_tokens": 512
     },
-    "prompt_cache_hit_tokens": 1920,
-    "prompt_cache_miss_tokens": 8219
+    "prompt_cache_hit_tokens": 512,
+    "prompt_cache_miss_tokens": 10621
   },
-  "items": []
+  "items": [
+    {
+      "id": "4b10490387039a2a480f",
+      "date": "2026-09-25",
+      "url": "https://kathmandupost.com/national/2026/09/25/from-himalayan-tsunami-to-global-reform-five-takeaways-from-balendra-shah-s-un-address",
+      "sourceId": "np-kathmandupost",
+      "sourceName": "The Kathmandu Post",
+      "sourceTier": "T2",
+      "title": "总理巴伦德拉·沙阿联大演讲的五大要点",
+      "titleEn": "Five takeaways from Prime Minister Balendra Shah’s UN address",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据《加德满都邮报》报道，总理巴伦德拉·沙阿在第81届联合国大会上发表演讲，将尼泊尔近期的灾害置于全球气候议题框架下。报道称，他提及博特科西-特里苏里灾害，并援引至少1400人死亡、6000多人失踪、灾后恢复需求约占GDP百分之十的数字。他提议建立涉及尼泊尔、印度和中国的“喜马拉雅气候韧性机制”，用于共享卫星数据和专业知识、监测危险冰湖并加强预警系统。他还呼吁提供更多赠款形式的气候资金，而非贷款，并批评现有气候融资机制不足。沙阿还谈及全球秩序不平等以及新一代对问责和机会的诉求。以上均为报道对其演讲内容的转述，属提议和表态，并非已落实的行动。",
+      "summaryEn": "The Kathmandu Post reports that Prime Minister Balendra Shah addressed the 81st session of the UN General Assembly, framing Nepal’s recent disasters within a global climate discussion. According to the report, he cited the Bhotekoshi–Trishuli disaster and figures of at least 1,400 deaths, more than 6,000 people missing and recovery needs estimated at about 10 percent of GDP. He proposed a “Himalayan Climate Resilience Mechanism” involving Nepal, India and China to share satellite data and expertise, monitor dangerous glacial lakes and strengthen early-warning systems. He also called for more grant-based climate finance rather than loans, and criticised existing climate-financing mechanisms as inadequate. Shah additionally spoke about an unequal global order and a new generation’s demand for accountability and opportunity. All of this is the report’s account of his remarks—proposals and positions, not completed actions.",
+      "analysis": "若报道准确，沙阿的联大演讲主要以提议和倡议为主，尚不构成可核实的政策落地。对尼泊尔国内受众而言，直接影响可能体现在两个方向：一是灾害预警与跨境数据共享若推进，通信和应急信息传递条件或改善；二是气候资金若转向赠款，可能减轻财政压力。但报道本身未披露机制的具体框架、出资方、时间表或执行机构，也未说明是否已获印度或中国回应。此外，文中援引的伤亡和GDP占比数字来源未在报道中界定，需谨慎对待。下一步应核查尼泊尔外交部或总理办公室是否发布演讲全文及后续声明，并确认“喜马拉雅气候韧性机制”是否已进入正式双边或三边磋商。证据缺口包括：机制是否已有书面提案、是否涉及具体通信或数据基础设施、以及气候资金诉求是否有配套谈判安排。",
+      "analysisEn": "If the report is accurate, Shah’s UN address consists mainly of proposals and appeals rather than verifiable policy outcomes. For domestic audiences, two indirect effects are plausible: cross-border disaster warning and data-sharing, if pursued, could improve emergency communications; and a shift toward grant-based climate finance could ease fiscal pressure. However, the report does not disclose the mechanism’s structure, funders, timeline or implementing agencies, nor whether India or China have responded. The casualty and GDP-share figures are attributed to Shah without an independent source in the article and should be treated cautiously. The next verification step is to check whether Nepal’s Ministry of Foreign Affairs or the Prime Minister’s Office has published the full speech or follow-up statements, and whether the “Himalayan Climate Resilience Mechanism” has entered formal bilateral or trilateral consultation. Evidence gaps include whether a written proposal exists, whether it covers specific communications or data infrastructure, and whether the climate-finance appeal has any accompanying negotiating plan.",
+      "sourceSha256": "57254be89bb971241bd1f941d22f6fd7229dfda589e09a55e27aabe87798df5d",
+      "sourceTextChars": 5403,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "4b10490387039a2a480f:9"
+    }
+  ]
 }
