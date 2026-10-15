@@ -1654,7 +1654,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://www.mof.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:09.172163+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.345918+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -1688,7 +1688,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://www.moewri.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:09.172795+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.346737+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -1719,10 +1719,10 @@
       "posts14d": null,
       "verifiedBy": "部委官方站点；公告日期及内容另行核验",
       "verifiedByEn": "Official ministry site; announcement dates and content require review",
-      "lastCollectedAt": "2026-10-14T23:42:09.173189+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:38.347260+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.moics.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:09.173189+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.347260+00:00",
       "candidateCountBeforeLimit": 169,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1754,10 +1754,10 @@
       "posts14d": null,
       "verifiedBy": "部委官方站点；公告日期及内容另行核验",
       "verifiedByEn": "Official ministry site; announcement dates and content require review",
-      "lastCollectedAt": "2026-10-14T23:42:09.173647+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:38.347906+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.moha.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:09.173647+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.347906+00:00",
       "candidateCountBeforeLimit": 31,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1789,10 +1789,10 @@
       "posts14d": null,
       "verifiedBy": "部委官方站点；公告日期及内容另行核验",
       "verifiedByEn": "Official ministry site; announcement dates and content require review",
-      "lastCollectedAt": "2026-10-14T23:42:09.174242+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:38.348518+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.mofa.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:09.174242+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.348518+00:00",
       "candidateCountBeforeLimit": 115,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1824,10 +1824,10 @@
       "posts14d": null,
       "verifiedBy": "官方产品网站；尼泊尔项目另行核验",
       "verifiedByEn": "Official product website; Nepal projects require separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:09.177625+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:38.352208+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.iwhalecloud.com/",
-      "lastAttemptAt": "2026-10-14T23:42:09.177625+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:38.352208+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1862,7 +1862,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal-only",
       "verificationUrl": "https://www.asiainfo.com/en_us/telecomIndustry.html",
-      "lastAttemptAt": "2026-10-14T23:42:10.335956+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:39.820341+00:00",
       "scanError": "HTTPError",
       "scanPages": [
         {
@@ -1893,10 +1893,10 @@
       "posts14d": null,
       "verifiedBy": "官方产品网站；尼泊尔项目另行核验",
       "verifiedByEn": "Official product website; Nepal projects require separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:10.959052+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:40.284765+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.h3c.com/en/",
-      "lastAttemptAt": "2026-10-14T23:42:10.959052+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:40.284765+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1928,10 +1928,10 @@
       "posts14d": null,
       "verifiedBy": "官方入口返回验证页面；项目待核验",
       "verifiedByEn": "Official entry returned a verification page; projects unverified",
-      "lastCollectedAt": "2026-10-14T23:42:11.108791+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:40.299621+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://en.fiberhome.com/",
-      "lastAttemptAt": "2026-10-14T23:42:11.108791+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:40.299621+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -1963,10 +1963,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:11.440376+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:40.810369+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:11.440376+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:40.810369+00:00",
       "scanPages": [
         {
           "url": "https://www.nta.gov.np/",
@@ -1976,7 +1976,7 @@
         }
       ],
       "candidateCount": 60,
-      "candidateCountBeforeLimit": 498,
+      "candidateCountBeforeLimit": 499,
       "candidateLimitReached": true
     },
     {
@@ -2001,7 +2001,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:12.095301+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:41.411592+00:00",
       "scanError": "URLError",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
@@ -2035,10 +2035,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:12.291858+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:41.558745+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.opmcm.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:12.291858+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:41.558745+00:00",
       "candidateCountBeforeLimit": 38,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2070,10 +2070,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:13.153689+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:41.667366+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.ntc.net.np/",
-      "lastAttemptAt": "2026-10-14T23:42:13.153689+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:41.667366+00:00",
       "candidateCountBeforeLimit": 28,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2105,10 +2105,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:13.168582+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:42.239521+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.ncell.com.np/en",
-      "lastAttemptAt": "2026-10-14T23:42:13.168582+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:42.239521+00:00",
       "candidateCountBeforeLimit": 4,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2140,21 +2140,21 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:13.180846+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:42.336518+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://worldlink.com.np/",
-      "lastAttemptAt": "2026-10-14T23:42:13.180846+00:00",
-      "candidateCountBeforeLimit": 36,
+      "lastAttemptAt": "2026-10-15T23:32:42.336518+00:00",
+      "candidateCountBeforeLimit": 37,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://worldlink.com.np/",
           "success": true,
-          "candidateCount": 36,
+          "candidateCount": 37,
           "limitReached": false
         }
       ],
-      "candidateCount": 36
+      "candidateCount": 37
     },
     {
       "id": "np-vianet",
@@ -2175,10 +2175,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:13.201525+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:42.970868+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.vianet.com.np/",
-      "lastAttemptAt": "2026-10-14T23:42:13.201525+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:42.970868+00:00",
       "scanPages": [
         {
           "url": "https://www.vianet.com.np/",
@@ -2210,10 +2210,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:14.743230+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:43.878452+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.subisu.net.np/",
-      "lastAttemptAt": "2026-10-14T23:42:14.743230+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:43.878452+00:00",
       "candidateCountBeforeLimit": 22,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2245,10 +2245,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:15.387585+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:44.797188+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://dishhome.com.np/",
-      "lastAttemptAt": "2026-10-14T23:42:15.387585+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:44.797188+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2280,10 +2280,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:15.628426+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:45.165701+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://cgnet.com.np/",
-      "lastAttemptAt": "2026-10-14T23:42:15.628426+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:45.165701+00:00",
       "scanPages": [
         {
           "url": "https://cgnet.com.np/",
@@ -2318,7 +2318,7 @@
       "lastCollectedAt": "2026-09-29T10:45:23.633398+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.techpana.com/",
-      "lastAttemptAt": "2026-10-14T23:42:16.360168+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:45.323284+00:00",
       "monitoringPriority": "high",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "English+ Nepali",
@@ -2354,11 +2354,11 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:16.568596+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:45.445579+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ictsamachar.com/",
-      "lastAttemptAt": "2026-10-14T23:42:16.568596+00:00",
-      "candidateCountBeforeLimit": 830,
+      "lastAttemptAt": "2026-10-15T23:32:45.445579+00:00",
+      "candidateCountBeforeLimit": 827,
       "candidateLimitReached": true,
       "scanPages": [
         {
@@ -2389,10 +2389,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:16.747308+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:46.112744+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.gadgetbytenepal.com/",
-      "lastAttemptAt": "2026-10-14T23:42:16.747308+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:46.112744+00:00",
       "candidateCountBeforeLimit": 10,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2424,12 +2424,12 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.216780+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:48.307064+00:00",
       "scope": "Nepal",
       "monitoringNote": "重点产业媒体：每日扫描首页、NTC、Ncell、ISP及NTA栏目；采集候选须核对日期与官方依据，旧文更新不等于新事件。",
       "monitoringNoteEn": "Priority telecom publisher: daily homepage, NTC, Ncell, ISP and NTA scans. Candidates require date and primary-evidence checks; refreshed old articles are not new events.",
       "verificationUrl": "https://www.nepalitelecom.com/",
-      "lastAttemptAt": "2026-10-14T23:42:17.232537+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:46.259404+00:00",
       "candidateCountBeforeLimit": 20,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2485,21 +2485,21 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:17.890176+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:46.343675+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ictbyte.com/",
-      "lastAttemptAt": "2026-10-14T23:42:17.890176+00:00",
-      "candidateCountBeforeLimit": 1,
+      "lastAttemptAt": "2026-10-15T23:32:46.343675+00:00",
+      "candidateCountBeforeLimit": 2,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://ictbyte.com/",
           "success": true,
-          "candidateCount": 1,
+          "candidateCount": 2,
           "limitReached": false
         }
       ],
-      "candidateCount": 1
+      "candidateCount": 2
     },
     {
       "id": "np-kathmandupost",
@@ -2520,10 +2520,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:18.102064+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:47.686694+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://kathmandupost.com/",
-      "lastAttemptAt": "2026-10-14T23:42:18.102064+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:47.686694+00:00",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "English",
@@ -2558,20 +2558,20 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.254830+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:48.120498+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://english.onlinekhabar.com/",
-      "lastAttemptAt": "2026-10-14T23:42:19.254830+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:48.120498+00:00",
       "scanPages": [
         {
           "url": "https://english.onlinekhabar.com/",
           "success": true,
-          "candidateCount": 18,
+          "candidateCount": 14,
           "limitReached": false
         }
       ],
-      "candidateCount": 18,
-      "candidateCountBeforeLimit": 18,
+      "candidateCount": 14,
+      "candidateCountBeforeLimit": 14,
       "candidateLimitReached": false
     },
     {
@@ -2593,10 +2593,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.296840+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:48.133965+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.huawei.com/en/news",
-      "lastAttemptAt": "2026-10-14T23:42:19.296840+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:48.133965+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2628,10 +2628,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.763841+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:48.455142+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.nokia.com/newsroom/",
-      "lastAttemptAt": "2026-10-14T23:42:19.763841+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:48.455142+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2663,10 +2663,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.849266+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:48.794376+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.zte.com.cn/global/about/news.html",
-      "lastAttemptAt": "2026-10-14T23:42:19.849266+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:48.794376+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2701,7 +2701,7 @@
       "lastCollectedAt": "2026-09-18T21:56:49.654098+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.ericsson.com/en/newsroom",
-      "lastAttemptAt": "2026-10-14T23:42:19.946305+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:49.046929+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2734,10 +2734,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:19.991410+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:49.205010+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://newsroom.cisco.com/",
-      "lastAttemptAt": "2026-10-14T23:42:19.991410+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:49.205010+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2769,21 +2769,21 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:20.028480+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:49.244674+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-10-14T23:42:20.028480+00:00",
-      "candidateCountBeforeLimit": 13,
+      "lastAttemptAt": "2026-10-15T23:32:49.244674+00:00",
+      "candidateCountBeforeLimit": 12,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://www.nrb.org.np/",
           "success": true,
-          "candidateCount": 13,
+          "candidateCount": 12,
           "limitReached": false
         }
       ],
-      "candidateCount": 13
+      "candidateCount": 12
     },
     {
       "id": "np-law",
@@ -2804,10 +2804,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:20.261752+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:49.495014+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:20.261752+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:49.495014+00:00",
       "candidateCountBeforeLimit": 6,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2842,7 +2842,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:20.919002+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:49.796962+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -2876,7 +2876,7 @@
       "lastCollectedAt": "2026-09-22T23:30:13.147112+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:20.998488+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:49.968270+00:00",
       "candidateCountBeforeLimit": 123,
       "candidateLimitReached": true,
       "scanPages": [
@@ -2909,10 +2909,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:21.380940+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:50.283546+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:21.380940+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:50.283546+00:00",
       "candidateCountBeforeLimit": 16,
       "candidateLimitReached": false,
       "scanPages": [
@@ -2944,10 +2944,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-10-14T23:42:21.818304+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:50.789923+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:21.818304+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:50.789923+00:00",
       "candidateCountBeforeLimit": 10,
       "candidateLimitReached": false,
       "scanPages": [
@@ -3899,10 +3899,10 @@
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
-      "lastCollectedAt": "2026-10-14T23:42:22.607573+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:51.708425+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://classic.com.np/",
-      "lastAttemptAt": "2026-10-14T23:42:22.607573+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:51.708425+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -3934,21 +3934,21 @@
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
-      "lastCollectedAt": "2026-10-14T23:42:23.566036+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:52.511512+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ictframe.com/",
-      "lastAttemptAt": "2026-10-14T23:42:23.566036+00:00",
-      "candidateCountBeforeLimit": 19,
+      "lastAttemptAt": "2026-10-15T23:32:52.511512+00:00",
+      "candidateCountBeforeLimit": 18,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://ictframe.com/",
           "success": true,
-          "candidateCount": 19,
+          "candidateCount": 18,
           "limitReached": false
         }
       ],
-      "candidateCount": 19
+      "candidateCount": 18
     },
     {
       "id": "np-parliament",
@@ -3969,10 +3969,10 @@
       "posts14d": null,
       "verifiedBy": "公开网站与本期文章交叉核验",
       "verifiedByEn": "Public website and current coverage cross-check",
-      "lastCollectedAt": "2026-10-14T23:42:24.022325+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:52.772467+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://digital.parliament.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:24.022325+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:52.772467+00:00",
       "candidateCountBeforeLimit": 4,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4004,13 +4004,13 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:26.430099+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:54.269498+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://nepalkhabar.com/",
       "monitoringPriority": "high",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali + English",
-      "lastAttemptAt": "2026-10-14T23:42:24.244785+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:52.900046+00:00",
       "candidateCountBeforeLimit": 83,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4029,7 +4029,7 @@
         {
           "url": "https://nepalkhabar.com/category/politics",
           "success": true,
-          "candidateCount": 30,
+          "candidateCount": 28,
           "limitReached": false
         },
         {
@@ -4039,7 +4039,7 @@
           "limitReached": false
         }
       ],
-      "candidateCount": 144
+      "candidateCount": 149
     },
     {
       "id": "np-technologykhabar",
@@ -4060,13 +4060,13 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:24.536917+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:54.654065+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://technologykhabar.com/",
       "monitoringPriority": "high",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:24.536917+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:54.654065+00:00",
       "candidateCountBeforeLimit": 19,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4098,23 +4098,23 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:25.876238+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:55.102477+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://baahrakhari.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:25.876238+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:55.102477+00:00",
       "scanPages": [
         {
           "url": "https://baahrakhari.com/",
           "success": true,
-          "candidateCount": 29,
+          "candidateCount": 21,
           "limitReached": false
         }
       ],
-      "candidateCount": 29,
-      "candidateCountBeforeLimit": 29,
+      "candidateCount": 21,
+      "candidateCountBeforeLimit": 21,
       "candidateLimitReached": false
     },
     {
@@ -4136,24 +4136,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:26.104084+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:55.314616+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ekantipur.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali + English",
-      "lastAttemptAt": "2026-10-14T23:42:26.104084+00:00",
-      "candidateCountBeforeLimit": 53,
+      "lastAttemptAt": "2026-10-15T23:32:55.314616+00:00",
+      "candidateCountBeforeLimit": 50,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://ekantipur.com/",
           "success": true,
-          "candidateCount": 53,
+          "candidateCount": 50,
           "limitReached": false
         }
       ],
-      "candidateCount": 53
+      "candidateCount": 50
     },
     {
       "id": "np-clickmandu",
@@ -4174,24 +4174,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:26.342051+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:55.726064+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://clickmandu.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:26.342051+00:00",
-      "candidateCountBeforeLimit": 63,
-      "candidateLimitReached": true,
+      "lastAttemptAt": "2026-10-15T23:32:55.726064+00:00",
+      "candidateCountBeforeLimit": 59,
+      "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://clickmandu.com/",
           "success": true,
-          "candidateCount": 60,
-          "limitReached": true
+          "candidateCount": 59,
+          "limitReached": false
         }
       ],
-      "candidateCount": 60
+      "candidateCount": 59
     },
     {
       "id": "np-onlinekhabar-nepali",
@@ -4212,24 +4212,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:26.774985+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:55.863637+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://onlinekhabar.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali + English",
-      "lastAttemptAt": "2026-10-14T23:42:26.774985+00:00",
-      "candidateCountBeforeLimit": 49,
+      "lastAttemptAt": "2026-10-15T23:32:55.863637+00:00",
+      "candidateCountBeforeLimit": 38,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://onlinekhabar.com/",
           "success": true,
-          "candidateCount": 49,
+          "candidateCount": 38,
           "limitReached": false
         }
       ],
-      "candidateCount": 49
+      "candidateCount": 38
     },
     {
       "id": "np-bizmandu",
@@ -4250,24 +4250,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:26.919843+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:56.311003+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://bizmandu.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:26.919843+00:00",
-      "candidateCountBeforeLimit": 24,
+      "lastAttemptAt": "2026-10-15T23:32:56.311003+00:00",
+      "candidateCountBeforeLimit": 19,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://bizmandu.com/",
           "success": true,
-          "candidateCount": 24,
+          "candidateCount": 19,
           "limitReached": false
         }
       ],
-      "candidateCount": 24
+      "candidateCount": 19
     },
     {
       "id": "np-setopati",
@@ -4294,7 +4294,7 @@
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:26.972914+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:56.616536+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -4325,24 +4325,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:27.161949+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:56.647572+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://rajdhanidaily.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:27.161949+00:00",
-      "candidateCountBeforeLimit": 11,
+      "lastAttemptAt": "2026-10-15T23:32:56.647572+00:00",
+      "candidateCountBeforeLimit": 8,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://rajdhanidaily.com/",
           "success": true,
-          "candidateCount": 11,
+          "candidateCount": 8,
           "limitReached": false
         }
       ],
-      "candidateCount": 11
+      "candidateCount": 8
     },
     {
       "id": "np-karobardaily",
@@ -4363,13 +4363,13 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:27.688138+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:56.810027+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://karobardaily.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:27.688138+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:56.810027+00:00",
       "candidateCountBeforeLimit": 73,
       "candidateLimitReached": true,
       "scanPages": [
@@ -4396,30 +4396,29 @@
       "handle": "",
       "owner": "UrjaKhabar",
       "enabled": true,
-      "status": "扫描失败·待重试",
-      "statusEn": "Scan failed; retry needed",
+      "status": "官网可读取·内容待核验",
+      "statusEn": "Website readable; content pending review",
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T00:09:32.302011+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:57.410172+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://urjakhabar.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:27.862377+00:00",
-      "candidateCountBeforeLimit": 133,
+      "lastAttemptAt": "2026-10-15T23:32:57.410172+00:00",
+      "candidateCountBeforeLimit": 145,
       "candidateLimitReached": true,
       "scanPages": [
         {
           "url": "https://urjakhabar.com/",
-          "success": false,
-          "candidateCount": 0,
+          "success": true,
+          "candidateCount": 60,
           "limitReached": true
         }
       ],
-      "candidateCount": 0,
-      "scanError": "HTTPError"
+      "candidateCount": 60
     },
     {
       "id": "np-nepalpurbadhar",
@@ -4440,24 +4439,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:27.979510+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:57.681154+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://nepalpurbadhar.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:27.979510+00:00",
-      "candidateCountBeforeLimit": 49,
+      "lastAttemptAt": "2026-10-15T23:32:57.681154+00:00",
+      "candidateCountBeforeLimit": 51,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://nepalpurbadhar.com/",
           "success": true,
-          "candidateCount": 49,
+          "candidateCount": 51,
           "limitReached": false
         }
       ],
-      "candidateCount": 49
+      "candidateCount": 51
     },
     {
       "id": "np-bizpati",
@@ -4478,24 +4477,24 @@
       "posts14d": null,
       "verifiedBy": "用户提供清单；内容须另行核验",
       "verifiedByEn": "User-supplied registry; content requires separate verification",
-      "lastCollectedAt": "2026-10-14T23:42:28.311285+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:57.750400+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://bizpati.com/",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:28.311285+00:00",
-      "candidateCountBeforeLimit": 52,
+      "lastAttemptAt": "2026-10-15T23:32:57.750400+00:00",
+      "candidateCountBeforeLimit": 50,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://bizpati.com/",
           "success": true,
-          "candidateCount": 52,
+          "candidateCount": 50,
           "limitReached": false
         }
       ],
-      "candidateCount": 52
+      "candidateCount": 50
     },
     {
       "id": "np-karmacharipress",
@@ -4522,7 +4521,7 @@
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "Nepali",
-      "lastAttemptAt": "2026-10-14T23:42:28.390274+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:58.494206+00:00",
       "candidateCountBeforeLimit": 193,
       "candidateLimitReached": true,
       "scanPages": [
@@ -4555,10 +4554,10 @@
       "posts14d": null,
       "verifiedBy": "厂商网站；仅纳入与尼泊尔相关的消息",
       "verifiedByEn": "Vendor website; Nepal-related developments only",
-      "lastCollectedAt": "2026-10-14T23:42:28.622131+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:58.621603+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.eutelsat.com/media-press/media-centre",
-      "lastAttemptAt": "2026-10-14T23:42:28.622131+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:58.621603+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4593,7 +4592,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal-only",
       "verificationUrl": "https://newsroom.juniper.net/",
-      "lastAttemptAt": "2026-10-14T23:42:29.159969+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:58.921811+00:00",
       "scanError": "TimeoutError",
       "scanPages": [
         {
@@ -4624,10 +4623,10 @@
       "posts14d": null,
       "verifiedBy": "厂商网站；仅纳入与尼泊尔相关的消息",
       "verifiedByEn": "Vendor website; Nepal-related developments only",
-      "lastCollectedAt": "2026-10-14T23:42:29.923828+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:59.058222+00:00",
       "scope": "Nepal-only",
       "verificationUrl": "https://www.extremenetworks.com/about-extreme-networks/company/newsroom",
-      "lastAttemptAt": "2026-10-14T23:42:29.923828+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:59.058222+00:00",
       "candidateCountBeforeLimit": 0,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4659,10 +4658,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:29.941121+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:59.429739+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://mod.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:29.941121+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:59.429739+00:00",
       "scanPages": [
         {
           "url": "https://mod.gov.np/",
@@ -4694,10 +4693,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:30.018041+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:59.756453+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.moljpa.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:30.018041+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:59.756453+00:00",
       "candidateCountBeforeLimit": 3,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4729,10 +4728,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:30.134157+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:59.803879+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.mohp.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:30.134157+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:59.803879+00:00",
       "scanPages": [
         {
           "url": "https://www.mohp.gov.np/",
@@ -4764,10 +4763,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:30.483820+00:00",
+      "lastCollectedAt": "2026-10-15T23:32:59.910126+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://moest.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:30.483820+00:00",
+      "lastAttemptAt": "2026-10-15T23:32:59.910126+00:00",
       "scanPages": [
         {
           "url": "https://moest.gov.np/",
@@ -4799,10 +4798,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:31.894128+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:01.688082+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.mosti.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:31.894128+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:01.688082+00:00",
       "candidateCountBeforeLimit": 23,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4834,21 +4833,21 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:32.180431+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:01.817850+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://moald.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:32.180431+00:00",
-      "candidateCountBeforeLimit": 104,
+      "lastAttemptAt": "2026-10-15T23:33:01.817850+00:00",
+      "candidateCountBeforeLimit": 105,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://moald.gov.np/",
           "success": true,
-          "candidateCount": 104,
+          "candidateCount": 105,
           "limitReached": false
         }
       ],
-      "candidateCount": 104
+      "candidateCount": 105
     },
     {
       "id": "np-moid",
@@ -4869,10 +4868,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:32.342951+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:02.033832+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://moid.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:32.342951+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:02.033832+00:00",
       "candidateCountBeforeLimit": 22,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4904,10 +4903,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:32.780671+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:02.336318+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.molcpa.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:32.780671+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:02.336318+00:00",
       "candidateCountBeforeLimit": 60,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4939,10 +4938,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:34.786858+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:04.645353+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://tourism.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:34.786858+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:04.645353+00:00",
       "candidateCountBeforeLimit": 88,
       "candidateLimitReached": false,
       "scanPages": [
@@ -4974,10 +4973,10 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:35.328917+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:06.183221+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.moless.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:35.328917+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:06.183221+00:00",
       "candidateCountBeforeLimit": 72,
       "candidateLimitReached": false,
       "scanPages": [
@@ -5009,21 +5008,21 @@
       "posts14d": null,
       "verifiedBy": "官方部委职责名录及机构网站；公告另行核验",
       "verifiedByEn": "Official portfolio roster and institution website; notices require review",
-      "lastCollectedAt": "2026-10-14T23:42:36.504638+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:07.169539+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.mowcsc.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:36.504638+00:00",
-      "candidateCountBeforeLimit": 145,
+      "lastAttemptAt": "2026-10-15T23:33:07.169539+00:00",
+      "candidateCountBeforeLimit": 146,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://www.mowcsc.gov.np/",
           "success": true,
-          "candidateCount": 145,
+          "candidateCount": 146,
           "limitReached": false
         }
       ],
-      "candidateCount": 145
+      "candidateCount": 146
     },
     {
       "id": "np-newbusinessage",
@@ -5047,7 +5046,7 @@
       "lastCollectedAt": "2026-09-29T10:45:50.563622+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.newbusinessage.com/",
-      "lastAttemptAt": "2026-10-14T23:42:37.220378+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:08.106331+00:00",
       "scanPages": [
         {
           "url": "https://www.newbusinessage.com/",
@@ -5083,7 +5082,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://www.presidentofnepal.gov.np/",
-      "lastAttemptAt": "2026-10-14T23:42:37.380221+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:08.274480+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -5114,20 +5113,20 @@
       "posts14d": null,
       "verifiedBy": "机构或出版方官网；新闻内容另行核验",
       "verifiedByEn": "Institution or publisher website; article content requires review",
-      "lastCollectedAt": "2026-10-14T23:42:38.058449+00:00",
+      "lastCollectedAt": "2026-10-15T23:33:08.748701+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://radionepalonline.com/en/",
-      "lastAttemptAt": "2026-10-14T23:42:38.058449+00:00",
+      "lastAttemptAt": "2026-10-15T23:33:08.748701+00:00",
       "scanPages": [
         {
           "url": "https://radionepalonline.com/en/",
           "success": true,
-          "candidateCount": 15,
+          "candidateCount": 14,
           "limitReached": false
         }
       ],
-      "candidateCount": 15,
-      "candidateCountBeforeLimit": 15,
+      "candidateCount": 14,
+      "candidateCountBeforeLimit": 14,
       "candidateLimitReached": false
     }
   ],
@@ -5273,10 +5272,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-10-14T23:42:11.440376+00:00",
+        "lastCollectedAt": "2026-10-15T23:32:40.810369+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://www.nta.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:11.440376+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:40.810369+00:00",
         "scanPages": [
           {
             "url": "https://www.nta.gov.np/",
@@ -5286,7 +5285,7 @@
           }
         ],
         "candidateCount": 60,
-        "candidateCountBeforeLimit": 498,
+        "candidateCountBeforeLimit": 499,
         "candidateLimitReached": true
       },
       {
@@ -5311,7 +5310,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://mocit.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:12.095301+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:41.411592+00:00",
         "scanError": "URLError",
         "monitoringPriority": "normal",
         "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
@@ -5345,21 +5344,21 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-10-14T23:42:20.028480+00:00",
+        "lastCollectedAt": "2026-10-15T23:32:49.244674+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://www.nrb.org.np/",
-        "lastAttemptAt": "2026-10-14T23:42:20.028480+00:00",
-        "candidateCountBeforeLimit": 13,
+        "lastAttemptAt": "2026-10-15T23:32:49.244674+00:00",
+        "candidateCountBeforeLimit": 12,
         "candidateLimitReached": false,
         "scanPages": [
           {
             "url": "https://www.nrb.org.np/",
             "success": true,
-            "candidateCount": 13,
+            "candidateCount": 12,
             "limitReached": false
           }
         ],
-        "candidateCount": 13
+        "candidateCount": 12
       },
       {
         "id": "np-law",
@@ -5380,10 +5379,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-10-14T23:42:20.261752+00:00",
+        "lastCollectedAt": "2026-10-15T23:32:49.495014+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://lawcommission.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:20.261752+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:49.495014+00:00",
         "candidateCountBeforeLimit": 6,
         "candidateLimitReached": false,
         "scanPages": [
@@ -5418,7 +5417,7 @@
         "lastCollectedAt": null,
         "scope": "Nepal",
         "verificationUrl": "https://rajpatra.dop.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:20.919002+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:49.796962+00:00",
         "scanError": "URLError",
         "scanPages": [
           {
@@ -5452,7 +5451,7 @@
         "lastCollectedAt": "2026-09-22T23:30:13.147112+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://ppmo.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:20.998488+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:49.968270+00:00",
         "candidateCountBeforeLimit": 123,
         "candidateLimitReached": true,
         "scanPages": [
@@ -5485,10 +5484,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-10-14T23:42:21.380940+00:00",
+        "lastCollectedAt": "2026-10-15T23:32:50.283546+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://ird.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:21.380940+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:50.283546+00:00",
         "candidateCountBeforeLimit": 16,
         "candidateLimitReached": false,
         "scanPages": [
@@ -5520,10 +5519,10 @@
         "posts14d": null,
         "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
         "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-        "lastCollectedAt": "2026-10-14T23:42:21.818304+00:00",
+        "lastCollectedAt": "2026-10-15T23:32:50.789923+00:00",
         "scope": "Nepal",
         "verificationUrl": "https://ibn.gov.np/",
-        "lastAttemptAt": "2026-10-14T23:42:21.818304+00:00",
+        "lastAttemptAt": "2026-10-15T23:32:50.789923+00:00",
         "candidateCountBeforeLimit": 10,
         "candidateLimitReached": false,
         "scanPages": [
@@ -5651,12 +5650,12 @@
     "lastCodexReviewAt": "2026-10-03T21:26:59Z",
     "lastCodexCommit": "be04a20721cf43d9e5a9059e2f40788c3541e19a",
     "lastCandidateGeneratedAt": "2026-10-03T21:22:30.522670+00:00",
-    "lastFallbackDate": "2026-10-15",
-    "lastFallbackAt": "2026-10-14T23:43:06.516966+00:00",
+    "lastFallbackDate": "2026-10-16",
+    "lastFallbackAt": "2026-10-15T23:33:35.989215+00:00",
     "fallbackStatus": "pending_codex_review",
     "fallbackStatusEn": "Pending Codex review",
-    "note": "DeepSeek 自动正文分析更新 1 条；Codex 正式审校日期保持不变。",
-    "noteEn": "DeepSeek refreshed 1 automatic article analyses; the Codex review date is unchanged.",
+    "note": "DeepSeek 自动正文分析更新 2 条；Codex 正式审校日期保持不变。",
+    "noteEn": "DeepSeek refreshed 2 automatic article analyses; the Codex review date is unchanged.",
     "lastTargetedReviewDate": "2026-09-30",
     "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
     "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
@@ -5664,44 +5663,66 @@
   "fallback": {
     "status": "pending_codex_review",
     "statusEn": "Pending Codex review",
-    "generatedAt": "2026-10-14T23:43:06.516966+00:00",
-    "reviewDate": "2026-10-15",
-    "sourceCandidateGeneratedAt": "2026-10-14T23:42:48.565967+00:00",
+    "generatedAt": "2026-10-15T23:33:35.989215+00:00",
+    "reviewDate": "2026-10-16",
+    "sourceCandidateGeneratedAt": "2026-10-15T23:33:17.772755+00:00",
     "model": "deepseek-flash",
     "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
     "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
     "usage": {
-      "prompt_tokens": 21506,
-      "completion_tokens": 840,
-      "total_tokens": 22346,
+      "prompt_tokens": 11213,
+      "completion_tokens": 1172,
+      "total_tokens": 12385,
       "prompt_tokens_details": {
         "cached_tokens": 512
       },
       "prompt_cache_hit_tokens": 512,
-      "prompt_cache_miss_tokens": 20994
+      "prompt_cache_miss_tokens": 10701
     },
     "items": [
       {
-        "id": "bbb8ec736d69677a9555",
-        "date": "2026-09-21",
-        "url": "https://ekantipur.com/business/2026/09/21/biratnagar-can-be-brought-back-to-normal-by-formulating-a-clear-industrial-policy-industrialist-vineet-singhania-28-22.html",
-        "sourceId": "np-ekantipur",
-        "sourceName": "eKantipur",
+        "id": "4b10490387039a2a480f",
+        "date": "2026-09-25",
+        "url": "https://kathmandupost.com/national/2026/09/25/from-himalayan-tsunami-to-global-reform-five-takeaways-from-balendra-shah-s-un-address",
+        "sourceId": "np-kathmandupost",
+        "sourceName": "The Kathmandu Post",
         "sourceTier": "T2",
-        "title": "工业家维尼特·辛加尼亚：制定明确的工业政策可使比尔根杰重回正轨",
-        "titleEn": "Biratnagar can be brought back on track by formulating a clear industrial policy: industrialist Vineet Singhania",
-        "section": "投资与产业资本",
-        "sectionEn": "Investment & industry capital",
+        "title": "总理巴伦德拉·沙阿联合国演讲的五大要点",
+        "titleEn": "Five takeaways from Prime Minister Balendra Shah’s UN address",
+        "section": "政府与监管动态",
+        "sectionEn": "Government & regulation",
         "status": "DeepSeek 正文分析 · 待 Codex 核验",
         "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据eKantipur报道，绿轮胎（Green Tire）创始人维尼特·辛加尼亚在接受采访时表示，尼泊尔轮胎市场中本土生产占比不足0.5%，约85%的轮胎从印度进口。他将本土产业面临的困难归结为政策不稳定、生产成本高、基础设施薄弱及非法进口。辛加尼亚主张制定长期工业政策、采用务实关税税率、加强边境管理、改善基础设施并确保投资安全，以恢复比尔根杰的工业活力；他还提到，新政府成立后虽出现一些改革迹象，但业界尚未感受到直接且重大的变化。",
-        "summaryEn": "According to eKantipur, Vineet Singhania, founder of Green Tire, said in an interview that domestic production accounts for less than 0.5 percent of Nepal's tire market and that about 85 percent of tires consumed are imported from India. He attributed difficulties facing domestic industry to policy instability, high production costs, weak infrastructure and illegal imports. Singhania argued for a long-term industrial policy, practical customs rates, tighter border management, infrastructure improvements and assured investment security to revive Biratnagar's industrial momentum. He also said that although some signs of reform appeared after the new government was formed, industry has not yet felt a large direct change.",
-        "analysis": "若辛加尼亚关于本土生产占比不足0.5%及约85%自印度进口的说法准确，则尼泊尔轮胎市场高度依赖进口，本土制造商在价格与供应稳定性上可能缺乏议价能力，制造成本、物流与关税变化或更直接地传导至消费者。该访谈属于业界主张而非政府决定，任何政策、关税或投资激励措施均未得到证实，尚无证据显示相关措施已起草、批准或实施。下一步应核查尼泊尔海关与工业部门的进口统计、现行关税表及是否存在长期工业政策草案，并确认比尔根杰基础设施与边境管理项目的实际进度；需注意受访者立场可能影响其对政策环境的描述，且访谈未提供可独立验证的文件。",
-        "analysisEn": "If Singhania's claims that domestic production is below 0.5 percent and about 85 percent is imported from India are accurate, Nepal's tire market is heavily import-dependent, leaving local manufacturers with limited pricing and supply stability leverage, while manufacturing costs, logistics and tariff shifts could pass through more directly to customers. The interview reflects industry advocacy rather than a government decision, and no policy, tariff or investment incentive is confirmed; there is no evidence that such measures have been drafted, approved or implemented. A concrete next step is to verify Nepal Customs and industry ministry import statistics, the current tariff schedule and whether a long-term industrial policy draft exists, and to confirm actual progress on Biratnagar infrastructure and border management projects. The interviewee's position may shape how the policy environment is described, and the interview provides no independently verifiable documents.",
-        "sourceSha256": "19abf09b443dc5289de3cc333e4d0e1e8b3b03e5bd0d91715b785ec9fad3da86",
-        "sourceTextChars": 9701,
+        "summary": "据《加德满都邮报》报道，总理巴伦德拉·沙阿在联合国大会第八十一届会议上发言，将该国近期的喜马拉雅灾害置于全球讨论之中。报道称，他提出建立涉及尼泊尔、印度和中国的“喜马拉雅气候韧性机制”，用于共享卫星数据、监测危险冰川湖、加强预警系统并协调跨境灾害援助。他还呼吁提供更多赠款型气候资金，并批评现有全球秩序。报道强调这些内容属于他在联大的提议与表态。",
+        "summaryEn": "According to The Kathmandu Post, Prime Minister Balendra Shah addressed the 81st UN General Assembly session, placing Nepal's recent Himalayan disaster in a global context. The report says he proposed a \"Himalayan Climate Resilience Mechanism\" involving Nepal, India and China to share satellite data, monitor dangerous glacial lakes, strengthen early-warning systems and coordinate cross-border disaster assistance. He also called for more grant-based climate finance and criticised the existing global order. The report characterises these as proposals and statements made in his address.",
+        "analysis": "如果该提议进入正式磋商，尼泊尔的预警、卫星数据共享和跨境灾害通信协调可能获得更多国际技术支持，从而影响依赖灾害预警的民众与相关服务提供方。但当前仅为联大演讲中的提议，尚无已签署协议、预算或实施时间表。下一步应核实尼泊尔外交部、印度和中国政府是否发布联合声明或启动机制磋商，以及官方会议记录中对“机制”的具体表述。证据缺口在于缺少提案文本、参与方确认和资金安排细节。",
+        "analysisEn": "If the proposal moves into formal consultation, Nepal could gain more international technical support for early warning, satellite data sharing and cross-border disaster communications coordination, affecting people who rely on hazard alerts and related service providers. However, this remains only a proposal in a UNGA speech, with no signed agreement, budget or implementation timeline. The next verification step is to check whether Nepal's foreign ministry, and the Indian and Chinese governments, issue a joint statement or begin mechanism consultations, and what official meeting records say about the \"mechanism.\" Evidence gaps include the absence of proposal text, participant confirmation and funding details.",
+        "sourceSha256": "8f75fc21392b5819f37e0afd6266fdcfe6fd9424a6e48771cfa05c299f81ac2d",
+        "sourceTextChars": 5464,
         "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "bbb8ec736d69677a9555:3"
+        "evidenceId": "4b10490387039a2a480f:9"
+      },
+      {
+        "id": "9881228a6c007b382a6d",
+        "date": "2026-09-25",
+        "url": "https://kathmandupost.com/weather/2026/09/25/heavy-rain-flood-risk-rise-as-low-pressure-system-moves-across-nepal",
+        "sourceId": "np-kathmandupost",
+        "sourceName": "The Kathmandu Post",
+        "sourceTier": "T2",
+        "title": "低压系统过境尼泊尔，强降雨与洪水风险上升",
+        "titleEn": "Heavy rain, flood risk rise as low-pressure system moves across Nepal",
+        "section": "政府与监管动态",
+        "sectionEn": "Government & regulation",
+        "status": "DeepSeek 正文分析 · 待 Codex 核验",
+        "statusEn": "DeepSeek article analysis · pending Codex review",
+        "summary": "《加德满都邮报》报道，尼泊尔水文气象部门表示，来自孟加拉湾的低压系统正给尼泊尔大部带来降雨，并预报科西、巴格马蒂、甘达基、蓝毗尼和卡纳利等省将出现大雨到特大暴雨。洪水预报部门将戈尔卡、拉姆琼、卡斯基、马南、木斯塘、当、班克、巴迪亚、苏尔凯特、代莱赫、凯拉利和坎昌普尔等12个县列为高洪水风险区。报道引述气象官员称，未来两天系统将逐渐向尼泊尔移动。",
+        "summaryEn": "The Kathmandu Post reports that Nepal's hydrology and meteorology department said a low-pressure system from the Bay of Bengal is bringing rain across much of Nepal, forecasting heavy to very heavy downpours in Koshi, Bagmati, Gandaki, Lumbini and Karnali provinces. The flood forecasting division listed 12 districts as high flood risk: Gorkha, Lamjung, Kaski, Manang, Mustang, Dang, Banke, Bardiya, Surkhet, Dailekh, Kailali and Kanchanpur. The report quotes a meteorologist saying the system will gradually move toward Nepal over the next two days.",
+        "analysis": "如果预报成立，高洪水风险县的小河流可能出现山洪，影响河流沿岸居民的出行、供电与通信，也可能对依赖道路和网络的本地服务造成中断。这属于预警信息而非已确认灾情，影响范围取决于实际降雨分布。下一步应核实尼泊尔水文气象部门后续公报、洪水预报部门更新，以及受灾县是否报告通信或电力中断。证据缺口在于缺少实时水位数据、实际通信中断报告和县级应对措施细节。",
+        "analysisEn": "If the forecast holds, flash floods could occur in small rivers in the high-risk districts, affecting travel, power and communications for riverside residents and potentially disrupting local services that depend on roads and networks. This is warning information rather than confirmed disaster impact, and the scope depends on actual rainfall distribution. The next verification step is to check follow-up bulletins from Nepal's hydrology and meteorology department, flood forecasting division updates, and whether affected districts report communications or power outages. Evidence gaps include real-time water-level data, actual communications disruption reports and district-level response details.",
+        "sourceSha256": "413cd19eb2c54d8b5adff9b537a01e74cf8f941c34e66839c329df5f1f4acafb",
+        "sourceTextChars": 4563,
+        "dateBasis": "URL-derived; event date requires review",
+        "evidenceId": "9881228a6c007b382a6d:9"
       }
     ]
   },
@@ -5811,13 +5832,13 @@
     ],
     "status": {
       "version": 1,
-      "lastCheckedAt": "2026-10-14T11:55:52+05:45",
+      "lastCheckedAt": "2026-10-15T11:40:34+05:45",
       "topics": {
         "ntc-realtime-billing-tender": {
           "reportItemId": "np-ntc-crtb-tender-20260923",
-          "fingerprint": "81b78987aa35e6f57f052c6766fb70eee596e5ab0d97e7cc917cdf97b1a7c6d4",
-          "lastCheckedAt": "2026-10-14T11:55:52+05:45",
-          "lastChangeAt": "2026-10-14T11:55:52+05:45",
+          "fingerprint": "83a6a89e977c7fa121bc3d97295ce0cf57e7a12a5ec95cc448629752a77deeae",
+          "lastCheckedAt": "2026-10-15T11:40:34+05:45",
+          "lastChangeAt": "2026-10-15T11:40:34+05:45",
           "evidenceUrls": [
             "https://www.nepalitelecom.com/2026/09/ntc-new-billing-system-tender.html"
           ]
