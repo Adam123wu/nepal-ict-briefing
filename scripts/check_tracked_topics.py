@@ -131,6 +131,13 @@ def run(config_path: Path, state_path: Path, issues_path: Path | None, now: date
     for item_id in requested_item_ids(issues_path, items):
         if item_id not in configured_ids:
             topics.append(dynamic_topic(items[item_id]))
+    # Existing subscriptions survive rollover; new issue requests remain current-only.
+    history_path = ROOT / "config/history-reports.json"
+    if history_path.exists():
+        for historical in read_json(history_path):
+            for item_id, item in report_items(historical).items():
+                if item_id in configured_ids:
+                    items.setdefault(item_id, item)
     old_state = read_json(state_path) if state_path.exists() else {"version": 1, "topics": {}}
     new_state = {"version": 1, "lastCheckedAt": now.isoformat(), "topics": {}}
     results = []

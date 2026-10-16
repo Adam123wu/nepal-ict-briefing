@@ -37,7 +37,7 @@ export function BriefingCollection({language}:{language:"zh"|"en"}){
     <div id={`issue-news-${issue.issue.toLowerCase()}`}><BriefingView countries={issue.countries} language={language} showCompetitorWatch={issue.current} idPrefix={issue.issue.toLowerCase()}/></div>
     {issue.current&&<IndustrialPolicyTracker tracker={data.policyTracker} en={en}/>}
     <OperatorContext issue={issue.issue} en={en}/>
-    {issue.current&&<div id="issue-social"><SocialUpdates signals={signals} en={en}/></div>}
+    <div id={issue.current?'issue-social':`issue-social-${issue.issue.toLowerCase()}`}><SocialUpdates signals={signals.filter(signal=>signal.date&&signal.date>=issue.windowStart&&signal.date<=issue.windowEnd)} en={en}/></div>
    </section>)}
   </div>
  </>;

@@ -1,66 +1,11 @@
 {
-  "status": "pending_codex_review",
-  "statusEn": "Pending Codex review",
-  "generatedAt": "2026-10-15T23:33:35.989215+00:00",
+  "status": "clear",
+  "statusEn": "Reviewed and cleared",
+  "generatedAt": "2026-10-16T06:03:00Z",
   "reviewDate": "2026-10-16",
   "sourceCandidateGeneratedAt": "2026-10-15T23:33:17.772755+00:00",
   "model": "deepseek-flash",
-  "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
-  "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
-  "usage": {
-    "prompt_tokens": 11213,
-    "completion_tokens": 1172,
-    "total_tokens": 12385,
-    "prompt_tokens_details": {
-      "cached_tokens": 512
-    },
-    "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 10701
-  },
-  "items": [
-    {
-      "id": "4b10490387039a2a480f",
-      "date": "2026-09-25",
-      "url": "https://kathmandupost.com/national/2026/09/25/from-himalayan-tsunami-to-global-reform-five-takeaways-from-balendra-shah-s-un-address",
-      "sourceId": "np-kathmandupost",
-      "sourceName": "The Kathmandu Post",
-      "sourceTier": "T2",
-      "title": "总理巴伦德拉·沙阿联合国演讲的五大要点",
-      "titleEn": "Five takeaways from Prime Minister Balendra Shah’s UN address",
-      "section": "政府与监管动态",
-      "sectionEn": "Government & regulation",
-      "status": "DeepSeek 正文分析 · 待 Codex 核验",
-      "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据《加德满都邮报》报道，总理巴伦德拉·沙阿在联合国大会第八十一届会议上发言，将该国近期的喜马拉雅灾害置于全球讨论之中。报道称，他提出建立涉及尼泊尔、印度和中国的“喜马拉雅气候韧性机制”，用于共享卫星数据、监测危险冰川湖、加强预警系统并协调跨境灾害援助。他还呼吁提供更多赠款型气候资金，并批评现有全球秩序。报道强调这些内容属于他在联大的提议与表态。",
-      "summaryEn": "According to The Kathmandu Post, Prime Minister Balendra Shah addressed the 81st UN General Assembly session, placing Nepal's recent Himalayan disaster in a global context. The report says he proposed a \"Himalayan Climate Resilience Mechanism\" involving Nepal, India and China to share satellite data, monitor dangerous glacial lakes, strengthen early-warning systems and coordinate cross-border disaster assistance. He also called for more grant-based climate finance and criticised the existing global order. The report characterises these as proposals and statements made in his address.",
-      "analysis": "如果该提议进入正式磋商，尼泊尔的预警、卫星数据共享和跨境灾害通信协调可能获得更多国际技术支持，从而影响依赖灾害预警的民众与相关服务提供方。但当前仅为联大演讲中的提议，尚无已签署协议、预算或实施时间表。下一步应核实尼泊尔外交部、印度和中国政府是否发布联合声明或启动机制磋商，以及官方会议记录中对“机制”的具体表述。证据缺口在于缺少提案文本、参与方确认和资金安排细节。",
-      "analysisEn": "If the proposal moves into formal consultation, Nepal could gain more international technical support for early warning, satellite data sharing and cross-border disaster communications coordination, affecting people who rely on hazard alerts and related service providers. However, this remains only a proposal in a UNGA speech, with no signed agreement, budget or implementation timeline. The next verification step is to check whether Nepal's foreign ministry, and the Indian and Chinese governments, issue a joint statement or begin mechanism consultations, and what official meeting records say about the \"mechanism.\" Evidence gaps include the absence of proposal text, participant confirmation and funding details.",
-      "sourceSha256": "8f75fc21392b5819f37e0afd6266fdcfe6fd9424a6e48771cfa05c299f81ac2d",
-      "sourceTextChars": 5464,
-      "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "4b10490387039a2a480f:9"
-    },
-    {
-      "id": "9881228a6c007b382a6d",
-      "date": "2026-09-25",
-      "url": "https://kathmandupost.com/weather/2026/09/25/heavy-rain-flood-risk-rise-as-low-pressure-system-moves-across-nepal",
-      "sourceId": "np-kathmandupost",
-      "sourceName": "The Kathmandu Post",
-      "sourceTier": "T2",
-      "title": "低压系统过境尼泊尔，强降雨与洪水风险上升",
-      "titleEn": "Heavy rain, flood risk rise as low-pressure system moves across Nepal",
-      "section": "政府与监管动态",
-      "sectionEn": "Government & regulation",
-      "status": "DeepSeek 正文分析 · 待 Codex 核验",
-      "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "《加德满都邮报》报道，尼泊尔水文气象部门表示，来自孟加拉湾的低压系统正给尼泊尔大部带来降雨，并预报科西、巴格马蒂、甘达基、蓝毗尼和卡纳利等省将出现大雨到特大暴雨。洪水预报部门将戈尔卡、拉姆琼、卡斯基、马南、木斯塘、当、班克、巴迪亚、苏尔凯特、代莱赫、凯拉利和坎昌普尔等12个县列为高洪水风险区。报道引述气象官员称，未来两天系统将逐渐向尼泊尔移动。",
-      "summaryEn": "The Kathmandu Post reports that Nepal's hydrology and meteorology department said a low-pressure system from the Bay of Bengal is bringing rain across much of Nepal, forecasting heavy to very heavy downpours in Koshi, Bagmati, Gandaki, Lumbini and Karnali provinces. The flood forecasting division listed 12 districts as high flood risk: Gorkha, Lamjung, Kaski, Manang, Mustang, Dang, Banke, Bardiya, Surkhet, Dailekh, Kailali and Kanchanpur. The report quotes a meteorologist saying the system will gradually move toward Nepal over the next two days.",
-      "analysis": "如果预报成立，高洪水风险县的小河流可能出现山洪，影响河流沿岸居民的出行、供电与通信，也可能对依赖道路和网络的本地服务造成中断。这属于预警信息而非已确认灾情，影响范围取决于实际降雨分布。下一步应核实尼泊尔水文气象部门后续公报、洪水预报部门更新，以及受灾县是否报告通信或电力中断。证据缺口在于缺少实时水位数据、实际通信中断报告和县级应对措施细节。",
-      "analysisEn": "If the forecast holds, flash floods could occur in small rivers in the high-risk districts, affecting travel, power and communications for riverside residents and potentially disrupting local services that depend on roads and networks. This is warning information rather than confirmed disaster impact, and the scope depends on actual rainfall distribution. The next verification step is to check follow-up bulletins from Nepal's hydrology and meteorology department, flood forecasting division updates, and whether affected districts report communications or power outages. Evidence gaps include real-time water-level data, actual communications disruption reports and district-level response details.",
-      "sourceSha256": "413cd19eb2c54d8b5adff9b537a01e74cf8f941c34e66839c329df5f1f4acafb",
-      "sourceTextChars": 4563,
-      "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "9881228a6c007b382a6d:9"
-    }
-  ]
+  "note": "两条9月25日候选已阅读原文，均不属于10月3—16日窗口，已移除；未修改封存历史。",
+  "noteEn": "Both 25 September candidates were read and excluded from the 3–16 October window. Sealed history is unchanged.",
+  "items": []
 }

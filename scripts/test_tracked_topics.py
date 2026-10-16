@@ -38,6 +38,18 @@ class TrackingTests(unittest.TestCase):
         self.assertIn("今日无更新", subject)
         self.assertIn("【今日无更新】", body)
 
+    def test_configured_billing_subscription_survives_rollover(self):
+        current = monitor.report_items(monitor.read_json(monitor.ROOT / "config/nepal-report.json"))
+        tracked_id = "np-ntc-crtb-tender-20260923"
+        history = monitor.read_json(monitor.ROOT / "config/history-reports.json")
+        self.assertTrue(any(tracked_id in monitor.report_items(issue) for issue in history))
+        with tempfile.TemporaryDirectory() as directory:
+            results, saved = monitor.run(
+                monitor.ROOT / "config/tracked-topics.json", Path(directory) / "state.json",
+                None, datetime(2026, 10, 16, tzinfo=ZoneInfo("Asia/Baghdad")))
+            self.assertTrue(results)
+            self.assertIn(tracked_id, [topic["reportItemId"] for topic in saved["topics"].values()])
+
 
 if __name__ == "__main__":
     unittest.main()

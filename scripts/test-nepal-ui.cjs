@@ -48,9 +48,11 @@ const server=http.createServer((req,res)=>{
  const context=JSON.parse(fs.readFileSync('config/operator-context.json','utf8'));
  assert.equal(await page.locator('[data-operator-context]').count(),portal.issues.some(issue=>issue.issue===context.issue)?1:0);
  assert.equal(await page.locator('.news-card [data-operator-context]').count(),0,'Prior-period context must not become a new event');
- const history=portal.issues.find(issue=>!issue.current);assert(history,'Expected one integrated historical issue');
- await page.locator('[data-history-summary]').waitFor();
- assert.equal(await page.locator('[data-history-summary]').count(),1);
+ const history=portal.issues.find(issue=>issue.issue==='W37-38'&&!issue.current);assert(history,'Expected preserved baseline history');
+ await page.locator('[data-history-summary]').first().waitFor();
+ assert.equal(await page.locator('[data-history-summary]').count(),portal.issues.filter(issue=>!issue.current).length);
+ for(const issue of portal.issues.filter(issue=>!issue.current))assert.equal(await page.locator(`[data-issue="${issue.issue}"] .news-card`).count(),issue.stats.news);
+ assert.equal(await page.locator(`[data-issue="${portal.report.issue}"] .social-story`).count(),portal.signals.filter(signal=>signal.date>=portal.report.windowStart&&signal.date<=portal.report.windowEnd).length);
  assert.equal(await page.locator(`[data-issue="${history.issue}"] .news-card`).count(),history.stats.news,'Historical issue must show every reviewed item without a tab click');
  assert((await page.locator(`[data-issue="${history.issue}"] .accordion`).innerText()).includes('Nepal Telecom 发布宪法日套餐'));
  for(const language of ['中文','English']){
