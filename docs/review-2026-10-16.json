@@ -1,0 +1,43 @@
+{
+  "reviewDate": "2026-10-16",
+  "reviewedAt": "2026-10-16T06:07:43Z",
+  "scope": "Bounded public-source editorial review, not exhaustive coverage.",
+  "collector": {"run": 38824194873, "conclusion": "success", "generatedAt": "2026-10-15T23:33:17.772755+00:00", "manualRetrigger": false},
+  "issue": "W41-42",
+  "window": ["2026-10-03", "2026-10-16"],
+  "publishedEvents": ["np-ncell-annual-offer-20261012", "np-ambassador-hearings-20261014"],
+  "verification": [
+    "Read full Ncell official offer and NepaliTelecom coverage; retain 200 GB monthly high-speed allowance then 256 Kbps, omit unsupported OTT benefits.",
+    "Read full NepalKhabar 14 October hearing report and Kathmandu Post updated 15 October account; distinguish ten clearances, two rejections and one deferral from appointment.",
+    "Read both original September 25 fallback articles; UN remarks and weather forecast are outside this issue and cannot be recycled as current events."
+  ],
+  "fallbackExcluded": [
+    "https://kathmandupost.com/national/2026/09/25/from-himalayan-tsunami-to-global-reform-five-takeaways-from-balendra-shah-s-un-address",
+    "https://kathmandupost.com/weather/2026/09/25/heavy-rain-flood-risk-rise-as-low-pressure-system-moves-across-nepal"
+  ],
+  "coverage": {
+    "method": "Reviewed twelve focus definitions, government directory, competitor registry and current candidates; bounded English/Nepali discovery across telecom/regulation/market/5G/digital economy, public procurement, energy/Huawei/CSR, diplomacy and disaster continuity.",
+    "failedSourceIds": ["np-mof", "np-moewri", "np-asiainfo", "np-mocit", "np-techpana", "np-ericsson", "np-gazette", "np-ppmo", "np-setopati", "np-karmacharipress", "np-juniper", "np-newbusinessage", "np-president"],
+    "limitations": "No claim that all ministry or vendor sites were read successfully. No authenticated Facebook/Telegram collection. No new independently verified vendor award.",
+    "pending": [
+      "NTC swap/expansion tender: PPMO listing 13721 located, attachment not retrieved; do not confirm amount, security, deadlines or OEM.",
+      "NTA/NTC information-highway agreement and ISP tariff enforcement require accessible primary notices.",
+      "Ncell Marma tower reports repeat company statements; exact activation and primary release need further checking.",
+      "TechnologyKhabar Huawei ISP/F5G event and microwave-upgrade leads remain unreviewed, not an assertion of no Huawei news.",
+      "GeoCables outage signal is not independent proof of operator-wide interruption or cause."
+    ]
+  },
+  "deepseek": {
+    "run": 38859273331,
+    "headSha": "76f7d8a5345356b3acd4da14244e2f763580566f",
+    "inputSha256": "b5db40ca24d57564126f92ef693e61f5719abc17ca03c79a9fa1d7e19654ce55",
+    "model": "deepseek-flash",
+    "requests": 1,
+    "totalTokens": 5344,
+    "review": "Hash and evidence schema verified. Condensed bilingual implications; retained primary official appointment checks, removed model meta-notes and did not attribute editorial non-procurement conclusions to source wording."
+  },
+  "history": "W39-40 (23) and W37-38 (10) unchanged; current issue is not sealed until its window ends.",
+  "implementation": "Date-route historical social signals; preserve configured billing tracking across rollover without accepting historical IDs from new issue requests.",
+  "security": "Next 15.5.28 plus patched transitive packages; production npm audit reports zero vulnerabilities. Tracked-file credential-pattern scan found no matches.",
+  "localWorktree": "Original project preserved untouched; separate clean temporary clone used."
+}
