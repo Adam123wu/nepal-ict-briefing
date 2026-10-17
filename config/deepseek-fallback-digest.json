@@ -1,11 +1,66 @@
 {
-  "status": "clear",
-  "statusEn": "Reviewed and cleared",
-  "generatedAt": "2026-10-16T06:07:43Z",
-  "reviewDate": "2026-10-16",
-  "sourceCandidateGeneratedAt": "2026-10-15T23:33:17.772755+00:00",
+  "status": "pending_codex_review",
+  "statusEn": "Pending Codex review",
+  "generatedAt": "2026-10-17T22:54:49.280063+00:00",
+  "reviewDate": "2026-10-18",
+  "sourceCandidateGeneratedAt": "2026-10-17T22:54:32.387214+00:00",
   "model": "deepseek-flash",
-  "note": "两条9月25日候选已阅读原文，均不属于10月3—16日窗口，已移除；未修改封存历史。",
-  "noteEn": "Both 25 September candidates were read and excluded from the 3–16 October window. Sealed history is unchanged.",
-  "items": []
+  "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
+  "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
+  "usage": {
+    "prompt_tokens": 5722,
+    "completion_tokens": 1114,
+    "total_tokens": 6836,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 5722
+  },
+  "items": [
+    {
+      "id": "682b1c1fc16749faad99",
+      "date": "2026-10-16",
+      "url": "https://radionepalonline.com/en/2026/10/16/437895.html",
+      "sourceId": "np-radio-nepal",
+      "sourceName": "Radio Nepal public broadcaster",
+      "sourceTier": "T1",
+      "title": "外长卡纳尔呼吁尼泊尔与印度建立以生产和科技为驱动的经济联系",
+      "titleEn": "Foreign Minister Khanal urges production- and technology-driven economic ties between Nepal and India",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据Radio Nepal报道，外交部长希希尔·卡纳尔在尼泊尔-印度工商会第32届年度大会上表示，尼印双边经济合作应转向以生产为驱动、多元且可持续的框架，涵盖贸易、能源、数字技术和旅游。他称外交已不限于外交部、正式会谈和条约，产业、贸易、能源和数字支付系统也成为经济外交的重要领域。他提到印度是尼泊尔最大贸易伙伴和主要外国直接投资来源，并呼吁印度投资者扩大在尼投资，提出在数字支付、人工智能和金融科技方面开展技术合作。",
+      "summaryEn": "According to Radio Nepal, Foreign Minister Shisir Khanal told the 32nd Annual General Meeting of the Nepal-India Chamber of Commerce and Industry that Nepal-India economic cooperation should move toward production-driven, diversified and sustainable frameworks across trade, energy, digital technology and tourism. He said diplomacy is no longer limited to the foreign ministry, formal talks and treaties, with industry, trade, energy and digital payment systems also vital to economic diplomacy. He noted India is Nepal's largest trading partner and main FDI source, urged Indian investors to expand in Nepal, and cited technological collaboration in digital payments, artificial intelligence and fintech.",
+      "analysis": "若相关表态后续转化为具体安排，数字支付、人工智能与金融科技合作可能影响尼泊尔跨境支付成本及本地金融科技企业的市场准入。但该报道仅记录部长在商会会议上的表态，属于倡议而非已宣布的政策或协议，未提及具体项目、金额、时间表或监管安排。下一步应核实尼泊尔外交部或尼印联合机制是否发布正式文件或后续会谈成果；现有证据缺口在于无任何实施细节，且报道未说明相关合作的牵头机构。",
+      "analysisEn": "If the remarks later translate into concrete arrangements, cooperation on digital payments, AI and fintech could affect Nepal's cross-border payment costs and market access for local fintech firms. However, the report only records a minister's remarks at a chamber meeting: this is advocacy, not an announced policy or agreement, with no projects, amounts, timelines or regulatory arrangements mentioned. The next verification step is to check whether Nepal's foreign ministry or a Nepal-India joint mechanism issued formal documents or follow-up outcomes; the evidence gap is the absence of any implementation detail or named lead agency.",
+      "sourceSha256": "d86a7a9ca97243b104efa8b29ddcf67d6a4e7f5ba2b7e979e6b5bb2683f96481",
+      "sourceTextChars": 2008,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "682b1c1fc16749faad99:6"
+    },
+    {
+      "id": "c08fd234a44ccef4f112",
+      "date": "2026-10-16",
+      "url": "https://radionepalonline.com/en/2026/10/16/437904.html",
+      "sourceId": "np-radio-nepal",
+      "sourceName": "Radio Nepal public broadcaster",
+      "sourceTier": "T1",
+      "title": "即将卸任的南盟秘书长萨尔瓦尔向外长卡纳尔辞行",
+      "titleEn": "Outgoing SAARC Secretary-General Sarwar pays farewell call on Foreign Minister Khanal",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据Radio Nepal报道，南亚区域合作联盟秘书长、大使穆罕默德·戈拉姆·萨尔瓦尔在外交部向外长希希尔·卡纳尔进行辞行拜会。双方讨论了南盟的制度重要性，强调加强南亚区域合作，重点涉及气候变化适应和灾害应对管理领域的联合区域倡议。卡纳尔对萨尔瓦尔任内推动南盟制度发展和区域合作所作贡献表示感谢。",
+      "summaryEn": "According to Radio Nepal, SAARC Secretary-General Ambassador Md. Golam Sarwar paid a farewell call on Foreign Minister Shisir Khanal at the Ministry of Foreign Affairs. The two discussed SAARC's institutional importance and stressed strengthening regional cooperation across South Asia, focusing on joint regional initiatives in climate change adaptation and disaster response management. Khanal expressed appreciation for Sarwar's contributions to SAARC's institutional development and regional collaboration during his tenure.",
+      "analysis": "这是一次礼节性辞行拜会，本身不产生政策决定。若南盟在灾害应对管理方面推进联合区域倡议，可能间接影响南亚区域的灾害通信协调，但报道未提及任何通信或ICT内容，不宜推定存在ICT关联。对客户而言，当前没有可直接利用的新安排或市场准入变化。下一步应核实南盟秘书处是否就气候适应与灾害应对发布后续工作计划或会议成果；证据缺口在于报道未说明任何具体倡议、资金或时间表。",
+      "analysisEn": "This is a courtesy farewell call that produces no policy decision by itself. If SAARC advances joint regional initiatives on disaster response management, that could indirectly affect regional disaster communications coordination, but the report mentions no communications or ICT content and no ICT link should be presumed. For customers, there is currently no new arrangement or market-access change to act on. The next verification step is to check whether the SAARC Secretariat issued follow-up work plans or meeting outcomes on climate adaptation and disaster response; the evidence gap is the absence of any specific initiative, funding or timeline.",
+      "sourceSha256": "928d939f0199cf5945c1478fd19681540f1ffe9eca0aa3fdcda27e7f148dd33c",
+      "sourceTextChars": 757,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "c08fd234a44ccef4f112:1"
+    }
+  ]
 }

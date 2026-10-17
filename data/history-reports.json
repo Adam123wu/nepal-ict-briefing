@@ -1,5 +1,171 @@
 [
   {
+    "issue": "W41-42",
+    "generated": "2026-10-16",
+    "windowStart": "2026-10-03",
+    "windowEnd": "2026-10-16",
+    "period": "2026年10月3—16日 · 尼泊尔独立版",
+    "periodEn": "3–16 October 2026 · Nepal edition",
+    "sourceFile": "nepal-w41-42.html",
+    "status": "历史完整期，共 2 条核验事件。",
+    "statusEn": "Completed historical issue with 2 reviewed events.",
+    "summary": [
+      "Ncell推出6,999卢比年度套餐：每月200GB高速数据，之后降至256Kbps，不是无限高速流量。",
+      "10月14日大使提名听证：10人获通过，沙特及马来西亚提名被否决，日本提名暂缓；听证通过不等于任命或履职。",
+      "NTC 2G/4G换网扩容招标已找到政府公告入口，但附件尚未取得；不提前确认金额、截止时间或设备厂家。",
+      "本期2项独立事件；保留此前33项历史记录，9月社媒及旧天气预警不冒充10月新消息。"
+    ],
+    "summaryEn": [
+      "Ncell's NPR 6,999 annual offer includes 200 GB of high-speed data per month, then 256 Kbps—not unrestricted high-speed data.",
+      "On 14 October, ten ambassadorial nominees cleared hearings, the Saudi Arabia and Malaysia nominees were rejected, and Japan's was deferred. Hearing clearance is not appointment or assumption of office.",
+      "A government listing was located for NTC's 2G/4G swap/expansion tender, but its attachment remains unavailable. Value, deadlines and OEMs are not yet confirmed here.",
+      "Two distinct events are included; 33 historical items remain intact. September social observations and weather warnings are not recycled as October news."
+    ],
+    "countries": {
+      "np": {
+        "name": "尼泊尔",
+        "nameEn": "Nepal",
+        "flag": "🇳🇵",
+        "sections": [
+          {
+            "category": "本国运营商最新动态",
+            "categoryEn": "Operator developments",
+            "items": [
+              {
+                "id": "np-ncell-annual-offer-20261012",
+                "date": "2026-10-12",
+                "title": "Ncell年度套餐：6,999卢比锁定12个月，每月高速数据200GB",
+                "titleEn": "Ncell offers a 12-month pack for NPR 6,999 with 200 GB high-speed data monthly",
+                "badge": "官方套餐条款",
+                "badgeEn": "Official offer terms",
+                "text": "Ncell官网确认，预付费用户可在10月12日至11月16日期间购买6,999尼泊尔卢比的12个月套餐，包含国内通话、每日150条短信及每月200GB高速数据；用完后限速256Kbps，至下一月重置。本次为零售套餐促销，不是网络设备采购公告。",
+                "textEn": "Ncell's official offer is available to prepaid users from 12 October to 16 November at NPR 6,999 for 12 months. It includes domestic calls, 150 SMS daily and 200 GB of high-speed data each month, followed by 256 Kbps until the next monthly reset. This is a retail promotion, not a network-equipment procurement notice.",
+                "opportunity": "研判：年度预付可能改变用户支出节奏并加强留存，但订购量、ARPU、网络负载和利润未披露，不能量化竞争影响。11月16日前复查资格、续订方式、限速及延期条款，并对照其他运营商同类报价。计费配置或容量优化仅属待验证需求；没有单独招标、预算或厂家获单证据。",
+                "opportunityEn": "Analysis: annual prepayment may change spending patterns and support retention, but take-up, ARPU, network load and margins are undisclosed, so competitive effects cannot be quantified. Before 16 November, recheck eligibility, renewal, throttling and extension terms and compare equivalent rival offers. Billing configuration or capacity optimisation remain needs to validate; no separate tender, budget or vendor award is established.",
+                "links": [
+                  {
+                    "label": "Ncell 官方套餐",
+                    "labelEn": "Ncell official offer",
+                    "url": "https://www.ncell.com.np/en/individual/offers/dashain-offer-2026"
+                  },
+                  {
+                    "label": "NepaliTelecom 10/12",
+                    "url": "https://www.nepalitelecom.com/2026/10/ncell-yearly-pack-super-value-pack-dashain.html"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "运营商、数字能源与网络建设",
+            "displayCategoryEn": "Operators, digital energy & network infrastructure"
+          },
+          {
+            "category": "本国部委最新动态",
+            "categoryEn": "Ministry and regulator developments",
+            "items": [],
+            "displayCategory": "政府与监管动态",
+            "displayCategoryEn": "Government & regulation"
+          },
+          {
+            "category": "本国头部客户的新机会点",
+            "categoryEn": "Key-account opportunities",
+            "items": [],
+            "displayCategory": "重点客户与商机",
+            "displayCategoryEn": "Key accounts & opportunities"
+          },
+          {
+            "category": "本国政治与大选进展及内幕",
+            "categoryEn": "Politics and elections",
+            "items": [],
+            "displayCategory": "国家政策与外交人事要闻",
+            "displayCategoryEn": "National policy & diplomatic appointments"
+          },
+          {
+            "category": "本国 ISP/DSP 和互联网运营商的投资动态",
+            "categoryEn": "ISP and internet infrastructure investment",
+            "items": [],
+            "displayCategory": "宽带与企业连接",
+            "displayCategoryEn": "Broadband & enterprise connectivity"
+          },
+          {
+            "category": "ICT 竞争对手最新动态",
+            "categoryEn": "ICT equipment vendors and competitors",
+            "items": [],
+            "displayCategory": "竞争格局与设备商动态",
+            "displayCategoryEn": "Competition & equipment vendors"
+          },
+          {
+            "category": "运营商在集团侧相关信息",
+            "categoryEn": "Operator group developments",
+            "items": [],
+            "displayCategory": "运营商集团战略",
+            "displayCategoryEn": "Operator group strategy"
+          },
+          {
+            "category": "外部关系与地缘政治",
+            "categoryEn": "External relations and geopolitics",
+            "items": [
+              {
+                "id": "np-ambassador-hearings-20261014",
+                "date": "2026-10-14",
+                "title": "大使提名听证：10人通过，2人被否决，日本提名暂缓",
+                "titleEn": "Ambassadorial hearings clear ten nominees, reject two and defer Japan decision",
+                "badge": "听证程序 · 非正式任命",
+                "badgeEn": "Hearings—not final appointments",
+                "text": "NepalKhabar与《加德满都邮报》确认，10月14日听证委员会通过驻印度、中国、美国等10国的大使提名。后续报道确认，驻沙特和马来西亚提名被否决，驻日本提名暂缓决定。获通过者仍须完成后续任命程序及驻在国同意等步骤，不能列为已履职大使；对被否决者的指控不作为已裁定事实转述。",
+                "textEn": "NepalKhabar and The Kathmandu Post report that on 14 October the hearing committee cleared ten ambassadorial nominees, including those for India, China and the US. Subsequent reporting confirms rejection of the Saudi Arabia and Malaysia nominees and deferral of the Japan decision. Cleared nominees still face remaining appointment procedures and receiving-state consent; they are not treated as serving ambassadors. Allegations concerning rejected nominees are not presented as adjudicated facts.",
+                "opportunity": "研判：外交联络名录需要保留“提名／听证／任命／到任”分阶段状态。下一步核对总统任命公告及外交部驻外名录；在正式任命前继续使用现有使馆渠道。此次人事程序不直接构成ICT项目或融资承诺。 日本提名的后续听证结果也须单独跟踪，不能因其他10人通过而自动更新其状态。",
+                "opportunityEn": "Analysis: maintain separate nomination, hearing, appointment and arrival stages in diplomatic contact records. Check presidential appointment notices and the foreign ministry's mission directory; retain existing embassy channels until appointments are formalised. This personnel process establishes no ICT project or financing commitment. Track the deferred Japan hearing separately; clearance of the other ten nominees does not change its status.",
+                "links": [
+                  {
+                    "label": "NepalKhabar 10/14",
+                    "url": "https://nepalkhabar.com/politics/289805-2026-10-14-19-1-18"
+                  },
+                  {
+                    "label": "The Kathmandu Post 10/14（10/15更新）",
+                    "labelEn": "The Kathmandu Post 14 Oct (updated 15 Oct)",
+                    "url": "https://kathmandupost.com/national/2026/10/14/parliamentary-panel-rejects-two-ambassador-nominees-clears-10"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "对外关系与市场影响",
+            "displayCategoryEn": "External relations & market impact"
+          },
+          {
+            "category": "本国主流媒体对华为的报道与评价",
+            "categoryEn": "Huawei media coverage",
+            "items": [],
+            "displayCategory": "华为在尼泊尔",
+            "displayCategoryEn": "Huawei in Nepal"
+          },
+          {
+            "category": "本国财团投资动态",
+            "categoryEn": "Consortium investment",
+            "items": [],
+            "displayCategory": "投资与产业资本",
+            "displayCategoryEn": "Investment & industry capital"
+          },
+          {
+            "category": "社交媒体新闻追踪",
+            "categoryEn": "Important social-media updates",
+            "items": [],
+            "displayCategory": "社媒传播追踪",
+            "displayCategoryEn": "Social coverage"
+          }
+        ]
+      }
+    },
+    "stats": {
+      "news": 2,
+      "opportunities": 2,
+      "telegram": 0,
+      "countryCounts": {
+        "np": 2
+      }
+    },
+    "current": false
+  },
+  {
     "issue": "W39-40",
     "generated": "2026-10-01",
     "windowStart": "2026-09-19",
