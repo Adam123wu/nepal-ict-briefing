@@ -28,7 +28,7 @@
       "lastCollectedAt": "2026-10-20T23:37:50.094178+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:06.087916+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:20.758521+00:00",
       "scanPages": [
         {
           "url": "https://www.nta.gov.np/",
@@ -64,7 +64,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:18.996927+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:32.684548+00:00",
       "scanError": "URLError",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
@@ -101,7 +101,7 @@
       "lastCollectedAt": "2026-10-21T23:54:44.549985+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-10-23T23:45:29.680634+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:43.209470+00:00",
       "candidateCountBeforeLimit": 10,
       "candidateLimitReached": false,
       "scanPages": [
@@ -137,7 +137,7 @@
       "lastCollectedAt": "2026-10-20T23:37:58.002390+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:29.849557+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:43.393641+00:00",
       "candidateCountBeforeLimit": 6,
       "candidateLimitReached": false,
       "scanPages": [
@@ -173,7 +173,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:30.469609+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:43.573288+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -207,7 +207,7 @@
       "lastCollectedAt": "2026-09-22T23:30:13.147112+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:30.547359+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:44.039321+00:00",
       "candidateCountBeforeLimit": 123,
       "candidateLimitReached": true,
       "scanPages": [
@@ -243,7 +243,7 @@
       "lastCollectedAt": "2026-10-20T23:37:58.291717+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:37.336773+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:50.948147+00:00",
       "candidateCountBeforeLimit": 23,
       "candidateLimitReached": false,
       "scanPages": [
@@ -279,7 +279,7 @@
       "lastCollectedAt": "2026-10-20T23:37:59.192611+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-10-23T23:45:37.337321+00:00",
+      "lastAttemptAt": "2026-10-24T22:54:50.974725+00:00",
       "candidateCountBeforeLimit": 11,
       "candidateLimitReached": false,
       "scanPages": [
