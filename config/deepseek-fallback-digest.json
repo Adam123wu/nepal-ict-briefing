@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-11-10T03:11:50.790005+00:00",
-  "reviewDate": "2026-11-10",
-  "sourceCandidateGeneratedAt": "2026-11-10T03:11:30.599364+00:00",
+  "generatedAt": "2026-11-11T01:01:22.652474+00:00",
+  "reviewDate": "2026-11-11",
+  "sourceCandidateGeneratedAt": "2026-11-11T01:01:01.309611+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 4265,
-    "completion_tokens": 863,
-    "total_tokens": 5128,
+    "prompt_tokens": 4247,
+    "completion_tokens": 545,
+    "total_tokens": 4792,
     "prompt_tokens_details": {
       "cached_tokens": 512
     },
     "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 3753
+    "prompt_cache_miss_tokens": 3735
   },
   "items": [
     {
-      "id": "4a096c8e6ea62246d16b",
-      "date": "2026-10-13",
-      "url": "https://www.technologykhabar.com/2026/10/13/257741/",
+      "id": "d8a1c8c625af6e8b7429",
+      "date": "2026-10-05",
+      "url": "https://www.technologykhabar.com/2026/10/05/256992/",
       "sourceId": "np-technologykhabar",
       "sourceName": "TechnologyKhabar",
       "sourceTier": "T2",
-      "title": "三星尼泊尔宣布为洪灾受影响社区提供特别维修服务活动",
-      "titleEn": "Samsung Nepal announces special repair service campaign for flood-affected communities",
-      "section": "竞争格局与设备商动态",
-      "sectionEn": "Competition & equipment vendors",
+      "title": "能源部长什雷斯塔：手机缴纳电费系统应更有效",
+      "titleEn": "Energy Minister Shrestha: Mobile electricity bill payment system should be effective",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据TechnologyKhabar报道，三星尼泊尔宣布了一项面向洪灾受影响社区的特别维修服务活动，称此举旨在减轻受灾家庭维修和更换物品的经济负担，帮助恢复必要的手机和家用电器使用。报道称，活动在纳拉扬加特服务中心和帕科塔姆拉卡尔服务中心设立特别维修点，并为家用电器安排上门服务；覆盖智能手机、平板电脑以及冰箱、洗衣机、电视等符合条件的产品。报道还称，服务面向尼泊尔政府宣布为灾害危机受影响地区的15个地方行政单位及周边包括拉苏瓦、努瓦科特、达丁、奇特旺、戈尔卡和塔纳洪等地区。报道列出保修期内产品维修或更换可享100%折扣，1至2年产品80%，2至5年以上产品70%等安排；手机和平板电脑也有相应折扣。报道称该活动于2026年10月2日至11月2日以特别服务营形式进行。以上均为该报道所述的公司安排，未获独立核实。",
-      "summaryEn": "TechnologyKhabar reported that Samsung Nepal announced a special repair service campaign for flood-affected communities, saying it aims to reduce the financial burden of repairs and replacements and help restore essential phones and household appliances. The report said special repair points operate at the Narayanghat service center and the Pakotamrakar service center, with home visits arranged for household appliances, covering smartphones and tablets as well as eligible refrigerators, washing machines and televisions. It said the service targets flood-affected areas in 15 local units declared by the Nepal government as disaster-crisis areas and nearby districts including Rasuwa, Nuwakot, Dhading, Chitwan, Gorkha and Tanahun. The report listed discounts of 100 percent for in-warranty repair or replacement, 80 percent for products 1-2 years old and 70 percent for those older than 2-5 years, with separate tiers for phones and tablets. It said the campaign runs from October 2 to November 2, 2026 as a special service camp. These are the company arrangements as reported and were not independently verified.",
-      "analysis": "若报道所述安排属实，受灾地区用户可能获得手机和家电维修或更换的价格优惠，从而降低灾后恢复通信与家庭生活的成本；但实际影响取决于用户设备是否符合条件、服务中心是否正常运作及折扣如何计算。报道中的折扣比例、覆盖地区和活动期限均来自公司说法，属于单一来源声明，未经独立验证。下一步可核实三星尼泊尔官方公告或服务中心现场信息，确认活动起止日期、适用产品清单、折扣计算方式及是否符合条件的具体标准，并了解拉苏瓦、努瓦科特、达丁、奇特旺、戈尔卡和塔纳洪等地用户的实际可及性。证据缺口包括独立用户反馈、服务中心接待能力和公司是否发布正式书面政策。",
-      "analysisEn": "If the reported arrangements hold, users in affected areas could receive price relief on phone and appliance repairs or replacements, lowering the cost of restoring communications and household life after flooding; the practical impact depends on whether devices qualify, whether service centers operate as described and how discounts are calculated. The discount tiers, covered areas and campaign dates come from the company's account, a single-source claim not independently verified. A concrete next step is to check Samsung Nepal's official announcement or on-site service-center information to confirm start and end dates, eligible product lists, discount calculation and qualification criteria, and to assess actual accessibility for users in Rasuwa, Nuwakot, Dhading, Chitwan, Gorkha and Tanahun. Evidence gaps include independent user feedback, service-center capacity and whether the company issued a formal written policy.",
-      "sourceSha256": "747c46552ce9e00298fb30ab876ed6f205acd912aa9cb288451e070e50d1de27",
-      "sourceTextChars": 2402,
+      "summary": "据TechnologyKhabar报道，能源、水资源与灌溉部长比拉杰·巴克塔·什雷斯塔指示尼泊尔电力局完善电费电子支付系统，称公民不应再为缴费在办公室排队数小时。他表示电力局董事会已批准有效扩展“数字支付”的计划，但电子支付比例去年增幅不足一个百分点，尚不令人满意。上述内容为部长在赫托达与电力分局负责人讨论时的表态，属指示与计划层面，文中未说明具体实施时间或技术方案。",
+      "summaryEn": "According to TechnologyKhabar, Energy, Water Resources and Irrigation Minister Biraj Bhakta Shrestha directed the Nepal Electricity Authority to improve its electronic bill payment system, saying citizens should no longer queue for hours at offices to pay. He said the NEA board has approved a plan to expand digital payments effectively, but noted the electronic payment share grew by less than one percentage point last year, which he called unsatisfactory. These were remarks during a discussion with a power division chief in Hetauda and are directions and plans; no implementation timeline or technical design is stated.",
+      "analysis": "若部长指示转化为实际执行，家庭和企业用户可能减少现场排队时间并降低缴费成本；但当前仅有指示和董事会已批准计划的说法，缺乏覆盖率、交易量或时间表数据。电子支付增长缓慢的表述来自部长的单方说法，属单一来源。下一步应核查尼泊尔电力局是否发布数字支付扩展的正式实施方案、涉及渠道与目标指标，并确认董事会批准文件的公开记录。证据缺口包括计划细节、负责机构分工及预算安排。",
+      "analysisEn": "If the minister's direction translates into implementation, household and business customers could see shorter queues and lower payment costs; however, only a direction and a claim that the board approved a plan are available, with no coverage, transaction-volume or timeline data. The statement that digital payment growth is slow is a single-source ministerial claim. The next verification step is to check whether the Nepal Electricity Authority publishes a formal digital payment expansion plan, including channels and targets, and to confirm public records of the board approval. Evidence gaps include plan details, institutional responsibilities and any budget arrangements.",
+      "sourceSha256": "165f62c4726a5131cea5984892bd408fceb75b452a24ea2af34b6463e4929f7f",
+      "sourceTextChars": 2397,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "4a096c8e6ea62246d16b:0"
+      "evidenceId": "d8a1c8c625af6e8b7429:2"
     }
   ]
 }
