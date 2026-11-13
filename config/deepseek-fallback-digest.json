@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-11-12T02:08:30.257744+00:00",
-  "reviewDate": "2026-11-12",
-  "sourceCandidateGeneratedAt": "2026-11-12T02:08:11.207299+00:00",
+  "generatedAt": "2026-11-13T01:42:27.060555+00:00",
+  "reviewDate": "2026-11-13",
+  "sourceCandidateGeneratedAt": "2026-11-13T01:42:07.655167+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 4271,
-    "completion_tokens": 658,
-    "total_tokens": 4929,
+    "prompt_tokens": 4245,
+    "completion_tokens": 580,
+    "total_tokens": 4825,
     "prompt_tokens_details": {
       "cached_tokens": 512
     },
     "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 3759
+    "prompt_cache_miss_tokens": 3733
   },
   "items": [
     {
-      "id": "4a096c8e6ea62246d16b",
-      "date": "2026-10-13",
-      "url": "https://www.technologykhabar.com/2026/10/13/257741/",
+      "id": "d8a1c8c625af6e8b7429",
+      "date": "2026-10-05",
+      "url": "https://www.technologykhabar.com/2026/10/05/256992/",
       "sourceId": "np-technologykhabar",
       "sourceName": "TechnologyKhabar",
       "sourceTier": "T2",
-      "title": "三星尼泊尔宣布为洪灾受灾社区开展特别维修服务活动",
-      "titleEn": "Samsung Nepal announces special repair service campaign for flood-affected communities",
-      "section": "竞争格局与设备商动态",
-      "sectionEn": "Competition & equipment vendors",
+      "title": "能源部长什雷斯塔：应从手机端缴纳电费的系统应更有效",
+      "titleEn": "Energy Minister Shrestha: Electricity bill payment via mobile system should be effective",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据TechnologyKhabar报道，三星尼泊尔宣布开展特别维修服务活动，以帮助受洪灾影响的社区。报道称，该活动在纳拉扬加特服务中心和帕科塔姆拉卡尔服务中心设立特别维修点，并为家用电器提供上门服务。涉及产品包括智能手机、平板电脑、冰箱、洗衣机、电视及其他符合条件的家用电器。报道称，该服务面向尼泊尔政府宣布为灾害危机地区的15个地方政府辖区及周边地区的洪灾影响区域。报道还列出保修期内及1至2年、2至5年老旧产品的维修或更换折扣档位，并称活动于2026年10月2日至11月2日运行。上述内容均为公司声明，未获独立核实。",
-      "summaryEn": "TechnologyKhabar reported that Samsung Nepal announced a special repair service campaign to help flood-affected communities. The report said special repair service points operate at the Narayanghat service center and the Pakotamrakar service center, with at-home service for household appliances. Covered products reportedly include smartphones, tablets, refrigerators, washing machines, televisions and other eligible home appliances. The service is described as aimed at flood-affected areas in 15 local levels declared by the Nepal government as disaster crisis zones and surrounding districts. The report also listed discount tiers for repairs or replacements for in-warranty and one-to-two-year and two-to-five-year-old products, and said the campaign runs from October 2 to November 2, 2026. These details are company claims and were not independently verified.",
-      "analysis": "若报道中的安排属实，洪灾地区持有三星手机或家用电器的消费者可获得维修或更换折扣，从而减少恢复日常通信和家庭生活的成本。但需注意，这些折扣档位、服务点和时间安排均来自公司单一声明，报道未提供独立核实。下一步应直接向三星尼泊尔或相关服务中心确认活动是否仍在运行、适用产品清单及折扣条件。现有信息缺口包括：实际服务点运营情况、受惠人数、上门服务覆盖范围，以及尼泊尔政府灾害宣告的官方依据。",
-      "analysisEn": "If the arrangements in the report hold, consumers in flood-affected areas who own Samsung phones or home appliances could receive repair or replacement discounts, reducing the cost of restoring daily communications and household routines. However, the discount tiers, service points and timing all come from a single company statement, and the report offers no independent verification. The next step is to confirm directly with Samsung Nepal or the named service centers whether the campaign is still operating, which products are covered and what conditions apply. Evidence gaps include actual service-point operations, number of beneficiaries, at-home service coverage, and the official basis for the government disaster declaration.",
-      "sourceSha256": "8e0088279ddb4f36e35926b0eed31caba97cc0ab461b8406044c71e5d57f0e8b",
-      "sourceTextChars": 2402,
+      "summary": "据TechnologyKhabar报道，能源、水资源与灌溉部长维拉杰·巴克塔·什雷斯塔表示，已指示尼泊尔电力局规范电费的电子支付系统。报道称，他提到电力局董事会已批准有效扩展“数字支付”的计划，并强调要落实到基层。报道还引用他的话说，电子支付比例在启动初期增长较快，但上一年增幅不足一个百分点，仍有民众需排队缴费。上述内容为部长表态与指示，报道未说明具体执行时间表或完成情况。",
+      "summaryEn": "According to TechnologyKhabar, Energy, Water Resources and Irrigation Minister Biraj Bhakta Shrestha said he instructed the Nepal Electricity Authority to streamline the electronic payment system for electricity bills. The report says he noted that the NEA board approved a plan to expand 'digital payment' effectively and stressed implementation reaching the grassroots. It also quotes him saying electronic payment growth was rapid at first but rose less than one percentage point last year, with citizens still queueing to pay. These are ministerial statements and directives; the report gives no timeline or confirmation of completion.",
+      "analysis": "若报道所述指示得到落实，客户可能获得更多线上缴费渠道并减少排队时间，但报道仅反映部长表态和董事会批准的计划，未提供覆盖范围、可用渠道或成效数据。报道中“增幅不足一个百分点”的表述缺乏口径说明，不能据此判断整体缴费数字化水平。下一步应核查尼泊尔电力局是否发布数字支付扩展的正式通知、涉及渠道与时间安排，以及最新缴费数据。证据缺口包括具体实施步骤、责任部门和可验证的进展指标。重复的官方表态应视为同一主张，而非独立验证。",
+      "analysisEn": "If the reported directive is implemented, customers could gain more online payment options and face shorter queues, but the report reflects only ministerial statements and a board-approved plan, without coverage, channel details or outcome data. The 'less than one percentage point' growth figure lacks a stated baseline, so it cannot establish the overall level of payment digitization. Next, verify whether the Nepal Electricity Authority issued a formal notice on expanding digital payments, which channels and timelines are involved, and the latest payment data. Evidence gaps include concrete implementation steps, responsible units and verifiable progress indicators. Repeated official statements should be treated as one claim, not independent verification.",
+      "sourceSha256": "142503ca58acbc0ed6fbe60392c339bde82a4ebc65cf5353346e9692468b3570",
+      "sourceTextChars": 2397,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "4a096c8e6ea62246d16b:0"
+      "evidenceId": "d8a1c8c625af6e8b7429:1"
     }
   ]
 }
