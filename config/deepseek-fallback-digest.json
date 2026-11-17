@@ -1,44 +1,44 @@
 {
   "status": "pending_codex_review",
   "statusEn": "Pending Codex review",
-  "generatedAt": "2026-11-16T00:46:43.294290+00:00",
-  "reviewDate": "2026-11-16",
-  "sourceCandidateGeneratedAt": "2026-11-16T00:46:26.362096+00:00",
+  "generatedAt": "2026-11-17T03:26:05.358150+00:00",
+  "reviewDate": "2026-11-17",
+  "sourceCandidateGeneratedAt": "2026-11-17T03:25:47.399533+00:00",
   "model": "deepseek-flash",
   "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
   "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
   "usage": {
-    "prompt_tokens": 4267,
-    "completion_tokens": 824,
-    "total_tokens": 5091,
+    "prompt_tokens": 4246,
+    "completion_tokens": 500,
+    "total_tokens": 4746,
     "prompt_tokens_details": {
       "cached_tokens": 512
     },
     "prompt_cache_hit_tokens": 512,
-    "prompt_cache_miss_tokens": 3755
+    "prompt_cache_miss_tokens": 3734
   },
   "items": [
     {
-      "id": "4a096c8e6ea62246d16b",
-      "date": "2026-10-13",
-      "url": "https://www.technologykhabar.com/2026/10/13/257741/",
+      "id": "d8a1c8c625af6e8b7429",
+      "date": "2026-10-05",
+      "url": "https://www.technologykhabar.com/2026/10/05/256992/",
       "sourceId": "np-technologykhabar",
       "sourceName": "TechnologyKhabar",
       "sourceTier": "T2",
-      "title": "三星尼泊尔宣布为洪灾受灾社区开展特别维修服务活动",
-      "titleEn": "Samsung Nepal announces special repair service campaign for flood-affected communities",
-      "section": "竞争格局与设备商动态",
-      "sectionEn": "Competition & equipment vendors",
+      "title": "能源部长什雷斯塔：手机缴纳电费系统应切实见效",
+      "titleEn": "Energy Minister Shrestha: Mobile electricity bill payment system should be effective",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
       "status": "DeepSeek 正文分析 · 待 Codex 核验",
       "statusEn": "DeepSeek article analysis · pending Codex review",
-      "summary": "据TechnologyKhabar报道，三星尼泊尔宣布启动一项特别维修服务活动，以帮助受洪灾影响的社区。报道称，该公司在纳拉扬加特服务中心和帕科塔姆拉卡尔服务中心开设了特别维修点，并提供上门服务。报道称，活动覆盖智能手机、平板电脑以及冰箱、洗衣机、电视等符合条件的家用电器，面向尼泊尔政府宣布为灾害危机受灾地区的15个地方政府辖区及周边包括拉苏瓦、努瓦科特、达丁、奇特旺、戈尔卡和塔纳洪等县。报道称，该公司表示，仍在保修期内的商品维修或更换可享100%折扣，1至2年的商品享80%，2至5年的商品享70%；符合条件的移动设备也适用类似折扣档次。报道称，该活动于2026年10月2日至11月2日期间在上述服务中心以特别服务营形式开展。上述折扣、范围与日期均为公司所述，未经独立核实。",
-      "summaryEn": "TechnologyKhabar reports that Samsung Nepal announced a special repair service campaign to support flood-affected communities. According to the report, the company is operating special repair points at the Narayanghat service center and the Pakotamrakar service center, and offering home visits for household goods. The report says the campaign covers mobile devices including smartphones and tablets, plus refrigerators, washing machines, televisions and other eligible home appliances, for flood-affected areas in 15 local levels declared by the Nepal government as disaster-crisis areas and surrounding districts including Rasuwa, Nuwakot, Dhading, Chitwan, Gorkha and Tanahun. The report says the company states 100 percent discounts on repairs or replacements for in-warranty items, 80 percent for 1-2 year-old items and 70 percent for items 2-5 years old, with similar tiers for eligible mobile devices. It says the campaign runs from October 2, 2026 to November 2, 2026 as special service camps at the two centers. The discounts, scope and dates are company claims and were not independently verified.",
-      "analysis": "若上述公司声明属实，洪灾受灾家庭在保修期内可显著降低手机和家电的维修或更换成本，有助于通信设备尽快恢复使用，这也可能提升三星在灾区的品牌声誉。但这些折扣、覆盖范围和服务点安排均来自单一企业声明，尚无第三方核实。下一步应核实纳拉扬加特和帕科塔姆拉卡尔服务点是否实际运营，并核查折扣是否附带条件或库存限制；同时应确认活动日期与受灾地区名单，以判断其与政府宣布的15个地方政府辖区是否一致。证据缺口包括：缺乏独立消费者反馈，未说明活动总投入或受益人数，也未提供政府合作或监督信息。",
-      "analysisEn": "If the company statement holds, flood-affected households could face substantially lower costs for repairing or replacing phones and appliances still under warranty, which may help restore communications devices faster and could improve Samsung's reputation in affected areas. However, the discounts, coverage and service-point arrangements come from a single corporate claim and have not been independently verified. The next step is to verify whether the Narayanghat and Pakotamrakar service points are actually operating and whether discounts carry conditions or stock limits, and to confirm the campaign dates and affected-area list against the government's 15 declared local levels. Evidence gaps include no independent consumer feedback, no stated total investment or number of beneficiaries, and no information on government coordination or oversight.",
-      "sourceSha256": "95057a7084d39f8125babca44cf080a585b820e2f355ca019e0e9183330573a8",
-      "sourceTextChars": 2401,
+      "summary": "据TechnologyKhabar报道，能源、水资源与灌溉部长比拉杰巴克塔·什雷斯塔指示尼泊尔电力局整顿电费的电子支付系统，并称电力局董事会已批准更有效推广“数字支付”的计划。报道称他在赫托达与电力分局负责人讨论时表示，数字支付应作为一项运动推进，以节省民众时间、降低成本并便于人员管理，同时提到电子支付比例增长不令人满意。",
+      "summaryEn": "TechnologyKhabar reported that Energy, Water Resources and Irrigation Minister Biraj Bhakta Shrestha directed the Nepal Electricity Authority to streamline electronic payment of electricity bills, and said the Authority's board had approved a plan to expand \"digital payment\" more effectively. The report said that during a discussion with an electricity division chief in Hetauda he called for pushing digital payment as a campaign to save citizens' time, cut costs and ease staff management, while noting that growth in electronic payments was not satisfactory.",
+      "analysis": "若部长指示与董事会批准的计划确已生效，影响可能体现在居民和企业缴费便利性及电力局柜台压力上，但报道未给出时间表、覆盖范围或具体技术方案。下一步应核对尼泊尔电力局官方公告与董事会决议，确认该计划是已批准执行还是仅处于指示阶段，并查证电子支付占比数据的来源。目前证据仅为部长表态与媒体转述，缺少独立验证。",
+      "analysisEn": "If the ministerial directive and the board-approved plan are actually in force, the impact could show up in convenience for households and businesses paying bills and in reduced counter pressure at the utility, but the report gives no timetable, coverage or technical specifics. The next step is to check Nepal Electricity Authority official notices and board decisions to confirm whether the plan is approved for implementation or only at the directive stage, and to verify the source of the e-payment share figures. Evidence currently rests on ministerial remarks relayed by media, with no independent confirmation.",
+      "sourceSha256": "ead6d72cc4f1370bbf8d33626983cc5f966e5eb33003cae05746bed374b2e852",
+      "sourceTextChars": 2397,
       "dateBasis": "URL-derived; event date requires review",
-      "evidenceId": "4a096c8e6ea62246d16b:0"
+      "evidenceId": "d8a1c8c625af6e8b7429:3"
     }
   ]
 }
