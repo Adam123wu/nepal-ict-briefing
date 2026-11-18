@@ -25,10 +25,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:07.435068+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:10.148161+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nta.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:07.435068+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:10.148161+00:00",
       "scanPages": [
         {
           "url": "https://www.nta.gov.np/",
@@ -60,10 +60,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:08.195074+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:10.231213+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://mocit.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:08.195074+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:10.231213+00:00",
       "monitoringPriority": "normal",
       "importedFrom": "Nepal_Media_Monitoring_with_News_Sources.xlsx",
       "sourceLanguage": "English + Nepali",
@@ -98,21 +98,21 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:19.417426+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:18.135495+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://www.nrb.org.np/",
-      "lastAttemptAt": "2026-11-17T03:25:19.417426+00:00",
-      "candidateCountBeforeLimit": 12,
+      "lastAttemptAt": "2026-11-18T02:44:18.135495+00:00",
+      "candidateCountBeforeLimit": 11,
       "candidateLimitReached": false,
       "scanPages": [
         {
           "url": "https://www.nrb.org.np/",
           "success": true,
-          "candidateCount": 12,
+          "candidateCount": 11,
           "limitReached": false
         }
       ],
-      "candidateCount": 12
+      "candidateCount": 11
     },
     {
       "id": "np-law",
@@ -133,10 +133,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:19.631823+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:18.166390+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://lawcommission.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:19.631823+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:18.166390+00:00",
       "candidateCountBeforeLimit": 6,
       "candidateLimitReached": false,
       "scanPages": [
@@ -171,7 +171,7 @@
       "lastCollectedAt": null,
       "scope": "Nepal",
       "verificationUrl": "https://rajpatra.dop.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:20.740799+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:18.434698+00:00",
       "scanError": "URLError",
       "scanPages": [
         {
@@ -202,11 +202,11 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:20.877551+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:18.534090+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ppmo.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:20.877551+00:00",
-      "candidateCountBeforeLimit": 128,
+      "lastAttemptAt": "2026-11-18T02:44:18.534090+00:00",
+      "candidateCountBeforeLimit": 127,
       "candidateLimitReached": true,
       "scanPages": [
         {
@@ -237,10 +237,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:21.090929+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:18.826975+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ird.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:21.090929+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:18.826975+00:00",
       "candidateCountBeforeLimit": 21,
       "candidateLimitReached": false,
       "scanPages": [
@@ -272,10 +272,10 @@
       "posts14d": null,
       "verifiedBy": "机构/媒体公开网站；采集状态单独记录",
       "verifiedByEn": "Public organization or publisher website; scan status recorded separately",
-      "lastCollectedAt": "2026-11-17T03:25:21.901838+00:00",
+      "lastCollectedAt": "2026-11-18T02:44:20.337525+00:00",
       "scope": "Nepal",
       "verificationUrl": "https://ibn.gov.np/",
-      "lastAttemptAt": "2026-11-17T03:25:21.901838+00:00",
+      "lastAttemptAt": "2026-11-18T02:44:20.337525+00:00",
       "candidateCountBeforeLimit": 11,
       "candidateLimitReached": false,
       "scanPages": [
