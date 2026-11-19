@@ -69,7 +69,8 @@ const server=http.createServer((req,res)=>{
  assert.equal(await page.locator('.competitor-card').count(),0);
  await page.locator('.accordion-trigger').filter({hasText:'竞争对手情报'}).click();
  for(const title of ['运营商集团战略','华为在尼泊尔']) assert(!(await page.locator(`[data-issue="${portal.report.issue}"] .accordion`).innerText()).includes(title));
- assert((await page.locator(`[data-issue="${portal.report.issue}"] .accordion`).innerText()).includes('对外关系与市场影响'));
+ const external=sections.find(section=>section.category==='外部关系与地缘政治');
+ assert.equal((await page.locator(`[data-issue="${portal.report.issue}"] .accordion`).innerText()).includes('对外关系与市场影响'),external.items.length>0,'External-relations heading must reflect current-period content rather than a fixed placeholder');
  for(const language of ['English','中文']){
   await page.getByRole('button',{name:language,exact:true}).click();
   const typography=await page.locator('.social-story').first().evaluate(el=>{

@@ -1259,6 +1259,41 @@
     "candidateCount": 60
   },
   {
+    "id": "np-bolpatra-projects",
+    "name": "尼泊尔电子政府采购项目库（Bolpatra）",
+    "nameEn": "Nepal e-GP project index (Bolpatra)",
+    "category": "采购",
+    "categoryEn": "Procurement",
+    "url": "https://bolpatra.gov.np/",
+    "tier": "T1",
+    "country": "尼泊尔",
+    "countryCode": "np",
+    "platform": "Website",
+    "handle": "",
+    "owner": "Public Procurement Monitoring Office",
+    "enabled": true,
+    "status": "官网项目接口可读取·内容待核验",
+    "statusEn": "Official project feed readable; content pending review",
+    "posts14d": null,
+    "verifiedBy": "PPMO 官方 e-GP 项目页及公开接口；仅作线索发现，须逐项核验公告、澄清、授标及合同记录",
+    "verifiedByEn": "Official PPMO e-GP project index and public feed; discovery only. Each notice, clarification, award and contract record requires separate verification.",
+    "lastCollectedAt": "2026-11-19T05:24:58Z",
+    "scope": "Nepal",
+    "verificationUrl": "https://bolpatra.gov.np/projects",
+    "lastAttemptAt": "2026-11-19T05:24:58Z",
+    "scanPages": [
+      {
+        "url": "https://bolpatra.gov.np/projects",
+        "success": true,
+        "candidateCount": 10,
+        "limitReached": false
+      }
+    ],
+    "candidateCount": 5,
+    "candidateCountBeforeLimit": 5,
+    "candidateLimitReached": false
+  },
+  {
     "id": "np-ird",
     "name": "国内税务局",
     "nameEn": "Inland Revenue Department",

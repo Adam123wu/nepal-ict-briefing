@@ -10,6 +10,18 @@ from urllib.request import Request, urlopen
 from urllib.parse import urljoin, urlparse
 from nepal_monitoring import canonical_url, classify, RANK
 
+BOLPATRA_QUERIES = (
+    'data', 'software', 'cloud', 'cyber', 'firewall', 'security', 'network',
+    'telecom', 'internet', 'fiber', 'broadband', 'digital', 'server',
+    'storage', 'virtualization', 'wireless', 'wifi', 'ICT',
+)
+BOLPATRA_ICT_PATTERN = re.compile(
+    r'\b(?:data|software|cloud|cyber|firewall|security|network|telecom|'
+    r'internet|fiber|broadband|digital|server|storage|virtuali[sz]ation|'
+    r'wireless|wifi|wi-fi|ict|email|backup|replication|hypervisor|waf|'
+    r'load[ -]?balanc)\b', re.I
+)
+
 class Links(HTMLParser):
     def __init__(self):
         super().__init__(); self.links=[]; self.href=None; self.text=[]
@@ -59,8 +71,80 @@ def scan_page(source):
         source.update(status='扫描失败·待重试',statusEn='Scan failed; retry needed',scanError=type(error).__name__)
         return source,[],[]
 
+def scan_bolpatra_projects(source):
+    """Collect public e-GP ICT leads from PPMO's documented project feed.
+
+    Bolpatra's project catalogue is client-rendered, so parsing its HTML loses
+    the project rows. The public site reads the same-origin JSON endpoint used
+    here. Results remain candidates until an editor reads the individual record
+    and, where material, its bidding document. This collector never treats a
+    listed tender as an award or attributes an OEM.
+    """
+    now = datetime.now(timezone.utc).isoformat()
+    source = {**source, 'lastAttemptAt': now}
+    candidates, pages, seen = [], [], set()
+    try:
+        for query in BOLPATRA_QUERIES:
+            endpoint = urljoin(source['url'], '/api/v1/tenders?q='+query)
+            with urlopen(Request(endpoint, headers={'User-Agent':'NepalICTResearch/1.0 (public-source-index)'}), timeout=18) as response:
+                payload = json.loads(response.read(2_000_000).decode('utf-8', 'replace'))
+            results = payload.get('results', [])
+            pages.append({'url': urljoin(source['url'], '/projects?query='+query), 'success': True, 'candidateCount': len(results), 'limitReached': bool(payload.get('next'))})
+            for project in results:
+                project_id = project.get('id')
+                title = ' '.join(str(project.get(field, '')) for field in ('title', 'reference', 'office_name', 'description'))
+                if not project_id or project_id in seen or not title.strip():
+                    continue
+                seen.add(project_id)
+                # The platform's broad text search may return incidental
+                # matches (for example a public-entity name). Keep only rows
+                # whose own tender title or description contains an ICT term.
+                relevance = ' '.join(str(project.get(field, '')) for field in ('title', 'description'))
+                if not BOLPATRA_ICT_PATTERN.search(relevance):
+                    continue
+                triage = classify(title)
+                # The query list is intentionally ICT-specific. Keep a lead even
+                # when a product name misses the generic focus dictionary.
+                if not triage['focusMatches']:
+                    triage = {**triage, 'priority': 'MEDIUM'}
+                publish_at = project.get('publish_at')
+                candidates.append({
+                    'id': hashlib.sha256(('bolpatra:'+project_id).encode()).hexdigest()[:20],
+                    'sourceId': source['id'],
+                    'country': '尼泊尔',
+                    'url': urljoin(source['url'], '/projects/'+project_id),
+                    'titleOriginal': project.get('title', '')[:240],
+                    'observedAt': now,
+                    'publishedAt': publish_at[:10] if isinstance(publish_at, str) and len(publish_at) >= 10 else None,
+                    'status': 'date-and-content-unverified',
+                    'reference': project.get('reference'),
+                    'publicEntity': project.get('office_name'),
+                    'procurementStatus': project.get('status'),
+                    **triage,
+                })
+        candidates.sort(key=lambda item: RANK[item['priority']])
+        source.pop('scanError', None)
+        source.update(
+            status='官网项目接口可读取·内容待核验',
+            statusEn='Official project feed readable; content pending review',
+            lastCollectedAt=now,
+            scanPages=pages,
+            candidateCount=len(candidates),
+            candidateCountBeforeLimit=len(candidates),
+            candidateLimitReached=False,
+        )
+        return source, candidates[:200], []
+    except Exception as error:
+        source.update(
+            status='扫描失败·待重试', statusEn='Scan failed; retry needed',
+            scanError=type(error).__name__, scanPages=pages, candidateCount=len(candidates),
+        )
+        return source, candidates[:200], []
+
 def scan(source):
     if source['platform']!='Website' or not source.get('enabled',True): return source,[],[]
+    if source['id']=='np-bolpatra-projects':
+        return scan_bolpatra_projects(source)
     section_paths = {
         'np-nepalkhabar': ['/', '/category/economy', '/category/politics', '/category/science-tech'],
         # Homepage gadget promotions can displace core telecom reporting.

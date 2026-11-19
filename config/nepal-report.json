@@ -1,24 +1,24 @@
 {
-  "issue": "W41-42",
-  "generated": "2026-10-16",
-  "windowStart": "2026-10-03",
-  "windowEnd": "2026-10-16",
-  "period": "2026年10月3—16日 · 尼泊尔独立版",
-  "periodEn": "3–16 October 2026 · Nepal edition",
-  "sourceFile": "nepal-w41-42.html",
-  "status": "10月16日复核：本期先纳入2项已核验事件。NTC换网扩容、ISP资费监管等线索仍待原始公告核对；不代表本期新闻已全部覆盖。往期完整保留。",
-  "statusEn": "16 October review: two verified events are included. NTC swap/expansion and ISP tariff-regulation leads still need original-notice checks; coverage is not exhaustive. Previous issues remain intact.",
+  "issue": "W47-48",
+  "generated": "2026-11-19",
+  "windowStart": "2026-11-14",
+  "windowEnd": "2026-11-27",
+  "period": "2026年11月14—27日 · 尼泊尔独立版",
+  "periodEn": "14–27 November 2026 · Nepal edition",
+  "sourceFile": "nepal-w47-48.html",
+  "status": "11月19日复核：Bolpatra官方电子采购项目接口已接入；本期先纳入2项有完整官方记录的ICT采购／澄清。其他项目仍须以逐项公告、澄清、授标和合同记录复核，不能把候选当作中标。往期完整保留。",
+  "statusEn": "19 November review: the official Bolpatra e-GP project feed is now monitored. This issue includes two ICT procurement records with complete official entries. Other leads still require notice, clarification, award and contract checks; candidates are not awards. Previous issues remain intact.",
   "summary": [
-    "Ncell推出6,999卢比年度套餐：每月200GB高速数据，之后降至256Kbps，不是无限高速流量。",
-    "10月14日大使提名听证：10人获通过，沙特及马来西亚提名被否决，日本提名暂缓；听证通过不等于任命或履职。",
-    "NTC 2G/4G换网扩容招标已找到政府公告入口，但附件尚未取得；不提前确认金额、截止时间或设备厂家。",
-    "本期2项独立事件；保留此前33项历史记录，9月社媒及旧天气预警不冒充10月新消息。"
+    "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
+    "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
+    "Bolpatra官方e-GP项目接口已纳入每日候选扫描；本次关键词检索返回5项ICT相关候选，只有两项本期官方记录通过编辑核验。",
+    "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
-    "Ncell's NPR 6,999 annual offer includes 200 GB of high-speed data per month, then 256 Kbps—not unrestricted high-speed data.",
-    "On 14 October, ten ambassadorial nominees cleared hearings, the Saudi Arabia and Malaysia nominees were rejected, and Japan's was deferred. Hearing clearance is not appointment or assumption of office.",
-    "A government listing was located for NTC's 2G/4G swap/expansion tender, but its attachment remains unavailable. Value, deadlines and OEMs are not yet confirmed here.",
-    "Two distinct events are included; 33 historical items remain intact. September social observations and weather warnings are not recycled as October news."
+    "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
+    "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
+    "The official Bolpatra e-GP project feed is now included in daily candidate scans. Five ICT-related candidates were returned by the defined keyword review; only two current-period official records cleared editorial verification.",
+    "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
   ],
   "countries": {
     "np": {
@@ -29,31 +29,7 @@
         {
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
-          "items": [
-            {
-              "id": "np-ncell-annual-offer-20261012",
-              "date": "2026-10-12",
-              "title": "Ncell年度套餐：6,999卢比锁定12个月，每月高速数据200GB",
-              "titleEn": "Ncell offers a 12-month pack for NPR 6,999 with 200 GB high-speed data monthly",
-              "badge": "官方套餐条款",
-              "badgeEn": "Official offer terms",
-              "text": "Ncell官网确认，预付费用户可在10月12日至11月16日期间购买6,999尼泊尔卢比的12个月套餐，包含国内通话、每日150条短信及每月200GB高速数据；用完后限速256Kbps，至下一月重置。本次为零售套餐促销，不是网络设备采购公告。",
-              "textEn": "Ncell's official offer is available to prepaid users from 12 October to 16 November at NPR 6,999 for 12 months. It includes domestic calls, 150 SMS daily and 200 GB of high-speed data each month, followed by 256 Kbps until the next monthly reset. This is a retail promotion, not a network-equipment procurement notice.",
-              "opportunity": "研判：年度预付可能改变用户支出节奏并加强留存，但订购量、ARPU、网络负载和利润未披露，不能量化竞争影响。11月16日前复查资格、续订方式、限速及延期条款，并对照其他运营商同类报价。计费配置或容量优化仅属待验证需求；没有单独招标、预算或厂家获单证据。",
-              "opportunityEn": "Analysis: annual prepayment may change spending patterns and support retention, but take-up, ARPU, network load and margins are undisclosed, so competitive effects cannot be quantified. Before 16 November, recheck eligibility, renewal, throttling and extension terms and compare equivalent rival offers. Billing configuration or capacity optimisation remain needs to validate; no separate tender, budget or vendor award is established.",
-              "links": [
-                {
-                  "label": "Ncell 官方套餐",
-                  "labelEn": "Ncell official offer",
-                  "url": "https://www.ncell.com.np/en/individual/offers/dashain-offer-2026"
-                },
-                {
-                  "label": "NepaliTelecom 10/12",
-                  "url": "https://www.nepalitelecom.com/2026/10/ncell-yearly-pack-super-value-pack-dashain.html"
-                }
-              ]
-            }
-          ],
+          "items": [],
           "displayCategory": "运营商、数字能源与网络建设",
           "displayCategoryEn": "Operators, digital energy & network infrastructure"
         },
@@ -67,7 +43,46 @@
         {
           "category": "本国头部客户的新机会点",
           "categoryEn": "Key-account opportunities",
-          "items": [],
+          "items": [
+            {
+              "id": "np-doi-datacenter-virtualization-20261117",
+              "date": "2026-11-17",
+              "title": "移民局发布主数据中心虚拟化及负载均衡／WAF支持续保采购",
+              "titleEn": "Department of Immigration publishes primary data-centre virtualisation and LB/WAF support procurement",
+              "badge": "官方 e-GP 公告 · NCB 两信封",
+              "badgeEn": "Official e-GP notice · NCB two-envelope",
+              "text": "PPMO的Bolpatra官方项目记录显示，移民局于11月17日发布编号24-27-03001/DOI/G/NCB-05/2083-84的货物采购，用于其主数据中心的虚拟化／Hypervisor方案及负载均衡与WAF支持和续保。价格表列为一套、两年支持和续保；采用国内竞争性招标（NCB）和技术／财务两信封程序。公开记录列出11月23日13:00（尼泊尔时间）预投标会议、12月8日12:00截止、14:00开标。状态仍为已发布，两个信封均处于密封状态；未公开预算、投标人、设备厂家或授标结果。",
+              "textEn": "PPMO's official Bolpatra record shows that the Department of Immigration published goods procurement 24-27-03001/DOI/G/NCB-05/2083-84 on 17 November for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal. The price schedule lists one package with two years of support and warranty. It uses national competitive bidding (NCB) and technical/financial two-envelope submission. The public record lists a 23 November 13:00 Nepal-time pre-bid meeting, a 8 December 12:00 deadline and 14:00 opening. It remains published with both envelopes sealed; budget, bidders, equipment maker and award are not disclosed.",
+              "opportunity": "研判：客户和需求明确为移民局主数据中心的虚拟化、流量分发与应用防护生命周期支持，当前仅处于正式招标而非授标。下一步应阅读完整技术规范，重点核对虚拟化兼容性、迁移与回退、LB/WAF性能与接口、支持SLA及验收；预投标澄清后再判断资格和方案边界。竞对与风险：公告没有公布现网品牌、投标人或预算，不能把任何既有厂商、渠道商或安全产品推定为参与方。",
+              "opportunityEn": "Analysis: the customer and need are specific—primary-data-centre virtualisation, traffic delivery and application protection lifecycle support—but the project is at formal tender, not award, stage. Read the full specification and clarify virtualisation compatibility, migration and rollback, LB/WAF performance and interfaces, support SLA and acceptance before defining scope or eligibility. Competition and risk: the notice identifies neither incumbent brand, bidder nor budget; no current supplier, channel partner or security product can be inferred to be participating.",
+              "links": [
+                {
+                  "label": "Bolpatra 官方项目记录",
+                  "labelEn": "Bolpatra official project record",
+                  "url": "https://bolpatra.gov.np/projects/c688f104-0c6f-4e11-bb0c-672cb45abbe3"
+                }
+              ]
+            },
+            {
+              "id": "np-opmcm-ict-equipment-opening-clarification-20261118",
+              "date": "2026-11-18",
+              "title": "总理和部长会议办公室更正ICT设备采购的开标时间",
+              "titleEn": "PMO corrects the opening time for its ICT-equipment procurement",
+              "badge": "官方 e-GP 澄清 · NCB 单信封",
+              "badgeEn": "Official e-GP clarification · NCB single-envelope",
+              "text": "总理和部长会议办公室的Bolpatra项目记录显示，ICT设备采购OPMCM/02/NCB/ICTE/083/84于11月5日发布；11月18日的修正说明将IFB第6项的开标时间更正为11月27日14:00（尼泊尔时间）。项目仍显示11月27日12:00提交截止，并采用NCB单信封程序。公开价格表列出14台台式机、5台笔记本、3台重载一体机、12台一体机打印机、扫描仪、75英寸电视和投影仪等；未披露金额、品牌、投标人或中标方。",
+              "textEn": "The Office of the Prime Minister and Council of Ministers' Bolpatra record shows that ICT-equipment procurement OPMCM/02/NCB/ICTE/083/84 was published on 5 November. A 18 November correction sets the IFB item-6 opening time to 27 November 14:00 Nepal time. The record still shows a 27 November 12:00 submission deadline and an NCB single-envelope procedure. Its public price schedule lists 14 desktops, five laptops, three heavy-duty all-in-one printers, 12 all-in-one printers, scanners, 75-inch displays and projectors, among other equipment; amount, brands, bidders and winner are not disclosed.",
+              "opportunity": "研判：这是办公终端和文印／展示设备的正式采购澄清，需求清单可用于准备供货、保修、安装、兼容性和交付支持方案，但不等于已经选择任何OEM。下一步在11月27日后核对开标、评标和授标记录，并以技术规格、品牌等效条款和售后要求判断可竞争范围。竞对：当前公开材料没有厂商、代理商或投标名单，不能把中国厂商、思科或其他品牌标为项目参与者。",
+              "opportunityEn": "Analysis: this is a formal clarification for end-user computing, printing and presentation equipment. The published bill of quantities can inform supply, warranty, installation, compatibility and delivery preparation, but does not select an OEM. After 27 November, verify opening, evaluation and award records, then assess competitive scope against the technical specification, brand-or-equivalent language and after-sales requirements. Competition: the public material names no manufacturer, reseller or bidder; Chinese vendors, Cisco and other brands cannot be labelled participants.",
+              "links": [
+                {
+                  "label": "Bolpatra 官方项目记录",
+                  "labelEn": "Bolpatra official project record",
+                  "url": "https://bolpatra.gov.np/projects/0f0db427-729f-46d8-8d9e-925e5439a760"
+                }
+              ]
+            }
+          ],
           "displayCategory": "重点客户与商机",
           "displayCategoryEn": "Key accounts & opportunities"
         },
@@ -102,31 +117,7 @@
         {
           "category": "外部关系与地缘政治",
           "categoryEn": "External relations and geopolitics",
-          "items": [
-            {
-              "id": "np-ambassador-hearings-20261014",
-              "date": "2026-10-14",
-              "title": "大使提名听证：10人通过，2人被否决，日本提名暂缓",
-              "titleEn": "Ambassadorial hearings clear ten nominees, reject two and defer Japan decision",
-              "badge": "听证程序 · 非正式任命",
-              "badgeEn": "Hearings—not final appointments",
-              "text": "NepalKhabar与《加德满都邮报》确认，10月14日听证委员会通过驻印度、中国、美国等10国的大使提名。后续报道确认，驻沙特和马来西亚提名被否决，驻日本提名暂缓决定。获通过者仍须完成后续任命程序及驻在国同意等步骤，不能列为已履职大使；对被否决者的指控不作为已裁定事实转述。",
-              "textEn": "NepalKhabar and The Kathmandu Post report that on 14 October the hearing committee cleared ten ambassadorial nominees, including those for India, China and the US. Subsequent reporting confirms rejection of the Saudi Arabia and Malaysia nominees and deferral of the Japan decision. Cleared nominees still face remaining appointment procedures and receiving-state consent; they are not treated as serving ambassadors. Allegations concerning rejected nominees are not presented as adjudicated facts.",
-              "opportunity": "研判：外交联络名录需要保留“提名／听证／任命／到任”分阶段状态。下一步核对总统任命公告及外交部驻外名录；在正式任命前继续使用现有使馆渠道。此次人事程序不直接构成ICT项目或融资承诺。 日本提名的后续听证结果也须单独跟踪，不能因其他10人通过而自动更新其状态。",
-              "opportunityEn": "Analysis: maintain separate nomination, hearing, appointment and arrival stages in diplomatic contact records. Check presidential appointment notices and the foreign ministry's mission directory; retain existing embassy channels until appointments are formalised. This personnel process establishes no ICT project or financing commitment. Track the deferred Japan hearing separately; clearance of the other ten nominees does not change its status.",
-              "links": [
-                {
-                  "label": "NepalKhabar 10/14",
-                  "url": "https://nepalkhabar.com/politics/289805-2026-10-14-19-1-18"
-                },
-                {
-                  "label": "The Kathmandu Post 10/14（10/15更新）",
-                  "labelEn": "The Kathmandu Post 14 Oct (updated 15 Oct)",
-                  "url": "https://kathmandupost.com/national/2026/10/14/parliamentary-panel-rejects-two-ambassador-nominees-clears-10"
-                }
-              ]
-            }
-          ],
+          "items": [],
           "displayCategory": "对外关系与市场影响",
           "displayCategoryEn": "External relations & market impact"
         },
