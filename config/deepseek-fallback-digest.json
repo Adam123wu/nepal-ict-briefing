@@ -1,12 +1,12 @@
 {
   "status": "clear",
   "statusEn": "Clear after Codex review",
-  "generatedAt": "2026-11-20T18:40:38Z",
+  "generatedAt": "2026-11-20T18:46:59Z",
   "reviewDate": "2026-11-20",
   "sourceCandidateGeneratedAt": "2026-11-20T02:02:14.704552+00:00",
   "model": "deepseek-flash",
-  "note": "Codex已完成当天5项DeepSeek候选的原始来源复核。4项未作为独立新闻发布：1项原文已失效，另3项不构成可执行的ICT、采购或政策成果。总理对印度国事访问以外交部11月20日原始公告核验后另行纳入；不复用模型候选作为正式证据。",
-  "noteEn": "Codex completed primary-source review of the day's five DeepSeek candidates. Four were not published as standalone news: one source page is no longer available and three do not constitute an actionable ICT, procurement or policy outcome. The Prime Minister's India state visit was separately verified against the 20 November MoFA notice and added; the model candidate is not reused as formal evidence.",
+  "note": "Codex已完成当天5项DeepSeek候选的原始来源复核，并审校了一次针对3项已核验新闻的DeepSeek草稿。4项候选未作为独立新闻发布：1项原文已失效，另3项不构成可执行的ICT、采购或政策成果。总理对印度国事访问以外交部11月20日原始公告核验后另行纳入；不复用模型候选作为正式证据。",
+  "noteEn": "Codex completed primary-source review of the day's five DeepSeek candidates and reviewed one DeepSeek draft covering the three verified news items. Four candidates were not published as standalone news: one source page is no longer available and three do not constitute an actionable ICT, procurement or policy outcome. The Prime Minister's India state visit was separately verified against the 20 November MoFA notice and added; the model candidate is not reused as formal evidence.",
   "usage": null,
   "items": []
 }
