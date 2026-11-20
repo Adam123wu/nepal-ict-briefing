@@ -1,23 +1,23 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月19日复核：Bolpatra官方电子采购项目接口已接入；本期先纳入2项有完整官方记录的ICT采购／澄清。其他项目仍须以逐项公告、澄清、授标和合同记录复核，不能把候选当作中标。往期完整保留。",
-  "statusEn": "19 November review: the official Bolpatra e-GP project feed is now monitored. This issue includes two ICT procurement records with complete official entries. Other leads still require notice, clarification, award and contract checks; candidates are not awards. Previous issues remain intact.",
+  "status": "11月20日复核：外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
+  "statusEn": "20 November review: the Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
   "summary": [
     "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
     "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
-    "Bolpatra官方e-GP项目接口已纳入每日候选扫描；本次关键词检索返回5项ICT相关候选，只有两项本期官方记录通过编辑核验。",
+    "外交部确认总理将于11月22—23日对印度进行国事访问；目前属于行程公告，尚无签署成果、ICT项目或采购信息。",
     "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
     "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
     "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
-    "The official Bolpatra e-GP project feed is now included in daily candidate scans. Five ICT-related candidates were returned by the defined keyword review; only two current-period official records cleared editorial verification.",
+    "The Ministry of Foreign Affairs confirms a 22–23 November state visit to India by the Prime Minister. It is currently a schedule announcement, with no signed outcome, ICT project or procurement disclosed.",
     "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
   ],
   "countries": {
@@ -117,7 +117,32 @@
         {
           "category": "外部关系与地缘政治",
           "categoryEn": "External relations and geopolitics",
-          "items": [],
+          "items": [
+            {
+              "id": "np-mofa-india-state-visit-20261120",
+              "date": "2026-11-20",
+              "title": "外交部确认总理将于11月22—23日对印度进行国事访问",
+              "titleEn": "MoFA confirms Prime Minister's 22–23 November state visit to India",
+              "badge": "外交部官方公告 · 预定访问",
+              "badgeEn": "Official MoFA notice · scheduled visit",
+              "text": "尼泊尔外交部11月20日公告称，巴伦德拉·沙阿总理将应印度总理莫迪邀请，于11月22—23日对印度进行国事访问。公告列明，总理将由财政部长、外交部长、总理首席顾问及其他政府高级官员陪同，在新德里拜会印度总统并与印度总理举行代表团级会谈，随后于11月23日返抵加德满都。该公告确认的是预定行程和会晤安排，并未公布任何已签署协议、项目金额、ICT合作或采购决定。",
+              "textEn": "In a 20 November notice, Nepal's Ministry of Foreign Affairs said Prime Minister Balendra Shah will pay a state visit to India on 22–23 November at Prime Minister Narendra Modi's invitation. It says the Prime Minister will be accompanied by the finance and foreign ministers, the chief adviser and other senior officials; in New Delhi he will call on India's President and hold delegation-level talks with the Indian Prime Minister before returning to Kathmandu on 23 November. The notice confirms a scheduled itinerary and meetings only; it discloses no signed agreement, project value, ICT cooperation or procurement decision.",
+              "opportunity": "研判：这是高层双边对话窗口，而非招标或已落地项目。应在访问结束后优先核对双方联合声明、正式签署文本和部门公告，再判断是否出现跨境连接、数字合作、贸易便利化、能源或投资的可执行安排；在这些原始文件发布前，不把访问安排推断为任何ICT订单、资金承诺或厂商机会。",
+              "opportunityEn": "Analysis: this is a high-level bilateral dialogue window, not a tender or delivered project. After the visit, prioritise the joint statement, signed texts and ministry notices before assessing whether any actionable arrangement on cross-border connectivity, digital cooperation, trade facilitation, energy or investment emerges. Until those primary records appear, the itinerary must not be treated as an ICT order, funding commitment or vendor opportunity.",
+              "links": [
+                {
+                  "label": "尼泊尔外交部：对印度国事访问公告",
+                  "labelEn": "Nepal MoFA: state-visit notice",
+                  "url": "https://www.mofa.gov.np/content/1932/press-release-state-visit/"
+                },
+                {
+                  "label": "印度驻尼泊尔使馆：大使拜会尼泊尔总理（11月18日）",
+                  "labelEn": "Embassy of India: Ambassador calls on Nepal's Prime Minister (18 November)",
+                  "url": "https://www.indembkathmandu.gov.in/gallery-detail/456"
+                }
+              ]
+            }
+          ],
           "displayCategory": "对外关系与市场影响",
           "displayCategoryEn": "External relations & market impact"
         },
@@ -146,11 +171,11 @@
     }
   },
   "stats": {
-    "news": 2,
-    "opportunities": 2,
+    "news": 3,
+    "opportunities": 3,
     "telegram": 0,
     "countryCounts": {
-      "np": 2
+      "np": 3
     }
   }
 }
