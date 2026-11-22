@@ -44,23 +44,25 @@
   },
   "report": {
     "issue": "W47-48",
-    "generated": "2026-11-20",
+    "generated": "2026-11-22",
     "windowStart": "2026-11-14",
     "windowEnd": "2026-11-27",
     "period": "2026年11月14—27日 · 尼泊尔独立版",
     "periodEn": "14–27 November 2026 · Nepal edition",
     "sourceFile": "nepal-w47-48.html",
-    "status": "11月20日复核：外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
-    "statusEn": "20 November review: the Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
+    "status": "11月22日复核：马德什省省长已依宪法第168(3)条任命人民社会党尼泊尔议会党团领袖萨罗杰·库马尔·亚达夫为首席部长；该省级人事变动尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
+    "statusEn": "22 November review: Madhesh Province's Province Chief appointed Janata Samajbadi Party Nepal parliamentary leader Saroj Kumar Yadav Chief Minister under Article 168(3) of the Constitution. This provincial leadership change still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. The Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
     "summary": [
       "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
       "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
+      "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
       "外交部确认总理将于11月22—23日对印度进行国事访问；目前属于行程公告，尚无签署成果、ICT项目或采购信息。",
       "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
     ],
     "summaryEn": [
       "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
       "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
+      "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
       "The Ministry of Foreign Affairs confirms a 22–23 November state visit to India by the Prime Minister. It is currently a schedule announcement, with no signed outcome, ICT project or procurement disclosed.",
       "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
     ],
@@ -133,7 +135,32 @@
           {
             "category": "本国政治与大选进展及内幕",
             "categoryEn": "Politics and elections",
-            "items": [],
+            "items": [
+              {
+                "id": "np-madhesh-chief-minister-yadav-20261121",
+                "date": "2026-11-21",
+                "title": "马德什省任命萨罗杰·库马尔·亚达夫为首席部长",
+                "titleEn": "Madhesh Province appoints Saroj Kumar Yadav Chief Minister",
+                "badge": "公共广播报道＋独立媒体交叉核验 · 省级人事任命",
+                "badgeEn": "Public-broadcaster report cross-checked by independent media · provincial appointment",
+                "text": "Radio Nepal与《加德满都邮报》报道，马德什省省长苏伦德拉·拉布·卡尔纳于11月21日依据尼泊尔宪法第168(3)条，任命人民社会党尼泊尔（JSP Nepal）议会党团领袖萨罗杰·库马尔·亚达夫为首席部长。报道说，在第168(2)条规定的期限内，没有政党或省议会议员提出获得至少两党支持的组阁主张；因此由省议会最大党的议会党团领袖获任命。亚达夫需在宪法规定期限内向省议会寻求信任投票。《加德满都邮报》11月22日报道其已宣誓就职。现有报道未披露任何ICT政策、项目、采购、预算或厂商决定。",
+                "textEn": "Radio Nepal and The Kathmandu Post reported that Madhesh Province Chief Surendra Labh Karna appointed Janata Samajbadi Party Nepal (JSP Nepal) parliamentary leader Saroj Kumar Yadav Chief Minister on 21 November under Article 168(3) of Nepal's Constitution. They report that no party or provincial assembly member lodged a government-formation claim with support from at least two parties within the Article 168(2) deadline, so the parliamentary leader of the largest party in the provincial assembly was appointed. Yadav must seek a vote of confidence in the provincial assembly within the constitutional period. The Kathmandu Post reported on 22 November that he had taken the oath of office. The available reporting discloses no ICT policy, project, procurement, budget or vendor decision.",
+                "opportunity": "研判：这是省级政府领导层变化，不是联邦内阁决定，也不构成ICT商机或采购信号。其实际政策影响取决于信任投票以及后续省级内阁和预算安排。下一步应核对省议会信任投票结果和马德什省政府正式发布的内阁、预算及数字服务／基础设施决定；在有正式文件前，不能把人事任命推断为项目重启、资金承诺或任何设备商机会。",
+                "opportunityEn": "Analysis: this is a change in provincial leadership, not a federal Cabinet decision and not an ICT opportunity or procurement signal. Its practical policy effect depends on the confidence vote and subsequent provincial cabinet and budget arrangements. Next, verify the provincial assembly confidence-vote result and official Madhesh government decisions on the cabinet, budget and digital services or infrastructure. Until formal records emerge, the appointment cannot be treated as a project restart, funding commitment or an opportunity for any equipment vendor.",
+                "links": [
+                  {
+                    "label": "Radio Nepal：马德什省首席部长任命（11月21日）",
+                    "labelEn": "Radio Nepal: Madhesh Chief Minister appointment (21 November)",
+                    "url": "https://radionepalonline.com/en/2026/11/21/439071.html"
+                  },
+                  {
+                    "label": "《加德满都邮报》：马德什省首席部长宣誓就职（11月22日）",
+                    "labelEn": "The Kathmandu Post: Madhesh Chief Minister takes oath (22 November)",
+                    "url": "https://kathmandupost.com/politics/2026/11/22/saroj-kumar-yadav-takes-oath-as-madhesh-chief-minister"
+                  }
+                ]
+              }
+            ],
             "displayCategory": "国家政策与外交人事要闻",
             "displayCategoryEn": "National policy & diplomatic appointments"
           },
@@ -215,34 +242,36 @@
       }
     },
     "stats": {
-      "news": 3,
-      "opportunities": 3,
+      "news": 4,
+      "opportunities": 4,
       "telegram": 0,
       "countryCounts": {
-        "np": 3
+        "np": 4
       }
     }
   },
   "issues": [
     {
       "issue": "W47-48",
-      "generated": "2026-11-20",
+      "generated": "2026-11-22",
       "windowStart": "2026-11-14",
       "windowEnd": "2026-11-27",
       "period": "2026年11月14—27日 · 尼泊尔独立版",
       "periodEn": "14–27 November 2026 · Nepal edition",
       "sourceFile": "nepal-w47-48.html",
-      "status": "11月20日复核：外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
-      "statusEn": "20 November review: the Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
+      "status": "11月22日复核：马德什省省长已依宪法第168(3)条任命人民社会党尼泊尔议会党团领袖萨罗杰·库马尔·亚达夫为首席部长；该省级人事变动尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
+      "statusEn": "22 November review: Madhesh Province's Province Chief appointed Janata Samajbadi Party Nepal parliamentary leader Saroj Kumar Yadav Chief Minister under Article 168(3) of the Constitution. This provincial leadership change still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. The Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
       "summary": [
         "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
         "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
+        "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
         "外交部确认总理将于11月22—23日对印度进行国事访问；目前属于行程公告，尚无签署成果、ICT项目或采购信息。",
         "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
       ],
       "summaryEn": [
         "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
         "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
+        "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
         "The Ministry of Foreign Affairs confirms a 22–23 November state visit to India by the Prime Minister. It is currently a schedule announcement, with no signed outcome, ICT project or procurement disclosed.",
         "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
       ],
@@ -315,7 +344,32 @@
             {
               "category": "本国政治与大选进展及内幕",
               "categoryEn": "Politics and elections",
-              "items": [],
+              "items": [
+                {
+                  "id": "np-madhesh-chief-minister-yadav-20261121",
+                  "date": "2026-11-21",
+                  "title": "马德什省任命萨罗杰·库马尔·亚达夫为首席部长",
+                  "titleEn": "Madhesh Province appoints Saroj Kumar Yadav Chief Minister",
+                  "badge": "公共广播报道＋独立媒体交叉核验 · 省级人事任命",
+                  "badgeEn": "Public-broadcaster report cross-checked by independent media · provincial appointment",
+                  "text": "Radio Nepal与《加德满都邮报》报道，马德什省省长苏伦德拉·拉布·卡尔纳于11月21日依据尼泊尔宪法第168(3)条，任命人民社会党尼泊尔（JSP Nepal）议会党团领袖萨罗杰·库马尔·亚达夫为首席部长。报道说，在第168(2)条规定的期限内，没有政党或省议会议员提出获得至少两党支持的组阁主张；因此由省议会最大党的议会党团领袖获任命。亚达夫需在宪法规定期限内向省议会寻求信任投票。《加德满都邮报》11月22日报道其已宣誓就职。现有报道未披露任何ICT政策、项目、采购、预算或厂商决定。",
+                  "textEn": "Radio Nepal and The Kathmandu Post reported that Madhesh Province Chief Surendra Labh Karna appointed Janata Samajbadi Party Nepal (JSP Nepal) parliamentary leader Saroj Kumar Yadav Chief Minister on 21 November under Article 168(3) of Nepal's Constitution. They report that no party or provincial assembly member lodged a government-formation claim with support from at least two parties within the Article 168(2) deadline, so the parliamentary leader of the largest party in the provincial assembly was appointed. Yadav must seek a vote of confidence in the provincial assembly within the constitutional period. The Kathmandu Post reported on 22 November that he had taken the oath of office. The available reporting discloses no ICT policy, project, procurement, budget or vendor decision.",
+                  "opportunity": "研判：这是省级政府领导层变化，不是联邦内阁决定，也不构成ICT商机或采购信号。其实际政策影响取决于信任投票以及后续省级内阁和预算安排。下一步应核对省议会信任投票结果和马德什省政府正式发布的内阁、预算及数字服务／基础设施决定；在有正式文件前，不能把人事任命推断为项目重启、资金承诺或任何设备商机会。",
+                  "opportunityEn": "Analysis: this is a change in provincial leadership, not a federal Cabinet decision and not an ICT opportunity or procurement signal. Its practical policy effect depends on the confidence vote and subsequent provincial cabinet and budget arrangements. Next, verify the provincial assembly confidence-vote result and official Madhesh government decisions on the cabinet, budget and digital services or infrastructure. Until formal records emerge, the appointment cannot be treated as a project restart, funding commitment or an opportunity for any equipment vendor.",
+                  "links": [
+                    {
+                      "label": "Radio Nepal：马德什省首席部长任命（11月21日）",
+                      "labelEn": "Radio Nepal: Madhesh Chief Minister appointment (21 November)",
+                      "url": "https://radionepalonline.com/en/2026/11/21/439071.html"
+                    },
+                    {
+                      "label": "《加德满都邮报》：马德什省首席部长宣誓就职（11月22日）",
+                      "labelEn": "The Kathmandu Post: Madhesh Chief Minister takes oath (22 November)",
+                      "url": "https://kathmandupost.com/politics/2026/11/22/saroj-kumar-yadav-takes-oath-as-madhesh-chief-minister"
+                    }
+                  ]
+                }
+              ],
               "displayCategory": "国家政策与外交人事要闻",
               "displayCategoryEn": "National policy & diplomatic appointments"
             },
@@ -397,11 +451,11 @@
         }
       },
       "stats": {
-        "news": 3,
-        "opportunities": 3,
+        "news": 4,
+        "opportunities": 4,
         "telegram": 0,
         "countryCounts": {
-          "np": 3
+          "np": 4
         }
       },
       "current": true
@@ -5667,151 +5721,31 @@
     "coverageGapEn": "No Nepal Telegram channels verified through official websites yet."
   },
   "editorial": {
-    "lastCodexReviewDate": "2026-11-21",
-    "lastCodexReviewAt": "2026-11-21T18:42:11Z",
-    "lastCodexCommit": "280e80a46545e5851b5997c496070f7a9adbda4c",
-    "lastCandidateGeneratedAt": "2026-11-21T01:59:01.668237+00:00",
+    "lastCodexReviewDate": "2026-11-22",
+    "lastCodexReviewAt": "2026-11-22T18:41:06Z",
+    "lastCodexCommit": "879f43d06747d0885e5230d3e848ff62d7e16956",
+    "lastCandidateGeneratedAt": "2026-11-22T00:58:43.293432+00:00",
     "lastFallbackDate": "2026-11-22",
-    "lastFallbackAt": "2026-11-22T00:59:09.700458+00:00",
-    "fallbackStatus": "pending_codex_review",
-    "fallbackStatusEn": "Pending Codex review",
-    "note": "DeepSeek 自动正文分析更新 5 条；Codex 正式审校日期保持不变。",
-    "noteEn": "DeepSeek refreshed 5 automatic article analyses; the Codex review date is unchanged.",
+    "lastFallbackAt": "2026-11-22T18:41:06Z",
+    "fallbackStatus": "not-needed",
+    "fallbackStatusEn": "Not needed after Codex source review",
+    "note": "Codex已逐条复核当天5项DeepSeek候选：马德什省首席部长任命经Radio Nepal与《加德满都邮报》交叉核验后纳入，报道无ICT、采购或厂商决定；其他4项为礼节性会见、政党建议、研讨会表态或救灾捐助，未构成可执行成果，未作为独立新闻发布。已完成一次针对4项已核验新闻的DeepSeek草稿审校；仅保留与来源一致的后续核验方向，未采纳或扩展模型推断。",
+    "noteEn": "Codex reviewed all five DeepSeek candidates: the Madhesh Chief Minister appointment was cross-checked through Radio Nepal and The Kathmandu Post and added, with no ICT, procurement or vendor decision reported; the other four are a courtesy call, party advice, seminar remarks or disaster-relief donation and do not constitute actionable outputs, so were not published as standalone news. One DeepSeek draft for four reviewed news items was checked; only source-consistent follow-up was retained and no model inference was adopted or expanded.",
     "lastTargetedReviewDate": "2026-09-30",
     "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
     "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
   },
   "fallback": {
-    "status": "pending_codex_review",
-    "statusEn": "Pending Codex review",
-    "generatedAt": "2026-11-22T00:59:09.700458+00:00",
+    "status": "clear",
+    "statusEn": "Clear after Codex review",
+    "generatedAt": "2026-11-22T18:41:06Z",
     "reviewDate": "2026-11-22",
     "sourceCandidateGeneratedAt": "2026-11-22T00:58:43.293432+00:00",
     "model": "deepseek-flash",
-    "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
-    "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
-    "usage": {
-      "prompt_tokens": 4649,
-      "completion_tokens": 3363,
-      "total_tokens": 8012,
-      "prompt_tokens_details": {
-        "cached_tokens": 384
-      },
-      "prompt_cache_hit_tokens": 384,
-      "prompt_cache_miss_tokens": 4265
-    },
-    "items": [
-      {
-        "id": "2d0ab4fa5287cd7b0763",
-        "date": "2026-11-21",
-        "url": "https://radionepalonline.com/en/2026/11/21/439071.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "萨罗杰·库马尔·亚达夫被任命为马德什省首席部长",
-        "titleEn": "Saroj Kumar Yadav appointed Chief Minister of Madhesh Province",
-        "section": "政府与监管动态",
-        "sectionEn": "Government & regulation",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据Radio Nepal报道，贾纳塔·萨马吉巴迪党（JSP）尼泊尔议会党团领袖萨罗杰·库马尔·亚达夫于11月21日被任命为马德什省首席部长。省首席苏伦德拉·拉布·卡尔纳依据宪法第168条第3款作出任命。报道称，省首席办公室表示，各党须在周五下午4点前依第168条第2款提出至少两个政党支持的申索，但无任何政党或议员在期限内提出。亚达夫因此作为省议会最大党的议会党团领袖获任命。报道指出，该任命推进了新政府组建进程，亚达夫须在宪法规定期限内寻求省议会信任投票。",
-        "summaryEn": "Radio Nepal reported that Saroj Kumar Yadav, parliamentary party leader of the Janata Samajbadi Party (JSP) Nepal, was appointed Chief Minister of Madhesh Province on November 21. Province Chief Dr Surendra Labh Karna made the appointment under Article 168(3) of the Constitution, according to the report. The Office of the Province Chief said parties had until 4 p.m. Friday to claim the post under Article 168(2) with support of at least two parties, but no party or assembly member submitted a claim by the deadline, the report said. Yadav was therefore appointed as the parliamentary party leader of the largest party in the Provincial Assembly, the office said. The report said the appointment moves forward the process of forming a new government, and Yadav must now seek a vote of confidence within the constitutional period.",
-        "analysis": "若报道属实，此次任命使马德什省政府组建进入信任投票阶段，短期内该省政策与行政决策可能受影响；但报道未披露亚达夫的政策议程或与ICT相关的计划，因此对电信、数字治理等领域的直接影响目前无法判断。下一步应核验省议会的信任投票日程与结果公告，以及省首席办公室的正式任命文本。证据缺口包括：报道未说明投票具体期限、各党表态及是否有联盟协议，也未提供亚达夫在数字经济或通信基础设施方面的立场。在获得官方文件前，不宜推断任何政策调整或投资环境变化。",
-        "analysisEn": "If the report is accurate, the appointment moves Madhesh Province into a confidence-vote phase, which could affect provincial policy and administrative decisions in the near term. However, the report does not set out Yadav's policy agenda or any ICT-related plans, so direct effects on telecom, digital governance or related sectors cannot be judged at this stage. A concrete next verification step is to check the Provincial Assembly's confidence-vote schedule and results, along with the formal appointment document from the Office of the Province Chief. Evidence gaps include the exact voting deadline, party positions and whether any coalition agreement exists; the report also gives no indication of Yadav's stance on the digital economy or communications infrastructure. Until official documents are available, no policy change or shift in investment conditions should be inferred.",
-        "sourceSha256": "5f01042b8a744c693abc9358c51ab8514969a355e3b9c1e766c88c4be2ae157e",
-        "sourceTextChars": 922,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "2d0ab4fa5287cd7b0763:0"
-      },
-      {
-        "id": "58d472c63b78a619bb2f",
-        "date": "2026-11-21",
-        "url": "https://radionepalonline.com/en/2026/11/21/439074.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "日本议会副大臣拜会总统",
-        "titleEn": "Japan’s Parliamentary Vice-Minister calls on President",
-        "section": "对外关系与市场影响",
-        "sectionEn": "External relations & market impact",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据Radio Nepal报道，正在访问的日本外务省议会副大臣藤井一博于11月21日（周六）在总统府希塔尔·尼瓦斯拜会总统拉姆钱德拉·鲍德尔。报道援引总统办公室发言人希亚姆·普拉萨德·班达里的说法称，双方讨论了尼泊尔与日本关系以及共同关心的事项。报道未披露会谈的具体成果或协议。",
-        "summaryEn": "Radio Nepal reported that visiting Japan's Parliamentary Vice-Minister for Foreign Affairs, Fujii Kazuhiro, paid a courtesy call on President Ramchandra Paudel on Saturday, November 21, at the Office of the President, Shital Niwas. Citing Office of the President spokesperson Shyam Prasad Bhandari, the report said matters relating to Nepal-Japan relations and mutual interest and concern were discussed. The report did not disclose specific outcomes or agreements from the meeting.",
-        "analysis": "若报道属实，这属于一次礼节性外交会晤，报道本身未提及任何ICT、通信或数字合作议题，因此对尼泊尔电信市场、数字治理或投资条件的具体影响目前无法判断。下一步应核验尼泊尔外交部或日本驻尼使馆发布的会谈纪要，确认是否涉及基础设施、通信技术或发展援助等实质内容。证据缺口包括：报道未说明会谈时长、参与方层级细节及是否有后续合作安排，也未提供双方表态原文。在获得官方纪要前，不宜将此次会晤与任何具体项目或资金承诺挂钩。",
-        "analysisEn": "If the report is accurate, this was a courtesy diplomatic meeting, and the report itself mentions no ICT, communications or digital cooperation topics, so concrete effects on Nepal's telecom market, digital governance or investment conditions cannot be judged at present. A concrete next verification step is to check meeting readouts from Nepal's Ministry of Foreign Affairs or the Japanese embassy in Nepal to confirm whether infrastructure, communications technology or development assistance were substantively discussed. Evidence gaps include the absence of details on meeting duration, the level of participants and any follow-up arrangements, as well as the lack of direct quotes from either side. Until official readouts are available, this meeting should not be linked to any specific project or funding commitment.",
-        "sourceSha256": "547d0ea783053447addbe6e8d47943fcae5e2a958bce0875ba96584f6b463ca4",
-        "sourceTextChars": 431,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "58d472c63b78a619bb2f:0"
-      },
-      {
-        "id": "d9e404630d0538dcc58e",
-        "date": "2026-11-21",
-        "url": "https://radionepalonline.com/en/2026/11/21/439069.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "尼泊尔大会党：尼印关系应建立在相互尊重、主权平等和国家利益基础上",
-        "titleEn": "Nepal-India relations should be grounded in mutual respect, sovereign equality, and national interest: NC says",
-        "section": "国家政策与外交人事要闻",
-        "sectionEn": "National policy & diplomatic appointments",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据Radio Nepal报道，尼泊尔大会党在总理巴伦德拉·沙阿11月22日开始访问印度之际发表声明，敦促政府将国家利益置于首位。该党高级副主席比什瓦·普拉卡什·夏尔马表示，此访应服务尼泊尔最大利益并进一步加强两国关系。报道称，这个联邦议会主要反对党与专家进行了内部讨论，议题包括气候变化、航空连通、旅游、贸易、能源、体育、创业、边境管理、边境地区民众关切以及在印尼泊尔劳工面临的挑战。该党表示，尼印关系应建立在相互尊重、主权平等和国家利益基础上，并称此访应聚焦落实既往承诺、解决悬而未决问题并奠定长期互利合作基础。",
-        "summaryEn": "Radio Nepal reported that the Nepali Congress, as Prime Minister Balendra Shah begins a visit to India on November 22, urged the government to put national interest first. Party Senior Vice President Bishwa Prakash Sharma said the visit should serve Nepal's best interests while further strengthening ties between the two countries, according to the report. The main opposition party in the Federal Parliament said it held internal discussions with subject-matter experts, covering climate change, air connectivity, tourism, trade, energy, sports, entrepreneurship, border management, concerns of people in border areas and challenges faced by Nepali workers in India. The party said Nepal-India relations should be grounded in mutual respect, sovereign equality and national interest, and that the visit should focus on implementing past commitments, resolving outstanding issues and laying the groundwork for long-term mutually beneficial cooperation.",
-        "analysis": "若报道属实，这是反对党在总理访印前提出的政策主张，属于表态而非已落实的行动，报道未提及任何ICT、电信或数字合作的具体安排，因此对尼泊尔通信行业或数字政策的影响目前无法判断。下一步应核验总理访印的官方日程与联合声明，确认是否涉及航空连通、能源或数字基础设施等具体议题及承诺。证据缺口包括：报道未说明专家讨论的具体建议、党内是否形成正式文件，也未提供政府对此声明的回应。在获得官方访问成果前，不宜将声明内容视为政策决定或投资信号。",
-        "analysisEn": "If the report is accurate, this is an opposition party position issued ahead of the prime minister's India visit, a statement rather than an implemented action, and the report mentions no specific ICT, telecom or digital cooperation arrangements, so effects on Nepal's communications sector or digital policy cannot be judged at present. A concrete next verification step is to check the official schedule and joint statements from the prime minister's India visit to confirm whether air connectivity, energy or digital infrastructure issues and commitments were addressed. Evidence gaps include the absence of the specific expert recommendations, whether the party produced a formal document, and any government response to the statement. Until official visit outcomes are available, the statement should not be treated as a policy decision or investment signal.",
-        "sourceSha256": "072bf770a27fae96c8b4af3472745a38b4019b3ee26d6596b1182b938ad989f3",
-        "sourceTextChars": 1802,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "d9e404630d0538dcc58e:0"
-      },
-      {
-        "id": "47d090ed892c10d7fc4c",
-        "date": "2026-11-19",
-        "url": "https://radionepalonline.com/en/2026/11/19/439001.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "外交部长：新一代外交必须优先考虑国家利益和战略能力",
-        "titleEn": "New generation diplomacy must prioritise national interest and strategic capabilities: Foreign Affairs Minister",
-        "section": "政府与监管动态",
-        "sectionEn": "Government & regulation",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据Radio Nepal报道，外交部长希希尔·卡纳尔11月19日在加德满都举行的“全球潮流，本地指南针：尼泊尔下一代外交”研讨会上表示，尼泊尔新一代外交官须具备批判性思维、适应力、协作和持续学习能力，以维护国家利益并加强国际代表性。报道称，卡纳尔强调外交官应了解本国社会、文化和优势，并能向国际社会展示尼泊尔形象，还鼓励年轻外交官提高包括英语、中文和阿拉伯语在内的国际语言能力。外交学院执行主任罗吉娜·塔姆拉卡尔表示，技术进步、气候变化、经济相互依存、移民、能源转型和地缘政治格局变化带来新挑战与机遇。报道称，研讨会设有数字转型与外交未来等议题讨论。",
-        "summaryEn": "Radio Nepal reported that Foreign Affairs Minister Shishir Khanal said Nepal's new generation of diplomats must develop critical thinking, adaptability, collaboration and continuous learning to safeguard national interests and strengthen international representation. Speaking on November 19 at a Kathmandu seminar titled 'Global Currents, Local Compass: Nepal's Next Generation Diplomacy', Khanal said diplomats should understand their own country, society, culture and strengths and present Nepal's identity internationally, and he urged young diplomats to improve proficiency in international languages including English, Chinese and Arabic, according to the report. Institute of Foreign Affairs Executive Director Rojina Tamrakar said technological advances, climate change, economic interdependence, migration, energy transformation and changing geopolitics create new challenges and opportunities. The report said seminar sessions included digital transformation and the future of diplomacy.",
-        "analysis": "若报道属实，这是部长在研讨会上的表态，属于政策方向性发言而非已落实的措施，报道未宣布任何具体数字外交项目、预算或机构改革，因此对尼泊尔电信或数字治理的直接影响目前无法判断。报道提到研讨会设有数字转型与外交议题，但未说明讨论内容或结论。下一步应核验外交学院或外交部的研讨会成果文件，确认是否形成数字外交能力建设的具体提案。证据缺口包括：报道未说明参会人数、是否有后续培训计划，也未提供部长关于数字工具或网络安全的进一步表述。在获得官方成果文件前，不宜推断政策变化。",
-        "analysisEn": "If the report is accurate, these are ministerial remarks at a seminar, a statement of policy direction rather than an implemented measure; the report announces no specific digital diplomacy project, budget or institutional reform, so direct effects on Nepal's telecom or digital governance cannot be judged at present. The report notes a seminar session on digital transformation and diplomacy but gives no discussion content or conclusions. A concrete next verification step is to check seminar outcome documents from the Institute of Foreign Affairs or the Ministry of Foreign Affairs to confirm whether concrete proposals on digital diplomacy capacity building emerge. Evidence gaps include the number of participants, any follow-up training plans and further ministerial remarks on digital tools or cybersecurity. Until official outcome documents are available, no policy change should be inferred.",
-        "sourceSha256": "f6004015d793e2b3547d543769f46f23f69a287de5835e322906b715340a7e14",
-        "sourceTextChars": 2160,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "47d090ed892c10d7fc4c:0"
-      },
-      {
-        "id": "a766272a9fd9a1a39beb",
-        "date": "2026-11-19",
-        "url": "https://radionepalonline.com/en/2026/11/19/439032.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "安全印务中心向总理救济基金捐款1000万卢比",
-        "titleEn": "Security Printing Centre contributes Rs 10 million to Prime Minister’s Relief Fund",
-        "section": "政府与监管动态",
-        "sectionEn": "Government & regulation",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据Radio Nepal报道，信息与通信部下属的安全印务中心向总理救济基金存入1005万卢比，用于8月26日博特科西-特里苏利河洪水受灾民众的救济与重建。报道称，该中心执行主任德夫拉杰·敦加纳在信息与通信部长比克拉姆·蒂米尔西纳、法律司法与议会事务部长索比塔·加图阿姆、财政部长的见证下，将支票交给财政部长斯瓦尼姆·瓦格尔，通信秘书拉金德拉·鲍德尔等官员在场。报道称，该中心以内部收入来源筹措了这笔款项。报道还称，瓦格尔和蒂米尔西纳表示将支持该中心提升能力和加强实体基础设施。",
-        "summaryEn": "Radio Nepal reported that the Security Printing Centre under the Ministry of Information and Communications deposited Rs 10.05 million into the Prime Minister's Relief Fund for relief and rehabilitation of citizens affected by the August 26 Bhotekoshi-Trishuli river floods. The report said the Centre's executive director, Devraj Dhungana, handed the cheque to Finance Minister Dr Swarnim Wagle in the presence of Minister for Information and Communications Dr Bikram Timilsina, Minister for Law, Justice and Parliamentary Affairs Sobita Gatuam, Communications Secretary Rajendra Paudel and joint secretaries at the Ministry of Finance. The report said the Centre raised the amount from its internal income sources. It also said Ministers Wagle and Timilsina pledged to support the Centre in enhancing its capacity and strengthening physical infrastructure.",
-        "analysis": "若报道属实，这是一项已完成的捐款行动，涉及信息与通信部下属机构，但资金用于洪水救济而非ICT项目，因此对电信市场、数字服务或投资条件的影响目前无法判断。报道中部长关于支持该中心提升能力的表态属于意向，未附带预算、时间表或具体项目。下一步应核验总理救济基金的收款公示以及安全印务中心的年度报告，确认资金用途与后续能力建设安排。证据缺口包括：报道未说明该中心内部收入来源构成、是否有正式支持计划文件，也未提供洪水受灾通信基础设施的恢复情况。在获得官方财务披露前，不宜推断任何采购或投资。",
-        "analysisEn": "If the report is accurate, this is a completed donation by a body under the Ministry of Information and Communications, but the funds are for flood relief rather than ICT projects, so effects on the telecom market, digital services or investment conditions cannot be judged at present. The ministers' pledge to support the Centre's capacity is stated as intent, with no budget, timetable or specific project attached. A concrete next verification step is to check public receipts of the Prime Minister's Relief Fund and the Centre's annual report to confirm the use of funds and any follow-up capacity-building arrangements. Evidence gaps include the composition of the Centre's internal income sources, whether a formal support plan document exists, and the status of restoring flood-affected communications infrastructure. Until official financial disclosures are available, no procurement or investment should be inferred.",
-        "sourceSha256": "a3bec0a4e0b2a2b49496a0b92ea3bc7520763a5cab67ff1c87854168ceaf8de8",
-        "sourceTextChars": 903,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "a766272a9fd9a1a39beb:0"
-      }
-    ]
+    "note": "Codex已完成当天5项DeepSeek候选的原始来源复核。马德什省首席部长任命由Radio Nepal报道并以《加德满都邮报》11月22日宣誓报道交叉核验后，作为一项省级政治人事新闻纳入；未将其推断为ICT商机。日本议会副大臣礼节性拜会、尼泊尔大会党对访印的建议、外交研讨会表态及安全印务中心的救灾捐助均未构成可执行的ICT、采购或政策成果，不作为独立正式新闻发布。已审校一次针对4项已核验新闻的DeepSeek草稿；模型未作为事实证据。",
+    "noteEn": "Codex completed primary-source review of the day's five DeepSeek candidates. The Madhesh Chief Minister appointment was reported by Radio Nepal and cross-checked against The Kathmandu Post's 22 November oath report, then added as a provincial political appointment without inferring an ICT opportunity. A Japanese vice-minister's courtesy call, Nepali Congress advice on the India visit, foreign-policy seminar remarks and the Security Printing Centre's disaster-relief donation do not constitute actionable ICT, procurement or policy outcomes and were not published as separate formal news. One DeepSeek draft for four reviewed news items was editorially checked; model output was not used as factual evidence.",
+    "usage": null,
+    "items": []
   },
   "policyTracker": {
     "version": 1,
@@ -5919,12 +5853,12 @@
     ],
     "status": {
       "version": 1,
-      "lastCheckedAt": "2026-11-21T14:03:10+05:45",
+      "lastCheckedAt": "2026-11-22T13:46:06+05:45",
       "topics": {
         "ntc-realtime-billing-tender": {
           "reportItemId": "np-ntc-crtb-tender-20260923",
           "fingerprint": "913208cbed153a09e73c2c1adce7e714b04a756ec5c43f16cea92070480bbaf4",
-          "lastCheckedAt": "2026-11-21T14:03:10+05:45",
+          "lastCheckedAt": "2026-11-22T13:46:06+05:45",
           "lastChangeAt": "2026-10-20T11:48:26+05:45",
           "evidenceUrls": []
         }

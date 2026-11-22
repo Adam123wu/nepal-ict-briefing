@@ -1,22 +1,24 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-20",
+  "generated": "2026-11-22",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月20日复核：外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
-  "statusEn": "20 November review: the Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
+  "status": "11月22日复核：马德什省省长已依宪法第168(3)条任命人民社会党尼泊尔议会党团领袖萨罗杰·库马尔·亚达夫为首席部长；该省级人事变动尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
+  "statusEn": "22 November review: Madhesh Province's Province Chief appointed Janata Samajbadi Party Nepal parliamentary leader Saroj Kumar Yadav Chief Minister under Article 168(3) of the Constitution. This provincial leadership change still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. The Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
   "summary": [
     "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
     "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
+    "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
     "外交部确认总理将于11月22—23日对印度进行国事访问；目前属于行程公告，尚无签署成果、ICT项目或采购信息。",
     "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
     "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
     "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
+    "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
     "The Ministry of Foreign Affairs confirms a 22–23 November state visit to India by the Prime Minister. It is currently a schedule announcement, with no signed outcome, ICT project or procurement disclosed.",
     "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
   ],
@@ -89,7 +91,32 @@
         {
           "category": "本国政治与大选进展及内幕",
           "categoryEn": "Politics and elections",
-          "items": [],
+          "items": [
+            {
+              "id": "np-madhesh-chief-minister-yadav-20261121",
+              "date": "2026-11-21",
+              "title": "马德什省任命萨罗杰·库马尔·亚达夫为首席部长",
+              "titleEn": "Madhesh Province appoints Saroj Kumar Yadav Chief Minister",
+              "badge": "公共广播报道＋独立媒体交叉核验 · 省级人事任命",
+              "badgeEn": "Public-broadcaster report cross-checked by independent media · provincial appointment",
+              "text": "Radio Nepal与《加德满都邮报》报道，马德什省省长苏伦德拉·拉布·卡尔纳于11月21日依据尼泊尔宪法第168(3)条，任命人民社会党尼泊尔（JSP Nepal）议会党团领袖萨罗杰·库马尔·亚达夫为首席部长。报道说，在第168(2)条规定的期限内，没有政党或省议会议员提出获得至少两党支持的组阁主张；因此由省议会最大党的议会党团领袖获任命。亚达夫需在宪法规定期限内向省议会寻求信任投票。《加德满都邮报》11月22日报道其已宣誓就职。现有报道未披露任何ICT政策、项目、采购、预算或厂商决定。",
+              "textEn": "Radio Nepal and The Kathmandu Post reported that Madhesh Province Chief Surendra Labh Karna appointed Janata Samajbadi Party Nepal (JSP Nepal) parliamentary leader Saroj Kumar Yadav Chief Minister on 21 November under Article 168(3) of Nepal's Constitution. They report that no party or provincial assembly member lodged a government-formation claim with support from at least two parties within the Article 168(2) deadline, so the parliamentary leader of the largest party in the provincial assembly was appointed. Yadav must seek a vote of confidence in the provincial assembly within the constitutional period. The Kathmandu Post reported on 22 November that he had taken the oath of office. The available reporting discloses no ICT policy, project, procurement, budget or vendor decision.",
+              "opportunity": "研判：这是省级政府领导层变化，不是联邦内阁决定，也不构成ICT商机或采购信号。其实际政策影响取决于信任投票以及后续省级内阁和预算安排。下一步应核对省议会信任投票结果和马德什省政府正式发布的内阁、预算及数字服务／基础设施决定；在有正式文件前，不能把人事任命推断为项目重启、资金承诺或任何设备商机会。",
+              "opportunityEn": "Analysis: this is a change in provincial leadership, not a federal Cabinet decision and not an ICT opportunity or procurement signal. Its practical policy effect depends on the confidence vote and subsequent provincial cabinet and budget arrangements. Next, verify the provincial assembly confidence-vote result and official Madhesh government decisions on the cabinet, budget and digital services or infrastructure. Until formal records emerge, the appointment cannot be treated as a project restart, funding commitment or an opportunity for any equipment vendor.",
+              "links": [
+                {
+                  "label": "Radio Nepal：马德什省首席部长任命（11月21日）",
+                  "labelEn": "Radio Nepal: Madhesh Chief Minister appointment (21 November)",
+                  "url": "https://radionepalonline.com/en/2026/11/21/439071.html"
+                },
+                {
+                  "label": "《加德满都邮报》：马德什省首席部长宣誓就职（11月22日）",
+                  "labelEn": "The Kathmandu Post: Madhesh Chief Minister takes oath (22 November)",
+                  "url": "https://kathmandupost.com/politics/2026/11/22/saroj-kumar-yadav-takes-oath-as-madhesh-chief-minister"
+                }
+              ]
+            }
+          ],
           "displayCategory": "国家政策与外交人事要闻",
           "displayCategoryEn": "National policy & diplomatic appointments"
         },
@@ -171,11 +198,11 @@
     }
   },
   "stats": {
-    "news": 3,
-    "opportunities": 3,
+    "news": 4,
+    "opportunities": 4,
     "telegram": 0,
     "countryCounts": {
-      "np": 3
+      "np": 4
     }
   }
 }
