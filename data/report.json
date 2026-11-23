@@ -6,9 +6,11 @@
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月23日复核：马德什省首席部长任命尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
-  "statusEn": "23 November review: the Madhesh Chief Minister appointment still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
+  "status": "11月23日复核：Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
+  "statusEn": "23 November review: Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
   "summary": [
+    "Ncell正在推进3G退网，3G用户需迁移至4G SIM和支持VoLTE的终端；公开材料未披露本次网络调整的设备采购或供应商。",
+    "NTA发布欠费、减免及远程服务费材料报送通知；公开的欠费通知列出9家服务商（包括Subisu），但未确认任何牌照已被取消。",
     "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
     "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
     "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
@@ -16,6 +18,8 @@
     "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
+    "Ncell is progressing a 3G sunset; 3G users must migrate to a 4G SIM and a VoLTE-capable handset. Public material discloses no procurement or supplier for this network change.",
+    "NTA has issued notices on arrears, remission and telecommunications-service-charge filings. Its public arrears notice lists nine providers, including Subisu, but does not confirm cancellation of any licence.",
     "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
     "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
     "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
@@ -31,14 +35,69 @@
         {
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
-          "items": [],
+          "items": [
+            {
+              "id": "np-ncell-3g-sunset-volte-20261119",
+              "date": "2026-11-19",
+              "title": "Ncell推进3G退网，服务转向4G／VoLTE",
+              "titleEn": "Ncell progresses 3G sunset and transition to 4G/VoLTE",
+              "badge": "运营商公开说明＋行业媒体交叉核验 · 网络演进",
+              "badgeEn": "Operator public guidance cross-checked by sector media · network evolution",
+              "text": "Ncell的公开说明确认，公司正在关闭3G并将基于3G的服务转向基于4G的VoLTE；持有3G SIM且使用支持VoLTE终端的用户可免费更换4G SIM，旧终端用户在所在区域3G完成关闭后将不能继续使用移动数据，但语音仍可经2G或4G承载。Nepali Telecom于11月19日报道称，该公司计划在2026年12月完成退网，并披露分阶段安排和站点数量；这些时间表与数量为行业媒体转述，须以Ncell后续正式地区通知为准。Ncell公开页未披露本次频谱重耕、无线设备、核心网、终端补贴或集成服务的采购、预算和供应商。",
+              "textEn": "Ncell's public guidance confirms that it is shutting down 3G and moving 3G-based services to 4G-based VoLTE. Customers with a 3G SIM and VoLTE-capable handset can replace the SIM with a 4G SIM free of charge; users with older handsets will lose mobile data once 3G is completed in their area, while voice remains available through 2G or 4G. Nepali Telecom reported on 19 November that the company plans to complete the sunset in December 2026 and described phased timing and site counts; those timing and volume details are sector-media reporting and must be checked against subsequent regional notices from Ncell. Ncell's public page does not disclose procurement, budget or suppliers for spectrum refarming, radio equipment, core network, handset support or integration services.",
+              "opportunity": "研判：这是已确认的运营商网络迁移，而非明确的设备项目。应优先跟踪Ncell按地区发布的关闭／迁移告知、VoLTE兼容清单、SIM更换量、4G容量或覆盖KPI，以及NTA关于服务质量、频谱和用户保护的后续文件。只有在出现正式RFP、框架协议、采购公告或经运营商确认的合同后，才可识别具体无线、核心网、终端或服务机会；不得由3G退网推断中兴、华为、思科、浩鲸、亚信或其他供应商已参与。",
+              "opportunityEn": "Analysis: this is a confirmed operator network migration, not a defined equipment project. Prioritise Ncell's regional shutdown/migration notices, VoLTE compatibility lists, SIM-swap volumes, 4G capacity or coverage KPIs, and any NTA documents on quality, spectrum and customer protection. Identify a radio, core-network, handset or service opportunity only when a formal RFP, framework, procurement notice or operator-confirmed contract appears; 3G sunset alone cannot establish participation by ZTE, Huawei, Cisco, H3C, AsiaInfo or any other supplier.",
+              "links": [
+                {
+                  "label": "Ncell：3G退网与VoLTE迁移说明",
+                  "labelEn": "Ncell: 3G sunset and VoLTE migration guidance",
+                  "url": "https://www.ncell.com.np/en/ncell-shutting-down-3g"
+                },
+                {
+                  "label": "Nepali Telecom：3G退网阶段与进度报道（11月19日）",
+                  "labelEn": "Nepali Telecom: reported 3G-sunset phases and progress (19 November)",
+                  "url": "https://www.nepalitelecom.com/ncell-shut-down-3g-network"
+                }
+              ]
+            }
+          ],
           "displayCategory": "运营商、数字能源与网络建设",
           "displayCategoryEn": "Operators, digital energy & network infrastructure"
         },
         {
           "category": "本国部委最新动态",
           "categoryEn": "Ministry and regulator developments",
-          "items": [],
+          "items": [
+            {
+              "id": "np-nta-arrears-remission-filings-20261119",
+              "date": "2026-11-19",
+              "title": "NTA发布欠费处置、减免和远程服务费材料报送通知",
+              "titleEn": "NTA issues notices on arrears, remission and telecommunications-service-charge filings",
+              "badge": "NTA官方通知 · 牌照与费用合规",
+              "badgeEn": "Official NTA notices · licence and fee compliance",
+              "text": "尼泊尔电信管理局（NTA）发布的三项官方通知显示：（1）依据《2083财政法》第49条，满足条件的许可电信服务商可在2083年Mangsir月底前补缴应付费用／税费及其1%附加额，以适用罚金、利息及费用减免；（2）NTA要求互联网服务商在收到通知后10个工作日内，提交与电信服务费相关的资料和月度明细；（3）另一份欠费公告要求9家列名服务商在15日内清偿欠付的特许权使用费、农村电信发展基金等款项及其附加费用，名单包括Subisu Limited；逾期将按《电信法》继续办理牌照取消程序。公告未确认任何一家已被取消牌照、已完成缴费或获得减免，也未公布设备采购、预算或供应商。",
+              "textEn": "Three official Nepal Telecommunications Authority (NTA) notices show that: (1) under Section 49 of the Finance Act 2083, eligible licensed telecommunications providers may settle dues/taxes plus an additional 1% by the end of Mangsir 2083 to access remission of penalties, interest and fees; (2) NTA requires ISPs to submit telecommunications-service-charge documents and monthly details within 10 working days of notice; and (3) a separate arrears notice gives nine named providers 15 days to settle outstanding royalty, Rural Telecommunication Development Fund and associated amounts, including Subisu Limited, after which licence-cancellation procedures may continue under the Telecommunications Act. The notices do not confirm that any licence has been cancelled, any payment completed or remission granted, and they disclose no equipment procurement, budget or supplier.",
+              "opportunity": "研判：这是对运营商／ISP现金流和牌照合规的监管行动，短期应作为客户信用、续费和项目交付风险信号，而非销售机会或厂商替换证据。需要逐家核对NTA后续的缴费、减免、执法或牌照状态公告；对Subisu等被列名主体，应在任何商务判断前确认欠费性质、是否已清偿以及服务连续性。不得把15日期限理解为已撤销牌照，也不得将监管通知推断为网络设备采购或其他厂商中标。",
+              "opportunityEn": "Analysis: this is a regulatory action affecting operator/ISP cash flow and licence compliance. In the short term it is a signal for customer-credit, renewal and delivery risk, not a sales opportunity or evidence of a vendor replacement. Check subsequent NTA notices provider by provider for payment, remission, enforcement or licence status; for named entities such as Subisu, confirm the nature of the arrears, settlement and service continuity before any commercial judgement. A 15-day deadline is not a cancelled licence, and the notices must not be turned into a network-equipment procurement or another supplier's award.",
+              "links": [
+                {
+                  "label": "NTA：财政法第49条下的罚金与利息减免通知",
+                  "labelEn": "NTA: Finance Act Section 49 remission notice",
+                  "url": "https://www.nta.gov.np/content/sal-bsal-aarathaka-aina-bmajama-lgana-shalka-thasatara-va-karama-lgana-jaravana-tatha-byaja-manaha-samabnathha-sacana"
+                },
+                {
+                  "label": "NTA：10个工作日内提交远程服务费资料的紧急通知",
+                  "labelEn": "NTA: urgent 10-working-day telecommunications-service-charge filing notice",
+                  "url": "https://www.nta.gov.np/content/tharasaniacara-sava-thasatarasaga-samabnathhata-aavashayaka-kagajatahanpr-sahata-karaya-thanabhatara-vavaranae-pasha-garana-samabnathha-atayanata-jarara-sacana"
+                },
+                {
+                  "label": "NTA：欠费缴纳公共通知（列名9家服务商）",
+                  "labelEn": "NTA: public arrears-settlement notice (nine named providers)",
+                  "url": "https://www.nta.gov.np/content/bkayata-rakama-thakhal-garana-samabnathha-saravajanaka-sacana"
+                }
+              ]
+            }
+          ],
           "displayCategory": "政府与监管动态",
           "displayCategoryEn": "Government & regulation"
         },
@@ -208,11 +267,11 @@
     }
   },
   "stats": {
-    "news": 4,
-    "opportunities": 4,
+    "news": 6,
+    "opportunities": 6,
     "telegram": 0,
     "countryCounts": {
-      "np": 4
+      "np": 6
     }
   }
 }
