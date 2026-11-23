@@ -1,25 +1,25 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月22日复核：马德什省省长已依宪法第168(3)条任命人民社会党尼泊尔议会党团领袖萨罗杰·库马尔·亚达夫为首席部长；该省级人事变动尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。外交部已确认总理11月22—23日对印度进行国事访问；该公告为预定行程，未披露任何已签署协议、ICT项目或采购。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验，不能把候选当作中标。往期完整保留。",
-  "statusEn": "22 November review: Madhesh Province's Province Chief appointed Janata Samajbadi Party Nepal parliamentary leader Saroj Kumar Yadav Chief Minister under Article 168(3) of the Constitution. This provincial leadership change still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. The Ministry of Foreign Affairs has confirmed the Prime Minister's 22–23 November state visit to India. This is a scheduled visit; the notice discloses no signed agreement, ICT project or procurement. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records; candidates are not awards. Previous issues remain intact.",
+  "status": "11月23日复核：马德什省首席部长任命尚须在规定期限内取得信任投票，未公布ICT项目、采购或厂商决定。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
+  "statusEn": "23 November review: the Madhesh Chief Minister appointment still requires a confidence vote within the constitutional period and discloses no ICT project, procurement or vendor decision. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
   "summary": [
     "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
     "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
     "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
-    "外交部确认总理将于11月22—23日对印度进行国事访问；目前属于行程公告，尚无签署成果、ICT项目或采购信息。",
+    "尼印国事访问已形成联合愿景并交换南亚卫星SATCOM网络合作谅解备忘录；数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G列为合作方向，但具体项目、采购和厂商尚未披露。",
     "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
     "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
     "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
     "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
-    "The Ministry of Foreign Affairs confirms a 22–23 November state visit to India by the Prime Minister. It is currently a schedule announcement, with no signed outcome, ICT project or procurement disclosed.",
+    "The Nepal–India state visit produced a Joint Vision and an MoU on a South Asia Satellite SATCOM network. The Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are named cooperation directions, but specific projects, procurement and suppliers are not disclosed.",
     "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
   ],
   "countries": {
@@ -147,25 +147,35 @@
           "items": [
             {
               "id": "np-mofa-india-state-visit-20261120",
-              "date": "2026-11-20",
-              "title": "外交部确认总理将于11月22—23日对印度进行国事访问",
-              "titleEn": "MoFA confirms Prime Minister's 22–23 November state visit to India",
-              "badge": "外交部官方公告 · 预定访问",
-              "badgeEn": "Official MoFA notice · scheduled visit",
-              "text": "尼泊尔外交部11月20日公告称，巴伦德拉·沙阿总理将应印度总理莫迪邀请，于11月22—23日对印度进行国事访问。公告列明，总理将由财政部长、外交部长、总理首席顾问及其他政府高级官员陪同，在新德里拜会印度总统并与印度总理举行代表团级会谈，随后于11月23日返抵加德满都。该公告确认的是预定行程和会晤安排，并未公布任何已签署协议、项目金额、ICT合作或采购决定。",
-              "textEn": "In a 20 November notice, Nepal's Ministry of Foreign Affairs said Prime Minister Balendra Shah will pay a state visit to India on 22–23 November at Prime Minister Narendra Modi's invitation. It says the Prime Minister will be accompanied by the finance and foreign ministers, the chief adviser and other senior officials; in New Delhi he will call on India's President and hold delegation-level talks with the Indian Prime Minister before returning to Kathmandu on 23 November. The notice confirms a scheduled itinerary and meetings only; it discloses no signed agreement, project value, ICT cooperation or procurement decision.",
-              "opportunity": "研判：这是高层双边对话窗口，而非招标或已落地项目。访问结束后，应优先核对尼泊尔外交部、印度外交部和印度新闻信息局发布的联合声明与签署文件清单，再判断是否出现跨境连接、数字合作、贸易便利化、能源或投资的可执行安排；在这些原始文件发布前，不把访问安排推断为任何ICT订单、资金承诺或厂商机会。",
-              "opportunityEn": "Analysis: this is a high-level bilateral dialogue window, not a tender or delivered project. After the visit, first check Nepal's MoFA, India's Ministry of External Affairs and the Press Information Bureau for a joint statement and signed-document list before assessing whether any actionable arrangement on cross-border connectivity, digital cooperation, trade facilitation, energy or investment emerges. Until those primary records appear, the itinerary must not be treated as an ICT order, funding commitment or vendor opportunity.",
+              "date": "2026-11-23",
+              "title": "尼印国事访问形成联合愿景并交换卫星通信合作谅解备忘录",
+              "titleEn": "Nepal–India state visit produces Joint Vision and SATCOM-network MoU",
+              "badge": "尼泊尔外交部＋印度总理办公室联合新闻稿 · 已公布成果",
+              "badgeEn": "Nepal MoFA + Indian PMO joint release · published outcome",
+              "text": "尼泊尔外交部和印度总理办公室11月23日发布的联合新闻稿确认，巴伦德拉·沙阿总理于11月22—23日访印期间，双方通过《Viksit Bharat and Samunnat Nepal》联合愿景，将实体与数字互联互通、良好治理、技术／空间／创新等纳入合作路线图。文件列明：将加快印度UPI与尼泊尔国家支付系统衔接后的跨境零售支付实施；围绕数字尼泊尔框架交换数字身份、支付和电子政务的技术经验；推动数字园区和数据中心的私人投资；加强AI、卫星、5G/6G和下一代网络合作。双方同时交换了印度空间研究组织（ISRO）与尼泊尔信息通信部关于利用南亚卫星建立卫星通信（SATCOM）网络的谅解备忘录。联合新闻稿还说明印度将提供15000亿卢比（约24000亿尼泊尔卢比）发展援助，其中11500亿卢比为能源项目卢比贷款额度；具体项目及提供方式仍须双方协商确定。文件未公布SATCOM网络的范围、预算、技术路线、实施时间、采购程序或任何设备／服务供应商。",
+              "textEn": "The 23 November joint releases from Nepal's Ministry of Foreign Affairs and India's Prime Minister's Office confirm that Prime Minister Balendra Shah's 22–23 November visit produced the Viksit Bharat and Samunnat Nepal Joint Vision. It places physical and digital connectivity, good governance, and technology/space/innovation on a cooperation roadmap. It calls for expedited cross-border retail payments after the linkage of India's UPI and Nepal's national payment system; exchange of digital-identity, payments and e-governance expertise for the Digital Nepal Framework; facilitation of private investment in digital parks and data centres; and cooperation on AI, space, 5G/6G and next-generation networks. The sides also exchanged an ISRO–Nepal Ministry of Information and Communication MoU to establish a South Asia Satellite SATCOM network. The joint release says India will provide INR 15,000 crore (NPR 24,000 crore) in development assistance, of which INR 11,500 crore is a rupee-denominated line of credit for energy projects; specific projects and modalities remain for mutual consultation. It does not disclose SATCOM-network scope, budget, architecture, implementation timing, procurement or any equipment or service supplier.",
+              "opportunity": "研判：这是已公开的政策与合作框架，并含一项卫星通信谅解备忘录，但不是设备采购、项目授标或厂商选择。应建立四条可核验的后续线索：（1）尼泊尔信息通信部／NTA与ISRO对SATCOM网络的实施文件、频率与地面段安排；（2）尼泊尔国家支付系统与UPI的跨境零售支付上线、监管和参与机构公告；（3）数字园区和数据中心的具体项目、土地／能源／数据治理要求及招标；（4）5G/6G或Digital Nepal Framework的联合工作计划、预算和开放采购。援助总额及能源贷款不能自动转化为ICT预算；在技术规范、资金安排或采购公告披露前，不把中兴、华为、思科、浩鲸、亚信或任何其他供应商标为参与方或受益方。",
+              "opportunityEn": "Analysis: this is a published policy and cooperation framework, including one SATCOM MoU; it is not equipment procurement, a project award or a supplier selection. Maintain four verifiable follow-up tracks: (1) implementation papers, spectrum and ground-segment arrangements from Nepal's Ministry of Information and Communication/NTA and ISRO; (2) launch, regulatory and participating-institution notices for UPI–Nepal cross-border retail payments; (3) defined digital-park and data-centre projects, land/energy/data-governance requirements and tenders; and (4) joint work plans, budgets and open procurement for 5G/6G or the Digital Nepal Framework. The assistance total and energy credit cannot be converted automatically into an ICT budget. Until specifications, funding arrangements or procurement notices are published, ZTE, Huawei, Cisco, H3C, AsiaInfo and any other supplier must not be labelled participant or beneficiary.",
               "links": [
                 {
-                  "label": "尼泊尔外交部：对印度国事访问公告",
-                  "labelEn": "Nepal MoFA: state-visit notice",
-                  "url": "https://www.mofa.gov.np/content/1932/press-release-state-visit/"
+                  "label": "尼泊尔外交部：国事访问联合新闻稿",
+                  "labelEn": "Nepal MoFA: joint press release on the state visit",
+                  "url": "https://mofa.gov.np/content/1935/joint-press-release-on-the-state-visit/"
                 },
                 {
-                  "label": "印度驻尼泊尔使馆：大使拜会尼泊尔总理（11月18日）",
-                  "labelEn": "Embassy of India: Ambassador calls on Nepal's Prime Minister (18 November)",
-                  "url": "https://www.indembkathmandu.gov.in/gallery-detail/456"
+                  "label": "尼泊尔外交部：联合愿景全文",
+                  "labelEn": "Nepal MoFA: Joint Vision text",
+                  "url": "https://mofa.gov.np/content/1936/viksit-bharat-and-samunnat-nepal-reimagining-the-partnership/"
+                },
+                {
+                  "label": "印度新闻信息局：联合新闻稿及SATCOM谅解备忘录",
+                  "labelEn": "India PIB: joint release and SATCOM MoU",
+                  "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340389&lang=2&reg=48"
+                },
+                {
+                  "label": "印度新闻信息局：尼印联合愿景全文",
+                  "labelEn": "India PIB: Joint Vision text",
+                  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340383&lang=1&reg=48"
                 }
               ]
             }
