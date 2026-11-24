@@ -1,30 +1,32 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月23日复核：Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
-  "statusEn": "23 November review: Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
+  "status": "11月24日复核：内政、通信、灾害管理、NTA与尼泊尔电信协同完成蜂窝广播（CBS）初步技术测试；这是受控测试而非全国上线、采购或厂商选择。Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
+  "statusEn": "24 November review: the Ministry of Home Affairs, communications ministry, disaster-management authority, NTA and Nepal Telecom completed an initial Cell Broadcast System (CBS) technical test; this is a controlled test, not nationwide launch, procurement or supplier selection. Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
   "summary": [
     "Ncell正在推进3G退网，3G用户需迁移至4G SIM和支持VoLTE的终端；公开材料未披露本次网络调整的设备采购或供应商。",
+    "主管部门、NTA和尼泊尔电信已在加德满都完成蜂窝广播（CBS）灾害预警初步技术测试；尚未公布全国上线、技术规格、预算、采购或供应商。",
     "NTA发布欠费、减免及远程服务费材料报送通知；公开的欠费通知列出9家服务商（包括Subisu），但未确认任何牌照已被取消。",
     "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
     "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
     "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
     "尼印国事访问已形成联合愿景并交换南亚卫星SATCOM网络合作谅解备忘录；数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G列为合作方向，但具体项目、采购和厂商尚未披露。",
-    "所有本期项目均为公告／澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
+    "本期项目仍处于测试、公告或澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
     "Ncell is progressing a 3G sunset; 3G users must migrate to a 4G SIM and a VoLTE-capable handset. Public material discloses no procurement or supplier for this network change.",
+    "Government agencies, NTA and Nepal Telecom have completed an initial Cell Broadcast System (CBS) disaster-alert technical test in Kathmandu; nationwide launch, technical specification, budget, procurement and suppliers are not public.",
     "NTA has issued notices on arrears, remission and telecommunications-service-charge filings. Its public arrears notice lists nine providers, including Subisu, but does not confirm cancellation of any licence.",
     "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
     "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
     "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
     "The Nepal–India state visit produced a Joint Vision and an MoU on a South Asia Satellite SATCOM network. The Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are named cooperation directions, but specific projects, procurement and suppliers are not disclosed.",
-    "All current entries are notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
+    "Current entries remain at testing, notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
   ],
   "countries": {
     "np": {
@@ -57,6 +59,35 @@
                   "label": "Nepali Telecom：3G退网阶段与进度报道（11月19日）",
                   "labelEn": "Nepali Telecom: reported 3G-sunset phases and progress (19 November)",
                   "url": "https://www.nepalitelecom.com/ncell-shut-down-3g-network"
+                }
+              ]
+            },
+            {
+              "id": "np-cell-broadcast-system-initial-test-20261123",
+              "date": "2026-11-23",
+              "title": "尼泊尔完成蜂窝广播灾害预警系统初步技术测试",
+              "titleEn": "Nepal completes initial Cell Broadcast System test for disaster alerts",
+              "badge": "主管部门、NTA与尼泊尔电信协同技术测试 · 早期验证",
+              "badgeEn": "Ministries, NTA and Nepal Telecom technical test · early validation",
+              "text": "Radio Nepal刊载的RSS报道与OnlineKhabar的测试前后报道显示，内政部、国家减灾及管理局（NDRRMA）、尼泊尔电信管理局（NTA）和尼泊尔电信在信息通信部协调下，于11月23日在加德满都Balambu完成蜂窝广播系统（CBS）初步技术测试。报道说，指定地理区域内的移动设备收到尼泊尔语和英语测试告警，并有区别于普通通知的提示音和震动；该受控测试面向有限设备。CBS旨在向指定地理区域内的移动终端同时发送灾害预警，不依赖逐一发送号码或互联网。公开报道未披露网络技术制式、覆盖范围、技术规格、预算、采购、全国启用时间或任何软件、设备和集成服务供应商。",
+              "textEn": "Radio Nepal's RSS report and OnlineKhabar’s pre- and post-test coverage state that the Ministry of Home Affairs, National Disaster Risk Reduction and Management Authority (NDRRMA), Nepal Telecommunications Authority (NTA) and Nepal Telecom, coordinated by the communications ministry, completed an initial Cell Broadcast System (CBS) technical test in Balambu, Kathmandu on 23 November. They report that mobile devices in a designated geographic area received Nepali- and English-language test alerts with a distinctive sound and vibration, and that the controlled test was limited to selected devices. CBS is intended to broadcast disaster alerts simultaneously to mobile devices in a defined area without individual-number sending or an internet connection. The public reporting does not disclose network technology, coverage scope, technical specification, budget, procurement, national launch timing or any software, equipment or integration supplier.",
+              "opportunity": "研判：这是由政府、监管机构和尼泊尔电信完成的早期技术验证，不是全国公共告警服务上线或采购授标。若进入规模化部署，责任主体需要明确跨运营商接入、地理围栏精度、告警治理与授权、终端兼容性、灾害机构工作流、网络容量和演练要求。下一步应取得信息通信部、内政部、NDRRMA、NTA和运营商发布的正式测试评估、后续试点范围、参与运营商、标准／接口、资金来源与采购文件；在此之前，不把Ncell或任何本地集成商、华为、中兴、思科、浩鲸、亚信或其他厂商视为参与者或受益方。",
+              "opportunityEn": "Analysis: this is early technical validation by government bodies, the regulator and Nepal Telecom, not the launch of a nationwide public-alert service or a procurement award. If it proceeds to scale, accountable parties will need to define cross-operator connectivity, geographic targeting accuracy, alert governance and authorisation, handset compatibility, disaster-agency workflow, network capacity and exercises. Obtain formal test assessments, next pilot scope, participating operators, standards/interfaces, funding and procurement papers from the communications ministry, Home Affairs, NDRRMA, NTA and operators. Until then, Ncell, any local integrator, Huawei, ZTE, Cisco, H3C, AsiaInfo and other suppliers must not be treated as participants or beneficiaries.",
+              "links": [
+                {
+                  "label": "Radio Nepal／RSS：CBS初步技术测试完成（11月23日）",
+                  "labelEn": "Radio Nepal/RSS: CBS initial technical test completed (23 November)",
+                  "url": "https://radionepalonline.com/en/2026/11/23/439176.html"
+                },
+                {
+                  "label": "OnlineKhabar：两部联合公告及测试安排（11月23日）",
+                  "labelEn": "OnlineKhabar: joint-ministry notice and test arrangement (23 November)",
+                  "url": "https://english.onlinekhabar.com/govt-to-test-cell-broadcast-alerts-urges-mobile-users-not-to-panic.html"
+                },
+                {
+                  "label": "OnlineKhabar／RSS：CBS测试结果（11月23日）",
+                  "labelEn": "OnlineKhabar/RSS: CBS test result (23 November)",
+                  "url": "https://english.onlinekhabar.com/test-of-locally-developed-cell-broadcast-system-successful.html"
                 }
               ]
             }
@@ -267,11 +298,11 @@
     }
   },
   "stats": {
-    "news": 6,
-    "opportunities": 6,
+    "news": 7,
+    "opportunities": 7,
     "telegram": 0,
     "countryCounts": {
-      "np": 6
+      "np": 7
     }
   }
 }
