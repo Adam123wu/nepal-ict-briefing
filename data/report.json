@@ -1,6 +1,6 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
@@ -9,6 +9,7 @@
   "status": "11月24日复核：内政、通信、灾害管理、NTA与尼泊尔电信协同完成蜂窝广播（CBS）初步技术测试；这是受控测试而非全国上线、采购或厂商选择。Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
   "statusEn": "24 November review: the Ministry of Home Affairs, communications ministry, disaster-management authority, NTA and Nepal Telecom completed an initial Cell Broadcast System (CBS) technical test; this is a controlled test, not nationwide launch, procurement or supplier selection. Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
   "summary": [
+    "科技与创新部长提出AI、网络安全等创新中心计划，并称研发创新获资本支出1%支持；预算口径和实施安排有待核实。",
     "Ncell正在推进3G退网，3G用户需迁移至4G SIM和支持VoLTE的终端；公开材料未披露本次网络调整的设备采购或供应商。",
     "主管部门、NTA和尼泊尔电信已在加德满都完成蜂窝广播（CBS）灾害预警初步技术测试；尚未公布全国上线、技术规格、预算、采购或供应商。",
     "NTA发布欠费、减免及远程服务费材料报送通知；公开的欠费通知列出9家服务商（包括Subisu），但未确认任何牌照已被取消。",
@@ -19,6 +20,7 @@
     "本期项目仍处于测试、公告或澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
+    "The science and innovation minister outlined AI and cybersecurity innovation-centre plans and said 1% of capital expenditure was allocated to research and innovation; the budget basis and implementation remain to be verified.",
     "Ncell is progressing a 3G sunset; 3G users must migrate to a 4G SIM and a VoLTE-capable handset. Public material discloses no procurement or supplier for this network change.",
     "Government agencies, NTA and Nepal Telecom have completed an initial Cell Broadcast System (CBS) disaster-alert technical test in Kathmandu; nationwide launch, technical specification, budget, procurement and suppliers are not public.",
     "NTA has issued notices on arrears, remission and telecommunications-service-charge filings. Its public arrears notice lists nine providers, including Subisu, but does not confirm cancellation of any licence.",
@@ -38,6 +40,30 @@
           "category": "本国运营商最新动态",
           "categoryEn": "Operator developments",
           "items": [
+            {
+              "id": "np-ntc-tower-quality-review-20261120",
+              "date": "2026-11-20",
+              "title": "通信部长要求尼泊尔电信提交基站性能报告并改善网络质量",
+              "titleEn": "Communications minister requests Nepal Telecom tower-performance report",
+              "badge": "RSS／行业媒体报道 · 运营商网络质量",
+              "badgeEn": "RSS and sector-media reporting · operator network quality",
+              "text": "11月20日Kantipur转载RSS报道，通信部长Timilsina就城乡用户反映的电话和互联网服务问题，要求尼泊尔电信查明原因、改善质量，并提交全国基站运行情况与容量的详细技术研究报告。他提出可研究利用农村电信发展基金改善服务和基础设施。报道引述运营商称正推进新增基站招标准备；另一家行业媒体对拟新增基站数量的报道不同，具体数量、预算和采购进度仍需通过正式文件核实。",
+              "textEn": "On 20 November Kantipur carried an RSS report that Communications Minister Timilsina asked Nepal Telecom to identify and address telephone and internet quality complaints in urban and remote areas and submit a detailed technical study of tower operation and capacity nationwide. He suggested considering use of the Rural Telecommunications Development Fund for service and infrastructure improvement. The report says the operator is advancing preparations for a new-tower tender; sector media report a different planned tower count, and the quantity, budget and procurement status require confirmation in formal documents.",
+              "opportunity": "研判：现阶段明确的是质量调查与改进要求。应向Nepal Telecom和主管部门跟踪技术报告、站点故障及覆盖指标、备用电源需求、资金安排与正式招标文件；新增塔数、项目预算、实施时间、参标方及设备厂家尚未核实，不能据此认定订单或中标。",
+              "opportunityEn": "Analysis: the confirmed signal is a request for quality assessment and improvements. Follow Nepal Telecom and the ministry for the technical report, site failures and coverage metrics, backup-power needs, funding decisions and formal tender documents. The tower count, budget, implementation schedule, bidders and equipment vendors remain unverified and do not establish a contract or award.",
+              "links": [
+                {
+                  "label": "Kantipur／RSS：部长要求改善网络与提交技术报告（11月20日）",
+                  "labelEn": "Kantipur/RSS: minister requests network-quality improvements and technical report (20 November)",
+                  "url": "https://ekantipur.com/news/2026/11/20/communications-ministers-question-to-nepal-telecom-there-is-a-tower-but-no-network-why-42-37.html"
+                },
+                {
+                  "label": "NepaliTelecom：运营商基站性能跟进（11月21日）",
+                  "labelEn": "NepaliTelecom: tower-performance follow-up (21 November)",
+                  "url": "https://www.nepalitelecom.com/2026/11/comm-minister-timilsina-directs-nepal-telecom-to-improve-network-quality.html"
+                }
+              ]
+            },
             {
               "id": "np-ncell-3g-sunset-volte-20261119",
               "date": "2026-11-19",
@@ -69,11 +95,16 @@
               "titleEn": "Nepal completes initial Cell Broadcast System test for disaster alerts",
               "badge": "主管部门、NTA与尼泊尔电信协同技术测试 · 早期验证",
               "badgeEn": "Ministries, NTA and Nepal Telecom technical test · early validation",
-              "text": "Radio Nepal刊载的RSS报道与OnlineKhabar的测试前后报道显示，内政部、国家减灾及管理局（NDRRMA）、尼泊尔电信管理局（NTA）和尼泊尔电信在信息通信部协调下，于11月23日在加德满都Balambu完成蜂窝广播系统（CBS）初步技术测试。报道说，指定地理区域内的移动设备收到尼泊尔语和英语测试告警，并有区别于普通通知的提示音和震动；该受控测试面向有限设备。CBS旨在向指定地理区域内的移动终端同时发送灾害预警，不依赖逐一发送号码或互联网。公开报道未披露网络技术制式、覆盖范围、技术规格、预算、采购、全国启用时间或任何软件、设备和集成服务供应商。",
-              "textEn": "Radio Nepal's RSS report and OnlineKhabar’s pre- and post-test coverage state that the Ministry of Home Affairs, National Disaster Risk Reduction and Management Authority (NDRRMA), Nepal Telecommunications Authority (NTA) and Nepal Telecom, coordinated by the communications ministry, completed an initial Cell Broadcast System (CBS) technical test in Balambu, Kathmandu on 23 November. They report that mobile devices in a designated geographic area received Nepali- and English-language test alerts with a distinctive sound and vibration, and that the controlled test was limited to selected devices. CBS is intended to broadcast disaster alerts simultaneously to mobile devices in a defined area without individual-number sending or an internet connection. The public reporting does not disclose network technology, coverage scope, technical specification, budget, procurement, national launch timing or any software, equipment or integration supplier.",
+              "text": "Radio Nepal刊载的RSS报道与OnlineKhabar的测试前后报道显示，内政部、国家减灾及管理局（NDRRMA）、尼泊尔电信管理局（NTA）和尼泊尔电信在信息通信部协调下，于11月23日在加德满都Balambu完成蜂窝广播系统（CBS）初步技术测试。指定地理区域内的有限移动设备收到尼泊尔语和英语测试告警及提示音、震动。NepaliTelecom 11月24日报道，此次初测使用尼泊尔电信2G网络，运营商计划进一步测试4G；报道未给出4G测试日期，不代表测试已完成或全国服务已上线。公开报道未披露完整覆盖范围、技术规格、预算、采购、全国启用时间或软件、设备和集成服务供应商。",
+              "textEn": "Radio Nepal's RSS report and OnlineKhabar’s coverage state that the Ministry of Home Affairs, NDRRMA, NTA and Nepal Telecom, coordinated by the communications ministry, completed an initial Cell Broadcast System (CBS) test in Balambu, Kathmandu on 23 November. Selected devices in a designated area received Nepali and English test alerts with a distinctive sound and vibration. NepaliTelecom reported on 24 November that the initial test used Nepal Telecom's 2G network and the operator plans a 4G test. It gave no date for that test; neither its completion nor a nationwide launch is established. Full coverage, specifications, budget, procurement, national launch date and software, equipment or integration suppliers were not disclosed.",
               "opportunity": "研判：这是由政府、监管机构和尼泊尔电信完成的早期技术验证，不是全国公共告警服务上线或采购授标。若进入规模化部署，责任主体需要明确跨运营商接入、地理围栏精度、告警治理与授权、终端兼容性、灾害机构工作流、网络容量和演练要求。下一步应取得信息通信部、内政部、NDRRMA、NTA和运营商发布的正式测试评估、后续试点范围、参与运营商、标准／接口、资金来源与采购文件；在此之前，不把Ncell或任何本地集成商、华为、中兴、思科、浩鲸、亚信或其他厂商视为参与者或受益方。",
               "opportunityEn": "Analysis: this is early technical validation by government bodies, the regulator and Nepal Telecom, not the launch of a nationwide public-alert service or a procurement award. If it proceeds to scale, accountable parties will need to define cross-operator connectivity, geographic targeting accuracy, alert governance and authorisation, handset compatibility, disaster-agency workflow, network capacity and exercises. Obtain formal test assessments, next pilot scope, participating operators, standards/interfaces, funding and procurement papers from the communications ministry, Home Affairs, NDRRMA, NTA and operators. Until then, Ncell, any local integrator, Huawei, ZTE, Cisco, H3C, AsiaInfo and other suppliers must not be treated as participants or beneficiaries.",
               "links": [
+                {
+                  "label": "NepaliTelecom：2G初测与后续4G测试计划（11月24日）",
+                  "labelEn": "NepaliTelecom: initial 2G test and planned 4G testing (24 November)",
+                  "url": "https://www.nepalitelecom.com/2026/11/nepal-telecom-ntc-moves-cell-broadcast-testing-from-2g-to-4g-network.html"
+                },
                 {
                   "label": "Radio Nepal／RSS：CBS初步技术测试完成（11月23日）",
                   "labelEn": "Radio Nepal/RSS: CBS initial technical test completed (23 November)",
@@ -99,6 +130,30 @@
           "category": "本国部委最新动态",
           "categoryEn": "Ministry and regulator developments",
           "items": [
+            {
+              "id": "np-israel-cyber-ai-innovation-20261124",
+              "date": "2026-11-24",
+              "title": "尼泊尔科技部长在尼以网络安全与AI活动中提出创新中心计划",
+              "titleEn": "Nepal's science minister outlines innovation-centre plans at Nepal–Israel cyber and AI event",
+              "badge": "部长公开表态＋以色列驻尼使馆活动通报 · 计划阶段",
+              "badgeEn": "Minister's public remarks and Israeli Embassy event record · planning stage",
+              "text": "以色列驻尼泊尔使馆通报确认，其于11月24日在加德满都举办网络安全与人工智能活动，尼泊尔科学、技术与创新部长Mahabir Pun出席并呼吁加强政府间、科研机构与产业合作；使馆称尼泊尔AI与网络安全代表团曾于11月9—12日访以。New Business Age援引部长表示，政府已将资本支出的1%用于研发创新，并计划设立涵盖人工智能、网络安全、无人机、农业和生物医学工程的创新中心。1%为部长所述，尚待以正式预算文件核实口径、金额和落实情况；活动未公布具体项目协议、实施时间、采购或供应商。",
+              "textEn": "The Israeli Embassy in Nepal confirms it hosted a cybersecurity and artificial-intelligence event in Kathmandu on 24 November. Nepal's Minister for Science, Technology and Innovation, Mahabir Pun, attended and called for government, research and industry partnerships; the embassy also reported a Nepali AI and cyber delegation's visit to Israel on 9–12 November. New Business Age reported the minister as saying that the government had allocated 1% of capital expenditure to research and innovation and planned innovation centres covering AI, cybersecurity, drones, agriculture and biomedical engineering. The 1% is attributed to the minister; its definition, amount and implementation require verification against formal budget documents. No specific project agreement, implementation schedule, procurement or supplier was announced at the event.",
+              "opportunity": "研判：部长提出的是政策方向和中心建设计划，适合跟踪人工智能、网络安全、科研算力及人才培养需求，但不能视为已批准项目或设备订单。下一步核查正式预算和实施文件、主管机构、中心选址、资金来源、合作模式及公开采购；在明确项目范围前，不推定任何企业获得合同或参与建设。",
+              "opportunityEn": "Analysis: the minister described a policy direction and plans for innovation centres. AI, cybersecurity, research computing and skills are relevant areas to monitor, but these remarks do not establish an approved project or equipment order. Verify the formal budget and implementation documents, responsible agencies, locations, funding, partnership structure and public procurement; do not infer that any company has a contract or project role before the scope is established.",
+              "links": [
+                {
+                  "label": "以色列驻尼使馆：网络安全与AI活动通报（11月24日）",
+                  "labelEn": "Israeli Embassy: cyber and AI event record (24 November)",
+                  "url": "https://embassies.gov.il/nepal/en/events/embassy-israel-hosts-israel-cyber-and-ai-event-kathmandu-24112026"
+                },
+                {
+                  "label": "New Business Age：部长关于研发投入和创新中心的表态（11月25日）",
+                  "labelEn": "New Business Age: minister's research funding and innovation-centre remarks (25 November)",
+                  "url": "https://newbusinessage.com/news/50801/investment-in-research-and-innovation-a-government-priority--minister-pun/"
+                }
+              ]
+            },
             {
               "id": "np-nta-arrears-remission-filings-20261119",
               "date": "2026-11-19",
@@ -298,11 +353,11 @@
     }
   },
   "stats": {
-    "news": 7,
-    "opportunities": 7,
+    "news": 9,
+    "opportunities": 9,
     "telegram": 0,
     "countryCounts": {
-      "np": 7
+      "np": 9
     }
   }
 }
