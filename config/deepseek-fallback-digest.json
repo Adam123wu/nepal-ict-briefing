@@ -1,12 +1,44 @@
 {
-  "status": "clear",
-  "statusEn": "Clear after Codex review",
-  "generatedAt": "2026-11-25T18:41:35Z",
-  "reviewDate": "2026-11-25",
-  "sourceCandidateGeneratedAt": "2026-11-25T03:57:47.850469+00:00",
+  "status": "pending_codex_review",
+  "statusEn": "Pending Codex review",
+  "generatedAt": "2026-11-26T03:23:36.966487+00:00",
+  "reviewDate": "2026-11-26",
+  "sourceCandidateGeneratedAt": "2026-11-26T03:23:17.445633+00:00",
   "model": "deepseek-flash",
-  "note": "两条待核验候选已处置：科技部长创新中心表态结合使馆与媒体信息纳入；总理访印启程报道与已收录的访问成果重复，不另计。",
-  "noteEn": "Both fallback candidates were resolved: the minister's innovation-centre remarks were added with embassy and media sources; the Prime Minister's visit departure duplicated the already reviewed outcomes and was not counted again.",
-  "usage": null,
-  "items": []
+  "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
+  "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
+  "usage": {
+    "prompt_tokens": 5235,
+    "completion_tokens": 640,
+    "total_tokens": 5875,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 4851
+  },
+  "items": [
+    {
+      "id": "0a19aad7506c413b9cda",
+      "date": "2026-11-25",
+      "url": "https://radionepalonline.com/en/2026/11/25/439285.html",
+      "sourceId": "np-radio-nepal",
+      "sourceName": "Radio Nepal public broadcaster",
+      "sourceTier": "T1",
+      "title": "信息与通信部长蒂米尔西纳博士视察现代射击摄影棚拟建区域",
+      "titleEn": "Minister Dr Timilsina visits proposed area for modern shooting studio",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据Radio Nepal报道，信息与通信部长比克拉姆·蒂米尔西纳博士视察了巴内帕市第10和第13选区贾纳加尔巴洪丹达社区森林区域，该处拟建设一座现代室内电影摄影棚。报道称，部长向当地居民了解了地理与技术层面、环境影响及当地对该选址的关切，并表示这一具有全国重要性的项目应尽快推进，同时须考虑当地民众关切与环境因素。报道还提到，电影发展委员会正在就当地居民提出异议后是否继续建设开展研究，土地面积为42罗帕尼。",
+      "summaryEn": "Radio Nepal reported that Minister for Information and Communications Dr Bikram Timilsina visited the Bahundanda Community Forest area in Janagal, Wards 10 and 13 of Banepa Municipality, a site proposed for a modern indoor film shooting studio. The report said the minister gathered information from locals on geographical and technical aspects, environmental impact and local concerns, and stressed that the project of national importance should move forward without delay while taking local concerns and environmental aspects into account. It added that the Film Development Board is conducting a study on whether to proceed after locals raised obstructions, and that the site covers 42 ropani of land.",
+      "analysis": "若报道属实，这一视察表明该摄影棚项目在完成建设前仍需通过环境与地方协商程序，目前仅为部长级现场调研和表态，并非已开工或已批准。对客户而言，若项目推进，可能带动当地影视制作、旅游及相关服务需求，但尚无采购、预算或承建方信息。下一步应核实电影发展委员会研究报告的结论、巴内帕市政府的正式立场以及项目审批文件。证据缺口包括：建设时间表、资金来源、环境影响评估结果均未在文中给出。",
+      "analysisEn": "If the report is accurate, the visit indicates the studio project still faces environmental and local-consultation steps before construction, and reflects a ministerial site inspection and statements rather than a groundbreaking or approval. For customers, if the project proceeds it could support local film production, tourism and related services, but no procurement, budget or contractor information is provided. The next verification step is to check the Film Development Board study conclusion, Banepa Municipality's formal position and project approval documents. Evidence gaps include the construction timeline, funding sources and environmental assessment results.",
+      "sourceSha256": "adec7e997d73b3264c472cdc34506358c1041ee7f86df540553365fc3a3756cd",
+      "sourceTextChars": 2529,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "0a19aad7506c413b9cda:0"
+    }
+  ]
 }
