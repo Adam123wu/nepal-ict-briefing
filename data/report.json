@@ -1,14 +1,16 @@
 {
   "issue": "W47-48",
-  "generated": "2026-11-25",
+  "generated": "2026-11-27",
   "windowStart": "2026-11-14",
   "windowEnd": "2026-11-27",
   "period": "2026年11月14—27日 · 尼泊尔独立版",
   "periodEn": "14–27 November 2026 · Nepal edition",
   "sourceFile": "nepal-w47-48.html",
-  "status": "11月24日复核：内政、通信、灾害管理、NTA与尼泊尔电信协同完成蜂窝广播（CBS）初步技术测试；这是受控测试而非全国上线、采购或厂商选择。Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
-  "statusEn": "24 November review: the Ministry of Home Affairs, communications ministry, disaster-management authority, NTA and Nepal Telecom completed an initial Cell Broadcast System (CBS) technical test; this is a controlled test, not nationwide launch, procurement or supplier selection. Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
+  "status": "11月27日更新：NTA召开行业服务质量会议，运营商与监管机构被要求落实服务责任；Fonepay与Nabil Bank推出面向外国游客的Nepal Now扫码支付应用，银行说明不含印度游客。此前核验：内政、通信、灾害管理、NTA与尼泊尔电信协同完成蜂窝广播（CBS）初步技术测试；这是受控测试而非全国上线、采购或厂商选择。Ncell公开推进3G退网并转向4G/VoLTE，后续节奏以运营商正式通知为准；NTA同日窗口内发布欠费、减免和远程服务费材料报送通知，涉及部分许可服务商的现金流与牌照合规，但不是设备采购或厂商机会。尼印总理国事访问已结束，双方发布联合新闻稿和《Viksit Bharat and Samunnat Nepal》联合愿景：已交换南亚卫星SATCOM网络合作谅解备忘录，并把数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G等列入合作方向；具体项目、实施方式、预算、采购与供应商均仍待后续协商或公告，不能据此推定订单或中标。Bolpatra两项ICT公告／澄清仍须在开标、评标和授标记录发布后续核验。往期完整保留。",
+  "statusEn": "27 November update: NTA held an industry service-quality meeting calling for operator and regulatory accountability; Fonepay and Nabil Bank launched Nepal Now QR payments for foreign visitors, excluding Indian tourists according to the bank. Previously reviewed: the Ministry of Home Affairs, communications ministry, disaster-management authority, NTA and Nepal Telecom completed an initial Cell Broadcast System (CBS) technical test; this is a controlled test, not nationwide launch, procurement or supplier selection. Ncell is publicly progressing a 3G sunset and transition to 4G/VoLTE, with detailed timing to be checked against the operator's formal notices. NTA has issued notices on arrears, remission and telecommunications-service-charge filings that affect cash flow and licence compliance for some providers, but not equipment procurement or a vendor opportunity. Nepal's Prime Ministerial state visit to India has concluded with a joint press release and the Viksit Bharat and Samunnat Nepal Joint Vision: an MoU on a South Asia Satellite SATCOM network was exchanged, while the Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are cooperation directions. Specific projects, implementation modalities, budgets, procurement and suppliers remain subject to consultation or later disclosure, so this is not evidence of an order or award. The two Bolpatra ICT notice/clarification records still require follow-up against opening, evaluation and award records. Previous issues remain intact.",
   "summary": [
+    "NTA召开行业服务质量座谈会，通信部长要求运营商履行服务承诺并敦促加强监督；未公布本次会议形成的新处罚或采购决定。",
+    "Fonepay与Nabil Bank推出访尼外国游客扫码支付应用；银行说明适用对象不含印度游客。",
     "科技与创新部长提出AI、网络安全等创新中心计划，并称研发创新获资本支出1%支持；预算口径和实施安排有待核实。",
     "Ncell正在推进3G退网，3G用户需迁移至4G SIM和支持VoLTE的终端；公开材料未披露本次网络调整的设备采购或供应商。",
     "主管部门、NTA和尼泊尔电信已在加德满都完成蜂窝广播（CBS）灾害预警初步技术测试；尚未公布全国上线、技术规格、预算、采购或供应商。",
@@ -20,6 +22,8 @@
     "本期项目仍处于测试、公告或澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
   ],
   "summaryEn": [
+    "At an NTA industry service-quality meeting, the communications minister urged operators to meet service commitments and called for stronger oversight; no new penalty or procurement decision from the meeting was disclosed.",
+    "Fonepay and Nabil Bank launched a QR payment app for foreign visitors to Nepal; the bank says Indian tourists are excluded.",
     "The science and innovation minister outlined AI and cybersecurity innovation-centre plans and said 1% of capital expenditure was allocated to research and innovation; the budget basis and implementation remain to be verified.",
     "Ncell is progressing a 3G sunset; 3G users must migrate to a 4G SIM and a VoLTE-capable handset. Public material discloses no procurement or supplier for this network change.",
     "Government agencies, NTA and Nepal Telecom have completed an initial Cell Broadcast System (CBS) disaster-alert technical test in Kathmandu; nationwide launch, technical specification, budget, procurement and suppliers are not public.",
@@ -130,6 +134,30 @@
           "category": "本国部委最新动态",
           "categoryEn": "Ministry and regulator developments",
           "items": [
+            {
+              "id": "np-nta-industry-service-quality-meeting-20261126",
+              "date": "2026-11-26",
+              "title": "NTA召开行业服务质量座谈会，通信部长要求运营商与监管机构落实责任",
+              "titleEn": "NTA holds industry service-quality meeting as communications minister calls for operator and regulator accountability",
+              "badge": "尼泊尔媒体报道 · 行业监管与网络质量",
+              "badgeEn": "Nepal media reporting · industry regulation and network quality",
+              "text": "Radio Nepal和NepaliTelecom报道，11月26日尼泊尔电信管理局（NTA）就电信服务现状与质量组织行业座谈，通信部长Bikram Timilsina要求服务商履行牌照与服务承诺，敦促NTA加强监督并依法处理违规行为；他指出加德满都也存在电话连接不稳定与网速不达预期等问题。NepaliTelecom报道，NTA主席Arjun Ghimire呼吁制定列明问题、解决措施、责任及期限的实际改进计划。这是覆盖行业服务商与监管机构的座谈，与11月20日针对Nepal Telecom的基站性能报告要求属于不同事项。公开报道未确认具体企业已受罚、许可证已撤销，也未公布本次会议形成的采购、预算或供应商决定。",
+              "textEn": "Radio Nepal and NepaliTelecom report that Nepal Telecommunications Authority (NTA) convened an industry discussion on service quality on 26 November. Communications Minister Bikram Timilsina urged providers to honour their licence and service commitments and asked the NTA to strengthen oversight and act against violations under the law; he cited unreliable telephone connections and internet speeds below expectations even in Kathmandu. NepaliTelecom reported NTA chair Arjun Ghimire calling for a practical improvement plan that identifies problems, remedies, responsibilities and deadlines. This industry-wide discussion involving providers and the regulator is distinct from the minister's 20 November request for a Nepal Telecom tower-performance report. The reports do not confirm a penalty or licence cancellation for a named company, or disclose any procurement, budget or supplier decision arising from this meeting.",
+              "opportunity": "研判：行业质量问责可能影响运营商网络优化与运维优先级，但会议表态并不等于新增标准、处罚决定或设备项目。应跟踪NTA正式行动计划、质量测试结果、具体整改要求和执行期限，并与运营商既有基站技术报告及正式采购文件交叉核对；未见招标与合同前，不推定厂商参与、中标或采购规模。",
+              "opportunityEn": "Analysis: industry quality accountability could affect operators' network-optimisation and operations priorities, but the remarks do not establish a new standard, enforcement decision or equipment project. Follow NTA's formal action plan, quality-test results, specific remediation requirements and deadlines, and compare them with operators' existing tower assessments and formal procurement records. Do not infer vendor participation, awards or procurement scale without tender and contract evidence.",
+              "links": [
+                {
+                  "label": "Ratopati：行业服务质量会议报道（11月26日）",
+                  "labelEn": "Ratopati: industry service-quality meeting report (26 November)",
+                  "url": "https://english.ratopati.com/story/88378/authoritys-directive-to-mandatorily-implement-the-standards-set-for-quality-improvement"
+                },
+                {
+                  "label": "NepaliTelecom：NTA行业会议及质量改进计划（11月26日）",
+                  "labelEn": "NepaliTelecom: NTA industry meeting and quality-improvement plan (26 November)",
+                  "url": "https://www.nepalitelecom.com/2026/11/communication-minister-bikram-timilsina-says-telecom-quality-must-come-before-profits.html"
+                }
+              ]
+            },
             {
               "id": "np-israel-cyber-ai-innovation-20261124",
               "date": "2026-11-24",
@@ -268,9 +296,44 @@
         {
           "category": "本国 ISP/DSP 和互联网运营商的投资动态",
           "categoryEn": "ISP and internet infrastructure investment",
-          "items": [],
-          "displayCategory": "宽带与企业连接",
-          "displayCategoryEn": "Broadband & enterprise connectivity"
+          "items": [
+            {
+              "id": "np-fonepay-nabil-nepal-now-20261126",
+              "date": "2026-11-26",
+              "title": "Fonepay与Nabil Bank推出面向外国游客的尼泊尔扫码支付应用",
+              "titleEn": "Fonepay and Nabil Bank launch Nepal Now QR payments for foreign visitors",
+              "badge": "公司产品页面与本地媒体 · 数字支付",
+              "badgeEn": "Company product pages and local reporting · digital payments",
+              "text": "Kathmandu Post与NepaliTelecom于11月26日报道，Fonepay与Nabil Bank推出Nepal Now应用，符合条件的访尼外国游客可通过身份验证及境外银行卡充值后，在接受Fonepay二维码的尼泊尔商户付款。Nabil Bank官方产品页面将目标人群限定为外国游客，并明确不含印度游客；Fonepay条款要求有效护照、签证、联系方式及在尼泊尔境内的位置验证。媒体引述公司称其二维码网络覆盖超过200万处商户，这是公司口径而非独立核验数据。本应用服务的是游客在尼付款，不代表尼泊尔居民已能在印度商户扫码付款。",
+              "textEn": "Kathmandu Post and NepaliTelecom reported on 26 November that Fonepay and Nabil Bank launched Nepal Now, an app through which eligible foreign visitors can complete identity verification, load funds using foreign-issued bank cards and pay Nepal merchants accepting Fonepay QR codes. Nabil Bank's official product page identifies foreign tourists other than Indians as the target group. Fonepay's terms require a valid passport, visa, contact information and verification of presence in Nepal. Media cite the company as saying its QR network covers over two million merchant locations; this figure is a company claim, not independently verified. The app is for visitors paying in Nepal and does not establish that Nepali residents can already pay Indian merchants by QR.",
+              "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
+              "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
+              "links": [
+                {
+                  "label": "Nabil Bank：Nepal Now产品说明与适用人群",
+                  "labelEn": "Nabil Bank: Nepal Now product and eligibility",
+                  "url": "https://www.nabilbank.com/services-payments/services/nepal-now"
+                },
+                {
+                  "label": "Fonepay：Nepal Now服务条款",
+                  "labelEn": "Fonepay: Nepal Now terms of service",
+                  "url": "https://fonepay.com/content/Nepal-Now-tnc"
+                },
+                {
+                  "label": "Kathmandu Post：应用推出报道（11月26日）",
+                  "labelEn": "Kathmandu Post: app launch report (26 November)",
+                  "url": "https://kathmandupost.com/money/2026/11/26/fonepay-nabil-bank-launch-digital-payment-app-for-foreign-visitors"
+                },
+                {
+                  "label": "NepaliTelecom：游客扫码支付报道（11月26日）",
+                  "labelEn": "NepaliTelecom: visitor QR payment report (26 November)",
+                  "url": "https://www.nepalitelecom.com/2026/11/fonepay-nepal-now-app-tourists-qr-payments.html"
+                }
+              ]
+            }
+          ],
+          "displayCategory": "宽带与数字服务",
+          "displayCategoryEn": "Broadband & digital services"
         },
         {
           "category": "ICT 竞争对手最新动态",
@@ -353,11 +416,11 @@
     }
   },
   "stats": {
-    "news": 9,
-    "opportunities": 9,
+    "news": 11,
+    "opportunities": 11,
     "telegram": 0,
     "countryCounts": {
-      "np": 9
+      "np": 11
     }
   }
 }
