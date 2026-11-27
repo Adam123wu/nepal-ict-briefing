@@ -350,8 +350,8 @@
                 "badgeEn": "Company product pages and local reporting · digital payments",
                 "text": "Kathmandu Post与NepaliTelecom于11月26日报道，Fonepay与Nabil Bank推出Nepal Now应用，符合条件的访尼外国游客可通过身份验证及境外银行卡充值后，在接受Fonepay二维码的尼泊尔商户付款。Nabil Bank官方产品页面将目标人群限定为外国游客，并明确不含印度游客；Fonepay条款要求有效护照、签证、联系方式及在尼泊尔境内的位置验证。媒体引述公司称其二维码网络覆盖超过200万处商户，这是公司口径而非独立核验数据。本应用服务的是游客在尼付款，不代表尼泊尔居民已能在印度商户扫码付款。",
                 "textEn": "Kathmandu Post and NepaliTelecom reported on 26 November that Fonepay and Nabil Bank launched Nepal Now, an app through which eligible foreign visitors can complete identity verification, load funds using foreign-issued bank cards and pay Nepal merchants accepting Fonepay QR codes. Nabil Bank's official product page identifies foreign tourists other than Indians as the target group. Fonepay's terms require a valid passport, visa, contact information and verification of presence in Nepal. Media cite the company as saying its QR network covers over two million merchant locations; this figure is a company claim, not independently verified. The app is for visitors paying in Nepal and does not establish that Nepali residents can already pay Indian merchants by QR.",
-                "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
-                "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
+                "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、汇率处理、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
+                "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, exchange-rate treatment, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
                 "links": [
                   {
                     "label": "Nabil Bank：Nepal Now产品说明与适用人群",
@@ -777,8 +777,8 @@
                   "badgeEn": "Company product pages and local reporting · digital payments",
                   "text": "Kathmandu Post与NepaliTelecom于11月26日报道，Fonepay与Nabil Bank推出Nepal Now应用，符合条件的访尼外国游客可通过身份验证及境外银行卡充值后，在接受Fonepay二维码的尼泊尔商户付款。Nabil Bank官方产品页面将目标人群限定为外国游客，并明确不含印度游客；Fonepay条款要求有效护照、签证、联系方式及在尼泊尔境内的位置验证。媒体引述公司称其二维码网络覆盖超过200万处商户，这是公司口径而非独立核验数据。本应用服务的是游客在尼付款，不代表尼泊尔居民已能在印度商户扫码付款。",
                   "textEn": "Kathmandu Post and NepaliTelecom reported on 26 November that Fonepay and Nabil Bank launched Nepal Now, an app through which eligible foreign visitors can complete identity verification, load funds using foreign-issued bank cards and pay Nepal merchants accepting Fonepay QR codes. Nabil Bank's official product page identifies foreign tourists other than Indians as the target group. Fonepay's terms require a valid passport, visa, contact information and verification of presence in Nepal. Media cite the company as saying its QR network covers over two million merchant locations; this figure is a company claim, not independently verified. The app is for visitors paying in Nepal and does not establish that Nepali residents can already pay Indian merchants by QR.",
-                  "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
-                  "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
+                  "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、汇率处理、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
+                  "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, exchange-rate treatment, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
                   "links": [
                     {
                       "label": "Nabil Bank：Nepal Now产品说明与适用人群",
@@ -6158,85 +6158,31 @@
     "coverageGapEn": "No Nepal Telegram channels verified through official websites yet."
   },
   "editorial": {
-    "lastCodexReviewDate": "2026-11-25",
-    "lastCodexReviewAt": "2026-11-25T18:41:35Z",
-    "lastCodexCommit": "2e9da9a13b8077b7c3ad1bf8a919649d75b9a8ab",
-    "lastCandidateGeneratedAt": "2026-11-25T03:57:47.850469+00:00",
+    "lastCodexReviewDate": "2026-11-27",
+    "lastCodexReviewAt": "2026-11-27T18:38:05Z",
+    "lastCodexCommit": "79eac16375c32e9fc5ae08d989472cd13fd4048e",
+    "lastCandidateGeneratedAt": "2026-11-27T03:30:03.885166+00:00",
     "lastFallbackDate": "2026-11-27",
     "lastFallbackAt": "2026-11-27T03:30:22.825691+00:00",
-    "fallbackStatus": "pending_codex_review",
-    "fallbackStatusEn": "Pending Codex review",
-    "note": "DeepSeek 自动正文分析更新 2 条；Codex 正式审校日期保持不变。",
-    "noteEn": "DeepSeek refreshed 2 automatic article analyses; the Codex review date is unchanged.",
+    "fallbackStatus": "not-needed",
+    "fallbackStatusEn": "Not needed after Codex review",
+    "note": "已复核NTA行业服务质量会议及外国游客扫码支付动态，并处置兜底候选。",
+    "noteEn": "Reviewed the NTA industry service-quality meeting and visitor QR payment launch, and resolved the fallback candidates.",
     "lastTargetedReviewDate": "2026-09-30",
     "lastTargetedReviewAt": "2026-09-30T18:10:58Z",
     "targetedReviewScope": "Four requested operator topics: fibre and 4G merged into one NTA release; one attributed Ncell tax disclosure; one prior-period tourism partnership excluded from current counts. Original NTA tables checked; underlying Ncell tax statement remains unavailable. Not an exhaustive daily review."
   },
   "fallback": {
-    "status": "pending_codex_review",
-    "statusEn": "Pending Codex review",
-    "generatedAt": "2026-11-27T03:30:22.825691+00:00",
+    "status": "clear",
+    "statusEn": "Clear after Codex review",
+    "generatedAt": "2026-11-27T18:38:05Z",
     "reviewDate": "2026-11-27",
     "sourceCandidateGeneratedAt": "2026-11-27T03:30:03.885166+00:00",
     "model": "deepseek-flash",
-    "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
-    "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
-    "usage": {
-      "prompt_tokens": 4883,
-      "completion_tokens": 1287,
-      "total_tokens": 6170,
-      "prompt_tokens_details": {
-        "cached_tokens": 384
-      },
-      "prompt_cache_hit_tokens": 384,
-      "prompt_cache_miss_tokens": 4499
-    },
-    "items": [
-      {
-        "id": "6bdf1a4641bf813cd60d",
-        "date": "2026-11-26",
-        "url": "https://radionepalonline.com/en/2026/11/26/439300.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "通信部长蒂米尔西纳：电信服务质量不容妥协",
-        "titleEn": "No compromise on quality of telecommunication services: Communication Minister Timilsina",
-        "section": "政府与监管动态",
-        "sectionEn": "Government & regulation",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据尼泊尔广播电台报道，信息与通信部长比克拉姆·蒂米尔西纳在尼泊尔电信管理局主办的一场关于电信服务现状与质量的交流会上，要求电信服务提供商和监管机构确保服务质量，并表示在这一问题上不应妥协。他称优质互联网和电信服务对政府数字化转型至关重要，并警告服务商不要以牺牲消费者利益为代价追求利润和削减成本，应履行许可证和协议中的承诺。他还呼吁尼泊尔电信管理局加强监管，并对违规公司采取法律行动。上述内容为部长表态，报道未说明已采取的具体执法措施。",
-        "summaryEn": "Radio Nepal reports that Minister for Information and Communication Bikram Timilsina, speaking at an interaction on the status and quality of telecommunications services organized by the Nepal Telecommunications Authority, directed telecom service providers and regulators to ensure quality services with no compromise. He said quality internet and telecom services are essential to the government's digital transformation drive, warned providers against prioritizing profit and cost-cutting at consumers' expense, and urged them to honor commitments under their licenses and agreements. He also called on the Nepal Telecommunications Authority to strengthen monitoring and take legal action against violating companies. These are ministerial statements; the report does not describe specific enforcement actions already taken.",
-        "analysis": "若部长表态转化为尼泊尔电信管理局的实际监管行动，消费者可能看到网络质量监测更严格、对违规运营商的处罚更明确，从而影响服务可靠性和资费透明度。但目前证据仅限于报道中的表态，未披露具体运营商、违规事项、时间表或处罚依据。下一步应核实尼泊尔电信管理局是否发布正式指令、监测指标或执法通报，并查阅相关许可证质量条款。证据缺口包括：缺乏服务质量数据、未说明受影响运营商，以及部长指示与既有监管框架的关系。",
-        "analysisEn": "If the minister's statements translate into actual regulatory action by the Nepal Telecommunications Authority, customers could see stricter network-quality monitoring and clearer penalties for non-compliant operators, affecting service reliability and pricing transparency. However, the evidence is limited to remarks reported by the source; no specific operators, violations, timelines or penalty bases are disclosed. Next, verify whether the Nepal Telecommunications Authority issued formal directives, monitoring metrics or enforcement notices, and review license quality-of-service clauses. Evidence gaps include the absence of service-quality data, unidentified affected operators, and no clarity on how the minister's direction relates to the existing regulatory framework.",
-        "sourceSha256": "49e15a019eebec6ff2975e17ccfeafddbd2bf9b3a6ab3d80d1047722b63e75ee",
-        "sourceTextChars": 1052,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "6bdf1a4641bf813cd60d:1"
-      },
-      {
-        "id": "c89ef6d8b34485f75755",
-        "date": "2026-11-24",
-        "url": "https://radionepalonline.com/en/2026/11/24/439236.html",
-        "sourceId": "np-radio-nepal",
-        "sourceName": "Radio Nepal public broadcaster",
-        "sourceTier": "T1",
-        "title": "部长普恩：尼泊尔应在研究与创新方面效仿以色列",
-        "titleEn": "Nepal should follow Israel's footsteps in research and innovation: Minister Pun",
-        "section": "政府与监管动态",
-        "sectionEn": "Government & regulation",
-        "status": "DeepSeek 正文分析 · 待 Codex 核验",
-        "statusEn": "DeepSeek article analysis · pending Codex review",
-        "summary": "据尼泊尔广播电台报道，科学与技术及创新部长马哈比尔·普恩在以色列驻加德满都使馆举办的“以色列网络与人工智能”活动上表示，尼泊尔应效仿以色列，通过投资研究与创新建设强劲经济。他称以色列将约GDP的5%投入研究与创新，并表示尼泊尔新政府首次将资本支出的1%分配给研究与创新，还计划在人工智能、网络安全、无人机、农业和生物医学工程等领域建立创新中心。以色列驻尼泊尔大使什穆利克·阿里耶·巴斯谈及以色列在网络安全和人工智能方面的经验，并重申通过知识共享和机构合作加强双边科技合作。上述内容为表态和计划，报道未说明资金是否已拨付。",
-        "summaryEn": "Radio Nepal reports that Minister for Science, Technology and Innovation Dr. Mahabir Pun, speaking at an 'Israel Cyber and AI' program at the Embassy of Israel in Kathmandu, said Nepal should follow Israel's example by investing in research and innovation to build a strong economy. He said Israel invests around five percent of GDP in research and innovation, and that Nepal's new government has for the first time allocated one percent of capital expenditure for research and innovation, with plans to establish innovation centers in areas including artificial intelligence, cybersecurity, drones, agriculture and biomedical engineering. Israeli Ambassador to Nepal Shmulik Arie Bass discussed Israel's cybersecurity and AI experience and reaffirmed cooperation through knowledge-sharing and institutional partnerships. These are statements and plans; the report does not confirm that funds have been disbursed.",
-        "analysis": "若相关预算分配与创新中心计划落地，尼泊尔ICT企业、研究机构和初创生态可能获得新的公共研发资源和以人工智能、网络安全为重点的合作机会，进而影响数字技能供给和本地技术能力。但报道仅呈现部长表态和意向，未说明资金来源细节、执行机构、遴选机制或时间表。下一步应核实新财年预算文件中1%资本支出的具体条款、创新中心的负责部门和设立程序，以及尼以合作是否形成正式协议。证据缺口包括：缺少预算执行进度、中心选址与规模，以及私营部门参与方式。",
-        "analysisEn": "If the budget allocation and innovation-center plans materialize, Nepal's ICT firms, research institutions and startup ecosystem could gain new public R&D resources and AI/cybersecurity-focused collaboration opportunities, affecting digital skills supply and local technical capacity. However, the report presents only ministerial statements and intentions, without funding details, implementing agencies, selection mechanisms or timelines. Next, verify the specific provisions in the new fiscal-year budget for the one percent capital-expenditure allocation, which ministry or agency would run the innovation centers, and whether Nepal-Israel cooperation has produced a formal agreement. Evidence gaps include budget execution progress, center locations and scale, and private-sector participation.",
-        "sourceSha256": "c815a2324764e4ce5c06a111157d2f0454548428f8acec0f6e2963f877f8009a",
-        "sourceTextChars": 1472,
-        "dateBasis": "URL-derived; event date requires review",
-        "evidenceId": "c89ef6d8b34485f75755:2"
-      }
-    ]
+    "note": "两条待核验候选已处置：NTA行业服务质量会议已按其他原文来源纳入；科技部长创新中心表态此前已收录，不重复计数。",
+    "noteEn": "Both fallback candidates were resolved: the NTA industry service-quality meeting was added with other original sources; the innovation-centre remarks were already covered and were not counted twice.",
+    "usage": null,
+    "items": []
   },
   "policyTracker": {
     "version": 1,
