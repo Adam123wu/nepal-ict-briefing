@@ -1,12 +1,44 @@
 {
-  "status": "clear",
-  "statusEn": "Clear after Codex review",
-  "generatedAt": "2026-11-27T18:38:05Z",
-  "reviewDate": "2026-11-27",
-  "sourceCandidateGeneratedAt": "2026-11-27T03:30:03.885166+00:00",
+  "status": "pending_codex_review",
+  "statusEn": "Pending Codex review",
+  "generatedAt": "2026-11-28T03:06:25.397025+00:00",
+  "reviewDate": "2026-11-28",
+  "sourceCandidateGeneratedAt": "2026-11-28T03:06:05.123839+00:00",
   "model": "deepseek-flash",
-  "note": "两条待核验候选已处置：NTA行业服务质量会议已按其他原文来源纳入；科技部长创新中心表态此前已收录，不重复计数。",
-  "noteEn": "Both fallback candidates were resolved: the NTA industry service-quality meeting was added with other original sources; the innovation-centre remarks were already covered and were not counted twice.",
-  "usage": null,
-  "items": []
+  "note": "DeepSeek 已读取可访问的公开网页正文，生成中英文摘要和条件性影响分析。内容未经 Codex 人工式审校，日期由来源链接推定，不能视为独立事实核验；不计入已核验新闻或商机。",
+  "noteEn": "DeepSeek read accessible public webpage text and generated bilingual summaries and conditional analysis. This is not Codex editorial review or independent fact verification. Dates are inferred from source URLs; entries are excluded from reviewed-news and opportunity counts.",
+  "usage": {
+    "prompt_tokens": 7674,
+    "completion_tokens": 673,
+    "total_tokens": 8347,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 7290
+  },
+  "items": [
+    {
+      "id": "6bdf1a4641bf813cd60d",
+      "date": "2026-11-26",
+      "url": "https://radionepalonline.com/en/2026/11/26/439300.html",
+      "sourceId": "np-radio-nepal",
+      "sourceName": "Radio Nepal public broadcaster",
+      "sourceTier": "T1",
+      "title": "通信部长蒂米尔西纳：电信服务质量不容妥协",
+      "titleEn": "No compromise on quality of telecommunication services: Communication Minister Timilsina",
+      "section": "政府与监管动态",
+      "sectionEn": "Government & regulation",
+      "status": "DeepSeek 正文分析 · 待 Codex 核验",
+      "statusEn": "DeepSeek article analysis · pending Codex review",
+      "summary": "据尼泊尔广播电台报道，信息与通信部长比克拉姆·蒂米尔西纳博士在尼泊尔电信管理局主办的电信服务现状与质量研讨会上表示，电信服务质量不容妥协。他称高质量互联网和电信服务对政府数字化转型至关重要，并警告服务商不要在损害消费者利益的情况下优先追求利润和削减成本，要求其履行许可证和协议中的承诺。他还要求尼泊尔电信管理局加强监管，对违规公司采取法律行动，并称服务商与监管机构都需建立问责文化。上述内容为部长在会上的表态和指示，报道未提及已实施的具体处罚或整改结果。",
+      "summaryEn": "Radio Nepal reported that Minister for Information and Communication Dr. Bikram Timilsina, speaking at an interaction on the status and quality of telecommunications services organized by the Nepal Telecommunications Authority, said there should be no compromise on service quality. He described quality internet and telecom services as essential to the government's digital transformation drive, warned providers against prioritizing profit and cost-cutting at consumers' expense, and urged them to honour commitments under their licences and agreements. He also called on the authority to strengthen monitoring and take legal action against companies violating regulations. These are the minister's remarks and directions; the report does not describe specific penalties or completed remedial action.",
+      "analysis": "若部长指示转化为实际行动，普通用户可能看到监管检查趋严、对违规运营商的法律程序增加，但本文未说明任何具体处罚、时限或整改目标，因此影响程度仍不确定。下一步应核实尼泊尔电信管理局是否发布正式监测指令、检查时间表或对具体运营商的执法通知。证据缺口包括：未列明被指存在问题的运营商名称、未给出服务质量基准数据、未说明许可证承诺的具体条款，也未提供部门与管理局的书面文件。报道仅反映一次会议表态，属单一来源，需与管理局公告交叉验证。",
+      "analysisEn": "If the minister's directions translate into action, customers could see tighter regulatory scrutiny and more legal proceedings against non-compliant operators, but the article names no specific penalties, timelines or remediation targets, so the practical impact remains uncertain. The next verification step is to check whether the Nepal Telecommunications Authority issues a formal monitoring directive, inspection schedule or enforcement notice naming operators. Evidence gaps include the absence of named operators alleged to be deficient, no service-quality benchmark data, no details of specific licence commitments, and no written ministry or authority document. The report reflects remarks at a single meeting from one source and should be cross-checked against authority announcements.",
+      "sourceSha256": "9d05b239303b420ba0d752d5ec4df7df3399af7785600829b5e93d8d93a34bc1",
+      "sourceTextChars": 1052,
+      "dateBasis": "URL-derived; event date requires review",
+      "evidenceId": "6bdf1a4641bf813cd60d:0"
+    }
+  ]
 }
