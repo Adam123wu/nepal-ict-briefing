@@ -1,5 +1,432 @@
 [
   {
+    "issue": "W47-48",
+    "generated": "2026-11-27",
+    "windowStart": "2026-11-14",
+    "windowEnd": "2026-11-27",
+    "period": "2026年11月14—27日 · 尼泊尔独立版",
+    "periodEn": "14–27 November 2026 · Nepal edition",
+    "sourceFile": "nepal-w47-48.html",
+    "status": "历史完整期，共 11 条核验事件。",
+    "statusEn": "Completed historical issue with 11 reviewed events.",
+    "summary": [
+      "NTA召开行业服务质量座谈会，通信部长要求运营商履行服务承诺并敦促加强监督；未公布本次会议形成的新处罚或采购决定。",
+      "Fonepay与Nabil Bank推出访尼外国游客扫码支付应用；银行说明适用对象不含印度游客。",
+      "科技与创新部长提出AI、网络安全等创新中心计划，并称研发创新获资本支出1%支持；预算口径和实施安排有待核实。",
+      "Ncell正在推进3G退网，3G用户需迁移至4G SIM和支持VoLTE的终端；公开材料未披露本次网络调整的设备采购或供应商。",
+      "主管部门、NTA和尼泊尔电信已在加德满都完成蜂窝广播（CBS）灾害预警初步技术测试；尚未公布全国上线、技术规格、预算、采购或供应商。",
+      "NTA发布欠费、减免及远程服务费材料报送通知；公开的欠费通知列出9家服务商（包括Subisu），但未确认任何牌照已被取消。",
+      "移民局为主数据中心发布虚拟化／Hypervisor及负载均衡与WAF支持续保采购；为NCB两信封程序，尚无投标人、预算或授标信息。",
+      "总理和部长会议办公室更正ICT设备采购的开标时间；桌面电脑、笔记本、打印机、扫描仪、投影等数量已列明，但没有厂商或中标方。",
+      "马德什省首席部长已依宪法程序任命；该省级人事变动须在规定期限内取得信任投票，尚无ICT或采购决定披露。",
+      "尼印国事访问已形成联合愿景并交换南亚卫星SATCOM网络合作谅解备忘录；数字尼泊尔框架、跨境零售支付、数字园区和数据中心、5G/6G列为合作方向，但具体项目、采购和厂商尚未披露。",
+      "本期项目仍处于测试、公告或澄清阶段，不能推断中兴、思科、华为或任何其他设备商已参与、入围或中标。"
+    ],
+    "summaryEn": [
+      "At an NTA industry service-quality meeting, the communications minister urged operators to meet service commitments and called for stronger oversight; no new penalty or procurement decision from the meeting was disclosed.",
+      "Fonepay and Nabil Bank launched a QR payment app for foreign visitors to Nepal; the bank says Indian tourists are excluded.",
+      "The science and innovation minister outlined AI and cybersecurity innovation-centre plans and said 1% of capital expenditure was allocated to research and innovation; the budget basis and implementation remain to be verified.",
+      "Ncell is progressing a 3G sunset; 3G users must migrate to a 4G SIM and a VoLTE-capable handset. Public material discloses no procurement or supplier for this network change.",
+      "Government agencies, NTA and Nepal Telecom have completed an initial Cell Broadcast System (CBS) disaster-alert technical test in Kathmandu; nationwide launch, technical specification, budget, procurement and suppliers are not public.",
+      "NTA has issued notices on arrears, remission and telecommunications-service-charge filings. Its public arrears notice lists nine providers, including Subisu, but does not confirm cancellation of any licence.",
+      "The Department of Immigration has published an NCB two-envelope procurement for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal; bidders, budget and award are not disclosed.",
+      "The Office of the Prime Minister and Council of Ministers corrected the opening time for its ICT-equipment procurement. Quantities for desktops, laptops, printers, scanners and projectors are listed, but no brand, bidder or winner is named.",
+      "Madhesh Province has appointed a Chief Minister under the constitutional fallback procedure. The provincial leadership change requires a confidence vote within the constitutional period and has no disclosed ICT or procurement decision.",
+      "The Nepal–India state visit produced a Joint Vision and an MoU on a South Asia Satellite SATCOM network. The Digital Nepal Framework, cross-border retail payments, digital parks and data centres, and 5G/6G are named cooperation directions, but specific projects, procurement and suppliers are not disclosed.",
+      "Current entries remain at testing, notice or clarification stage. They do not establish participation, shortlisting or an award for ZTE, Cisco, Huawei or any other supplier."
+    ],
+    "countries": {
+      "np": {
+        "name": "尼泊尔",
+        "nameEn": "Nepal",
+        "flag": "🇳🇵",
+        "sections": [
+          {
+            "category": "本国运营商最新动态",
+            "categoryEn": "Operator developments",
+            "items": [
+              {
+                "id": "np-ntc-tower-quality-review-20261120",
+                "date": "2026-11-20",
+                "title": "通信部长要求尼泊尔电信提交基站性能报告并改善网络质量",
+                "titleEn": "Communications minister requests Nepal Telecom tower-performance report",
+                "badge": "RSS／行业媒体报道 · 运营商网络质量",
+                "badgeEn": "RSS and sector-media reporting · operator network quality",
+                "text": "11月20日Kantipur转载RSS报道，通信部长Timilsina就城乡用户反映的电话和互联网服务问题，要求尼泊尔电信查明原因、改善质量，并提交全国基站运行情况与容量的详细技术研究报告。他提出可研究利用农村电信发展基金改善服务和基础设施。报道引述运营商称正推进新增基站招标准备；另一家行业媒体对拟新增基站数量的报道不同，具体数量、预算和采购进度仍需通过正式文件核实。",
+                "textEn": "On 20 November Kantipur carried an RSS report that Communications Minister Timilsina asked Nepal Telecom to identify and address telephone and internet quality complaints in urban and remote areas and submit a detailed technical study of tower operation and capacity nationwide. He suggested considering use of the Rural Telecommunications Development Fund for service and infrastructure improvement. The report says the operator is advancing preparations for a new-tower tender; sector media report a different planned tower count, and the quantity, budget and procurement status require confirmation in formal documents.",
+                "opportunity": "研判：现阶段明确的是质量调查与改进要求。应向Nepal Telecom和主管部门跟踪技术报告、站点故障及覆盖指标、备用电源需求、资金安排与正式招标文件；新增塔数、项目预算、实施时间、参标方及设备厂家尚未核实，不能据此认定订单或中标。",
+                "opportunityEn": "Analysis: the confirmed signal is a request for quality assessment and improvements. Follow Nepal Telecom and the ministry for the technical report, site failures and coverage metrics, backup-power needs, funding decisions and formal tender documents. The tower count, budget, implementation schedule, bidders and equipment vendors remain unverified and do not establish a contract or award.",
+                "links": [
+                  {
+                    "label": "Kantipur／RSS：部长要求改善网络与提交技术报告（11月20日）",
+                    "labelEn": "Kantipur/RSS: minister requests network-quality improvements and technical report (20 November)",
+                    "url": "https://ekantipur.com/news/2026/11/20/communications-ministers-question-to-nepal-telecom-there-is-a-tower-but-no-network-why-42-37.html"
+                  },
+                  {
+                    "label": "NepaliTelecom：运营商基站性能跟进（11月21日）",
+                    "labelEn": "NepaliTelecom: tower-performance follow-up (21 November)",
+                    "url": "https://www.nepalitelecom.com/2026/11/comm-minister-timilsina-directs-nepal-telecom-to-improve-network-quality.html"
+                  }
+                ]
+              },
+              {
+                "id": "np-ncell-3g-sunset-volte-20261119",
+                "date": "2026-11-19",
+                "title": "Ncell推进3G退网，服务转向4G／VoLTE",
+                "titleEn": "Ncell progresses 3G sunset and transition to 4G/VoLTE",
+                "badge": "运营商公开说明＋行业媒体交叉核验 · 网络演进",
+                "badgeEn": "Operator public guidance cross-checked by sector media · network evolution",
+                "text": "Ncell的公开说明确认，公司正在关闭3G并将基于3G的服务转向基于4G的VoLTE；持有3G SIM且使用支持VoLTE终端的用户可免费更换4G SIM，旧终端用户在所在区域3G完成关闭后将不能继续使用移动数据，但语音仍可经2G或4G承载。Nepali Telecom于11月19日报道称，该公司计划在2026年12月完成退网，并披露分阶段安排和站点数量；这些时间表与数量为行业媒体转述，须以Ncell后续正式地区通知为准。Ncell公开页未披露本次频谱重耕、无线设备、核心网、终端补贴或集成服务的采购、预算和供应商。",
+                "textEn": "Ncell's public guidance confirms that it is shutting down 3G and moving 3G-based services to 4G-based VoLTE. Customers with a 3G SIM and VoLTE-capable handset can replace the SIM with a 4G SIM free of charge; users with older handsets will lose mobile data once 3G is completed in their area, while voice remains available through 2G or 4G. Nepali Telecom reported on 19 November that the company plans to complete the sunset in December 2026 and described phased timing and site counts; those timing and volume details are sector-media reporting and must be checked against subsequent regional notices from Ncell. Ncell's public page does not disclose procurement, budget or suppliers for spectrum refarming, radio equipment, core network, handset support or integration services.",
+                "opportunity": "研判：这是已确认的运营商网络迁移，而非明确的设备项目。应优先跟踪Ncell按地区发布的关闭／迁移告知、VoLTE兼容清单、SIM更换量、4G容量或覆盖KPI，以及NTA关于服务质量、频谱和用户保护的后续文件。只有在出现正式RFP、框架协议、采购公告或经运营商确认的合同后，才可识别具体无线、核心网、终端或服务机会；不得由3G退网推断中兴、华为、思科、浩鲸、亚信或其他供应商已参与。",
+                "opportunityEn": "Analysis: this is a confirmed operator network migration, not a defined equipment project. Prioritise Ncell's regional shutdown/migration notices, VoLTE compatibility lists, SIM-swap volumes, 4G capacity or coverage KPIs, and any NTA documents on quality, spectrum and customer protection. Identify a radio, core-network, handset or service opportunity only when a formal RFP, framework, procurement notice or operator-confirmed contract appears; 3G sunset alone cannot establish participation by ZTE, Huawei, Cisco, H3C, AsiaInfo or any other supplier.",
+                "links": [
+                  {
+                    "label": "Ncell：3G退网与VoLTE迁移说明",
+                    "labelEn": "Ncell: 3G sunset and VoLTE migration guidance",
+                    "url": "https://www.ncell.com.np/en/ncell-shutting-down-3g"
+                  },
+                  {
+                    "label": "Nepali Telecom：3G退网阶段与进度报道（11月19日）",
+                    "labelEn": "Nepali Telecom: reported 3G-sunset phases and progress (19 November)",
+                    "url": "https://www.nepalitelecom.com/ncell-shut-down-3g-network"
+                  }
+                ]
+              },
+              {
+                "id": "np-cell-broadcast-system-initial-test-20261123",
+                "date": "2026-11-23",
+                "title": "尼泊尔完成蜂窝广播灾害预警系统初步技术测试",
+                "titleEn": "Nepal completes initial Cell Broadcast System test for disaster alerts",
+                "badge": "主管部门、NTA与尼泊尔电信协同技术测试 · 早期验证",
+                "badgeEn": "Ministries, NTA and Nepal Telecom technical test · early validation",
+                "text": "Radio Nepal刊载的RSS报道与OnlineKhabar的测试前后报道显示，内政部、国家减灾及管理局（NDRRMA）、尼泊尔电信管理局（NTA）和尼泊尔电信在信息通信部协调下，于11月23日在加德满都Balambu完成蜂窝广播系统（CBS）初步技术测试。指定地理区域内的有限移动设备收到尼泊尔语和英语测试告警及提示音、震动。NepaliTelecom 11月24日报道，此次初测使用尼泊尔电信2G网络，运营商计划进一步测试4G；报道未给出4G测试日期，不代表测试已完成或全国服务已上线。公开报道未披露完整覆盖范围、技术规格、预算、采购、全国启用时间或软件、设备和集成服务供应商。",
+                "textEn": "Radio Nepal's RSS report and OnlineKhabar’s coverage state that the Ministry of Home Affairs, NDRRMA, NTA and Nepal Telecom, coordinated by the communications ministry, completed an initial Cell Broadcast System (CBS) test in Balambu, Kathmandu on 23 November. Selected devices in a designated area received Nepali and English test alerts with a distinctive sound and vibration. NepaliTelecom reported on 24 November that the initial test used Nepal Telecom's 2G network and the operator plans a 4G test. It gave no date for that test; neither its completion nor a nationwide launch is established. Full coverage, specifications, budget, procurement, national launch date and software, equipment or integration suppliers were not disclosed.",
+                "opportunity": "研判：这是由政府、监管机构和尼泊尔电信完成的早期技术验证，不是全国公共告警服务上线或采购授标。若进入规模化部署，责任主体需要明确跨运营商接入、地理围栏精度、告警治理与授权、终端兼容性、灾害机构工作流、网络容量和演练要求。下一步应取得信息通信部、内政部、NDRRMA、NTA和运营商发布的正式测试评估、后续试点范围、参与运营商、标准／接口、资金来源与采购文件；在此之前，不把Ncell或任何本地集成商、华为、中兴、思科、浩鲸、亚信或其他厂商视为参与者或受益方。",
+                "opportunityEn": "Analysis: this is early technical validation by government bodies, the regulator and Nepal Telecom, not the launch of a nationwide public-alert service or a procurement award. If it proceeds to scale, accountable parties will need to define cross-operator connectivity, geographic targeting accuracy, alert governance and authorisation, handset compatibility, disaster-agency workflow, network capacity and exercises. Obtain formal test assessments, next pilot scope, participating operators, standards/interfaces, funding and procurement papers from the communications ministry, Home Affairs, NDRRMA, NTA and operators. Until then, Ncell, any local integrator, Huawei, ZTE, Cisco, H3C, AsiaInfo and other suppliers must not be treated as participants or beneficiaries.",
+                "links": [
+                  {
+                    "label": "NepaliTelecom：2G初测与后续4G测试计划（11月24日）",
+                    "labelEn": "NepaliTelecom: initial 2G test and planned 4G testing (24 November)",
+                    "url": "https://www.nepalitelecom.com/2026/11/nepal-telecom-ntc-moves-cell-broadcast-testing-from-2g-to-4g-network.html"
+                  },
+                  {
+                    "label": "Radio Nepal／RSS：CBS初步技术测试完成（11月23日）",
+                    "labelEn": "Radio Nepal/RSS: CBS initial technical test completed (23 November)",
+                    "url": "https://radionepalonline.com/en/2026/11/23/439176.html"
+                  },
+                  {
+                    "label": "OnlineKhabar：两部联合公告及测试安排（11月23日）",
+                    "labelEn": "OnlineKhabar: joint-ministry notice and test arrangement (23 November)",
+                    "url": "https://english.onlinekhabar.com/govt-to-test-cell-broadcast-alerts-urges-mobile-users-not-to-panic.html"
+                  },
+                  {
+                    "label": "OnlineKhabar／RSS：CBS测试结果（11月23日）",
+                    "labelEn": "OnlineKhabar/RSS: CBS test result (23 November)",
+                    "url": "https://english.onlinekhabar.com/test-of-locally-developed-cell-broadcast-system-successful.html"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "运营商、数字能源与网络建设",
+            "displayCategoryEn": "Operators, digital energy & network infrastructure"
+          },
+          {
+            "category": "本国部委最新动态",
+            "categoryEn": "Ministry and regulator developments",
+            "items": [
+              {
+                "id": "np-nta-industry-service-quality-meeting-20261126",
+                "date": "2026-11-26",
+                "title": "NTA召开行业服务质量座谈会，通信部长要求运营商与监管机构落实责任",
+                "titleEn": "NTA holds industry service-quality meeting as communications minister calls for operator and regulator accountability",
+                "badge": "尼泊尔媒体报道 · 行业监管与网络质量",
+                "badgeEn": "Nepal media reporting · industry regulation and network quality",
+                "text": "Radio Nepal和NepaliTelecom报道，11月26日尼泊尔电信管理局（NTA）就电信服务现状与质量组织行业座谈，通信部长Bikram Timilsina要求服务商履行牌照与服务承诺，敦促NTA加强监督并依法处理违规行为；他指出加德满都也存在电话连接不稳定与网速不达预期等问题。NepaliTelecom报道，NTA主席Arjun Ghimire呼吁制定列明问题、解决措施、责任及期限的实际改进计划。这是覆盖行业服务商与监管机构的座谈，与11月20日针对Nepal Telecom的基站性能报告要求属于不同事项。公开报道未确认具体企业已受罚、许可证已撤销，也未公布本次会议形成的采购、预算或供应商决定。",
+                "textEn": "Radio Nepal and NepaliTelecom report that Nepal Telecommunications Authority (NTA) convened an industry discussion on service quality on 26 November. Communications Minister Bikram Timilsina urged providers to honour their licence and service commitments and asked the NTA to strengthen oversight and act against violations under the law; he cited unreliable telephone connections and internet speeds below expectations even in Kathmandu. NepaliTelecom reported NTA chair Arjun Ghimire calling for a practical improvement plan that identifies problems, remedies, responsibilities and deadlines. This industry-wide discussion involving providers and the regulator is distinct from the minister's 20 November request for a Nepal Telecom tower-performance report. The reports do not confirm a penalty or licence cancellation for a named company, or disclose any procurement, budget or supplier decision arising from this meeting.",
+                "opportunity": "研判：行业质量问责可能影响运营商网络优化与运维优先级，但会议表态并不等于新增标准、处罚决定或设备项目。应跟踪NTA正式行动计划、质量测试结果、具体整改要求和执行期限，并与运营商既有基站技术报告及正式采购文件交叉核对；未见招标与合同前，不推定厂商参与、中标或采购规模。",
+                "opportunityEn": "Analysis: industry quality accountability could affect operators' network-optimisation and operations priorities, but the remarks do not establish a new standard, enforcement decision or equipment project. Follow NTA's formal action plan, quality-test results, specific remediation requirements and deadlines, and compare them with operators' existing tower assessments and formal procurement records. Do not infer vendor participation, awards or procurement scale without tender and contract evidence.",
+                "links": [
+                  {
+                    "label": "Ratopati：行业服务质量会议报道（11月26日）",
+                    "labelEn": "Ratopati: industry service-quality meeting report (26 November)",
+                    "url": "https://english.ratopati.com/story/88378/authoritys-directive-to-mandatorily-implement-the-standards-set-for-quality-improvement"
+                  },
+                  {
+                    "label": "NepaliTelecom：NTA行业会议及质量改进计划（11月26日）",
+                    "labelEn": "NepaliTelecom: NTA industry meeting and quality-improvement plan (26 November)",
+                    "url": "https://www.nepalitelecom.com/2026/11/communication-minister-bikram-timilsina-says-telecom-quality-must-come-before-profits.html"
+                  }
+                ]
+              },
+              {
+                "id": "np-israel-cyber-ai-innovation-20261124",
+                "date": "2026-11-24",
+                "title": "尼泊尔科技部长在尼以网络安全与AI活动中提出创新中心计划",
+                "titleEn": "Nepal's science minister outlines innovation-centre plans at Nepal–Israel cyber and AI event",
+                "badge": "部长公开表态＋以色列驻尼使馆活动通报 · 计划阶段",
+                "badgeEn": "Minister's public remarks and Israeli Embassy event record · planning stage",
+                "text": "以色列驻尼泊尔使馆通报确认，其于11月24日在加德满都举办网络安全与人工智能活动，尼泊尔科学、技术与创新部长Mahabir Pun出席并呼吁加强政府间、科研机构与产业合作；使馆称尼泊尔AI与网络安全代表团曾于11月9—12日访以。New Business Age援引部长表示，政府已将资本支出的1%用于研发创新，并计划设立涵盖人工智能、网络安全、无人机、农业和生物医学工程的创新中心。1%为部长所述，尚待以正式预算文件核实口径、金额和落实情况；活动未公布具体项目协议、实施时间、采购或供应商。",
+                "textEn": "The Israeli Embassy in Nepal confirms it hosted a cybersecurity and artificial-intelligence event in Kathmandu on 24 November. Nepal's Minister for Science, Technology and Innovation, Mahabir Pun, attended and called for government, research and industry partnerships; the embassy also reported a Nepali AI and cyber delegation's visit to Israel on 9–12 November. New Business Age reported the minister as saying that the government had allocated 1% of capital expenditure to research and innovation and planned innovation centres covering AI, cybersecurity, drones, agriculture and biomedical engineering. The 1% is attributed to the minister; its definition, amount and implementation require verification against formal budget documents. No specific project agreement, implementation schedule, procurement or supplier was announced at the event.",
+                "opportunity": "研判：部长提出的是政策方向和中心建设计划，适合跟踪人工智能、网络安全、科研算力及人才培养需求，但不能视为已批准项目或设备订单。下一步核查正式预算和实施文件、主管机构、中心选址、资金来源、合作模式及公开采购；在明确项目范围前，不推定任何企业获得合同或参与建设。",
+                "opportunityEn": "Analysis: the minister described a policy direction and plans for innovation centres. AI, cybersecurity, research computing and skills are relevant areas to monitor, but these remarks do not establish an approved project or equipment order. Verify the formal budget and implementation documents, responsible agencies, locations, funding, partnership structure and public procurement; do not infer that any company has a contract or project role before the scope is established.",
+                "links": [
+                  {
+                    "label": "以色列驻尼使馆：网络安全与AI活动通报（11月24日）",
+                    "labelEn": "Israeli Embassy: cyber and AI event record (24 November)",
+                    "url": "https://embassies.gov.il/nepal/en/events/embassy-israel-hosts-israel-cyber-and-ai-event-kathmandu-24112026"
+                  },
+                  {
+                    "label": "New Business Age：部长关于研发投入和创新中心的表态（11月25日）",
+                    "labelEn": "New Business Age: minister's research funding and innovation-centre remarks (25 November)",
+                    "url": "https://newbusinessage.com/news/50801/investment-in-research-and-innovation-a-government-priority--minister-pun/"
+                  }
+                ]
+              },
+              {
+                "id": "np-nta-arrears-remission-filings-20261119",
+                "date": "2026-11-19",
+                "title": "NTA发布欠费处置、减免和远程服务费材料报送通知",
+                "titleEn": "NTA issues notices on arrears, remission and telecommunications-service-charge filings",
+                "badge": "NTA官方通知 · 牌照与费用合规",
+                "badgeEn": "Official NTA notices · licence and fee compliance",
+                "text": "尼泊尔电信管理局（NTA）发布的三项官方通知显示：（1）依据《2083财政法》第49条，满足条件的许可电信服务商可在2083年Mangsir月底前补缴应付费用／税费及其1%附加额，以适用罚金、利息及费用减免；（2）NTA要求互联网服务商在收到通知后10个工作日内，提交与电信服务费相关的资料和月度明细；（3）另一份欠费公告要求9家列名服务商在15日内清偿欠付的特许权使用费、农村电信发展基金等款项及其附加费用，名单包括Subisu Limited；逾期将按《电信法》继续办理牌照取消程序。公告未确认任何一家已被取消牌照、已完成缴费或获得减免，也未公布设备采购、预算或供应商。",
+                "textEn": "Three official Nepal Telecommunications Authority (NTA) notices show that: (1) under Section 49 of the Finance Act 2083, eligible licensed telecommunications providers may settle dues/taxes plus an additional 1% by the end of Mangsir 2083 to access remission of penalties, interest and fees; (2) NTA requires ISPs to submit telecommunications-service-charge documents and monthly details within 10 working days of notice; and (3) a separate arrears notice gives nine named providers 15 days to settle outstanding royalty, Rural Telecommunication Development Fund and associated amounts, including Subisu Limited, after which licence-cancellation procedures may continue under the Telecommunications Act. The notices do not confirm that any licence has been cancelled, any payment completed or remission granted, and they disclose no equipment procurement, budget or supplier.",
+                "opportunity": "研判：这是对运营商／ISP现金流和牌照合规的监管行动，短期应作为客户信用、续费和项目交付风险信号，而非销售机会或厂商替换证据。需要逐家核对NTA后续的缴费、减免、执法或牌照状态公告；对Subisu等被列名主体，应在任何商务判断前确认欠费性质、是否已清偿以及服务连续性。不得把15日期限理解为已撤销牌照，也不得将监管通知推断为网络设备采购或其他厂商中标。",
+                "opportunityEn": "Analysis: this is a regulatory action affecting operator/ISP cash flow and licence compliance. In the short term it is a signal for customer-credit, renewal and delivery risk, not a sales opportunity or evidence of a vendor replacement. Check subsequent NTA notices provider by provider for payment, remission, enforcement or licence status; for named entities such as Subisu, confirm the nature of the arrears, settlement and service continuity before any commercial judgement. A 15-day deadline is not a cancelled licence, and the notices must not be turned into a network-equipment procurement or another supplier's award.",
+                "links": [
+                  {
+                    "label": "NTA：财政法第49条下的罚金与利息减免通知",
+                    "labelEn": "NTA: Finance Act Section 49 remission notice",
+                    "url": "https://www.nta.gov.np/content/sal-bsal-aarathaka-aina-bmajama-lgana-shalka-thasatara-va-karama-lgana-jaravana-tatha-byaja-manaha-samabnathha-sacana"
+                  },
+                  {
+                    "label": "NTA：10个工作日内提交远程服务费资料的紧急通知",
+                    "labelEn": "NTA: urgent 10-working-day telecommunications-service-charge filing notice",
+                    "url": "https://www.nta.gov.np/content/tharasaniacara-sava-thasatarasaga-samabnathhata-aavashayaka-kagajatahanpr-sahata-karaya-thanabhatara-vavaranae-pasha-garana-samabnathha-atayanata-jarara-sacana"
+                  },
+                  {
+                    "label": "NTA：欠费缴纳公共通知（列名9家服务商）",
+                    "labelEn": "NTA: public arrears-settlement notice (nine named providers)",
+                    "url": "https://www.nta.gov.np/content/bkayata-rakama-thakhal-garana-samabnathha-saravajanaka-sacana"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "政府与监管动态",
+            "displayCategoryEn": "Government & regulation"
+          },
+          {
+            "category": "本国头部客户的新机会点",
+            "categoryEn": "Key-account opportunities",
+            "items": [
+              {
+                "id": "np-doi-datacenter-virtualization-20261117",
+                "date": "2026-11-17",
+                "title": "移民局发布主数据中心虚拟化及负载均衡／WAF支持续保采购",
+                "titleEn": "Department of Immigration publishes primary data-centre virtualisation and LB/WAF support procurement",
+                "badge": "官方 e-GP 公告 · NCB 两信封",
+                "badgeEn": "Official e-GP notice · NCB two-envelope",
+                "text": "PPMO的Bolpatra官方项目记录显示，移民局于11月17日发布编号24-27-03001/DOI/G/NCB-05/2083-84的货物采购，用于其主数据中心的虚拟化／Hypervisor方案及负载均衡与WAF支持和续保。价格表列为一套、两年支持和续保；采用国内竞争性招标（NCB）和技术／财务两信封程序。公开记录列出11月23日13:00（尼泊尔时间）预投标会议、12月8日12:00截止、14:00开标。状态仍为已发布，两个信封均处于密封状态；未公开预算、投标人、设备厂家或授标结果。",
+                "textEn": "PPMO's official Bolpatra record shows that the Department of Immigration published goods procurement 24-27-03001/DOI/G/NCB-05/2083-84 on 17 November for its primary data centre's virtualisation/Hypervisor solution and load-balancer/WAF support and warranty renewal. The price schedule lists one package with two years of support and warranty. It uses national competitive bidding (NCB) and technical/financial two-envelope submission. The public record lists a 23 November 13:00 Nepal-time pre-bid meeting, a 8 December 12:00 deadline and 14:00 opening. It remains published with both envelopes sealed; budget, bidders, equipment maker and award are not disclosed.",
+                "opportunity": "研判：客户和需求明确为移民局主数据中心的虚拟化、流量分发与应用防护生命周期支持，当前仅处于正式招标而非授标。下一步应阅读完整技术规范，重点核对虚拟化兼容性、迁移与回退、LB/WAF性能与接口、支持SLA及验收；预投标澄清后再判断资格和方案边界。竞对与风险：公告没有公布现网品牌、投标人或预算，不能把任何既有厂商、渠道商或安全产品推定为参与方。",
+                "opportunityEn": "Analysis: the customer and need are specific—primary-data-centre virtualisation, traffic delivery and application protection lifecycle support—but the project is at formal tender, not award, stage. Read the full specification and clarify virtualisation compatibility, migration and rollback, LB/WAF performance and interfaces, support SLA and acceptance before defining scope or eligibility. Competition and risk: the notice identifies neither incumbent brand, bidder nor budget; no current supplier, channel partner or security product can be inferred to be participating.",
+                "links": [
+                  {
+                    "label": "Bolpatra 官方项目记录",
+                    "labelEn": "Bolpatra official project record",
+                    "url": "https://bolpatra.gov.np/projects/c688f104-0c6f-4e11-bb0c-672cb45abbe3"
+                  }
+                ]
+              },
+              {
+                "id": "np-opmcm-ict-equipment-opening-clarification-20261118",
+                "date": "2026-11-18",
+                "title": "总理和部长会议办公室更正ICT设备采购的开标时间",
+                "titleEn": "PMO corrects the opening time for its ICT-equipment procurement",
+                "badge": "官方 e-GP 澄清 · NCB 单信封",
+                "badgeEn": "Official e-GP clarification · NCB single-envelope",
+                "text": "总理和部长会议办公室的Bolpatra项目记录显示，ICT设备采购OPMCM/02/NCB/ICTE/083/84于11月5日发布；11月18日的修正说明将IFB第6项的开标时间更正为11月27日14:00（尼泊尔时间）。项目仍显示11月27日12:00提交截止，并采用NCB单信封程序。公开价格表列出14台台式机、5台笔记本、3台重载一体机、12台一体机打印机、扫描仪、75英寸电视和投影仪等；未披露金额、品牌、投标人或中标方。",
+                "textEn": "The Office of the Prime Minister and Council of Ministers' Bolpatra record shows that ICT-equipment procurement OPMCM/02/NCB/ICTE/083/84 was published on 5 November. A 18 November correction sets the IFB item-6 opening time to 27 November 14:00 Nepal time. The record still shows a 27 November 12:00 submission deadline and an NCB single-envelope procedure. Its public price schedule lists 14 desktops, five laptops, three heavy-duty all-in-one printers, 12 all-in-one printers, scanners, 75-inch displays and projectors, among other equipment; amount, brands, bidders and winner are not disclosed.",
+                "opportunity": "研判：这是办公终端和文印／展示设备的正式采购澄清，需求清单可用于准备供货、保修、安装、兼容性和交付支持方案，但不等于已经选择任何OEM。下一步在11月27日后核对开标、评标和授标记录，并以技术规格、品牌等效条款和售后要求判断可竞争范围。竞对：当前公开材料没有厂商、代理商或投标名单，不能把中国厂商、思科或其他品牌标为项目参与者。",
+                "opportunityEn": "Analysis: this is a formal clarification for end-user computing, printing and presentation equipment. The published bill of quantities can inform supply, warranty, installation, compatibility and delivery preparation, but does not select an OEM. After 27 November, verify opening, evaluation and award records, then assess competitive scope against the technical specification, brand-or-equivalent language and after-sales requirements. Competition: the public material names no manufacturer, reseller or bidder; Chinese vendors, Cisco and other brands cannot be labelled participants.",
+                "links": [
+                  {
+                    "label": "Bolpatra 官方项目记录",
+                    "labelEn": "Bolpatra official project record",
+                    "url": "https://bolpatra.gov.np/projects/0f0db427-729f-46d8-8d9e-925e5439a760"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "重点客户与商机",
+            "displayCategoryEn": "Key accounts & opportunities"
+          },
+          {
+            "category": "本国政治与大选进展及内幕",
+            "categoryEn": "Politics and elections",
+            "items": [
+              {
+                "id": "np-madhesh-chief-minister-yadav-20261121",
+                "date": "2026-11-21",
+                "title": "马德什省任命萨罗杰·库马尔·亚达夫为首席部长",
+                "titleEn": "Madhesh Province appoints Saroj Kumar Yadav Chief Minister",
+                "badge": "公共广播报道＋独立媒体交叉核验 · 省级人事任命",
+                "badgeEn": "Public-broadcaster report cross-checked by independent media · provincial appointment",
+                "text": "Radio Nepal与《加德满都邮报》报道，马德什省省长苏伦德拉·拉布·卡尔纳于11月21日依据尼泊尔宪法第168(3)条，任命人民社会党尼泊尔（JSP Nepal）议会党团领袖萨罗杰·库马尔·亚达夫为首席部长。报道说，在第168(2)条规定的期限内，没有政党或省议会议员提出获得至少两党支持的组阁主张；因此由省议会最大党的议会党团领袖获任命。亚达夫需在宪法规定期限内向省议会寻求信任投票。《加德满都邮报》11月22日报道其已宣誓就职。现有报道未披露任何ICT政策、项目、采购、预算或厂商决定。",
+                "textEn": "Radio Nepal and The Kathmandu Post reported that Madhesh Province Chief Surendra Labh Karna appointed Janata Samajbadi Party Nepal (JSP Nepal) parliamentary leader Saroj Kumar Yadav Chief Minister on 21 November under Article 168(3) of Nepal's Constitution. They report that no party or provincial assembly member lodged a government-formation claim with support from at least two parties within the Article 168(2) deadline, so the parliamentary leader of the largest party in the provincial assembly was appointed. Yadav must seek a vote of confidence in the provincial assembly within the constitutional period. The Kathmandu Post reported on 22 November that he had taken the oath of office. The available reporting discloses no ICT policy, project, procurement, budget or vendor decision.",
+                "opportunity": "研判：这是省级政府领导层变化，不是联邦内阁决定，也不构成ICT商机或采购信号。其实际政策影响取决于信任投票以及后续省级内阁和预算安排。下一步应核对省议会信任投票结果和马德什省政府正式发布的内阁、预算及数字服务／基础设施决定；在有正式文件前，不能把人事任命推断为项目重启、资金承诺或任何设备商机会。",
+                "opportunityEn": "Analysis: this is a change in provincial leadership, not a federal Cabinet decision and not an ICT opportunity or procurement signal. Its practical policy effect depends on the confidence vote and subsequent provincial cabinet and budget arrangements. Next, verify the provincial assembly confidence-vote result and official Madhesh government decisions on the cabinet, budget and digital services or infrastructure. Until formal records emerge, the appointment cannot be treated as a project restart, funding commitment or an opportunity for any equipment vendor.",
+                "links": [
+                  {
+                    "label": "Radio Nepal：马德什省首席部长任命（11月21日）",
+                    "labelEn": "Radio Nepal: Madhesh Chief Minister appointment (21 November)",
+                    "url": "https://radionepalonline.com/en/2026/11/21/439071.html"
+                  },
+                  {
+                    "label": "《加德满都邮报》：马德什省首席部长宣誓就职（11月22日）",
+                    "labelEn": "The Kathmandu Post: Madhesh Chief Minister takes oath (22 November)",
+                    "url": "https://kathmandupost.com/politics/2026/11/22/saroj-kumar-yadav-takes-oath-as-madhesh-chief-minister"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "国家政策与外交人事要闻",
+            "displayCategoryEn": "National policy & diplomatic appointments"
+          },
+          {
+            "category": "本国 ISP/DSP 和互联网运营商的投资动态",
+            "categoryEn": "ISP and internet infrastructure investment",
+            "items": [
+              {
+                "id": "np-fonepay-nabil-nepal-now-20261126",
+                "date": "2026-11-26",
+                "title": "Fonepay与Nabil Bank推出面向外国游客的尼泊尔扫码支付应用",
+                "titleEn": "Fonepay and Nabil Bank launch Nepal Now QR payments for foreign visitors",
+                "badge": "公司产品页面与本地媒体 · 数字支付",
+                "badgeEn": "Company product pages and local reporting · digital payments",
+                "text": "Kathmandu Post与NepaliTelecom于11月26日报道，Fonepay与Nabil Bank推出Nepal Now应用，符合条件的访尼外国游客可通过身份验证及境外银行卡充值后，在接受Fonepay二维码的尼泊尔商户付款。Nabil Bank官方产品页面将目标人群限定为外国游客，并明确不含印度游客；Fonepay条款要求有效护照、签证、联系方式及在尼泊尔境内的位置验证。媒体引述公司称其二维码网络覆盖超过200万处商户，这是公司口径而非独立核验数据。本应用服务的是游客在尼付款，不代表尼泊尔居民已能在印度商户扫码付款。",
+                "textEn": "Kathmandu Post and NepaliTelecom reported on 26 November that Fonepay and Nabil Bank launched Nepal Now, an app through which eligible foreign visitors can complete identity verification, load funds using foreign-issued bank cards and pay Nepal merchants accepting Fonepay QR codes. Nabil Bank's official product page identifies foreign tourists other than Indians as the target group. Fonepay's terms require a valid passport, visa, contact information and verification of presence in Nepal. Media cite the company as saying its QR network covers over two million merchant locations; this figure is a company claim, not independently verified. The app is for visitors paying in Nepal and does not establish that Nepali residents can already pay Indian merchants by QR.",
+                "opportunity": "研判：产品显示旅游场景正在对接本地支付网络；可跟踪商户接入、身份验证、跨境卡充值、交易处理及客服系统的实际需求。下一步核实正式资费、汇率处理、充值限额、可用卡组织、实际使用量和相关采购公告；公开信息未披露系统集成商、技术供应商或采购金额，不能据此认定设备或软件订单。",
+                "opportunityEn": "Analysis: the product connects visitor services with Nepal's domestic payment network. Monitor actual requirements for merchant onboarding, identity verification, card funding, transaction processing and support systems. Verify published fees, exchange-rate treatment, limits, supported card networks, usage and procurement notices. Public information does not identify an integrator, technology supplier or procurement value and does not establish an equipment or software award.",
+                "links": [
+                  {
+                    "label": "Nabil Bank：Nepal Now产品说明与适用人群",
+                    "labelEn": "Nabil Bank: Nepal Now product and eligibility",
+                    "url": "https://www.nabilbank.com/services-payments/services/nepal-now"
+                  },
+                  {
+                    "label": "Fonepay：Nepal Now服务条款",
+                    "labelEn": "Fonepay: Nepal Now terms of service",
+                    "url": "https://fonepay.com/content/Nepal-Now-tnc"
+                  },
+                  {
+                    "label": "Kathmandu Post：应用推出报道（11月26日）",
+                    "labelEn": "Kathmandu Post: app launch report (26 November)",
+                    "url": "https://kathmandupost.com/money/2026/11/26/fonepay-nabil-bank-launch-digital-payment-app-for-foreign-visitors"
+                  },
+                  {
+                    "label": "NepaliTelecom：游客扫码支付报道（11月26日）",
+                    "labelEn": "NepaliTelecom: visitor QR payment report (26 November)",
+                    "url": "https://www.nepalitelecom.com/2026/11/fonepay-nepal-now-app-tourists-qr-payments.html"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "宽带与数字服务",
+            "displayCategoryEn": "Broadband & digital services"
+          },
+          {
+            "category": "ICT 竞争对手最新动态",
+            "categoryEn": "ICT equipment vendors and competitors",
+            "items": [],
+            "displayCategory": "竞争格局与设备商动态",
+            "displayCategoryEn": "Competition & equipment vendors"
+          },
+          {
+            "category": "运营商在集团侧相关信息",
+            "categoryEn": "Operator group developments",
+            "items": [],
+            "displayCategory": "运营商集团战略",
+            "displayCategoryEn": "Operator group strategy"
+          },
+          {
+            "category": "外部关系与地缘政治",
+            "categoryEn": "External relations and geopolitics",
+            "items": [
+              {
+                "id": "np-mofa-india-state-visit-20261120",
+                "date": "2026-11-23",
+                "title": "尼印国事访问形成联合愿景并交换卫星通信合作谅解备忘录",
+                "titleEn": "Nepal–India state visit produces Joint Vision and SATCOM-network MoU",
+                "badge": "尼泊尔外交部＋印度总理办公室联合新闻稿 · 已公布成果",
+                "badgeEn": "Nepal MoFA + Indian PMO joint release · published outcome",
+                "text": "尼泊尔外交部和印度总理办公室11月23日发布的联合新闻稿确认，巴伦德拉·沙阿总理于11月22—23日访印期间，双方通过《Viksit Bharat and Samunnat Nepal》联合愿景，将实体与数字互联互通、良好治理、技术／空间／创新等纳入合作路线图。文件列明：将加快印度UPI与尼泊尔国家支付系统衔接后的跨境零售支付实施；围绕数字尼泊尔框架交换数字身份、支付和电子政务的技术经验；推动数字园区和数据中心的私人投资；加强AI、卫星、5G/6G和下一代网络合作。双方同时交换了印度空间研究组织（ISRO）与尼泊尔信息通信部关于利用南亚卫星建立卫星通信（SATCOM）网络的谅解备忘录。联合新闻稿还说明印度将提供15000亿卢比（约24000亿尼泊尔卢比）发展援助，其中11500亿卢比为能源项目卢比贷款额度；具体项目及提供方式仍须双方协商确定。文件未公布SATCOM网络的范围、预算、技术路线、实施时间、采购程序或任何设备／服务供应商。",
+                "textEn": "The 23 November joint releases from Nepal's Ministry of Foreign Affairs and India's Prime Minister's Office confirm that Prime Minister Balendra Shah's 22–23 November visit produced the Viksit Bharat and Samunnat Nepal Joint Vision. It places physical and digital connectivity, good governance, and technology/space/innovation on a cooperation roadmap. It calls for expedited cross-border retail payments after the linkage of India's UPI and Nepal's national payment system; exchange of digital-identity, payments and e-governance expertise for the Digital Nepal Framework; facilitation of private investment in digital parks and data centres; and cooperation on AI, space, 5G/6G and next-generation networks. The sides also exchanged an ISRO–Nepal Ministry of Information and Communication MoU to establish a South Asia Satellite SATCOM network. The joint release says India will provide INR 15,000 crore (NPR 24,000 crore) in development assistance, of which INR 11,500 crore is a rupee-denominated line of credit for energy projects; specific projects and modalities remain for mutual consultation. It does not disclose SATCOM-network scope, budget, architecture, implementation timing, procurement or any equipment or service supplier.",
+                "opportunity": "研判：这是已公开的政策与合作框架，并含一项卫星通信谅解备忘录，但不是设备采购、项目授标或厂商选择。应建立四条可核验的后续线索：（1）尼泊尔信息通信部／NTA与ISRO对SATCOM网络的实施文件、频率与地面段安排；（2）尼泊尔国家支付系统与UPI的跨境零售支付上线、监管和参与机构公告；（3）数字园区和数据中心的具体项目、土地／能源／数据治理要求及招标；（4）5G/6G或Digital Nepal Framework的联合工作计划、预算和开放采购。援助总额及能源贷款不能自动转化为ICT预算；在技术规范、资金安排或采购公告披露前，不把中兴、华为、思科、浩鲸、亚信或任何其他供应商标为参与方或受益方。",
+                "opportunityEn": "Analysis: this is a published policy and cooperation framework, including one SATCOM MoU; it is not equipment procurement, a project award or a supplier selection. Maintain four verifiable follow-up tracks: (1) implementation papers, spectrum and ground-segment arrangements from Nepal's Ministry of Information and Communication/NTA and ISRO; (2) launch, regulatory and participating-institution notices for UPI–Nepal cross-border retail payments; (3) defined digital-park and data-centre projects, land/energy/data-governance requirements and tenders; and (4) joint work plans, budgets and open procurement for 5G/6G or the Digital Nepal Framework. The assistance total and energy credit cannot be converted automatically into an ICT budget. Until specifications, funding arrangements or procurement notices are published, ZTE, Huawei, Cisco, H3C, AsiaInfo and any other supplier must not be labelled participant or beneficiary.",
+                "links": [
+                  {
+                    "label": "尼泊尔外交部：国事访问联合新闻稿",
+                    "labelEn": "Nepal MoFA: joint press release on the state visit",
+                    "url": "https://mofa.gov.np/content/1935/joint-press-release-on-the-state-visit/"
+                  },
+                  {
+                    "label": "尼泊尔外交部：联合愿景全文",
+                    "labelEn": "Nepal MoFA: Joint Vision text",
+                    "url": "https://mofa.gov.np/content/1936/viksit-bharat-and-samunnat-nepal-reimagining-the-partnership/"
+                  },
+                  {
+                    "label": "印度新闻信息局：联合新闻稿及SATCOM谅解备忘录",
+                    "labelEn": "India PIB: joint release and SATCOM MoU",
+                    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2340389&lang=2&reg=48"
+                  },
+                  {
+                    "label": "印度新闻信息局：尼印联合愿景全文",
+                    "labelEn": "India PIB: Joint Vision text",
+                    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340383&lang=1&reg=48"
+                  }
+                ]
+              }
+            ],
+            "displayCategory": "对外关系与市场影响",
+            "displayCategoryEn": "External relations & market impact"
+          },
+          {
+            "category": "本国主流媒体对华为的报道与评价",
+            "categoryEn": "Huawei media coverage",
+            "items": [],
+            "displayCategory": "华为在尼泊尔",
+            "displayCategoryEn": "Huawei in Nepal"
+          },
+          {
+            "category": "本国财团投资动态",
+            "categoryEn": "Consortium investment",
+            "items": [],
+            "displayCategory": "投资与产业资本",
+            "displayCategoryEn": "Investment & industry capital"
+          },
+          {
+            "category": "社交媒体新闻追踪",
+            "categoryEn": "Important social-media updates",
+            "items": [],
+            "displayCategory": "社媒传播追踪",
+            "displayCategoryEn": "Social coverage"
+          }
+        ]
+      }
+    },
+    "stats": {
+      "news": 11,
+      "opportunities": 11,
+      "telegram": 0,
+      "countryCounts": {
+        "np": 11
+      }
+    },
+    "current": false
+  },
+  {
     "issue": "W41-42",
     "generated": "2026-10-16",
     "windowStart": "2026-10-03",
